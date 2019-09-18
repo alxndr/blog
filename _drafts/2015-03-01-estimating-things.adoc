@@ -1,0 +1,4 @@
+= estimating things
+:hp-tags: project management, time estimation
+
+i pretty much can't get something API-to-CSS done inside of a week any more: reviewing code/mentoring; meetings (even standups); blocked by missing features or env SNAFU or QA bottleneck; more minor distractions.

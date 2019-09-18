@@ -1,0 +1,13 @@
+= React/Redux notes to self
+:hp-tags: javascript, react, redux, frameworks
+
+* "store" is a fancy Redux Thing, data store which is the single source of truth
+* actions are objects with a `type` key, which is used for identification.
+* actions are commonly created by a helper function which accepts the key to use.
+** just creating with a key makes an action which contains no data beyond the key. essentially triggering an event
+** can also create with a function to run. needs to be a pure function, which means...
+*** most simple use case would be to attach some (nonblocking) data.
+*** more common use case is to do something asynchronous, like hitting an API.
+**** in these, the callback gets passed `(dispatch, getState)`. The `dispatch` is synchronous; dispatching something which modifies the app state and then calling `getState()` will give you back your modified state.
+
+Redux's `connect` lets a component's event handlers dispatch (via mapDispatchToProps) and access state (via mapStateToProps).

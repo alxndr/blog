@@ -1,0 +1,61 @@
+= using `LIKE` in Ecto
+:hp-tags: Ecto, LIKE operator, ILIKE operator, SQL, Elixir
+
+https://github.com/elixir-lang/ecto[Ecto] is a database adapter for http://elixir-lang.org/[Elixir] projects. The syntax is inspired by http://en.wikipedia.org/wiki/Language_Integrated_Query[LINQ], and it's all new to me, so here's my cheat notes for how to use `LIKE` and `ILIKE` operators to find records:
+
+The key is http://hexdocs.pm/ecto/Ecto.Migration.html#fragment/1[`fragment/1`]:
+
+```
+# this is all straight from Tung... https://gist.github.com/tongueroo/d7c9700d3783ed4243c1
+
+query = from t in Djay.Track,
+  where: t.name == "1",
+  select: t.id
+Repo.all(query)
+
+
+query = from t in Djay.Track,
+  where: t.name == "1" and fragment("name(?) ilike ?", p.title, "nfl"),
+  select: t.id
+
+
+import Ecto.Query
+from p in Item, where: fragment("? ilike ?", p.name, ^"test_")
+
+
+import Ecto.Query
+query = from p in Djay.Playlist, where: fragment("? like ?", p.name, ^"test_%")
+playlists = Repo.all(query)
+Enum.each(playlists, fn(x) ->
+  tracks = from t in Djay.Track, where: t.playlist_id == ^x.id
+  IO.inspect tracks
+  # tracks |> Repo.delete_all
+end)
+
+Enum.each(playlists, fn(x) ->
+  q = from t in Djay.Track, where: t.playlist_id == ^x.id
+  tracks = Repo.all(q)
+  count = length(tracks)
+  IO.inspect "playlist name #{x.name} tracks created: #{count}"
+end)
+
+
+
+Enum.each(playlists, fn(x) ->
+  q = from t in Djay.Track, where: t.playlist_id == ^x.id
+  tracks = Repo.all(q)
+  count = length(tracks)
+  uniq = Enum.uniq(tracks, fn(x) -> x.url end) |> length
+  IO.inspect "count #{count} uniq #{uniq}"
+  # Enum.each(tracks, fn(x) ->
+  #   IO.inspect "#{x.url}"
+  # end)
+end)
+
+
+Enum.reduce(playlists, fn(x, acc) ->
+  q = from t in Djay.Track, where: t.playlist_id == ^x.id
+  tracks = Repo.all(q)
+  IO.inspect length(tracks)
+end)
+```

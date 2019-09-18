@@ -1,0 +1,6 @@
+= Chrome dev tools filter network tab to show active requests
+:hp-tags: Google Chrome, developer tools, network monitor
+
+On Twitter, https://twitter.com/umaar/status/520593677425848320[Umar Hansa mentioned] a way to get the Network tab in Chrome Dev Tools to show just the requests that are still active / haven't finished. Stick this into the text box in the filter bar: `Is:running`
+
+...however, I can't get it to work...

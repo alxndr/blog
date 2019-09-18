@@ -1,0 +1,66 @@
+= intro to code reviews
+:hp-tags: code review, style guide, GitHub, HoundCI
+
+"What is a code review"... what to look for: Style, Errors, Understandability
+
+* step 0: tell GitHub to ignore whitespace in any diff by putting ?w=1 at the end of the diff URL
+** use case: https://github.com/richardleebr/breport/commit/6084d79
+** and then ask GitHub to make a user option where you can enable that for yourself by default
+* Style
+** basic stuff... Just Decide Something
+*** line too long, parens or not, how to break up multiline things
+*** trailing whitespace, missing newline at end of file, mixed spaces/tabs
+*** quotes standard? indentation standard? underscore-or-camelcase standard?
+*** this is what hound is good for
+** consistency in quotes/parens/braces, casing/underscores
+** preserve alphabetic order of things
+*** vim: `:sort`
+* Errors / Obviously Bad Things
+** passwords, API keys, rails secret token, environment variables
+** hardcoded domain names
+** debugging detritus
+** extraneous files, missing files (Gemfile.lock, compiled stuff)
+** etc etc etc
+* Understandability
+** NAMES! be accurate and descriptive
+*** files, variables, classes, functions, methods, constants, regexes, callbacks, custom events & components (repos :trollface:)
+*** the only acceptable one-letter variable is `i` and only as a counter
+**** if you need to nest another counter, fine use `j`
+***** if you need to nest yet another counter, stop it, why are you counting that many things with such bad names
+*** arrays plural of the elements it contains
+*** use Pattern names when appropriate, not always
+*** name your tests
+** changeset makes sense for what the ask is
+*** verify by having people outside the feature or project participate in code review
+** to a lesser degree, sometimes good refactorings are more apparent in review
+*** repeating something once is ok, more might need to be refactored
+*** is there a better (i.a., more standard/idiomatic) way of doing something? (e.g. var swap, reduce, destructuring)
+* got specs? anything to change in the readme?
+* super extra bonus points: by now it's too late, but your commit messages are documentation; make them descriptive & appropriate
+** first line should be the tldr and fit within 80 characters
+** (then a newline)
+** then explain motivations behind anything non-obvious in the changeset
+** point out any dependencies not reflected in changeset (e.g. 3rd party)
+** why did things need to change? point out assumptions.
+** don't need to describe what you did; that should be apparent from the diff
+** link to appropriate ticket
+* all that said: there is always something to nitpick. at some point, stop nitpicking and merge the code!
+
+Hound: http://houndci.com
+
+* bot that can identify the basic stuff & post GitHub comments
+* uses Rubocop/JSHint/CoffeeLint/SCSSLint under the hood
+* configure what it cares about w/json or yml config files
+* walkthrough: auth w/GitHub, houndci.com has "Activate" buttons for repo owners (might have to logout/login)
+* `.hound.yml`: turn on/off specific checkers; point to config files
+* config files
+** default for ruby https://raw.githubusercontent.com/thoughtbot/hound/master/config/style_guides/ruby.yml
+** default for JS https://raw.githubusercontent.com/thoughtbot/hound/master/config/style_guides/javascript.json
+** default for SCSS https://raw.githubusercontent.com/thoughtbot/hound/master/config/style_guides/scss.yml
+
+Style checkers: local and CI
+
+* find a rake task for the underlying Hound checker(s)
+** point them at the same config files that hound's using
+* hook the lint/style checks up to travis: `task travis: %i( lint spec )`
+** might need to make your own rake task

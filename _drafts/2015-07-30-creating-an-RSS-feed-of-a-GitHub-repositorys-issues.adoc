@@ -1,0 +1,15 @@
+= creating an RSS feed of a GitHub repository's issues
+:hp-tags: rss, github, issues, pull requests
+:published-at: 2015-07-30
+
+You can make an RSS feed of the issues from a particular GitHub repository! Here's how.
+
+* Generate a new Personal Access Token so you can hit the GitHub API. https://github.com/settings/tokens[The Personal Access Tokens] page in GitHub's settings is the easiest place to do that; once you generate it the token appears in the browser immediately afterwards, but will be unrecoverable later, so don't lose it.
+
+* That token becomes the value of the query parameter `access_token=<new_personal_access_token>`, which you'll add to https://developer.github.com/v3/search/#search-issues[an api.github.com URL to search issues]. That URL only accepts three parameters, and the `q` one is where the magic is; it's the equivalent of the "Filters" text box on a repository's issues page. Here are the options I'm using for it (separated by a + or `%20`, a percent-encoded space character):
+** `repo:user/reponame` to only look at a particular repository
+** `type:issue` to exclude pull requests
+** `is:open` to exclude closed issues
+** `label:labelname` to only return issues tagged with a specific label
+
+That endpoint gives back a JSON response of the issues you care about. For example, https://api.github.com/search/issues?q=repo:rails/rails%20type:issue%20is:open%20label:Starter&sort=created&order=desc&access_token=your_access_token_goes_here[here are all the open issues on the main Rails repsoitory].footnote:[...or would be, but you need to put your own GitHub API access token into that URL...]

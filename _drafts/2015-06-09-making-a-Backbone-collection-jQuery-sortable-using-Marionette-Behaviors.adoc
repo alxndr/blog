@@ -1,0 +1,13 @@
+= making a Backbone collection jQuery-sortable using Marionette Behaviors
+:hp-tags: backbone, marionette, jquery, drag and drop, sortable, notes
+
+jQuery's sortable never fails to frustrate me.
+
+Can make a Marionette Behavior to mix in to a Marionette CompositeView: its `onRender` calls `@$el.sortable(@optionsForSortable())`, and the sortable options listen for `update`, whereupon it does something like:
+
+    model = @view.collection.get(ui.item.data("backbone-cid"))
+    newPosition = ui.item.index() # get its position before removing it
+    @view.collection.remove(model)
+    @view.collection.add(model, at: newPosition)
+
+...might need to ensure that each view has its backbone `cid` set though, so that the `update` handler can retrieve the actual model instance.

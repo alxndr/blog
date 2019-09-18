@@ -1,0 +1,6 @@
+= git assume-unchanged bit
+:hp-tags: git, assume-unchanged
+
+can be helpful
+
+...can bite you building a docker image

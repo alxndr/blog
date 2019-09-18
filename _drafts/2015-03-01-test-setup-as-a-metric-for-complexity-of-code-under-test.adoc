@@ -1,0 +1,4 @@
+= test setup as a metric for complexity of code-under-test
+:hp-tags: testing, code metrics
+
+look at the length/number of beforeEach/afterEach blocks, track over time. it may reveal complexity in test setups, which in turn points to state or dependency complexity in your code...

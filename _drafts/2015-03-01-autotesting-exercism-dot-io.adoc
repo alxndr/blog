@@ -1,0 +1,10 @@
+= autotesting exercism.io
+:hp-tags: exercism.io
+
+`mix` project for elixir
+
+`jasmine-node`... is pretty cpu hungry
+
+Grunt?
+
+http://entrproject.org[`entr`]?

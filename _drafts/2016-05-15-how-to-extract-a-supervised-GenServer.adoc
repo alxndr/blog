@@ -1,0 +1,13 @@
+= how to extract a supervised GenServer
+:hp-tags: refactoring
+
+So you've got an Elixir module which does something, and occasionally crashes. You'd like to not worry about it crashing, so you're looking for something to supervise it and try again if it fails.
+
+```source:elixir
+defmodule Foo do
+  data
+  |> Enum.filter(&something_which_sometimes_filters_out_everything/1)
+  |> Enum.random # this will throw an error when everything has been filtered out
+end
+```
+

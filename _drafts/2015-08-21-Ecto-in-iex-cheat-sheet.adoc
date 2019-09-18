@@ -1,0 +1,20 @@
+= Ecto-in-iex cheat sheet
+:hp-tags: elixir, ecto, iex, cheatsheet
+:published-on: 2015-08-21
+
+Some example commands which might help when exploring an Elixir project's data sources via `iex`...
+
+    iex> import Ecto.Query
+    nil
+
+Okay, now you've got http://hexdocs.pm/ecto/Ecto.Query.html#from/2[`from/2`] (?) in scope. If you alias your `[YourApp].Repo` as just `Repo`, you'll be able to e.g. `Repo.all(YourApp.Model)` to get all of your `Model` s, or http://hexdocs.pm/ecto/Ecto.Repo.html#get/3[`get/3`] a particular id with `Repo.get(YourApp.Model, 1)`.
+
+== getting records
+
+http://hexdocs.pm/ecto/Ecto.Repo.html#get_by/3[`get_by/3`] is nice if you can exactly match a property on the model: `Repo.get_by(YourApp.Model, title: "Title of a Model")`
+
+
+== modifying records
+
+New record? http://hexdocs.pm/ecto/Ecto.Repo.html#insert/2[`insert/2`].
+Existing record? http://hexdocs.pm/ecto/Ecto.Query.html#update/3[`update/3`]

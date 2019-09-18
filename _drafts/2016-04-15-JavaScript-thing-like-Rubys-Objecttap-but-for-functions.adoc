@@ -1,0 +1,21 @@
+= JavaScript thing like Ruby's `Object#tap` but for functions
+:hp-tags: javascript, debugging
+
+This could be a decorator couldn't it?
+
+[source,javascrip]
+function identity(v) {
+	return v;
+}
+export function tap(message=null, fn) {
+  return function(...args) {
+    const result = fn(...args);
+    console.log(...[message, result].filter(identity);
+    return result;
+  };
+}
+
+// # use like this:
+// tap((foo) => `bar ${foo}`)
+// # or this
+// tap("bar + value:", (foo) => `bar ${foo}`)

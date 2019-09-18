@@ -1,0 +1,10 @@
+= using neovim
+:hp-tags: neovim, vim
+
+I've begun using http://neovim.org/[Neovim] for development. Previously I had been using Vim with https://github.com/alxndr/dotfiles/blob/94488c2bf1826/.vimrc[a 260-line .vimrc] and https://github.com/alxndr/dotfiles/tree/9bd5eb34d2464/.vim/bundle[49 plugins] loaded via Vundle. (Before that, a mixture of Vim, RubyMine, and TextMate.)
+
+The Vim-to-Neovim migration was very easy. I had read about people using their existing .vimrc file as is, but I chose to start fresh with a blank .nvimrc and only pull something when I found myself missing it. This meant I quickly a handful of basic `set` settings, and then looked into installing a couple plugins. Though I started with https://github.com/gmarik/Vundle.vim[Vundle], I now recommend using https://github.com/junegunn/vim-plug[vim-plug], which tidies up what you end up adding to your config file, supports some loading options, and installs plugins in parallel with Neovim, among other features.
+
+## Neomake
+
+https://github.com/benekastah/neomake[Neomake] is a plugin offering job control. It offers an asynchronous way of analyzing the file that's being edited, which should make style checkers and autosuggesters and syntax highlighters and refactorers and...
