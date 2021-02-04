@@ -3,6 +3,9 @@ theme: jekyll-theme-midnight
 title: alxndr's blog
 description: Notes and other stuff...
 
-github:
+meta:
   owner_url: http://alxndr.blog
   owner_name: Alexander
+
+social:
+  twitter_url: https://twitter.com/drwxrxrx

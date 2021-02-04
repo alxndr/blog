@@ -22,8 +22,11 @@
       <section>
 
         <div id="title">
-          <h1><a href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <h1><a href="/">{{site.title | default: site.github.repository_name}}</a></h1>
+          <p>{{site.description | default: site.github.project_tagline}}</p>
+          <hr>
+          <div class="credits left">by <a href="{{meta.owner_url}}">{{site.meta.owner_name}}</a></div>
+          <div class="credits right">on <a href="{{social.twitter_url}}">Twitter</a></div>
         </div>
 
         {{ content }}
