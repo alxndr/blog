@@ -36,7 +36,8 @@ E2
 picked small
 
 change boot disk to Ubuntu 18.04 LTS (which is entering Maintenance Mode soonish [according to their schedule](https://ubuntu.com/about/release-cycle))
-NEEDS >20GB disk storage... otherwise Discourse can't install itself!! estimated cost a penny more per month than 5GB...
+NEEDS >20GB disk storage... otherwise Discourse can't install itself!!
+using 50GB, estimated cost a penny more per month than 5GB...
 
 check-on allowing http & https traffic
 
@@ -97,3 +98,4 @@ Under "Connect" column we can get SSH access to this new VM instance
     $ sudo ./discourse-setup
 
 Now try hitting that subdomain!
+There's a multi-step web-based setup wizard to go through afterwards, but that's the fun part...
