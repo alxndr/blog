@@ -1,4 +1,4 @@
-theme: jekyll-theme-midnight
+remote_theme: "mmistakes/so-simple-theme@3.2.0"
 
 title: alxndr's blog
 description: Notes and other stuff...
