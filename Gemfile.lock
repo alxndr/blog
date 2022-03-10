@@ -43,6 +43,8 @@ GEM
       listen (~> 3.0)
     kramdown (2.3.1)
       rexml
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
     liquid (4.0.3)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -69,9 +71,10 @@ PLATFORMS
 
 DEPENDENCIES
   coderay (~> 1.1.0)
-  jekyll (~> 3.9)
+  jekyll (~> 3.9.1)
   jekyll-asciidoc (~> 2.1.1)
   jekyll-theme-midnight
+  kramdown-parser-gfm
 
 BUNDLED WITH
    2.2.29
