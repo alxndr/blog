@@ -1,7 +1,10 @@
-remote_theme: "mmistakes/so-simple-theme@3.2.0"
+theme: jekyll-theme-so-simple
+skin: "/assets/css/skins/dark.css"
+date_format: "%Y-%m-%d"
 
 title: alxndr's blog
 description: Notes and other stuff...
+url: http://alxndr.blog
 
 meta:
   owner_url: http://alxndr.blog
