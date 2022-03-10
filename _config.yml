@@ -1,2 +1,11 @@
 theme: jekyll-theme-midnight
-paginate: 13
+
+title: alxndr's blog
+description: Notes and other stuff...
+
+meta:
+  owner_url: http://alxndr.blog
+  owner_name: Alexander
+
+social:
+  twitter_url: https://twitter.com/drwxrxrx
