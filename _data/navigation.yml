@@ -1,2 +1,17 @@
-- name: Home
+- title: Blog
   link: /
+
+- title: Eleven-Twelve
+  link: https://eleven-twelve.net
+
+- title: drwxrxrx.eth
+  link: drwxrxrx.eth
+
+- title: GitHub
+  link: https://github.com/alxndr
+
+- title: Instagram
+  link: https://instagram.com/drwxrxrx
+
+- title: Twitter
+  link: https://twitter.com/drwxrxrx
