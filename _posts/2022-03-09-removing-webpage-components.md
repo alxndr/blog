@@ -4,7 +4,7 @@ title: One Weird Trick to Easily Remove (maybe) Anything from a Webpage
 tags: [howto, one weird trick, devtools, advertising, browsers]
 ---
 
-If you are using a desktop [Brave Browser] or [Google Chrome] or another browser based on [Chromium], or [Mozilla Firefox], here's a quick way to remove a specific part of a web page — e.g. an ad within the content, or a "subscribe now" popup, or an overlay which covers the content...
+If you are using a desktop (not mobile/tablet) [Mozilla Firefox] or [Brave Browser] (or [Google Chrome] or another browser based on [Chromium]), here's a quick way to remove a specific part of a web page — e.g. a distracting ad within the content, or a persistent subscription popup, or a "subscribe now" overlay which covers half the screen...
 
 Right-click somewhere on the offending ad/popup/overlay, and select the "Inspect" option. It may take a second to respond (...or ten seconds), but the whole browser window should shrink a bit, and show a new panel with [HTML] code and maybe [CSS] code and perhaps a [JavaScript] text interface showing some errors or warnings... **don't be afraid!**
 
@@ -17,6 +17,8 @@ You can get a sense for how this works by right-clicking on another part of the 
 Refresh the page and it should be back to how it was initially, before you right-clicked and started with the "Inspect" stuff. This reflects how your deletions were only modifying the view of that web page which **you** were looking at, and not how that web page actually works for everyone else who is visiting it.
 
 I use this to tweak the layout of an article so that it fits on a wide or narrow screen better for me to read it.
+
+(Did that pique your interest? You can also live-edit the CSS code in the panel there... and also the JavaScript as it's running!)
 
 
 -------
