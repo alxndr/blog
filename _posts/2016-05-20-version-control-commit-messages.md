@@ -6,6 +6,15 @@ tags: standards, communication, version control, stage this hunk
 
 Here is how I like to structure my Git branches and commit messages.
 
+
+## tldr
+
+* `git add --patch` to create small and atomic commits
+* `git commit --verbose` to thoroughly explain your changes (never `-m "commit message"`)
+* this makes `git bisect` very powerful for code "archaeology"
+* Future You will thank Past You
+
+
 ## philosophy
 
 First, some reasons behind my madness...
@@ -28,9 +37,9 @@ The most useful tool I've found for encouraging me to create small commits is th
 
 It can be difficult to identify the larger goal behind many small commits. Thus, I'm a fan of feature branches to group them together and identify the motivation behind all these commits.
 
-On my personal projects I've followed something close to [the "git flow" pattern of branches](http://nvie.com/posts/a-successful-git-branching-model/), in that the `master` branch should always be what's on production, but I haven't been using a `develop` branch. At work, with more collaborators and more development happening simultaneously, we use a `develop` branch to collect what's ready to be released next (which often will only be one branch/ticket anyway).
+On my personal projects I've followed something close to [the "git flow" pattern of branches](http://nvie.com/posts/a-successful-git-branching-model/), in that the `main` branch should always be what's on production, but I haven't been using a `develop` branch. At work, with more collaborators and more development happening simultaneously, we use a `develop` branch to collect what's ready to be released next (which often will only be one branch/ticket anyway).
 
-The GitHub page for an individual commit includes a link to the pull request via which the commit made it into the `master` branch. This lets you figure out the reason for a commit when you've identified that it's responsible for a bug.
+The GitHub page for an individual commit includes a link to the pull request via which the commit made it into the `main` branch. This lets you figure out the reason for a commit when you've identified that it's responsible for a bug.
 
 
 ## commit messages
@@ -52,10 +61,4 @@ A good habit I've built is to never use the `--message` (aka `-m`) flag of `git 
 You can further encourage yourself to elucidate in commit messages by creating a custom template for messages. The branching strategy I use means that I can use a [githook](https://git-scm.com/docs/githooks) to build [a git commit template which extracts a meaningful ticket identifier from the branch name](https://github.com/alxndr/dotfiles/blob/619554a025950191510794d739b9e21cd19b2b8e/git-hooks/prepare-commit-msg).
 You could also [create a "global" template using the `commit.template` option](https://robots.thoughtbot.com/better-commit-messages-with-a-gitmessage-template) of [`git config`](https://git-scm.com/docs/git-config).
 
-
-## summary
-
-* `git add --patch` to create small and atomic commits
-* `git commit --verbose` to thoroughly explain your changes (never `-m "commit message"`)
-* this makes `git bisect` very powerful for code "archaeology"
-* Future You will thank Past You
+That's all, tell Future You to say thanks to Present You!
