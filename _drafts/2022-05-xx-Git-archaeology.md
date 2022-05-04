@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Git archaeology tips
-tags: [git, howto]
+tags: [git, version control, code archaeology, howto]
 ---
 
 TLDR:
 * history of deleted file: `git log -- path/to/deleted-file`
 * find a string in the diff of all commits: `git log -S string`
 * [ignore certain directories][blog-git-ignore-dirs]
+
+-------
 
 [Git](https://git-scm.com/) has some commands that let you look into the past of a repo, through code that has been overwritten and files that have been moved or deleted...
 
