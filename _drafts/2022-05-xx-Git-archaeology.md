@@ -1,12 +1,17 @@
 ---
 layout: post
-title: Git archaeology
+title: Git archaeology tips
 tags: [git, howto]
 ---
 
+TLDR:
+* history of deleted file: `git log -- path/to/deleted-file`
+* find a string in the diff of all commits: `git log -S string`
+* [ignore certain directories][blog-git-ignore-dirs]
+
 [Git](https://git-scm.com/) has some commands that let you look into the past of a repo, through code that has been overwritten and files that have been moved or deleted...
 
-(Pro tip: all of these commands can be [tweaked to ignore certain directories](/2016/04/11/search-Git-history-ignoring-certain-directory.html)...)
+(Pro tip: all of these commands can be [tweaked to ignore certain directories][blog-git-ignore-dirs]...)
 
 ## find the history of a moved or deleted file
 
@@ -104,3 +109,5 @@ index 2cbb546..d912f44 100644
 ```
 
 (If `-S` doesn't find what you're sure should be there, [read up on `-G`](/2017/02/01/how-to-find-the-merge-where-your-code-disappeared.html).)
+
+[blog-git-ignore-dirs]: /2016/04/11/search-Git-history-ignoring-certain-directory.html
