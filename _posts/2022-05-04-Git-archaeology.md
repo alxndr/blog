@@ -5,8 +5,8 @@ tags: [git, version control, code archaeology, howto]
 ---
 
 TLDR:
-* history of deleted file: `git log -- path/to/deleted-file`
-* find a string in the diff of all commits: `git log -S string`
+* history of a deleted/moved file: `git log -- path/to/deleted-file`
+* find all commits which include a given string in the diff: `git log -S string`
 * [ignore certain directories][blog-git-ignore-dirs]
 
 -------
@@ -53,19 +53,19 @@ This ever happen to you? There's an error message with a debug code that is nowh
 You can find commits which add or remove a specific string by using the `-S` flag on `git log`, here's what the docs say:
 
 ```
-       -S<string>
-           Look for differences that change the number of occurrences of the specified string (i.e.
-           addition/deletion) in a file. Intended for the scripter's use.
+ -S<string>
+     Look for differences that change the number of occurrences of the specified string (i.e.
+     addition/deletion) in a file. Intended for the scripter's use.
 
-           It is useful when you're looking for an exact block of code (like a struct), and want to know the
-           history of that block since it first came into being: use the feature iteratively to feed the
-           interesting block in the preimage back into -S, and keep going until you get the very first version of
-           the block.
+     It is useful when you're looking for an exact block of code (like a struct), and want to know the
+     history of that block since it first came into being: use the feature iteratively to feed the
+     interesting block in the preimage back into -S, and keep going until you get the very first version of
+     the block.
 
-           Binary files are searched as well.
+     Binary files are searched as well.
 ```
 
-I like to use this flag with the `--patch / -u` flag so that you can see the diff too (easier to use if [your commits are small and focused](https://dev.bleacherreport.com/small-commits-for-fun-and-profit-part-1-git-add-patch-c0966a562b10?source=collection_archive---------6-----------------------)!) e.g.:
+I like to use this flag with the `--patch / -p / -u` flag so that you can see the diff too (easier to use if [your commits are small and focused](https://dev.bleacherreport.com/small-commits-for-fun-and-profit-part-1-git-add-patch-c0966a562b10?source=collection_archive---------6-----------------------)!) e.g.:
 
 ```
 …/workspace/blog main
