@@ -172,7 +172,7 @@ In practice, it accelerated the burnout of dozens of engineers, frustrated dozen
 
 Still, we did it!
 
-Sam P, Ross S, Chris N, Miguel D, Matt Mo., Dave M, Melissa B, Dushyant S, Chris P — this is me bragging.
+Sam P, Ross S, Chris N, Miguel D, Matt Mo., Dave M, Noah C, Melissa B, Dushyant S, Chris P — this is me bragging.
 
 
 # 🥂🍾
