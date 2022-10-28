@@ -13,3 +13,5 @@ Turns out that the `npm ci` command (which iirc exists in order to use the exact
 This is written down (if not explained) in the docs for the `ci` command: [source](https://docs.npmjs.com/cli/v8/commands/npm-ci), emphasis in the original...
 
 > NOTE: If you create your `package-lock.json` file by running `npm install` with flags that can affect the shape of your dependency tree, such as `--legacy-peer-deps` or `--install-links`, you _must_ provide the same flags to `npm ci` or you are likely to encounter errors.
+
+This appears to have been introduced in NPM v8.6 according to [this bug report](https://github.com/npm/cli/issues/4998).
