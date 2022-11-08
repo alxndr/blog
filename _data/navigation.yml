@@ -15,6 +15,7 @@
 
 - title: Mastodon
   url: https://mastodon.xyz/@alxndr
+  rel: me
 
 - title: Twitter
   url: https://twitter.com/drwxrxrx
