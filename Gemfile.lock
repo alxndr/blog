@@ -108,6 +108,7 @@ GEM
       faraday (> 0.8, < 2.0)
 
 PLATFORMS
+  arm64-darwin-21
   universal-darwin-19
   x86_64-darwin-17
 
@@ -119,4 +120,4 @@ DEPENDENCIES
   kramdown-parser-gfm
 
 BUNDLED WITH
-   2.2.29
+   2.3.24
