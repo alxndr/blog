@@ -1,0 +1,21 @@
+On [2023 March 24, GitHub.com changed their RSA SSH host key](https://github.blog/2023-03-23-we-updated-our-rsa-ssh-host-key/), in response to their privkey being possibly exposed.
+This is an entirely appropriate response, however it's rare enough that I had to look up some stuff to determine how to adjust my workflows..
+
+# Step 1
+
+Since GitHub retired their old key, we need to remove our knowledge of it as well.
+
+```shell
+ssh-keygen -R github.com
+```
+
+# Step 2
+
+Add their new pubkey... This will be appending a new line starting with "github.com ssh-rsa" to the `~/.ssh/known_hosts` file.
+
+Now when communicating with GitHub over SSH, you should see a new fingerprint.
+
+# Step 3
+
+However, I still can't `git push` this commit I just made, what gives?
+
