@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: standup, from the archives
+tags: [standup, from the archives]
 ---
 
 That time we did a Hot Wings Challenge at work...
