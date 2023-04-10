@@ -9,4 +9,5 @@ gem 'coderay', '~> 1.1.0' # syntax highlighting
 
 group :jekyll_plugins do
   gem 'jekyll-asciidoc', '~> 2.1.1'
+  gem 'github-pages'
 end
