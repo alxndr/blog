@@ -1,9 +1,12 @@
-theme: jekyll-theme-so-simple
-skin: "/assets/css/skins/dark.css"
+plugins:
+- jekyll-remote-theme
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
 date_format: "%Y-%m-%d"
 
-title: alxndr's blog
-description: Notes and other stuff...
+title: Alexander's blog
+description: mostly notes to myself
 url: http://alxndr.blog
 google_analytics: G-RS6J6JRB3C
 

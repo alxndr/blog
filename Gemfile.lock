@@ -296,6 +296,7 @@ DEPENDENCIES
   github-pages
   jekyll (~> 3.9.1)
   jekyll-asciidoc (~> 2.1.1)
+  jekyll-include-cache
   jekyll-theme-so-simple
   kramdown-parser-gfm
 
