@@ -1,5 +1,4 @@
 ---
-layout: post
 title: resizing tab width on GitHub diffs
 tags: [diff, github, browser hack]
 ---

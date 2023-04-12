@@ -1,5 +1,4 @@
 ---
-layout: post
 title: watch some files, and run something whenever they change
 tags: [entr, tools]
 ---

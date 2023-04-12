@@ -1,5 +1,4 @@
 ---
-layout: post
 title: upgrading Cypress to v10 within a Gatsby project
 tags: [cypress.io, gatsby, testing, web]
 ---

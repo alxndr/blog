@@ -1,5 +1,4 @@
 ---
-layout: post
 title: setting up fancy fonts for vim in iTerm
 tags: [vim, iTerm, fonts, powerline, airline, terminal colors]
 ---

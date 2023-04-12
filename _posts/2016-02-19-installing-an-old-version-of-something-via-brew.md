@@ -1,5 +1,4 @@
 ---
-layout: post
 title: installing an old version of something via `brew`
 tags: [brew]
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: project naming chains of nonsense
 tags: [nomenclature, trivia]
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: how to find the merge where your code disappeared
 tags: [git, versioning, code archaeology]
 ---

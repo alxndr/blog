@@ -1,5 +1,4 @@
 ---
-layout: post
 title: creating a new Git repo based on the history of an old one
 tags: [git]
 ---

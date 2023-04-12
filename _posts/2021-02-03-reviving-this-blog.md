@@ -1,5 +1,4 @@
 ---
-layout: post
 title: reviving this blog
 tags: [meta, almost-dead-net]
 ---

@@ -1,6 +1,5 @@
 ---
-layout: post
-title: RequireJS 'invalid require call' error"
+title: RequireJS 'invalid require call' error
 tags: [requirejs, javascript]
 ---
 

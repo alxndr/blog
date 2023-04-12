@@ -1,5 +1,4 @@
 ---
-layout: post
 title: One Weird Trick to Easily Remove (maybe) Anything from a Webpage
 tags: [howto, one weird trick, devtools, advertising, browsers]
 ---

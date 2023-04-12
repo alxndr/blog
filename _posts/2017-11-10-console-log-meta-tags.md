@@ -1,5 +1,4 @@
 ---
-layout: post
 title: logging meta tags
 tags: [javascript, SEO, meta tags, code snippet]
 ---

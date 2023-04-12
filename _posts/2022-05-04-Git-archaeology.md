@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Git archaeology tips
 tags: [git, version control, code archaeology, howto]
 ---

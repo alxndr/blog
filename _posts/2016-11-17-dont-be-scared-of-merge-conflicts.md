@@ -1,5 +1,4 @@
 ---
-layout: post
 title: don't be scared of merge conflicts
 tags: [git, versioning, merge conflicts]
 ---

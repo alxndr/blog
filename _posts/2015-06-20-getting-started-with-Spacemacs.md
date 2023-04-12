@@ -1,5 +1,4 @@
 ---
-layout: post
 title: getting started with Spacemacs
 tags: [spacemacs, emacs, vim, vi]
 ---

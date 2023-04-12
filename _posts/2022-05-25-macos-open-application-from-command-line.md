@@ -1,5 +1,4 @@
 ---
-layout: post
 title: open Mac application from the command-line
 tags: MacOS, command-line
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: use a Dvorak keyboard layout on iOS Simulator
 tags: [dvorak keyboard, ios simulator, alternative keyboard layout]
 ---

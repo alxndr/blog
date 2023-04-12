@@ -1,5 +1,4 @@
 ---
-layout: post
 title: hapi — unset a cookie
 tags: [notes to self, JavaScript, HapiJS]
 ---

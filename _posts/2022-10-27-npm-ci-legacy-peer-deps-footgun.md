@@ -1,5 +1,4 @@
 ---
-layout: post
 title: npm ci with legacy-peer-deps is a thing
 tags: [javascript, npm, dependencies, continuous integration, lockfile, mystery]
 ---

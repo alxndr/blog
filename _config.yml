@@ -1,18 +1,69 @@
-plugins:
-- jekyll-remote-theme
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: dark
 
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-
-date_format: "%Y-%m-%d"
-
+repository: alxndr/blog
+locale: en-US
+date_format: "%Y %B %-d"
+title_separator: " • "
 title: Alexander's blog
+masthead_title: welcome to alxndr's blog
+name: Alexander
 description: mostly notes to myself
 url: http://alxndr.blog
-google_analytics: G-RS6J6JRB3C
+logo: /assets/images/alexander-120x120.png
+og_image: /assets/images/alexander-120x120.png
+paginate: 10
 
-meta:
-  owner_url: http://alxndr.blog
-  owner_name: Alexander
+# search with Lunr in the browser...
+search: true
+lunr:
+  search_within_pages: true
 
-social:
-  twitter_url: https://twitter.com/drwxrxrx
+author:
+  name: Alexander
+  avatar: /assets/images/alexander-120x120.png
+  links:
+    - label: Mastodon
+      icon: "fab fa-fw fa-mastodon"
+      url: https://mastodon.xyz/@alxndr
+      rel: me
+    - label: Instagram
+      icon: "fab fa-fw fa-instagram"
+      url: https://instagram.com/drwxrxrx
+    - label: GitHub
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/alxndr
+    - label: resume
+      url: http://alxndr.github.io/resume/resume.html
+
+footer:
+  links:
+    - label: Mastodon
+      icon: "fab fa-fw fa-mastodon"
+      url: https://mastodon.xyz/@alxndr
+      rel: me
+    - label: Instagram
+      icon: "fab fa-fw fa-instagram"
+      url: https://instagram.com/drwxrxrx
+    - label: GitHub
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/alxndr
+
+analytics:
+  google:
+    tracking_id: G-RS6J6JRB3C
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      layout: single
+      author_profile: true
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache

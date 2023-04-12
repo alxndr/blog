@@ -1,5 +1,4 @@
 ---
-layout: post
 title: version control commit messages
 tags: standards, communication, version control, stage this hunk
 ---

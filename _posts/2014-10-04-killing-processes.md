@@ -1,5 +1,4 @@
 ---
-layout: post
 title: killing processes
 tags: [unix, shell, processes]
 ---

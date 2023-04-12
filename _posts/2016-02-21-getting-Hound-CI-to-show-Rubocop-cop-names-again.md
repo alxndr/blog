@@ -1,5 +1,4 @@
 ---
-layout: post
 title: getting Hound-CI to show Rubocop "cop names" again
 tags: [static analysis, continuous integration]
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: La trahison des mots
 tags: [pun, shell code, rene magritte]
 ---

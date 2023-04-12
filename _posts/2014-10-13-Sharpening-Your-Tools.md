@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Sharpening Your Tools
 tags: [tooling, shortcuts, efficiency]
 ---

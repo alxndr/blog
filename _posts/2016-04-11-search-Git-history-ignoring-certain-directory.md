@@ -1,5 +1,4 @@
 ---
-layout: post
 title: search Git history, ignoring certain directory
 tags: [git, version control, code archaeology]
 ---

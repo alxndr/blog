@@ -1,5 +1,4 @@
 ---
-layout: post
 title: counting eggs before they hatch
 tags: [charts, chickens, eggs, time series]
 ---

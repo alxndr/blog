@@ -1,5 +1,4 @@
 ---
-layout: post
 title: eslint — Cannot read property 'value' of undefined
 tags: [eslint, ecmascript, javascript, linting, notes to self]
 ---

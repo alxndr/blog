@@ -1,5 +1,4 @@
 ---
-layout: post
 title: notes — Erlang Factory 2015
 tags: [notes, erlang factory, conference, elixir]
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: BReport is dead; long live the microlith
 tags: [Bleacher Report, SDLC, monolith, microservices, Ruby on Rails]
 ---

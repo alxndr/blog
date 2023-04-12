@@ -1,5 +1,4 @@
 ---
-layout: post
 title: how to mark an email as "not-spam" in Google's Inbox
 tags: [google inbox, ui fail]
 ---

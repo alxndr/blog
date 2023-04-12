@@ -1,5 +1,4 @@
 ---
-layout: post
 title: sometimes iTunes doesn't show the currently-playing song's name and position
 tags: [iTunes, UI, bug, workaround]
 ---

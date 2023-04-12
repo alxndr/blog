@@ -1,5 +1,4 @@
 ---
-layout: post
 title: ElixirConf US 2015 notes
 tags: [elixirconf, elixir, conference, notes]
 ---

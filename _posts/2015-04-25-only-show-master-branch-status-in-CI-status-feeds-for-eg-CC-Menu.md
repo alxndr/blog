@@ -1,5 +1,4 @@
 ---
-layout:  post
 title: only show master branch status in CI status feeds (for e.g. CCMenu)
 tags: [build status, ccmenu, travis ci, circle ci, xml feed]
 ---

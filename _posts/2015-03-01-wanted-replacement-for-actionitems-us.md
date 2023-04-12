@@ -1,5 +1,4 @@
 ---
-layout: post
 title: wanted — a replacement for actionitems.us
 tags: [agile, retrospective, tooling]
 ---

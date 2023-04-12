@@ -1,5 +1,4 @@
 ---
-layout: post
 title: typing an ellipsis in OS X
 tags: [keyboard shortcut, OS X, punctuation]
 ---

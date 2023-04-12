@@ -1,5 +1,4 @@
 ---
-layout: post
 title: advanced filtering in Chrome's Network dev tools
 tags: [Google Chrome, developer tools, network, filters]
 ---

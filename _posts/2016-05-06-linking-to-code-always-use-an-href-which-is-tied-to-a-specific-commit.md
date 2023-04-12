@@ -1,5 +1,4 @@
 ---
-layout: post
 title: linking to code? always use an href which is tied to a specific commit
 tags: [version control, future-proofing, documentation]
 ---

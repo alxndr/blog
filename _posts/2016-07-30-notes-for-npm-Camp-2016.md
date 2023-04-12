@@ -1,5 +1,4 @@
 ---
-layout: post
 title: notes for npmCamp 2016
 tags: [notes, npm, conference, npmCamp]
 ---

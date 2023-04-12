@@ -1,5 +1,4 @@
 ---
-layout: post
 title: jiggling the handle of OS X 10.8.5's dock
 tags: [OSX, dock, autohiding, workaround]
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: how to run React on top of Ruby-on-Rails
 tags: [javascript, howto, dontdo]
 ---
