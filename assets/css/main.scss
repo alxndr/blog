@@ -32,7 +32,7 @@ html * { transition: none; -webkit-transition: none; }
 }
 
 .layout--single {
-  .author__avatar {
-    display: none; // the same image is in the header, right above this on the page
+  .sidebar {
+    display: none;
   }
 }
