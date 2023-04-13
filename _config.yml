@@ -34,11 +34,11 @@ author:
     - label: GitHub
       icon: "fab fa-fw fa-github"
       url: https://github.com/alxndr
-    - label: resume
-      url: http://alxndr.github.io/resume/resume.html
 
 footer:
   links:
+    - label: resume
+      url: http://alxndr.github.io/resume/resume.html
     - label: Mastodon
       icon: "fab fa-fw fa-mastodon"
       url: https://mastodon.xyz/@alxndr
