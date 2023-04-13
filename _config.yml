@@ -7,10 +7,10 @@ date_format: "%Y %B %-d"
 title_separator: " • "
 title: Alexander's blog
 masthead_title: ://alxndr.blog
-name: Alexander
 description: mostly notes to myself
 url: https://alxndr.blog
 baseurl: /
+name: Alexander
 logo: /assets/images/alexander-120x120.png
 og_image: /assets/images/alexander-120x120.png
 paginate: 10
@@ -64,6 +64,7 @@ defaults:
       author_profile: true
 
 plugins:
+  - jekyll-archives
   - jekyll-include-cache
   # - jekyll-paginate
   # - jekyll-sitemap

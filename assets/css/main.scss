@@ -1,0 +1,36 @@
+---
+# front matter enables Sass transformation
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+// disable transitions added by minimal-mistakes
+html * { transition: none; -webkit-transition: none; }
+
+.archive {
+  .archive__subtitle {
+    font-size: 1.5em;
+  }
+
+  .archive__item {
+    margin: 1em;
+    display: flex;
+    flex-flow: column nowrap;
+
+    h2 {
+      margin-top: 0;
+    }
+    .page__meta {
+      order: -1;
+    }
+    .archive__item-excerpt {
+    }
+  }
+}
+
+.sidebar {
+  // display: none;
+}
