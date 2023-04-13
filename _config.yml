@@ -1,4 +1,4 @@
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: dark
 
 repository: alxndr/blog
@@ -64,7 +64,7 @@ defaults:
       author_profile: true
 
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
   - jekyll-include-cache
+  # - jekyll-paginate
+  # - jekyll-sitemap
+  # - jekyll-feed

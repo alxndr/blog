@@ -9,8 +9,6 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
-    asciidoctor (2.0.18)
-    coderay (1.1.3)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -123,9 +121,6 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-asciidoc (2.1.1)
-      asciidoctor (>= 1.5.0)
-      jekyll (>= 2.3.0)
     jekyll-avatar (0.7.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-coffeescript (1.1.1)
@@ -234,13 +229,6 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minimal-mistakes-jekyll (4.24.0)
-      jekyll (>= 3.7, < 5.0)
-      jekyll-feed (~> 0.1)
-      jekyll-gist (~> 1.5)
-      jekyll-include-cache (~> 0.1)
-      jekyll-paginate (~> 1.1)
-      jekyll-sitemap (~> 1.3)
     minitest (5.18.0)
     multipart-post (2.1.1)
     nokogiri (1.14.2-arm64-darwin)
@@ -292,15 +280,8 @@ PLATFORMS
   x86_64-darwin-17
 
 DEPENDENCIES
-  coderay (~> 1.1.0)
   github-pages
-  jekyll (~> 3.9.1)
-  jekyll-asciidoc (~> 2.1.1)
-  jekyll-feed
   jekyll-include-cache
-  jekyll-paginate
-  kramdown-parser-gfm
-  minimal-mistakes-jekyll
 
 BUNDLED WITH
    2.3.24
