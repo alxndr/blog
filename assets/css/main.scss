@@ -31,6 +31,8 @@ html * { transition: none; -webkit-transition: none; }
   }
 }
 
-.sidebar {
-  // display: none;
+.layout--single {
+  .author__avatar {
+    display: none; // the same image is in the header, right above this on the page
+  }
 }
