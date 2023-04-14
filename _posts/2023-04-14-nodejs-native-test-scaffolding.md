@@ -16,7 +16,7 @@ test('runs a thing', () => {
 })
 ```
 
-...then if you've got Node >= 16.17.0 || >= 18.0.0 you'll be able to:
+...then if you've got Node >= 16.17.0 \|\| >= 18.0.0 you'll be able to:
 
 ```shell
 $ node ./test.mjs
