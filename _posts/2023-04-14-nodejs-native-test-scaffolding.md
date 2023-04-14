@@ -1,7 +1,9 @@
 ---
-title: framework-less CLI TDD with NPM OMG LOL
+title: framework-less CLI TDD with NPM\* OMG LOL
 tags: [javascript, nodejs, tests, tdd, cli]
 ---
+
+`*` no this does not involve npm, it just made the title look good 🤷
 
 NodeJS v16.17 / v18 introduced a new module named [`node:test`](https://nodejs.org/api/test.html) which includes basic test scaffolding!
 This makes it real easy to whip up a super-basic JS test file and iterate on it, without having to set up a framework like Mocha or Jest.
