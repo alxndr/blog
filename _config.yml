@@ -22,33 +22,36 @@ lunr:
 
 author:
   name: Alexander
-  avatar: /assets/images/alexander-120x120.png
+  bio: a.k.a. `@alxndr` <br/> a.k.a. `@drwxrxrx`
   links:
-    - label: Mastodon
+    - label: photos
+      icon: "fab fa-fw fa-instagram"
+      url: https://instagram.com/drwxrxrx
+    - label: tech/politics
       icon: "fab fa-fw fa-mastodon"
       url: https://mastodon.xyz/@alxndr
       rel: me
-    - label: Instagram
-      icon: "fab fa-fw fa-instagram"
-      url: https://instagram.com/drwxrxrx
-    - label: GitHub
-      icon: "fab fa-fw fa-github"
-      url: https://github.com/alxndr
+    - label: music
+      icon: "fab fa-fw fa-mastodon"
+      url: https://shakedown.social/@ufo_joe
+    - label: Lojban
+      icon: "fab fa-fw fa-mastodon"
+      url: https://mas.to/@rexsa
+    - label: Toki Pona
+      icon: "fab fa-fw fa-mastodon"
+      url: https://toki.social/@lesate
 
 footer:
   links:
     - label: resume
+      icon: "fas fa-fw fa-university"
       url: http://alxndr.github.io/resume/resume.html
-    - label: Mastodon
-      icon: "fab fa-fw fa-mastodon"
-      url: https://mastodon.xyz/@alxndr
-      rel: me
-    - label: Instagram
-      icon: "fab fa-fw fa-instagram"
-      url: https://instagram.com/drwxrxrx
     - label: GitHub
       icon: "fab fa-fw fa-github"
       url: https://github.com/alxndr
+    - label: blog home
+      icon: "fas fa-fw fa-home"
+      url: https://alxndr.blog
 
 analytics:
   google:
