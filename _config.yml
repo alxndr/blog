@@ -49,9 +49,25 @@ footer:
     - label: GitHub
       icon: "fab fa-fw fa-github"
       url: https://github.com/alxndr
-    - label: blog home
-      icon: "fas fa-fw fa-home"
-      url: https://alxndr.blog
+    - label: photos
+      icon: "fab fa-fw fa-instagram"
+      url: https://instagram.com/drwxrxrx
+    - label: tech/politics
+      icon: "fab fa-fw fa-mastodon"
+      url: https://mastodon.xyz/@alxndr
+      rel: me
+    - label: music
+      icon: "fab fa-fw fa-mastodon"
+      url: https://shakedown.social/@ufo_joe
+      rel: me
+    - label: Lojban
+      icon: "fab fa-fw fa-mastodon"
+      url: https://mas.to/@rexsa
+      rel: me
+    - label: Toki Pona
+      icon: "fab fa-fw fa-mastodon"
+      url: https://toki.social/@lesate
+      rel: me
 
 analytics:
   google:
