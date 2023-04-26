@@ -1,6 +1,6 @@
-## alxndr's blog
+> ⚠️ Blog Construction Ahead 🚧
 
-SSL not working yet??
+This is the codebase & build steps for [alxndr's blog](https://alxndr.blog).
 
 It's powered by Jekyll and GitHub Pages.
 
@@ -15,3 +15,9 @@ gem install eventmachine -v '1.2.7' -- --with-ldflags="-Wl,-undefined,dynamic_lo
 ```
 
 h/t [Jesse Squires](https://www.jessesquires.com/blog/2023/01/18/eventmachine-failure-on-macos-ventura/)
+
+## Design
+
+Uses the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme, v2.5...??
+
+Note that only [these FontAwesome icons](https://fontawesome.com/v5/icons/home?f=classic&s=solid) are available?
