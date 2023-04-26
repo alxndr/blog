@@ -2,6 +2,7 @@
 title: 👈 ⏮️ 🧠 🗣 ⏩ 🗣 👍
 slug: mi kama sona toki e toki pona
 tags: [toki pona, languages, emoji]
+redirect_from: /2023/04/24/toki-pona-li-pona-a.html
 ---
 
 👤 ♾️ 👋 🗣 ❗️  
