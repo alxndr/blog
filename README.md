@@ -2,7 +2,7 @@
 
 This is the codebase & build steps for [alxndr's blog](https://alxndr.blog).
 
-It's powered by Jekyll and GitHub Pages.
+It's powered by Jekyll and [GitHub Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll).
 
 ## Setup
 
