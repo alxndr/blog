@@ -14,3 +14,4 @@ tldr:
 * `cd .. && rm -rf ./new-repo-name` because we need to clone it fresh (not as a mirror)...
 * `git clone new-repo-URL && cd new-repo-name` the clone may take a while
 
+The new repo on GitHub will need to have its default branch set.
