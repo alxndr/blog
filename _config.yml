@@ -13,7 +13,9 @@ baseurl: /
 name: Alexander
 logo: /assets/images/alexander-120x120.png
 og_image: /assets/images/alexander-120x120.png
-paginate: 10
+
+paginate: 5
+paginate_path: /page:num/
 
 # search with Lunr in the browser...
 search: true
@@ -34,12 +36,27 @@ author:
     - label: music
       icon: "fab fa-mastodon"
       url: https://shakedown.social/@ufo_joe
+      rel: me
     - label: Lojban
       icon: "fab fa-mastodon"
       url: https://mas.to/@rexsa
+      rel: me
     - label: Toki Pona
       icon: "fab fa-mastodon"
       url: https://toki.social/@lesate
+      rel: me
+
+main:
+  - title: "home"
+    url: /
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Pages"
+    url: /page-archive/
 
 footer:
   links:
@@ -52,22 +69,6 @@ footer:
     - label: photos
       icon: "fab fa-instagram"
       url: https://instagram.com/drwxrxrx
-    - label: tech/politics
-      icon: "fab fa-mastodon"
-      url: https://mastodon.xyz/@alxndr
-      rel: me
-    - label: music
-      icon: "fab fa-mastodon"
-      url: https://shakedown.social/@ufo_joe
-      rel: me
-    - label: Lojban
-      icon: "fab fa-mastodon"
-      url: https://mas.to/@rexsa
-      rel: me
-    - label: Toki Pona
-      icon: "fab fa-mastodon"
-      url: https://toki.social/@lesate
-      rel: me
 
 analytics:
   google:
