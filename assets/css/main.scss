@@ -7,6 +7,17 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+@font-face {
+	font-family: linja-lipamanka;
+	src: url('https://lipamanka.gay/linjalipamanka-normal.otf') format('opentype');
+  line-height: 1.1em;
+}
+.font-lipamanka {
+  font: 1.5em linja-lipamanka;
+  margin: 1em 0;
+}
+
+
 // disable transitions added by minimal-mistakes
 html * { transition: none; -webkit-transition: none; }
 
