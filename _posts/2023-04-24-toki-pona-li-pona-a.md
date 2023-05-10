@@ -19,9 +19,10 @@ redirect_from:
 
 
 <div class="font-lipamanka">
-o jan-ale, toki a! tenpo-ni la mi kama sona toki e toki-pona a!
+o jan-ale, toki a!
+<br/> tenpo ni la mi kama sona toki e toki-pona a!
 <br/>
-<br/> mi pali e nimi-mi la jan [lete en sama a telo e].
+<br/> mi pali e nimi-mi la jan [lete e sama a telo e].
 <br/> ona la sina pilin-pona anu seme?
 <br/>
 <br/> <a href="https://toki.social/@lesate">lipu-mi</a> la mi toki e toki-pona.
