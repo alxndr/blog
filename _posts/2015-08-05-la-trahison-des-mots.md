@@ -1,6 +1,6 @@
 ---
 title: La trahison des mots
-tags: [pun, shell code, rene magritte]
+tags: [CLI, joke]
 ---
 
 Run this in your (POSIX-compliant) shell — I promise it's not bad:

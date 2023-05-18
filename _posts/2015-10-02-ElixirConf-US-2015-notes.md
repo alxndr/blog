@@ -1,6 +1,6 @@
 ---
 title: ElixirConf US 2015 notes
-tags: [elixirconf, elixir, conference, notes]
+tags: [ElixirConf, elixir, conference]
 ---
 
 [ElixirConf US 2015](http://elixirconf.com) was October 2–3 in Austin, Texas.

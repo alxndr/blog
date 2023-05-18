@@ -1,6 +1,6 @@
 ---
 title: notes — Erlang Factory 2015
-tags: [notes, erlang factory, conference, elixir]
+tags: [Erlang Factory, conference, elixir]
 ---
 
 ## José: What Elixir Is About

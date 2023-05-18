@@ -1,6 +1,6 @@
 ---
 title: how to consistently pay back dependency tech-debt in an Agile environment
-tags: [Agile, techdebt, dependencies, software management]
+tags: [agile, techdebt, dependencies, software management]
 ---
 
 _tldr: make a 'recursive' ticket which you continually schedule for future sprints… Product will hate it initially, but will love it eventually_

@@ -1,6 +1,6 @@
 ---
 title: use a Dvorak keyboard layout on iOS Simulator
-tags: [dvorak keyboard, ios simulator, alternative keyboard layout]
+tags: [keyboards, iOS]
 ---
 
 ...why would anyone want to have Dvorak on a mobile device?!? Actually, I only care about it in the iOS _Simulator_, when I'm using it on a computer with a real-live hardware keyboard.

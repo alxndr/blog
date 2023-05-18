@@ -1,6 +1,6 @@
 ---
 title: hapi — unset a cookie
-tags: [notes to self, JavaScript, HapiJS]
+tags: [notes to self, javascript, HapiJS]
 ---
 
 ...because the documentation for Hapi is awful:

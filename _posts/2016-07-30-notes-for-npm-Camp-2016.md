@@ -1,6 +1,6 @@
 ---
 title: notes for npmCamp 2016
-tags: [notes, npm, conference, npmCamp]
+tags: [NPM, conference, npmCamp]
 ---
 
 ## Isaac Schlueter

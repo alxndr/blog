@@ -1,6 +1,6 @@
 ---
 title: jiggling the handle of OS X 10.8.5's dock
-tags: [OSX, dock, autohiding, workaround]
+tags: [MacOS, dock, workaround, bug]
 ---
 
 About once a week now, I'll notice that the Dock on my Macbook (running 10.8.5) no longer auto-shows itself when hovering at the bottom of the screen.

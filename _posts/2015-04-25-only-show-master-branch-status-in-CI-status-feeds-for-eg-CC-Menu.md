@@ -1,6 +1,6 @@
 ---
-title: only show master branch status in CI status feeds (for e.g. CCMenu)
-tags: [build status, ccmenu, travis ci, circle ci, xml feed]
+title: only show single branch status in CI status feeds
+tags: [CI, TDD]
 ---
 
 [CCMenu](http://ccmenu.org/) is a neat little menu icon which shows the build status of your projects [on Travis CI](http://docs.travis-ci.com/user/cc-menu/), [CircleCI](https://circleci.com/docs/polling-project-status), or many other automated build services.

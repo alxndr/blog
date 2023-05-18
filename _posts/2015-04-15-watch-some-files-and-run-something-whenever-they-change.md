@@ -1,6 +1,6 @@
 ---
 title: watch some files, and run something whenever they change
-tags: [entr, tools]
+tags: [CLI]
 ---
 
 For the next time I forget what this tool is called:

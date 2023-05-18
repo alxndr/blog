@@ -1,6 +1,6 @@
 ---
 title: framework-less CLI TDD with NPM\* OMG LOL
-tags: [javascript, nodejs, tests, tdd, cli]
+tags: [javascript, NodeJS, tests, TDD, CLI]
 ---
 
 `*` no this does not involve npm, it just made the title look good 🤷

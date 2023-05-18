@@ -1,6 +1,6 @@
 ---
 title: version control commit messages
-tags: standards, communication, version control, stage this hunk
+tags: [standards, communication, version control]
 ---
 
 Here is how I like to structure my Git branches and commit messages.

@@ -1,6 +1,6 @@
 ---
 title: Git archaeology tips
-tags: [git, version control, code archaeology, howto]
+tags: [git, version control, code archaeology]
 ---
 
 TLDR:
