@@ -1,5 +1,5 @@
 ---
-title: nasin ku pi sitelen sitelen
+title: nasin ku pi sitelen sitelen (reference-method for Toki Pona glyphs)
 tags: [toki pona, orthography, sitelen sitelen]
 ---
 
@@ -21,6 +21,13 @@ tags: [toki pona, orthography, sitelen sitelen]
   }
 </style>
 
+A thought experiment: how might one use a _[toki pona]_ reference document which does not rely on the Latin alphabet or other "borrowed" orthographies?
+
+jan Tepu has created a wonderful example, [using _sitelen pona_ and realistic imagery](https://davidar.github.io/tp/kama-sona).
+
+I'm curious about what one might look like which only uses _[sitelen sitelen]_.
+
+
 ## sona lon (background)
 
 _[sitelen sitelen]_ is one of the many [orthographies](https://sona.pona.la/wiki/Writing_systems) of _[toki pona]_.
@@ -28,22 +35,20 @@ _[sitelen sitelen]_ is one of the many [orthographies](https://sona.pona.la/wiki
 It is a beautiful and creative writing system!
 But its inherent flexibility can be challenging to navigate.
 
-As a beginner to _toki pona_ who wanted to begin using _sitelen sitelen_ as quickly as possible (and being unsatisfied with my attempts at memorizing the relatively modest quantity of glyphs), I found myself wanting a method of looking up a shape based on its components. This immediately reminded me of using [using Chinese dictionaries by determining radicals and stroke count](https://en.wikipedia.org/wiki/Radical_(Chinese_characters)), and I wondered if something similar (but more _pona_) were possible for _sitelen sitelen_...
-
-This ends up addressing the thought experiment[^1]: how might a _toki pona_ reference document work, which does not use the Latin alphabet (or any other native human orthography) at all?
-[^1]: ...a thought experiment which I just came up with
+As a beginner to _toki pona_ who was impatiently wanting to use _sitelen sitelen_, I found myself needing a method of defining a glyph based on its visual appearance, with only a rough understanding of the vocabulary and each glyph's constituents. This reminded me of using Chinese dictionaries with [radical and stroke count](https://en.wikipedia.org/wiki/Radical_(Chinese_characters)), and I wondered if something similar (but _pona_) were possible for _sitelen sitelen_...
 
 
 ## nasin (method)
 
-> tldr: Each glyph has a unique set of symbols (aka "roots") associated with it; each glyph is indexed according to the order of its roots (recursively). A dictionary user can thereby "decompose" a glyph based on its visual components and quickly cross-reference it within a relatively large list.
+> tldr: Each glyph has a unique set of components (aka "roots") associated with it; Roots are ordered; Each glyph can thereby be ordered according to its roots. With a rough understanding of the roots and ordering, **a dictionary user can quickly locate an arbitrary or unrecognized glyph within a large source list.**
 
-* The most significant aspect of the glyph is designated the **primary root**.
+* The most significant aspect of the glyph is designated the **primary root**. All glyphs have a primary root.
   * The "most significant" aspect could be the center or the largest portion of the glyph, or a unique symbol compared to the remainder of the glyph.
-  * All glyphs have a primary root; This determines the broad location of the glyph within the _nasin ku_.
-* Remaining aspects of the glyph may be designated **additional roots**. These determine the fine-grained location of the glyph in _ku_.
+  * The primary root will determine the broad location of the glyph.
+* Remaining aspects of the glyph may be designated **additional roots**.
   * Additional roots are not necessary (i.e. some glyphs have a primary root and no additional roots); 
   * These tend to follow a pattern of "next most significant", with allowances so that glyph sequences are unique.
+  * The sequence of additional roots will determine the fine-grained location of the glyph.
 
 
 ## (roots)
@@ -76,37 +81,42 @@ The specific roots and order are still in flux. That said:
 |    <span class="spp"></span> | a bump / curved protrusion                                                                                   | nena
 |    <span class="spp"></span> | a square / right-angled shape                                                                                | leko
 |    <span class="spp"></span> | a sharp point / acute angle                                                                                  | monsuta
-| <span class="juniko">◎</span> | a hole; depth (into the Z-dimension w.r.t. the X/Y of the reading plane)                                     | lupa
+| <span class="juniko">◎</span> | a hole; depth (along the linear dimension perpendicular to the reading plane)                                | lupa
 |    <span class="spp"></span> | a mouth                                                                                                      | uta
 | <span class="juniko">☞</span> | a hand with fingers / a foot with toes; an extremity with digits                                             | luka
 | <span class="juniko">Ƨ</span> | a backwards "S" or curvy "Z"                                                                                 | seme
 |    <span class="spp"></span> | (meta) containing structure; shape which contains / surrounds full glyphs; cartouche / quotation / nameplate | poki
-|    <span class="spp"></span> | (meta) supporting structure; wide-and-short shape which often appears under full glyphs; plinth / socle      | anpa
+| <span class="juniko">\_</span>| (meta) supporting structure; wide-and-short shape which often appears under full glyphs; plinth / socle      | anpa
 {:style="display:table;width:auto;margin:0 auto"}
+
+
+## TODO features for an online dictionary based on this...
+
+* use SS/SP only, no sitelen Lasina
+* buttons for each root sigil... click one and it filters all glyphs with the root (ones w/it as primary first)
+  * definition in SP / SS
+* another input method: if you know pronunciation, 'type' it by clicking SP alphabet sigils & filter list to show glyhs with that pronunciation
 
 
 ## jan pi pona tawa mi (acknowledgements)
 
-* [jan Su Sen](https://en.wikipedia.org//wiki/Xu_Shen) en [jan mute Maja](https://www.mayanleague.org) en [jan mute Mima](https://en.wikipedia.org/wiki/Mi%27kmaq)
+* [jan Su Sen](https://en.wikipedia.org//wiki/Xu_Shen)
 * jan mama mi (who showed me Egyptian hieroglyphs)
 * [jan pi pana sona](https://oberlin.edu) (who showed me 漢字 and tolerated me)
 * jan Sonja (who created [toki pona])
 * jan Josan (who created [sitelen sitelen])
   * please also read [jan Josan's acknowledgements](https://jonathangabel.com/toki-pona/acknowledgements/)
 * toki pona communities
-  * ilo Siko nimi la: [kama sona](https://discord.gg/XCfMszsf54)
-  * ilo Siko nimi la: [ma pona pi toki pona](https://discord.gg/mapona)
+  * ilo Siko nimi ni [kama sona](https://discord.gg/XCfMszsf54)
+  * ilo Siko nimi ni [ma pona pi toki pona](https://discord.gg/mapona)
 * tools and references
   * [linku.la](https://linku.la) (toki pona dictionary)
   * [Shapecatcher](https://shapecatcher.com) (Unicode reference / lookup)
 * mi lon [ma Olone Wisin pi jan mute Olone Muwema](https://cejce.berkeley.edu/ohloneland)
 
 
+
 -------
-
-## toki kin (footnotes)
-
-
 
 [sitelen sitelen]: https://jonathangabel.com/toki-pona/
 [toki pona]: https://tokipona.org
