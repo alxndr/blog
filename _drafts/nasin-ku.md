@@ -81,10 +81,10 @@ The specific roots and order are still in flux. That said:
 |    <span class="spp"></span> | a bump / curved protrusion                                                                                   | nena
 |    <span class="spp"></span> | a square / right-angled shape                                                                                | leko
 |    <span class="spp"></span> | a sharp point / acute angle                                                                                  | monsuta
-| <span class="juniko">◎</span> | a hole; depth (along the linear dimension perpendicular to the reading plane)                                | lupa
+| <span class="juniko">◎</span> | a hole; depth (along the dimension perpendicular to the reading plane)                                       | lupa
 |    <span class="spp"></span> | a mouth                                                                                                      | uta
 | <span class="juniko">☞</span> | a hand with fingers / a foot with toes; an extremity with digits                                             | luka
-| <span class="juniko">Ƨ</span> | a backwards "S" or curvy "Z"                                                                                 | seme
+| <span class="juniko">Ƨ</span> | a backwards "S" or curvy "Z"; a swirly reversing (but not closed) line                                       | seme
 |    <span class="spp"></span> | (meta) containing structure; shape which contains / surrounds full glyphs; cartouche / quotation / nameplate | poki
 | <span class="juniko">\_</span>| (meta) supporting structure; wide-and-short shape which often appears under full glyphs; plinth / socle      | anpa
 {:style="display:table;width:auto;margin:0 auto"}
@@ -100,9 +100,9 @@ The specific roots and order are still in flux. That said:
 
 ## jan pi pona tawa mi (acknowledgements)
 
-* [jan Su Sen](https://en.wikipedia.org//wiki/Xu_Shen)
+* [jan Su Sen](https://en.wikipedia.org//wiki/Xu_Shen) (who tried to bring order to a chaotic system)
 * jan mama mi (who showed me Egyptian hieroglyphs)
-* [jan pi pana sona](https://oberlin.edu) (who showed me 漢字 and tolerated me)
+* [jan pi pana sona](https://oberlin.edu) (who showed me Chinese hanzi and tolerated me)
 * jan Sonja (who created [toki pona])
 * jan Josan (who created [sitelen sitelen])
   * please also read [jan Josan's acknowledgements](https://jonathangabel.com/toki-pona/acknowledgements/)
