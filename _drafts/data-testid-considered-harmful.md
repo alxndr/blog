@@ -1,6 +1,6 @@
 ---
 title: Testing Library's `data-testid` considered harmful
-tags: [javascript, tests, tdd, dom]
+tags: [JavaScript, tests, TDD, DOM]
 ---
 
 Well, maybe not "harmful", but I sure don't like 'em...
