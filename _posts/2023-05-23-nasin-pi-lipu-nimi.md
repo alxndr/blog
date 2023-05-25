@@ -1,25 +1,9 @@
 ---
-title: nasin ku pi sitelen sitelen (reference-method for Toki Pona glyphs)
+title: nasin pi lipu nimi
 tags: [toki pona, orthography, sitelen sitelen]
+redirect_from:
+- /2023/05/23/nasin-ku.html
 ---
-
-<style>
-  @font-face { 
-    font-family: 'sitelen pona pona';
-    src: url('https://jackhumbert.github.io/sitelen-pona-pona/fonts/sitelen-pona-pona.otf');
-    font-weight: 400;
-  }
-  .spp {
-    font: 2em 'sitelen pona pona';
-  }
-  .sitelen {
-    max-width: 3em;
-    filter: invert(83%);
-  }
-  .juniko {
-    font-size: 2em;
-  }
-</style>
 
 A thought experiment: how might one use a _[toki pona]_ reference document which does not rely on the Latin alphabet or other "borrowed" orthographies?
 
@@ -123,3 +107,21 @@ The specific roots and order are still in flux. That said:
 [sitelen pona]: http://tokipona.net/tp/janpije/hieroglyphs.php
 [sitelen sitelen kule]: https://jonathangabel.com/toki-pona/colors/
 [sitelen telo]: https://imgur.com/a/A30SGum
+
+<style>
+  @font-face { 
+    font-family: 'sitelen pona pona';
+    src: url('https://jackhumbert.github.io/sitelen-pona-pona/fonts/sitelen-pona-pona.otf');
+    font-weight: 400;
+  }
+  .spp {
+    font: 2em 'sitelen pona pona';
+  }
+  .sitelen {
+    max-width: 3em;
+    filter: invert(83%);
+  }
+  .juniko {
+    font-size: 2em;
+  }
+</style>
