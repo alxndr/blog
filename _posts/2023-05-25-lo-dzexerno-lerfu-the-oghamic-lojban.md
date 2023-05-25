@@ -34,8 +34,8 @@ The [classic pangram](https://mw.lojban.org/papri/.o'i_mu_xagji_sofybakni_cu_zva
 | <small>Latin</small> | <small>Ogham</small> | <small>IPA</small>
 |:-:|:-:|:-:|
 | delimiters | ᚛  ᚜ | (pause)
-| ' | ᚕ | [h] / [θ]
 | . | ᚖ | [ʔ]
+| ' | ᚕ | [h] / [θ]
 | a | ᚐ | [a] / [ɑ]
 | b | ᚁ | [b]
 | c | ᚊ | [ʃ] / [ʂ]
