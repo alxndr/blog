@@ -5,26 +5,29 @@ redirect_from:
 - /2023/05/23/nasin-ku.html
 ---
 
-A thought experiment: how might one use a _[toki pona]_ reference document which does not rely on the Latin alphabet or other "borrowed" orthographies?
-
-jan Tepu has created a wonderful example, [using _sitelen pona_ and realistic imagery](https://davidar.github.io/tp/kama-sona).
-
-I'm curious about what one might look like which only uses _[sitelen sitelen]_.
+A thought experiment: how might one use a _[toki pona]_ reference document which only uses _[sitelen sitelen]_?
 
 
-## sona lon (background)
+## sona (background info)
 
 _[sitelen sitelen]_ is one of the many [orthographies](https://sona.pona.la/wiki/Writing_systems) of _[toki pona]_.
 
 It is a beautiful and creative writing system!
 But its inherent flexibility can be challenging to navigate.
 
-As a beginner to _toki pona_ who was impatiently wanting to use _sitelen sitelen_, I found myself needing a method of defining a glyph based on its visual appearance, with only a rough understanding of the vocabulary and each glyph's constituents. This reminded me of using Chinese dictionaries with [radical and stroke count](https://en.wikipedia.org/wiki/Radical_(Chinese_characters)), and I wondered if something similar (but _pona_) were possible for _sitelen sitelen_...
+As a beginner to _toki pona_ who was fascinated by _sitelen sitelen_, I was looking for many source documents to see how different people drew the glyphs.
+I then found myself wanting a method of defining a glyph based on its visual appearance, not knowing its pronunciation, and with only a rough understanding of the _sitelen sitelen_ alphabet (or even the language's vocabulary).
+This reminded me of studying Mandarin, and using Chinese dictionaries organized by [radical and stroke count](https://en.wikipedia.org/wiki/Radical_(Chinese_characters)) — and I wondered if something similar (but also _pona_!) were possible for _sitelen sitelen_...
 
 
 ## nasin (method)
 
-> tldr: Each glyph has a unique set of components (aka "roots") associated with it; Roots are ordered; Each glyph can thereby be ordered according to its roots. With a rough understanding of the roots and ordering, **a dictionary user can quickly locate an arbitrary or unrecognized glyph within a large source list.**
+There are ## "roots" (visual components);
+The roots are in a particular order;  
+Each glyph has a unique set roots associated with it;  
+Each glyph is sorted according to its roots.
+
+This allows a dictionary user to quickly locate an unrecognized glyph within an arbitrarily-sized list of otherwise "difficult-to-order" glyphs, with only a rough understanding of the roots and ordering necessary.
 
 * The most significant aspect of the glyph is designated the **primary root**. All glyphs have a primary root.
   * The "most significant" aspect could be the center or the largest portion of the glyph, or a unique symbol compared to the remainder of the glyph.
@@ -35,68 +38,73 @@ As a beginner to _toki pona_ who was impatiently wanting to use _sitelen sitelen
   * The sequence of additional roots will determine the fine-grained location of the glyph.
 
 
-## (roots)
+## roots
 
-The specific roots and order are still in flux. That said:
-* The sequence starts with the five vowel glyphs, roughly from front (of the mouth) to back.
-* Then all the consonants, roughly grouped by feature: dots, intersections, bumps, unusual shapes.
-* Then fundamental shapes not covered by the _sitelen sitelen_ phonemes, roughly in order of simple-to-complex.
-* Finally, some "meta" shapes: containers/cartouches, and punctuation/plinths.
+**The specific roots and order are still subject to change.**
+That said:
+* The sequence starts with the five vowel glyphs, in this order: `u` `o` `a` `e` `i`
+  * This order is roughly: mouth; eyes, full-face.
+* Then, all the consonant glyphs, in this order: `j` `p` `t` `k` `m` `w` `n` `l` `s`
+  * This order is roughly: dots; wrinkles; bumps; varying base-shapes.
+* Then, shapes not depicted by the _sitelen sitelen_ phonemes…
+  * This order is roughly: single & multiple lines; bumps & angles; other bodily components.
+* Finally, two "meta" shapes…
+  * …the "cartouche" container shape; and the "plinth" supportive-base shape.
 
 | sitelen | description | nimi |
 |:-:|:-|:-:|
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xu.jpg" class="sitelen" /> | a long/tall bump with a line; a tongue with septum                           | u
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xo.jpg" class="sitelen" /> | a circle (perhaps with dot in center); a basic eye                           | o
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xa.jpg" class="sitelen" /> | a dotted circle with supporting line; an eye with eyeball and orbital cavity | a
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xe.jpg" class="sitelen" /> | two perpendicular lines intersecting; a plus, X, crossed lines               | e
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xi.jpg" class="sitelen" /> | a line with dots on either site; a nose with eyes; a face facing the reader  | i
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xj.jpg" class="sitelen" /> | two/three short roughly-parallel lines, adjacent to a larger feature         | j
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xp.jpg" class="sitelen" /> | two or more dots, perhaps with a nearby line/crease                          | p
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xt.jpg" class="sitelen" /> | a line intersecting (not crossing) another line                              | t
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xk.jpg" class="sitelen" /> | multiple bumps with one in front of the rest                                 | k
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xm.jpg" class="sitelen" /> | multiple bumps at the bottom, with a crease                                  | m
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xw.jpg" class="sitelen" /> | multiple bumps at the top, with a crease                                     | w
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xn.jpg" class="sitelen" /> | multiple bumps at the top or side, without a crease                          | n
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xl.jpg" class="sitelen" /> | a tall / narrow shape                                                        | l
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xs.jpg" class="sitelen" /> | three stacked circles / shapes                                               | s
-|    <span class="spp"></span> | a long line, perhaps slightly curved                                                                         | linja
-|    <span class="spp"></span> | two (or more) parallel lines                                                                                 | sama
-|    <span class="spp"></span> | three (or more) short _non-parallel_ lines emanating from a shared vanishing point                           | weka
-|    <span class="spp"></span> | a bump / curved protrusion                                                                                   | nena
-|    <span class="spp"></span> | a square / right-angled shape                                                                                | leko
-|    <span class="spp"></span> | a sharp point / acute angle                                                                                  | monsuta
-| <span class="juniko">◎</span> | a hole; depth (along the dimension perpendicular to the reading plane)                                       | lupa
-|    <span class="spp"></span> | a mouth                                                                                                      | uta
-| <span class="juniko">☞</span> | a hand with fingers / a foot with toes; an extremity with digits                                             | luka
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xu.jpg" class="sitelen" /> | tongue — a long/tall bump with a line; a tongue with septum                               | u
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xo.jpg" class="sitelen" /> | eye — a circle (perhaps with dot in center); a basic eye                                  | o
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xa.jpg" class="sitelen" /> | eye & brow — a dotted circle with supporting line; an eye with eyeball and orbital cavity | a
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xe.jpg" class="sitelen" /> | closed eye — two perpendicular lines intersecting; a plus, X, crossed lines               | e
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xi.jpg" class="sitelen" /> | anterior face — a line with dots on either site; a nose and two eyes facing the reader    | i
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xj.jpg" class="sitelen" /> | crease? — two/three short roughly-parallel lines, adjacent to a larger feature            | j
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xp.jpg" class="sitelen" /> | dots — two or more dots, perhaps with a nearby line/crease                                | p
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xt.jpg" class="sitelen" /> | lips? — a line intersecting (not crossing) another line                                   | t
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xk.jpg" class="sitelen" /> | bucktooth? — multiple bumps with one in front of the rest                                 | k
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xm.jpg" class="sitelen" /> | downward buds — multiple bumps at the bottom, with a crease                               | m
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xw.jpg" class="sitelen" /> | upward buds — multiple bumps at the top, with a crease                                    | w
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xn.jpg" class="sitelen" /> | tailfan — multiple bumps at the top or side, without a crease                             | n
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xl.jpg" class="sitelen" /> | cob — a tall / narrow shape                                                               | l
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xs.jpg" class="sitelen" /> | stack — three stacked circles / shapes                                                    | s
+|     <span class="sp"></span> | a long line, perhaps slightly curved                                                                         | linja
 | <span class="juniko">Ƨ</span> | a backwards "S" or curvy "Z"; a swirly reversing (but not closed) line                                       | seme
-|    <span class="spp"></span> | (meta) containing structure; shape which contains / surrounds full glyphs; cartouche / quotation / nameplate | poki
+|     <span class="sp"></span> | two (or more) parallel lines                                                                                 | sama
+|     <span class="sp"></span> | three (or more) short _non-parallel_ lines emanating from a shared vanishing point                           | weka
+|     <span class="sp"></span> | a bump / curved protrusion                                                                                   | nena
+|     <span class="sp"></span> | a square / right-angled shape                                                                                | leko
+|     <span class="sp"></span> | a sharp point / acute angle                                                                                  | monsuta
+| <span class="juniko">◎</span> | a hole; depth (along the dimension perpendicular to the reading plane)                                       | lupa
+|     <span class="sp"></span> | a mouth                                                                                                      | uta
+| <span class="juniko">☞</span> | a hand with fingers / a foot with toes; an extremity with digits                                             | luka
+|     <span class="sp"></span> | (meta) containing structure; shape which contains / surrounds full glyphs; cartouche / quotation / nameplate | poki
 | <span class="juniko">\_</span>| (meta) supporting structure; wide-and-short shape which often appears under full glyphs; plinth / socle      | anpa
-{:style="display:table;width:auto;margin:0 auto"}
+{:style="width:auto;margin:0 auto"}
 
 
-## TODO features for an online dictionary based on this...
+## an online dictionary based on this...
 
-* use SS/SP only, no sitelen Lasina
-* buttons for each root sigil... click one and it filters all glyphs with the root (ones w/it as primary first)
-  * definition in SP / SS
-* another input method: if you know pronunciation, 'type' it by clicking SP alphabet sigils & filter list to show glyhs with that pronunciation
+...is a work-in-progress at [alxndr.github.io/nasin-pi-lipu-nimi](https://alxndr.github.io/nasin-pi-lipu-nimi/){:style="font-size:1.3em"}
 
 
-## jan pi pona tawa mi (acknowledgements)
+## pona tawa mi la: ma en jan (acknowledgements)
 
-* [jan Su Sen](https://en.wikipedia.org//wiki/Xu_Shen) (who tried to bring order to a chaotic system)
-* jan mama mi (who showed me Egyptian hieroglyphs)
-* [jan pi pana sona](https://oberlin.edu) (who showed me Chinese hanzi and tolerated me)
-* jan Sonja (who created [toki pona])
-* jan Josan (who created [sitelen sitelen])
-  * please also read [jan Josan's acknowledgements](https://jonathangabel.com/toki-pona/acknowledgements/)
+* jan mama mi, who showed me Egyptian hieroglyphs
+* [jan pi pana sona](https://oberlin.edu), who showed me Chinese hanzi and tolerated me
+* jan Sonja, who created [toki pona]
+* jan Josan, who created [sitelen sitelen] (please also read [jan Josan's acknowledgements](https://jonathangabel.com/toki-pona/acknowledgements/))
 * toki pona communities
   * ilo Siko nimi ni [kama sona](https://discord.gg/XCfMszsf54)
   * ilo Siko nimi ni [ma pona pi toki pona](https://discord.gg/mapona)
+* inspiration
+  * [jan Su Sen](https://en.wikipedia.org//wiki/Xu_Shen), who tried to bring order to a chaotic system
+  * theotherwebsite's [Toki Pona Dictionary](https://theotherwebsite.com/tokipona/), where _sitelen pona_ glyphs are ordered by complexity
+  * jan Tepu's reference [o kama sona e sitelen pona kepeken sitelen](https://davidar.github.io/tp/kama-sona){:style="font:1.75em/0.75em 'sitelen pona pona';text-decoration:none!important"}, which only uses _sitelen pona_
 * tools and references
   * [linku.la](https://linku.la) (toki pona dictionary)
   * [Shapecatcher](https://shapecatcher.com) (Unicode reference / lookup)
-* mi lon [ma Olone Wisin pi jan mute Olone Muwema](https://cejce.berkeley.edu/ohloneland)
+  * the _sitelen pona_ font used on this page is Jack Humbert's [sitelen pona pona]
+
 
 
 
@@ -106,6 +114,7 @@ The specific roots and order are still in flux. That said:
 [toki pona]: https://tokipona.org
 [sitelen pona]: http://tokipona.net/tp/janpije/hieroglyphs.php
 [sitelen sitelen kule]: https://jonathangabel.com/toki-pona/colors/
+[sitelen pona pona]: https://jackhumbert.github.io/sitelen-pona-pona/
 [sitelen telo]: https://imgur.com/a/A30SGum
 
 <style>
@@ -113,8 +122,14 @@ The specific roots and order are still in flux. That said:
     font-family: 'sitelen pona pona';
     src: url('https://jackhumbert.github.io/sitelen-pona-pona/fonts/sitelen-pona-pona.otf');
     font-weight: 400;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "liga" 1;
   }
-  .spp {
+  @font-face { 
+    font-family: 'linja sike';
+    src: url('https://wyub.github.io/tokipona/linja-sike-5.otf');
+  }
+  .sp {
     font: 2em 'sitelen pona pona';
   }
   .sitelen {
