@@ -91,6 +91,10 @@ Last but not least, two "meta" roots, notable for how they're placed in relation
 
 Try it out at: [alxndr.github.io/nasin-pi-lipu-nimi](https://alxndr.github.io/nasin-pi-lipu-nimi/?src=alxndr.blog&campaign=blogpost-nasin)
 
+The first row of glyphs are the roots. Pick one or more of them, and the big list of glyphs below will update to filter and show only the glyphs which include the root(s) you've selected.
+
+Then you can click on a glyph to get more info about it: pronunciation, definition, _sitelen Emosi_!
+
 
 ## pona tawa mi la: ma en jan (acknowledgements)
 
