@@ -46,7 +46,7 @@ The [classic pangram](https://mw.lojban.org/papri/.o'i_mu_xagji_sofybakni_cu_zva
 | i | ᚔ | [i]
 | j | ᚗ | [ʒ] / [ʐ]
 | k | ᚉ | [k]
-{:style="flex-basis:15em;width:auto;margin:0 auto;white-space:nowrap;font-size:1.1em"}
+{:style="flex-basis:14rem;width:auto;margin:0 auto;white-space:nowrap;font-size:1rem"}
 
 | <small>Latin</small> | <small>Ogham</small> | <small>IPA</small>
 |:-:|:-:|:-:|
@@ -63,7 +63,7 @@ The [classic pangram](https://mw.lojban.org/papri/.o'i_mu_xagji_sofybakni_cu_zva
 | x | ᚙ | [x]
 | y | ᚆ | [ə]
 | z | ᚎ | [z]
-{:style="flex-basis:15em;width:auto;margin:0 auto;white-space:nowrap;font-size:1.1em"}
+{:style="flex-basis:12rem;width:auto;margin:0 auto;white-space:nowrap;font-size:1rem"}
 </div>
 
 
