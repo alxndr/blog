@@ -56,35 +56,35 @@ Last but not least, two "meta" roots, notable for how they're placed in relation
 
 **The specific roots and order are still subject to change.**
 
-| sitelen | description | nimi |
-|:-:|:-|:-:|
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xu.jpg" class="sitelen" /> | tongue — a long/tall bump with a line; a tongue with septum                               | u
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xo.jpg" class="sitelen" /> | eye — a circle (perhaps with dot in center); a basic eye                                  | o
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xa.jpg" class="sitelen" /> | eye & brow — a dotted circle with supporting line; an eye with eyeball and orbital cavity | a
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xe.jpg" class="sitelen" /> | closed eye — two perpendicular lines intersecting; a plus, X, crossed lines               | e
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xi.jpg" class="sitelen" /> | anterior face — a line with dots on either site; a nose and two eyes facing the reader    | i
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xj.jpg" class="sitelen" /> | crease? — two/three short roughly-parallel lines, adjacent to a larger feature            | j
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xp.jpg" class="sitelen" /> | dots — two or more dots, perhaps with a nearby line/crease                                | p
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xt.jpg" class="sitelen" /> | lips? — a line intersecting (not crossing) another line                                   | t
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xk.jpg" class="sitelen" /> | bucktooth? — multiple bumps with one in front of the rest                                 | k
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xm.jpg" class="sitelen" /> | downward buds — multiple bumps at the bottom, with a crease                               | m
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xw.jpg" class="sitelen" /> | upward buds — multiple bumps at the top, with a crease                                    | w
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xn.jpg" class="sitelen" /> | tailfan — multiple bumps at the top or side, without a crease                             | n
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xl.jpg" class="sitelen" /> | cob — a tall / narrow shape                                                               | l
-| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xs.jpg" class="sitelen" /> | stack — three stacked circles / shapes                                                    | s
-|     <span class="sp"></span> | a long line, perhaps slightly curved                                                                         | linja
-| <span class="juniko">Ƨ</span> | a backwards "S" or curvy "Z"; a swirly reversing (but not closed) line                                       | seme
-|     <span class="sp"></span> | two (or more) parallel lines                                                                                 | sama
-|     <span class="sp"></span> | three (or more) short _non-parallel_ lines emanating from a shared vanishing point                           | weka
-|     <span class="sp"></span> | a bump / curved protrusion                                                                                   | nena
-|     <span class="sp"></span> | a square / right-angled shape                                                                                | leko
-|     <span class="sp"></span> | a sharp point / acute angle                                                                                  | monsuta
-| <span class="juniko">◎</span> | a hole; depth (along the dimension perpendicular to the reading plane)                                       | lupa
-|     <span class="sp"></span> | a mouth                                                                                                      | uta
-| <span class="juniko">☞</span> | a hand with fingers / a foot with toes; an extremity with digits                                             | luka
-|     <span class="sp"></span> | (meta) containing structure; shape which contains / surrounds full glyphs; cartouche / quotation / nameplate | poki
-| <span class="juniko">\_</span>| (meta) supporting structure; wide-and-short shape which often appears under full glyphs; plinth / socle      | anpa
-{:style="width:auto;margin:0 auto"}
+| root | visual description
+|:-:|:-
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xu.jpg" class="sitelen" /> | tongue — a long/tall bump with a line; a tongue with septum
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xo.jpg" class="sitelen" /> | eye — a circle (perhaps with dot in center); a basic eye
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xa.jpg" class="sitelen" /> | eye & brow — a dotted circle with supporting line; an eye with eyeball and orbital cavity
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xe.jpg" class="sitelen" /> | closed eye — two perpendicular lines intersecting; a plus, X, crossed lines
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xi.jpg" class="sitelen" /> | anterior face — a line with dots on either site; a nose and two eyes facing the reader
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xj.jpg" class="sitelen" /> | crease? — two/three short roughly-parallel lines, adjacent to a larger feature
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xp.jpg" class="sitelen" /> | dots — two or more dots, perhaps with a nearby line/crease
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xt.jpg" class="sitelen" /> | lips? — a line intersecting (not crossing) another line
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xk.jpg" class="sitelen" /> | bucktooth? — multiple bumps with one in front of the rest
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xm.jpg" class="sitelen" /> | downward buds — multiple bumps at the bottom, with a crease
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xw.jpg" class="sitelen" /> | upward buds — multiple bumps at the top, with a crease
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xn.jpg" class="sitelen" /> | tailfan — multiple bumps at the top or side, without a crease
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xl.jpg" class="sitelen" /> | cob — a tall / narrow shape
+| <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xs.jpg" class="sitelen" /> | stack — three stacked circles / shapes
+|     <span class="sp"></span> | a long line, perhaps slightly curved
+| <span class="juniko">Ƨ</span> | a backwards "S" or curvy "Z"; a swirly reversing (but not closed) line
+|     <span class="sp"></span> | two (or more) parallel lines
+|     <span class="sp"></span> | three (or more) short _non-parallel_ lines emanating from a shared vanishing point
+|     <span class="sp"></span> | a bump / curved protrusion
+|     <span class="sp"></span> | a square / right-angled shape
+|     <span class="sp"></span> | a sharp point / acute angle
+| <span class="juniko">◎</span> | a hole; depth (along the dimension perpendicular to the reading plane)
+|     <span class="sp"></span> | a mouth
+| <span class="juniko">☞</span> | a hand with fingers / a foot with toes; an extremity with digits
+|     <span class="sp"></span> | (meta) containing structure; shape which contains / surrounds full glyphs; cartouche / quotation /
+| <span class="juniko">\_</span>| (meta) supporting structure; wide-and-short shape which often appears under full glyphs; plinth /
+{:style="font-size:1rem"}
 
 
 ## sina o pali kepeken ilo ni (try the dictionary!)
