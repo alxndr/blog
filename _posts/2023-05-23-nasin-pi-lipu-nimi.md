@@ -26,12 +26,12 @@ This reminded me of studying Mandarin, and using Chinese dictionaries organized 
 
 ## nasin (method)
 
-There are ## "roots" (visual components);
-The roots are in a particular order;  
-Each glyph has a unique set roots associated with it;  
-Each glyph is sorted according to its roots.
+> There are 26 "roots" (visual components);  
+> The roots are in a particular order;  
+> Each glyph has a unique set roots associated with it;  
+> Each glyph is sorted according to its root-order.
 
-This allows a dictionary user to quickly locate an unrecognized glyph within an arbitrarily-sized list of otherwise "difficult-to-order" glyphs, with only a rough understanding of the roots and ordering necessary.
+This allows a dictionary user to quickly locate an unrecognized glyph within an arbitrarily-sized list of otherwise "difficult-to-order" glyphs, with only a rough understanding of the roots and ordering necessary, and **without depending on any knowledge of pronunciation** (of either the glyph or the _sitelen sitelen_ "alphabet").
 
 * The most significant aspect of the glyph is designated the **primary root**. All glyphs have a primary root.
   * The "most significant" aspect could be the center or the largest portion of the glyph, or a unique symbol compared to the remainder of the glyph.
@@ -44,8 +44,6 @@ This allows a dictionary user to quickly locate an unrecognized glyph within an 
 
 ### wan mute (roots)
 
-**The specific roots and order are still subject to change.**
-
 My goal is to have the "roots" be roughly from simple-to-complex, and to use the established _sitelen sitelen_ phoneme glyphs as a starting point.
 
 The five vowel "infixes" are prominent in many of the full glyphs, so I've chosen to use them as the very beginning. The order is roughly: mouth; basic eye; complex eye/s; full face.
@@ -55,6 +53,8 @@ The nine consonant "bases" are next, in this rough order: dots; wrinkles; bumps;
 The above fourteen phoneme glyphs don't quite cover all the existing full glyphs, so I've identified some more shapes (drawing from existing _sitelen pona_ glyphs) as common roots. These are ordered from simple/geometric to complex/anatomical.
 
 Last but not least, two "meta" roots, notable for how they're placed in relation to other self-contained glyphs: the "cartouche" container shape; and the "plinth" supportive-base shape.
+
+**The specific roots and order are still subject to change.**
 
 | sitelen | description | nimi |
 |:-:|:-|:-:|
@@ -87,7 +87,7 @@ Last but not least, two "meta" roots, notable for how they're placed in relation
 {:style="width:auto;margin:0 auto"}
 
 
-## sina o pali e ilo ni (try the dictionary!)
+## sina o pali kepeken ilo ni (try the dictionary!)
 
 Try it out at: [alxndr.github.io/nasin-pi-lipu-nimi](https://alxndr.github.io/nasin-pi-lipu-nimi/?src=alxndr.blog&campaign=blogpost-nasin)
 
@@ -96,7 +96,7 @@ The first row of glyphs are the roots. Pick one or more of them, and the big lis
 Then you can click on a glyph to get more info about it: pronunciation, definition, _sitelen Emosi_!
 
 
-## pona tawa mi la: ma en jan (acknowledgements)
+## jan pi pona tawa mi (acknowledgements)
 
 * jan mama mi, who showed me Egyptian hieroglyphs
 * [jan pi pana sona](https://oberlin.edu), who showed me Chinese hanzi and tolerated me
@@ -111,22 +111,33 @@ Then you can click on a glyph to get more info about it: pronunciation, definiti
   * jan Tepu's reference [o kama sona e sitelen pona kepeken sitelen](https://davidar.github.io/tp/kama-sona){:style="font:1.75em/0.75em 'sitelen pona pona';text-decoration:none!important"}, which only uses _sitelen pona_
   * Olaf Janssen's [_sitelen sitelen_ renderer](http://livingtokipona.smoishele.com/examples/liveinput/liveinput.html)
   * pipi pi walo pimeja's [sitelen Lasina tawa sitelen pona](https://greybeetle213.github.io/sitelen_Lasina_tawa_sitelen_pona)
-* tools and references
-  * [linku.la](https://linku.la) (toki pona dictionary)
-  * [Shapecatcher](https://shapecatcher.com) (Unicode reference / lookup)
-  * the _sitelen pona_ glyphs on this page are Jack Humbert's [_sitelen pona pona_ font]
+
+### ilo pi pali mi (colophon)
+
+Definitions in the dictionary are from [linku.la](https://linku.la).
+
+Unicode characters were identified using [Shapecatcher](https://shapecatcher.com).
+
+Fonts / glyphs:
+* The _sitelen pona_ glyphs/roots here are Jack Humbert's _[sitelen pona pona]_ font. These glyphs are also used in the dictionary.
+* The SVG _sitelen sitelen_ glyphs in the dictionary are Sumpygump's [ported SVGs](https://github.com/sumpygump/sitelen-sitelen) of jan Same's glyph vectors.
+* The hand-drawn _sitelen sitelen_ glyphs are from jan Josan's [page of _sitelen nimi ale_](https://jonathangabel.com/toki-pona/dictionaries/glyphs/).
+* The _sitelen pona_ font used in _toki pona_ text is [linja sike] by junikijetesantakalu Kulupu-Poki (?)
+
+The dictionary (and this blog) are hosted on GitHub Pages.
 
 
 
 
 -------
 
-[sitelen sitelen]: https://jonathangabel.com/toki-pona/
-[toki pona]: https://tokipona.org
+[linja sike]: https://wyub.github.io/tokipona/linjasike
+[sitelen pona pona]: https://jackhumbert.github.io/sitelen-pona-pona/
 [sitelen pona]: http://tokipona.net/tp/janpije/hieroglyphs.php
 [sitelen sitelen kule]: https://jonathangabel.com/toki-pona/colors/
-[sitelen pona pona]: https://jackhumbert.github.io/sitelen-pona-pona/
+[sitelen sitelen]: https://jonathangabel.com/toki-pona/
 [sitelen telo]: https://imgur.com/a/A30SGum
+[toki pona]: https://tokipona.org
 
 <style>
   @font-face { 
