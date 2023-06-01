@@ -87,7 +87,7 @@ Last but not least, two "meta" roots, notable for how they're placed in relation
 {:style="font-size:1rem"}
 
 
-## sina o pali kepeken ilo ni (try the dictionary!)
+## sina o kepeken e ilo ni a (try the dictionary!)
 
 Try it out at: [alxndr.github.io/nasin-pi-lipu-nimi](https://alxndr.github.io/nasin-pi-lipu-nimi/?src=alxndr.blog&campaign=blogpost-nasin)
 
