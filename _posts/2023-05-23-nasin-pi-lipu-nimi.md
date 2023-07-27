@@ -122,7 +122,6 @@ Fonts / glyphs:
 * The _sitelen pona_ glyphs/roots here are Jack Humbert's _[sitelen pona pona]_ font. These glyphs are also used in the dictionary.
 * The SVG _sitelen sitelen_ glyphs in the dictionary are Sumpygump's [ported SVGs](https://github.com/sumpygump/sitelen-sitelen) of jan Same's glyph vectors.
 * The hand-drawn _sitelen sitelen_ glyphs are from jan Josan's [page of _sitelen nimi ale_](https://jonathangabel.com/toki-pona/dictionaries/glyphs/).
-* The _sitelen pona_ font used in _toki pona_ text is [linja lipamanka] by [lipamanka](https://lipamanka.gay)
 
 The dictionary (and this blog) are hosted on GitHub Pages.
 
@@ -131,7 +130,6 @@ The dictionary (and this blog) are hosted on GitHub Pages.
 
 -------
 
-[linja lipamanka]: https://lipamanka.gay/linjamanka
 [sitelen pona pona]: https://jackhumbert.github.io/sitelen-pona-pona/
 [sitelen pona]: http://tokipona.net/tp/janpije/hieroglyphs.php
 [sitelen sitelen kule]: https://jonathangabel.com/toki-pona/colors/
