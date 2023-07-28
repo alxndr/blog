@@ -4,7 +4,7 @@ title: sourdough pizza dough ratio calculator
 
 I've been tending to some sourdough starter ever since the Great Pandemic of 2020. I'll often make pizza dough with the "leftover" starter.
 
-Below I've created an interactive tool to let you enter amounts of starter, water, and flour (and optionally yeast and salt too), and then receive a precise-as-you-like set of numbers describing the ratios you'd entered.
+Below I've created an interactive tool to let you enter amounts of starter, water, and flour (and optionally yeast and salt too), and then receive a set of numbers describing the ratios you'd entered.
 
 (Trial and error has landed me around 1 part starter, 4 parts room-temp water, 5 parts high-protein flour, 0.1 part salt... I built this tool in order to help me fine-tune that ratio, and determine ratios for using yeast.)
 
