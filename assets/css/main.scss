@@ -24,6 +24,7 @@ html * { transition: none; -webkit-transition: none; }
 #dough-ratio-calculator {
   display: flex;
   flex-flow: column wrap;
+  max-height: 50vh;
   align-items: flex-start;
   box-shadow: 1px 2px 5px #FFFa inset;
   border-radius: 1rem;

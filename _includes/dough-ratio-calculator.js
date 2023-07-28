@@ -25,7 +25,7 @@ html`
     <tr>  <td>yeast:</td><td>${() => pct(d.Y/d.F)}</td></tr>
     <tr>   <td>salt:</td><td>${() => pct(d.T/d.F)}</td></tr>
   </table>
-  <p>ratios by starter: <abbr title="starter">1</abbr>
+  <p>ratios by starter — <abbr title="starter">1</abbr>
     : <abbr title="water">${() => int(d.W/d.S)}</abbr>
     : <abbr title="flour">${() => int(d.F/d.S)}</abbr>
     : <abbr title="yeast">${() => pct(d.Y/d.S)}</abbr>
