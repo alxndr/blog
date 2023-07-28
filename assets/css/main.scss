@@ -21,6 +21,49 @@
 // disable transitions added by minimal-mistakes
 html * { transition: none; -webkit-transition: none; }
 
+#dough-ratio-calculator {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  box-shadow: 1px 2px 5px #FFFa inset;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+
+  > * {
+    margin: 0.5rem;
+    flex-grow: 1;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    flex-basis: 7rem;
+  }
+  input {
+    width: auto;
+    max-width: 4rem;
+    text-align: right;
+    border: 1px solid #FFFa;
+    background: #FFF3;
+  }
+  abbr {
+    border: none !important;
+  }
+
+  table {
+    flex-basis: 10rem;
+    width: auto;
+    overflow-x: visible;
+    td:first-child {
+      text-align: right;
+    }
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
 .archive {
   .archive__subtitle {
     font-size: 1.5em;
