@@ -9,7 +9,7 @@ function pct(n) {
 }
 
 const root$ = document.getElementById('dough-ratio-calculator');
-const d = reactive({ S: 32.5, W: 156.5, F: 192.5, Y: 0.5, T: 3.5, });
+const d = reactive({ S: 66.6, W: 300, F: 400, Y: 0.5, T: 9, });
 html`
   <ul>
     <li><input value="${() => d.S}" @input="${e => { d.S = e.target.value }}" /> starter
@@ -25,7 +25,8 @@ html`
     <tr>  <td>yeast:</td><td>${() => pct(d.Y/d.F)}</td></tr>
     <tr>   <td>salt:</td><td>${() => pct(d.T/d.F)}</td></tr>
   </table>
-  <p>ratios by starter — <abbr title="starter">1</abbr>
+  <p><caption>ratios by starter</caption>
+    <br/> <abbr title="starter">1</abbr>
     : <abbr title="water">${() => int(d.W/d.S)}</abbr>
     : <abbr title="flour">${() => int(d.F/d.S)}</abbr>
     : <abbr title="yeast">${() => pct(d.Y/d.S)}</abbr>
