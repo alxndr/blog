@@ -32,10 +32,10 @@ title: lipu pi nasin sewi
 | 故常無欲以觀其妙 | Therefore, always desireless, you see the mystery    | jan pi wile ala li lukin e nasa suli.
 | 常有欲以觀其徵   | Ever desiring, you see the manifestations.           | jan pi wile ale li lukin e _lon_ mute.
 | 此兩者同         | These two are the same—                              | tu ni li sama.
-| 出而異名         | When they appear they are named differently.         | 
-| 同謂之玄         | This sameness is the mystery,                        | 
-| 玄之又玄         | Mystery within mystery;                              | 
-| 衆妙之門         | The door to all marvels.                             | 
+| 出而異名         | When they appear they are named differently.         | tu ni la: jan li lukin e ona... nimi ona li ala sama. 
+| 同謂之玄         | This sameness is the mystery,                        | sama ni li seme?
+| 玄之又玄         | Mystery within mystery;                              | sama ni li nasa. 
+| 衆妙之門         | The door to all marvels.                             | ni li open e _nasa_ ale. 
 
 ## 2\. All in the world recognize the beautiful as beautiful
 
