@@ -2,9 +2,8 @@
 title: lipu pi nasin Sewi
 ---
 
-# lipu pi nasin Sewi: a Toki Pona interpretation of 道德經 (DaoDe Jing, _aka_ Tao Te Ching)
+A [Toki Pona] interpretation of 道德經 (DaoDe Jing, _aka_ Tao Te Ching) by jan Lesate, 2023–…
 
-* Toki Pona interpretation by jan Lesate, 2023–…
 * [English interpretation by A. Charles Muller](http://www.acmuller.net/con-dao/daodejing.html), July 1991 [[archived](https://web.archive.org/web/20230722070128/http://www.acmuller.net/con-dao/daodejing.html)]
 * ancient Chinese original "by" LaoZi
 
@@ -69,13 +68,13 @@ title: lipu pi nasin Sewi
 
 ## 4. The Way is so vast...
 
-道沖而用之或不盈。淵兮似萬物之宗。挫其銳、解其紛、和其光、同其塵。湛兮似或存。吾不知誰之子。象帝之先。
+挫其銳、解其紛、和其光、同其塵。湛兮似或存。吾不知誰之子。象帝之先。
 
 | Toki Pona | Chinese | English
 |-:|:-:|:-
-|  |  | The Way is so vast that when you use it, something is always left.
+|  | 道沖而用之或不盈。 | The Way is so vast that when you use it, something is always left.
 |  |  | How deep it is!
-|  |  | It seems to be the ancestor of the myriad things.
+|  | 淵兮似萬物之宗。 | It seems to be the ancestor of the myriad things.
 |  |  | It blunts sharpness
 |  |  | Untangles knots
 |  |  | Softens the glare
@@ -559,7 +558,7 @@ title: lipu pi nasin Sewi
 |  |  | Being a valley for everyone
 |  |  | You are always in virtue without lapse
 |  |  | And you return to infancy.
-|  |  | Know the White, but cleave to the Black. [1](#note-28-1)
+|  |  | Know the White, but cleave to the Black. [^1]
 |  |  | Be a model for everyone.
 |  |  | Being a model for everyone
 |  |  | You are always in virtue and free from error
@@ -713,7 +712,7 @@ title: lipu pi nasin Sewi
 | Toki Pona | Chinese | English
 |-:|:-:|:-
 |  |  | Grasping to the Great Form
-|  |  | All in the world go proceed forth. [2](#note-35-2)
+|  |  | All in the world go proceed forth. [^2]
 |  |  | Proceeding forth unharmed, they rest in calm peace.
 |  |  | It is for food and music that the passing traveler stops.
 |  |  | When the Way emerges from its opening
@@ -959,7 +958,7 @@ title: lipu pi nasin Sewi
 |  |  | The further you go, the less you know.
 |  |  | Hence the sage
 |  |  | Understands without having to go through the whole process.
-|  |  | Discerns [3](#note-47-3) without looking.
+|  |  | Discerns [^3] without looking.
 |  |  | Is perfected without striving.
 
 
@@ -1241,15 +1240,15 @@ title: lipu pi nasin Sewi
 
 | Toki Pona | Chinese | English
 |-:|:-:|:-
-|  |  | Governing a large country is like cooking a small fish. [4](#note-60-4)
+|  |  | Governing a large country is like cooking a small fish. [^4]
 |  |  | When you govern people with the Way
-|  |  | Unhappy ghosts [5](#note-60-5) will have no power. [6](#note-60-6)
+|  |  | Unhappy ghosts [^5] will have no power. [^6]
 |  |  | Not that they don't have power,
 |  |  | But their power will not harm people.
 |  |  | Not only does their power not harm people:
 |  |  | The sage also doesn't harm people,
 |  |  | Since the two do not harm each other.
-|  |  | Their virtue converges. [7](#note-60-7)
+|  |  | Their virtue converges. [^7]
 
 
 
@@ -1667,12 +1666,12 @@ title: lipu pi nasin Sewi
 |  |  | After settling down for great anger
 |  |  | There are always resentments left over.
 |  |  | How can this be considered as good?
-|  |  | Therefore the sage keeps her part of the deal, [8](#note-79-8)
+|  |  | Therefore the sage keeps her part of the deal, [^8]
 |  |  | And doesn't badger the other party.
 |  |  | The virtuous ascertain the content of the contract itself;
-|  |  | Those without virtue are concerned about it's being exacted. [9](#note-79-9)
+|  |  | Those without virtue are concerned about it's being exacted. [^9]
 |  |  | The Heavenly Way has no favorites:
-|  |  | It always raises up the Good. [10](#note-79-10)
+|  |  | It always raises up the Good. [^10]
 
 
 
@@ -1713,28 +1712,16 @@ title: lipu pi nasin Sewi
 |  |  | The way of the Sage is to act without wrangling.
 
 
-
-Notes
-
-1\. The “black” is the deep, religious, mystic part of our experience. The “white” is our involvement in mundane affairs. We should well understand how the conventional world operates, but our priority should lie in adhering to deeper principles.
-
-2\. As far as I can tell, I am the only translator who takes 往 as “going forth” rather than “come.” Where in any other text do we see the rendering of “come”? I take it to mean that if people will hold on to the Dao as they go out in the world, they won't have trouble, and will enjoy peace and calm. This seems to accord with the general message of the Daodejing.
-
-3\. The commentarial tradition reads 名 as meaning 明.
-
-4\. A small fish can be cooked without a great deal of preparation, cleaning, spicing, etc. Ruling with the Dao means ruling without interfering.
-
-5\. Spirits of people who died early, in some unfortunate way, or without descendants, who mingle in the world and plague people.
-
-6\. Translated elsewhere as “numinousity,” “spiritual power,” etc.
-
-7\. The interpretation of this final line varies widely among translators; we decided to try to remain terse and close to the literal meaning here.
-
-8\. 左契 literally means the “left side of the tally.” Ancient contracts in East Asia were made by writing the agreement on a wooden board that would be broken in half, and rematched when the contract had been fulfilled.
-
-9\. The interpretation of 司契 and 司徹 here varies considerably among translators. We take it as one of the plethora of expressions of the pervasive notion of wu-wei in the Daodejing, which implies doing things by focusing on the content, and what one can actual do well, rather than on expectations of a rapid conclusion. Cf. the translations by D.C. Lau, Richard Llynn, Ellen Chen, John Wu, and others.
-
-10\. Cf. Analects 4:10: The Master said: “When the noble man deals with the world he is not prejudiced for or against anything. He does what is Right.” 子曰。君子之於天下也、無適也、無莫也、義之與比。
+[^1]: The “black” is the deep, religious, mystic part of our experience. The “white” is our involvement in mundane affairs. We should well understand how the conventional world operates, but our priority should lie in adhering to deeper principles.
+[^2]: As far as I can tell, I am the only translator who takes 往 as “going forth” rather than “come.” Where in any other text do we see the rendering of “come”? I take it to mean that if people will hold on to the Dao as they go out in the world, they won't have trouble, and will enjoy peace and calm. This seems to accord with the general message of the Daodejing.
+[^3]: The commentarial tradition reads 名 as meaning 明.
+[^4]: A small fish can be cooked without a great deal of preparation, cleaning, spicing, etc. Ruling with the Dao means ruling without interfering.
+[^5]: Spirits of people who died early, in some unfortunate way, or without descendants, who mingle in the world and plague people.
+[^6]: Translated elsewhere as “numinousity,” “spiritual power,” etc.
+[^7]: The interpretation of this final line varies widely among translators; we decided to try to remain terse and close to the literal meaning here.
+[^8]: 左契 literally means the “left side of the tally.” Ancient contracts in East Asia were made by writing the agreement on a wooden board that would be broken in half, and rematched when the contract had been fulfilled.
+[^9]: The interpretation of 司契 and 司徹 here varies considerably among translators. We take it as one of the plethora of expressions of the pervasive notion of wu-wei in the Daodejing, which implies doing things by focusing on the content, and what one can actual do well, rather than on expectations of a rapid conclusion. Cf. the translations by D.C. Lau, Richard Llynn, Ellen Chen, John Wu, and others.
+[^10]: Cf. Analects 4:10: The Master said: “When the noble man deals with the world he is not prejudiced for or against anything. He does what is Right.” 子曰。君子之於天下也、無適也、無莫也、義之與比。
 
 <style>
   h2 {
@@ -1749,3 +1736,5 @@ Notes
     white-space: nowrap;
   }
 </style>
+
+[Toki Pona]: https://tokipona.org
