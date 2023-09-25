@@ -1,5 +1,5 @@
 ---
-title: lipu pi nasin sewi
+title: lipu pi nasin Sewi
 ---
 
 <style>
@@ -13,68 +13,71 @@ title: lipu pi nasin sewi
   }
 </style>
 
-# lipu pi nasin sewi (道德經 / DaoDe Jing / Tao Te Ching)
+# lipu pi nasin Sewi: a Toki Pona interpretation of 道德經 (DaoDe Jing, _aka_ Tao Te Ching)
 
-* Toki Pona interpretation by jan Lesate, 2023
-* [English interpretation by A. Charles Muller](http://www.acmuller.net/con-dao/daodejing.html), July 1991
-* original "by" LaoZi 
+* Toki Pona interpretation by jan Lesate, 2023–…
+* [English interpretation by A. Charles Muller](http://www.acmuller.net/con-dao/daodejing.html), July 1991 [[archived](https://web.archive.org/web/20230722070128/http://www.acmuller.net/con-dao/daodejing.html)]
+* ancient Chinese original "by" LaoZi
+
 
 -------
 
 ## 1. The Way that can be followed is not the eternal Way
 
-| Chinese | English | Toki Pona
-|--|--|--
-| 道可道非常道     | The Way that can be followed is not the eternal Way. | jan li ken nasin e nasin. nasin ni la: li ala e nasin sewi.
-| 名可名非常名     | The name that can be named is not the eternal name.  | jan li ken nimi e nimi. nimi ni la: li ala e nimi sewi.
-| 無名天地之       | The nameless is the origin of heaven and earth       | nimi ala le mama e sewi e ma.
-| 始有名萬物之母   | While naming is the origin of the myriad things.     | nimi li mama e ijo ale.
-| 故常無欲以觀其妙 | Therefore, always desireless, you see the mystery    | jan pi wile ala li lukin e nasa suli.
-| 常有欲以觀其徵   | Ever desiring, you see the manifestations.           | jan pi wile ale li lukin e _lon_ mute.
-| 此兩者同         | These two are the same—                              | tu ni li sama.
-| 出而異名         | When they appear they are named differently.         | tu ni la: jan li lukin e ona... nimi ona li ala sama. 
-| 同謂之玄         | This sameness is the mystery,                        | sama ni li seme?
-| 玄之又玄         | Mystery within mystery;                              | sama ni li nasa. 
-| 衆妙之門         | The door to all marvels.                             | ni li open e _nasa_ ale. 
+| Toki Pona | Chinese | English
+|-:|:-:|:-
+| jan li ken nasin e nasin. nasin ni li ala e nasin Sewi.| 道可道非常道     | The Way that can be followed is not the eternal Way.
+| jan li ken nimi e nimi. nimi ni li ala e nimi Sewi.    | 名可名非常名     | The name that can be named is not the eternal name.
+| nimi ala li mama e sewi e ma.                          | 無名天地之始     | The nameless is the origin of heaven and earth
+| nimi ale li mama e ijo ale.                            | 有名萬物之母     | While naming is the origin of the myriad things.
+| la: jan pi wile ala li lukin e _nasa suli_.            | 故常無欲以觀其妙 | Therefore, always desireless, you see the mystery
+| jan pi wile ale li lukin e _lon_.                      | 常有欲以觀其徵   | Ever desiring, you see the manifestations.
+| tu ni li sama.                                         | 此兩者同         | These two are the same—
+| taso la: nimi ona li ala sama.                         | 出而異名         | When they appear they are named differently.
+| sama ni li seme?                                       | 同謂之玄         | This sameness is the mystery,
+| sama ni li nasa sona ala.                              | 玄之又玄         | Mystery within mystery;
+| ni li open e _nasa_ ale.                               | 衆妙之門         | The door to all marvels.
 
-## 2\. All in the world recognize the beautiful as beautiful
+## 2. All in the world recognize the beautiful as beautiful
 
-| Chinese | English | Toki Pona
-|--|--|--
-| 天下皆知美之爲美   | All in the world recognize the beautiful as beautiful.           | 
-| 斯惡已             | Herein lies ugliness.                                            | 
-| 皆知善之爲善       | All recognize the good as good.                                  | 
-| 斯不善已           | Herein lies evil.                                                | 
-| 故有無相生         | Therefore — Presence and absence produce each other.             | 
-| 難易相成           | Difficulty and ease bring about each other.                      | 
-| 長短相較           | Long and short delimit each other.                               | 
-| 高下相傾           | High and low rest on each other.                                 | 
-| 音聲相和           | Sound and voice harmonize each other.                            | 
-| 前後相隨           | Front and back follow each other.                                | 
-| 是以聖人處無爲之事 | Therefore the sage abides in the condition of unattached-action. | 
-| 行不言之教         | And carries out the wordless teaching.                           | 
-| 萬物作焉而不辭     | Here, the myriad things are made, yet not separated.             | 
-| 生而不有           | Therefore the sage produces without possessing,                  | 
-| 爲而不恃           | Acts without expectations                                        | 
-| 功成而弗居         | And accomplishes without abiding in her accomplishments.         | 
-| 夫唯弗居           | It is precisely because she does not abide in them               | 
-| 是以不去           | That they never leave her.                                       | 
+| Toki Pona| Chinese | English
+|-:|:-:|:-
+| jan ale li sona e ni la: pona lukin li pona lukin.          | 天下皆知美之爲美 | All in the world recognize the beautiful as beautiful.
+| ni la: ike.                                                 | 斯惡已           | Herein lies ugliness.
+| jan ale li sona e ni la: pona li pona.                      | 皆知善之爲善     | All recognize the good as good.
+| ni la: pona ala.                                            | 斯不善已         | Herein lies evil.
+| _therefore_ la: lon li open e weka. weka li open e lon.     | 故有無相生       | Therefore — Presence and absence produce each other.
+| nasa ike li open e nasa pona. nasa pona li open e nasa ike. | 難易相成         | Difficulty and ease bring about each other.
+|           | 長短相較           | Long and short delimit each other.
+|           | 高下相傾           | High and low rest on each other.
+|           | 音聲相和           | Sound and voice harmonize each other.
+|           | 前後相隨           | Front and back follow each other.
+|           | 是以聖人處無爲之事 | Therefore the sage abides in the condition of unattached-action.
+|           | 行不言之教         | And carries out the wordless teaching.
+|           | 萬物作焉而不辭     | Here, the myriad things are made, yet not separated.
+|           | 生而不有           | Therefore the sage produces without possessing,
+|           | 爲而不恃           | Acts without expectations
+|           | 功成而弗居         | And accomplishes without abiding in her accomplishments.
+|           | 夫唯弗居           | It is precisely because she does not abide in them
+|           | 是以不去           | That they never leave her.
 
-## 3\. If you do not adulate the worthy...
+## 3. If you do not adulate the worthy...
 
-不尚賢使民不爭         | If you do not adulate the worthy, you will make others non-contentious. | 
-不貴難得之貨使民不爲盜 | If you do not value rare treasures, you will stop others from stealing. | 
-不見可欲使民心不亂     | If people do not see desirables, they will not be agitated.             | 
-是以聖人之治           | Therefore, when the sage governs,                                       | 
-虛其心                 | He clears people's minds,                                               | 
-實其腹                 | Fills their bellies,                                                    | 
-弱其志                 | Weakens their ambition, (and)                                           | 
-強其骨                 | Strengthens their bones.                                                | 
-常使民無知無欲         | If the people are kept without cleverness and desire,                   | 
-使夫知者不敢爲也       | It will make the intellectuals not dare to meddle.                      | 
-爲無爲則無不治         | Acting without contrivance, there is no lack of manageability.          | 
+| Toki Pona| Chinese | English
+|-:|:-:|:-
+|  | 不尚賢使民不爭         | If you do not adulate the worthy, you will make others non-contentious.
+|  | 不貴難得之貨使民不爲盜 | If you do not value rare treasures, you will stop others from stealing.
+|  | 不見可欲使民心不亂     | If people do not see desirables, they will not be agitated.
+|  | 是以聖人之治           | Therefore, when the sage governs,
+|  | 虛其心                 | He clears people's minds,
+|  | 實其腹                 | Fills their bellies,
+|  | 弱其志                 | Weakens their ambition, (and)
+|  | 強其骨                 | Strengthens their bones.
+|  | 常使民無知無欲         | If the people are kept without cleverness and desire,
+|  | 使夫知者不敢爲也       | It will make the intellectuals not dare to meddle.
+|  | 爲無爲則無不治         | Acting without contrivance, there is no lack of manageability.
 
-## 4\. The Way is so vast...
+## 4. The Way is so vast...
 
 道沖而用之或不盈。淵兮似萬物之宗。挫其銳、解其紛、和其光、同其塵。湛兮似或存。吾不知誰之子。象帝之先。
 
