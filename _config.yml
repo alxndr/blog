@@ -49,14 +49,8 @@ author:
 main:
   - title: "home"
     url: /
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Categories"
-    url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "Pages"
-    url: /page-archive/
 
 footer:
   links:

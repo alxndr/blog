@@ -1,0 +1,30 @@
+{% capture prev_text %}
+{% if include.num == 2 %} wan {% elsif include.num == 3 %} tu {% else %}{{ include.num | minus: 1 }}{% endif %}
+{% endcapture %}
+
+{% capture next_text %}
+{% if include.num == 1 %} tu {% else %}{{ include.num | plus: 1 }}{% endif %}
+{% endcapture %}
+
+<nav class="kipisi-nav">
+  {% if include.num != 1 %}
+    <a href="{{ include.num | minus: 1 }}" title="kipisi monsi la: kipisi nanpa {{ prev_text }}">kipisi nanpa {{ prev_text }}</a>
+  {% endif %}
+  <a href="index" title="kipisi ale">kipisi ale</a>
+  {% if include.num != 81 %}
+    <a href="{{ include.num | plus: 1 }}" title="kipisi monsi la: kipisi nanpa {{ next_text }}">kipisi nanpa {{ next_text }}</a>
+  {% endif %}
+</nav>
+
+<style>
+  .kipisi-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 2em auto;
+    max-width: 30em;
+  }
+  .kipisi-nav a {
+    display: inherit;
+    flex: 1;
+  }
+</style>
