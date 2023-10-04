@@ -112,6 +112,7 @@ Also note that a numbering system is pending further consideration.
   ul.kipisi a.done {
   }
   ul.kipisi a.wip {
+    font-style: italic;
   }
   ul.kipisi a.ready {
     color: gray;
