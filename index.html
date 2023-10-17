@@ -2,9 +2,44 @@
 layout: home
 ---
 
-<ul style="display:flex;justify-content:space-between;list-style:none;padding:0;text-decoration:none!important">
+<p>Blog post tags...</p>
+<ul class="inline">
+  <li><a class="hashtag" href="/tags/#git" title="Blog posts about 'git'">git</a></li>
+  <li><a class="hashtag" href="/tags/#vim" title="Blog posts about 'vim'">vim</a></li>
+  <li><a class="hashtag" href="/tags/#javascript" title="Blog posts about 'javascript'">javascript</a></li>
+  <li><a class="hashtag" href="/tags/#orthography" title="Blog posts about 'orthography'">orthography</a></li>
+  <li><a class="hashtag" href="/tags/#toki-pona" title="Blog posts about 'toki-pona'">toki-pona</a></li>
+  <li><a class="hashtag" href="/tags/#lojban" title="Blog posts about 'lojban'">lojban</a></li>
+</ul>
+
+<p>Find me on Mastodon...</p>
+<ul class="inline">
   <li><a href="https://mastodon.xyz/@alxndr" rel="me"><i class="fab fa-mastodon" aria-hidden="true"></i> tech/politics</a></li>
   <li><a href="https://shakedown.social/@ufo_joe" rel="me"><i class="fab fa-mastodon" aria-hidden="true"></i> music</a></li>
   <li><a href="https://mas.to/@rexsa" rel="me"><i class="fab fa-mastodon" aria-hidden="true"></i> Lojban</a></li>
   <li><a href="https://toki.social/@lesate" rel="me"><i class="fab fa-mastodon" aria-hidden="true"></i> Toki Pona</a></li>
 </ul>
+
+<style>
+  p {
+    margin-bottom: 0;
+  }
+  ul.inline {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 0 1rem;
+    padding: 0;
+    text-decoration: none !important;
+  }
+  ul.inline a {
+    white-space: nowrap;
+  }
+  a.hashtag {
+    font: 0.8em monospace;
+  }
+  a.hashtag:before {
+    content: '#';
+  }
+</style>
