@@ -22,8 +22,8 @@ html`
     <tr><td>starter:</td><td>${() => pct(d.S/d.F)}</td></tr>
     <tr>  <td>water:</td><td>${() => pct(d.W/d.F)}</td></tr>
     <tr>  <td>flour:</td><td>100% always</td>          </tr>
-    <tr>  <td>yeast:</td><td>${() => pct(d.Y/d.F)}</td></tr>
-    <tr>   <td>salt:</td><td>${() => pct(d.T/d.F)}</td></tr>
+    ${d.Y && `<tr><td>yeast:</td><td>${() => pct(d.Y/d.F)}</td></tr>`}
+    ${d.T && `<tr> <td>salt:</td><td>${() => pct(d.T/d.F)}</td></tr>`}
   </table>
   <p><caption>ratios by starter</caption>
     <br/> <abbr title="starter">1</abbr>
