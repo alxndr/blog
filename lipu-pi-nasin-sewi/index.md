@@ -100,7 +100,7 @@ Also note that a numbering system is pending further consideration.
 * [kipisi nanpa 78](/lipu-pi-nasin-sewi/78){:.notready}
 * [kipisi nanpa 79](/lipu-pi-nasin-sewi/79){:.notready}
 * [kipisi nanpa 80](/lipu-pi-nasin-sewi/80){:.notready}
-* [kipisi nanpa 81](/lipu-pi-nasin-sewi/81){:.notready}
+* [kipisi nanpa 81](/lipu-pi-nasin-sewi/81){:.wip}
 {:.kipisi}
 
 <style>
