@@ -3,7 +3,7 @@ layout: lipu-pi-nasin-sewi
 title: lipu pi nasin Sewi — a Toki Pona interpretation of Dao De Jing
 ---
 
-A [Toki Pona] interpretation of [道德經 (DaoDe Jing / Tao Te Ching)](https://en.wikipedia.org/wiki/Tao_Te_Ching), started by jan Lesate (aka Alexander), 2023…
+A [Toki Pona] interpretation of [道德經 (Dao De Jing / Tao Te Ching)](https://en.wikipedia.org/wiki/Tao_Te_Ching), started by jan Lesate (aka Alexander), 2023…
 
 Many have started, few[^1] have finished! [Please contribute](https://github.com/alxndr/blog/tree/main/lipu-pi-nasin-sewi) if you're so inclined!
 
