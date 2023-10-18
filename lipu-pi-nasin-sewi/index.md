@@ -18,9 +18,9 @@ Also note that a numbering system is pending further consideration.
 
 * [kipisi nanpa wan](/lipu-pi-nasin-sewi/1){:.done}
 * [kipisi nanpa tu](/lipu-pi-nasin-sewi/2){:.done}
-* [kipisi nanpa 3](/lipu-pi-nasin-sewi/3){:.wip}
-* [kipisi nanpa 4](/lipu-pi-nasin-sewi/4){:.ready}
-* [kipisi nanpa 5](/lipu-pi-nasin-sewi/5){:.notready}
+* [kipisi nanpa 3](/lipu-pi-nasin-sewi/3){:.done}
+* [kipisi nanpa 4](/lipu-pi-nasin-sewi/4){:.done}
+* [kipisi nanpa 5](/lipu-pi-nasin-sewi/5){:.ready}
 * [kipisi nanpa 6](/lipu-pi-nasin-sewi/6){:.notready}
 * [kipisi nanpa 7](/lipu-pi-nasin-sewi/7){:.notready}
 * [kipisi nanpa 8](/lipu-pi-nasin-sewi/8){:.notready}
