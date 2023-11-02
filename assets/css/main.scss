@@ -8,8 +8,8 @@
 @import "minimal-mistakes";
 
 @font-face {
-	font-family: linja-lipamanka;
-	src: url('https://lipamanka.gay/linjalipamanka-normal.otf') format('opentype');
+  font-family: linja-lipamanka;
+  src: url('https://lipamanka.gay/linjalipamanka-normal.otf') format('opentype');
   line-height: 1.1em;
 }
 .font-lipamanka {
@@ -18,8 +18,10 @@
 }
 
 
-// disable transitions added by minimal-mistakes
+// disable minimal-mistakes stuff...
 html * { transition: none; -webkit-transition: none; }
+html table { font-size: 0.95rem; }
+
 
 #dough-ratio-calculator {
   display: flex;
