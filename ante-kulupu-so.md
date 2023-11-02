@@ -3,21 +3,9 @@ title: ante kulupu So
 layout: single
 classes: wide
 sidebar:
-  - title: "linja mute"
-    text: |
-        {:.bagua}
-        |:-:|:---------:|:-
-        | ☰ | sewi      | sewi
-        | ☱ | telo-awen | telo awen
-        | ☲ | seli      | seli
-        | ☳ | kalama    | kalama
-        | ☴ | kon       | kon
-        | ☵ | telo-tawa | telo tawa
-        | ☶ | nena      | nena
-        | ☷ | ma        | ma
 ---
 
-A [Toki Pona] interpretation of the 卦辭 hexagram commentary of the Chinese classic 易經 (Yi Jing / I Ching), started by jan Lesate (Alexander) in 2023…
+A [Toki Pona] interpretation of each hexagram's 卦辭 (initial commentary) from the Chinese classic 易經 (Yi Jing / I Ching), started by jan Lesate (Alexander) in 2023…
 
 (Note that terms in italics are pending further consideration.)
 
@@ -29,6 +17,21 @@ Based on [John Minford]'s English interpretation, as well as a reading of the Ch
 Sitelen Pona font is [Lipamanka](https://lipamanka.gay)'s [Linja Lipamanka](https://lipamanka.gay/linjamanka).
 
 {% include sitelen-sitelen-renderer.html %}
+
+
+### linja mute
+
+{:.bagua}
+| trigram | 名字 | English |  sitelen  | nimi
+|:-------:|:----:|:--------|:---------:|:-----
+|    ☰    |  乾  | heavens | sewi      | sewi
+|    ☱    |  兌  | lake    | telo-awen | telo awen
+|    ☲    |  離  | fire    | seli      | seli
+|    ☳    |  震  | thunder | kalama    | kalama
+|    ☴    |  巽  | air     | kon       | kon
+|    ☵    |  坎  | river   | telo-tawa | telo tawa
+|    ☶    |  艮  | mountain| nena      | nena
+|    ☷    |  坤  | earth   | ma        | ma
 
 -------
 
@@ -513,17 +516,13 @@ Sitelen Pona font is [Lipamanka](https://lipamanka.gay)'s [Linja Lipamanka](http
 
 
 <style>
-  .sidebar .bagua {
-    font-size: 0.8em;
+  .bagua {
   }
-  .sidebar .bagua td {
+  .bagua td {
     padding: 0.1em;
   }
-  .sidebar .bagua td:nth-child(2) {
+  .bagua td:nth-child(4) {
     font: 1.25em linja-lipamanka;
-  }
-  .sidebar .bagua thead {
-    display: none;
   }
 
   .page__content {
