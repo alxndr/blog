@@ -110,7 +110,7 @@ Sitelen Pona font is [linja pona](https://musilili.net/linja-pona/) by jan Same<
 
 有孚, 窒. 惕中吉. 终凶. 利见大人, 不利涉大川.
 : _jan pi poki awen_ <!-- "captives"… or "having trust" ? --> la: pake <!-- TODO glyph not in linja-lipamanka -->
-: _fear/respect middle/center_ li pona
+: olin e meso li pona
 : pini li jaki
 : weka e jan suli la: pona
 : pali suli la: tenpo kama li pona ala
@@ -133,7 +133,7 @@ Sitelen Pona font is [linja pona](https://musilili.net/linja-pona/) by jan Same<
 # 09
 
 ䷈ <span class="toki" data-sitelen="true" data-sitelen-ratio="2"></span>
-: sinpin la: …
+: sinpin la: kon
 :  monsi la: ma
 
 
@@ -568,7 +568,7 @@ Sitelen Pona font is [linja pona](https://musilili.net/linja-pona/) by jan Same<
     font-size: 1.9rem;
   }
   .page__content dd { /* TODO how to toggle this using a UI element? */
-    /* font-family: linja-lipamanka; */
+    /* font-family: linjapona; */
   }
   .page__content dd:first-of-type {
     margin-top: 0.5rem;
