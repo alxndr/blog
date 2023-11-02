@@ -66,7 +66,7 @@ Sitelen Pona font is [Lipamanka](https://lipamanka.gay)'s [Linja Lipamanka](http
 : anpa la: kalama
 
 元亨, 利贞, 勿用有攸往, 利建侯.
-: _alasa suno_ li pona
+: alasa suno li pona
 : tenpo kama li pona
 : kama ala tawa ma ante
 : pona la: jan sewi li jo e jan pona
@@ -74,16 +74,22 @@ Sitelen Pona font is [Lipamanka](https://lipamanka.gay)'s [Linja Lipamanka](http
 
 # 04
 
-䷃ <span class="toki" data-sitelen="true" data-sitelen-ratio="2"></span>
+䷃ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Mun</span>
 : lawa la: nena
 : anpa la: telo tawa
+
+亨. 匪我求童蒙, 童蒙求我. 初筮告, 再三渎, 渎则不告. 利贞.
+: _o alasa suno_
+: mi alasa ala e kasi la: kasi li alasa e mi
+: suno alasa wan li pona la: suno alasa mute li jaki
+: tenpo kama li pona
 
 
 # 05
 
 ䷄ <span class="toki" data-sitelen="true" data-sitelen-ratio="2"></span>
 : lawa la: telo tawa
-: anpa la: telo awen
+: anpa la: ma
 
 
 # 06
@@ -544,8 +550,8 @@ Sitelen Pona font is [Lipamanka](https://lipamanka.gay)'s [Linja Lipamanka](http
     padding: 0 0.5rem;
     font-size: 1.9rem;
   }
-  .page__content dd {
-    font-family: linja-lipamanka;
+  .page__content dd { /* TODO how to toggle this using a UI element? */
+    /* font-family: linja-lipamanka; */
   }
   .page__content dd:first-of-type {
     margin-top: 0.5rem;
@@ -565,3 +571,5 @@ Sitelen Pona font is [Lipamanka](https://lipamanka.gay)'s [Linja Lipamanka](http
     lighting-color: chartreuse;
   }
 </style>
+
+// vim: spelllang+=tp,cjk:
