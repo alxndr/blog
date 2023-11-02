@@ -14,7 +14,7 @@ A [Toki Pona] interpretation of each hexagram's 卦辭 (initial commentary) from
 
 Based on [John Minford]'s English interpretation, as well as a reading of the Chinese.
 
-Sitelen Pona font is [Lipamanka](https://lipamanka.gay)'s [Linja Lipamanka](https://lipamanka.gay/linjamanka).
+Sitelen Pona font is [linja pona](https://musilili.net/linja-pona/) by jan Same<!-- [Lipamanka](https://lipamanka.gay)'s [Linja Lipamanka](https://lipamanka.gay/linjamanka) -->.
 
 {% include sitelen-sitelen-renderer.html %}
 
@@ -22,16 +22,16 @@ Sitelen Pona font is [Lipamanka](https://lipamanka.gay)'s [Linja Lipamanka](http
 ### linja mute
 
 {:.bagua}
-| trigram | 名字 | English |  sitelen  | nimi
-|:-------:|:----:|:--------|:---------:|:-----
-|    ☰    |  乾  | heavens | sewi      | sewi
-|    ☱    |  兌  | lake    | telo-awen | telo awen
-|    ☲    |  離  | fire    | seli      | seli
-|    ☳    |  震  | thunder | kalama    | kalama
-|    ☴    |  巽  | air     | kon       | kon
-|    ☵    |  坎  | river   | telo-tawa | telo tawa
-|    ☶    |  艮  | mountain| nena      | nena
-|    ☷    |  坤  | earth   | ma        | ma
+| trigram | 名字 | English |  **sitelen**  | nimi
+|:-------:|:----:|:--------|:-------------:|:-----
+|   _☰_   |  乾  | heavens | **sewi**      | sewi
+|   _☱_   |  兌  | lake    | **telo-pake** | telo pake
+|   _☲_   |  離  | fire    | **seli**      | seli
+|   _☳_   |  震  | thunder | **kalama**    | kalama
+|   _☴_   |  巽  | air     | **kon**       | kon
+|   _☵_   |  坎  | river   | **telo-tawa** | telo tawa
+|   _☶_   |  艮  | mountain| **nena**      | nena
+|   _☷_   |  坤  | earth   | **ma**        | ma
 
 -------
 

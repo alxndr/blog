@@ -8,14 +8,18 @@
 @import "minimal-mistakes";
 
 @font-face {
-  font-family: linja-lipamanka;
+  font-family: linjalipamanka;
   src: url('https://lipamanka.gay/linjalipamanka-normal.otf') format('opentype');
   line-height: 1.1em;
 }
-.font-lipamanka {
-  font: 1.5em linja-lipamanka;
-  margin: 1em 0;
+
+@font-face {
+  font-family: linjapona;
+  src: url('https://raw.githubusercontent.com/janSame/linja-pona/master/linja-pona-4.9.otf') format('opentype');
+  font-size: 1.1em / 1.1em;
 }
+
+
 
 
 // disable minimal-mistakes stuff...
