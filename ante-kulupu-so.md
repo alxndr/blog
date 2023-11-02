@@ -42,7 +42,7 @@ Sitelen Pona font is [Lipamanka](https://lipamanka.gay)'s [Linja Lipamanka](http
 : anpa la: sewi
 
 元亨, 利贞
-: alasa suno li pona
+: alasa sona li pona
 : tenpo kama li pona
 
 
@@ -53,7 +53,7 @@ Sitelen Pona font is [Lipamanka](https://lipamanka.gay)'s [Linja Lipamanka](http
 : anpa la: ma
 
 元亨, 利牝马之贞. 君子有攸往, 先迷后得主, 利西南得朋, 东北丧朋. 安贞, 吉
-: alasa suno li pona
+: alasa sona li pona
 : tenpo kama la: soweli li ken mama
 : jan sewi li kama tawa ma ante la: tenpo kama li nasa
 : jan sewi ni la: tenpo pini li sewi
@@ -69,7 +69,7 @@ Sitelen Pona font is [Lipamanka](https://lipamanka.gay)'s [Linja Lipamanka](http
 : anpa la: kalama
 
 元亨, 利贞, 勿用有攸往, 利建侯.
-: alasa suno li pona
+: alasa sona li pona
 : tenpo kama li pona
 : kama ala tawa ma ante
 : pona la: jan sewi li jo e jan pona
@@ -82,9 +82,9 @@ Sitelen Pona font is [Lipamanka](https://lipamanka.gay)'s [Linja Lipamanka](http
 : anpa la: telo tawa
 
 亨. 匪我求童蒙, 童蒙求我. 初筮告, 再三渎, 渎则不告. 利贞.
-: _o alasa suno_
+: _o alasa sona_
 : mi alasa ala e kasi la: kasi li alasa e mi
-: suno alasa wan li pona la: suno alasa mute li jaki
+: sona alasa wan li pona la: sona alasa mute li jaki
 : tenpo kama li pona
 
 
