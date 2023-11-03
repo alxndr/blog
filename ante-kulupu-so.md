@@ -762,6 +762,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
     font: 1.25em linjapona;
   }
 
+  .page__content dd {
+    font-size: 1.1em;
+  }
   .page__content h1 { /* each hexagram */
     flex-basis: 3rem;
     font-size: 1.5rem;
