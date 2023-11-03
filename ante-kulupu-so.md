@@ -67,9 +67,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 01
 
-䷀ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Kan</span> <!-- kân -->
-: sinpin la: sewi
-:  monsi la: sewi
+䷀ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Kan</span> <!-- kân -->
+: kipisi sinpin la: sewi
+: kipisi  monsi la: sewi
 
 乾: 元亨, 利贞
 : alasa sona li pona
@@ -78,10 +78,10 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 02
 
-䷁ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Kewen</span> <!-- k'wen -->
+䷁ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Kewen</span> <!-- k'wen -->
 
-: sinpin la: ma
-:  monsi la: ma
+: kipisi sinpin la: ma
+: kipisi  monsi la: ma
 
 坤: 元亨, 利牝马之贞. 君子有攸往, 先迷后得主, 利西南得朋, 东北丧朋. 安贞, 吉
 : alasa sona li pona
@@ -95,9 +95,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 03
 
-䷂ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Tewen</span> <!-- d'wen -->
-: sinpin la: telo-tawa
-:  monsi la: kalama
+䷂ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Tewen</span> <!-- d'wen -->
+: kipisi sinpin la: telo-tawa
+: kipisi  monsi la: kalama
 
 屯: 元亨, 利贞, 勿用有攸往, 利建侯.
 : alasa sona li pona
@@ -108,9 +108,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 04
 
-䷃ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Mun</span> <!-- mung -->
-: sinpin la: nena
-:  monsi la: telo-tawa
+䷃ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Mun</span> <!-- mung -->
+: kipisi sinpin la: nena
+: kipisi  monsi la: telo-tawa
 
 蒙: 亨. 匪我求童蒙, 童蒙求我. 初筮告, 再三渎, 渎则不告. 利贞.
 : _o alasa sona_
@@ -122,9 +122,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 05
 
-䷄ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Senju</span> <!-- sniu -->
-: sinpin la: telo-tawa
-:  monsi la: sewi
+䷄ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Senju</span> <!-- sniu -->
+: kipisi sinpin la: telo-tawa
+: kipisi  monsi la: sewi
 
 需: 有孚, 光亨, 贞吉. 利涉大川.
 : ilo mani la: tenpo kama li suno
@@ -133,9 +133,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 06
 
-䷅ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Sijun</span> <!-- dziung -->
-: sinpin la: sewi
-:  monsi la: telo-tawa
+䷅ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Sijun</span> <!-- dziung -->
+: kipisi sinpin la: sewi
+: kipisi  monsi la: telo-tawa
 
 [讼] 有孚, 窒. 惕中吉. 终凶. 利见大人, 不利涉大川.
 : ilo mani la: pake
@@ -148,8 +148,8 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 # 07
 
 ䷆ <span class="toki" data-sitelen="true" data-sitelen-ratio="5">Se</span> <!-- sier -->
-: sinpin la: ma
-:  monsi la: telo-tawa
+: kipisi sinpin la: ma
+: kipisi  monsi la: telo-tawa
 
 师: 贞, 丈人, 吉无咎.
 : ...
@@ -157,9 +157,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 08
 
-䷇ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Pije</span> <!-- bier -->
-: sinpin la: telo-tawa
-:  monsi la: ma
+䷇ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Pije</span> <!-- bier -->
+: kipisi sinpin la: telo-tawa
+: kipisi  monsi la: ma
 
 比: 吉. 原筮元永贞, 无咎. 不宁方来, 后夫凶.
 : ...
@@ -167,9 +167,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 09
 
-䷈ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Sija Sijo</span> <!-- siog xiôk -->
-: sinpin la: kon
-:  monsi la: sewi
+䷈ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Sija Sijo</span> <!-- siog xiôk -->
+: kipisi sinpin la: kon
+: kipisi  monsi la: sewi
 
 小畜: 亨. 密云不雨, 自我西郊.
 : ...
@@ -177,9 +177,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 10
 
-䷉ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Lije</span> <!-- lier -->
-: sinpin la: sewi
-:  monsi la: telo-pake
+䷉ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Lije</span> <!-- lier -->
+: kipisi sinpin la: sewi
+: kipisi  monsi la: telo-pake
 
 履虎尾, 不咥人, 亨.
 : ...
@@ -187,9 +187,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 11
 
-䷊ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Ta</span> <!-- t'âd -->
-: sinpin la: ma
-:  monsi la: sewi
+䷊ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Ta</span> <!-- t'âd -->
+: kipisi sinpin la: ma
+: kipisi  monsi la: sewi
 
 泰: 小往大来, 吉亨.
 : ...
@@ -197,9 +197,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 12
 
-䷋ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Piju</span> <!-- b'iûg -->
-: sinpin la: sewi
-:  monsi la: ma
+䷋ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Piju</span> <!-- b'iûg -->
+: kipisi sinpin la: sewi
+: kipisi  monsi la: ma
 
 否之匪人, 不利君子贞, 大往小来.
 : ...
@@ -207,9 +207,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 13
 
-䷌ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Tun Nije</span> <!-- d'ung nien -->
-: sinpin la: sewi
-:  monsi la: seli
+䷌ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Tun Nije</span> <!-- d'ung nien -->
+: kipisi sinpin la: sewi
+: kipisi  monsi la: seli
 
 同人于野, 亨. 利涉大川, 利君子贞.
 : ...
@@ -217,9 +217,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 14
 
-䷍ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Ta Kiju</span> <!-- d'âd giug -->
-: sinpin la: seli
-:  monsi la: sewi
+䷍ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Ta Kiju</span> <!-- d'âd giug -->
+: kipisi sinpin la: seli
+: kipisi  monsi la: sewi
 
 大有: 元亨.
 : ...
@@ -227,9 +227,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 15
 
-䷎ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Kelijan</span> <!-- g'liam -->
-: sinpin la: ma
-:  monsi la: nena
+䷎ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Kelijan</span> <!-- g'liam -->
+: kipisi sinpin la: ma
+: kipisi  monsi la: nena
 
 谦: 亨, 君子有终.
 : ...
@@ -237,9 +237,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 16
 
-䷏ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Sijo</span> <!-- dio -->
-: sinpin la: kalama
-:  monsi la: ma
+䷏ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Sijo</span> <!-- dio -->
+: kipisi sinpin la: kalama
+: kipisi  monsi la: ma
 
 豫: 利建侯,行师.
 : ...
@@ -247,9 +247,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 17
 
-䷐ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Suja</span> <!-- dzwia -->
-: sinpin la: telo-pake
-:  monsi la: kalama
+䷐ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Suja</span> <!-- dzwia -->
+: kipisi sinpin la: telo-pake
+: kipisi  monsi la: kalama
 
 随: 元亨利贞, 无咎.
 : ...
@@ -257,9 +257,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 18
 
-䷑ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Ko</span> <!-- ko -->
-: sinpin la: nena
-:  monsi la: kon
+䷑ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Ko</span> <!-- ko -->
+: kipisi sinpin la: nena
+: kipisi  monsi la: kon
 
 蛊: 元亨, 利涉大川. 先甲三日, 后甲三日.
 : alasa sona li pona
@@ -269,9 +269,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 19
 
-䷒ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Pulijen</span> <!-- bliem -->
-: sinpin la: ma
-:  monsi la: telo-pake
+䷒ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Pulijen</span> <!-- bliem -->
+: kipisi sinpin la: ma
+: kipisi  monsi la: telo-pake
 
 临: 元亨, 利贞. 至于八月有凶.
 : alasa sona li pona
@@ -281,9 +281,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 20
 
-䷓ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Kuwan</span> <!-- kwân -->
-: sinpin la: kon
-:  monsi la: ma
+䷓ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Kuwan</span> <!-- kwân -->
+: kipisi sinpin la: kon
+: kipisi  monsi la: ma
 
 观: 盥而不荐, 有孚颙若.
 : ...
@@ -291,9 +291,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 21
 
-䷔ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Sija Ka</span> <!-- diad g'a -->
-: sinpin la: seli
-:  monsi la: kalama
+䷔ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Sija Ka</span> <!-- diad g'a -->
+: kipisi sinpin la: seli
+: kipisi  monsi la: kalama
 
 噬嗑: 亨. 利用狱.
 : ...
@@ -301,9 +301,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 22
 
-䷕ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Pija</span> <!-- piar -->
-: sinpin la: nena
-:  monsi la: seli
+䷕ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Pija</span> <!-- piar -->
+: kipisi sinpin la: nena
+: kipisi  monsi la: seli
 
 贲: 亨. 小利有攸往.
 : ...
@@ -311,9 +311,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 23
 
-䷖ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Pe</span> <!-- pûk -->
-: sinpin la: nena
-:  monsi la: ma
+䷖ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Pe</span> <!-- pûk -->
+: kipisi sinpin la: nena
+: kipisi  monsi la: ma
 
 剥: 不利有攸往.
 : ...
@@ -321,9 +321,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 24
 
-䷗ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Pijo</span> <!-- b'iôk -->
-: sinpin la: ma
-:  monsi la: kalama
+䷗ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Pijo</span> <!-- b'iôk -->
+: kipisi sinpin la: ma
+: kipisi  monsi la: kalama
 
 复: 亨. 出入无疾, 朋来无咎. 反复其道, 七日来复, 利有攸往.
 : ...
@@ -331,9 +331,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 25
 
-䷘ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Miwe Miwan</span> <!-- miwo miwang -->
-: sinpin la: sewi
-:  monsi la: kalama
+䷘ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Miwe Miwan</span> <!-- miwo miwang -->
+: kipisi sinpin la: sewi
+: kipisi  monsi la: kalama
 
 无妄: 元亨, 利贞. 其匪正有眚, 不利有攸往.
 : ...
@@ -341,9 +341,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 26
 
-䷙ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Ta Sijo</span> <!-- d'âd xiôk -->
-: sinpin la: nena
-:  monsi la: sewi
+䷙ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Ta Sijo</span> <!-- d'âd xiôk -->
+: kipisi sinpin la: nena
+: kipisi  monsi la: sewi
 
 大畜: 利贞, 不家食吉, 利涉大川.
 : ...
@@ -351,9 +351,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 27
 
-䷚ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Kije</span> <!-- gieg -->
-: sinpin la: nena
-:  monsi la: kalama
+䷚ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Kije</span> <!-- gieg -->
+: kipisi sinpin la: nena
+: kipisi  monsi la: kalama
 
 颐: 贞吉. 观颐, 自求口实.
 : ...
@@ -361,10 +361,10 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 28
 
-䷛ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Ta Kuwa</span> <!-- d'âd kwâ
+䷛ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Ta Kuwa</span> <!-- d'âd kwâ
 -->
-: sinpin la: telo-pake
-:  monsi la: kon
+: kipisi sinpin la: telo-pake
+: kipisi  monsi la: kon
 
 大过: 栋桡, 利有攸往, 亨.
 : ...
@@ -372,9 +372,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 29
 
-䷜ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Ken</span> <!-- k'em -->
-: sinpin la: telo-tawa
-:  monsi la: telo-tawa
+䷜ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Ken</span> <!-- k'em -->
+: kipisi sinpin la: telo-tawa
+: kipisi  monsi la: telo-tawa
 
 坎: 习坎, 有孚, 维心亨, 行有尚.
 : ...
@@ -382,9 +382,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 30
 
-䷝ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Lija</span> <!-- lia -->
-: sinpin la: seli
-:  monsi la: seli
+䷝ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Lija</span> <!-- lia -->
+: kipisi sinpin la: seli
+: kipisi  monsi la: seli
 
 离: 利贞, 亨. 畜牝牛, 吉. 
 : ...
@@ -392,9 +392,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 31
 
-䷞ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Ken</span> <!-- g'em -->
-: sinpin la: telo-pake
-:  monsi la: nena
+䷞ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Ken</span> <!-- g'em -->
+: kipisi sinpin la: telo-pake
+: kipisi  monsi la: nena
 
 咸, 亨, 利贞, 取女吉.
 : ...
@@ -402,9 +402,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 32
 
-䷟ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Kene</span> <!-- geng -->
-: sinpin la: kalama
-:  monsi la: kon
+䷟ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Kene</span> <!-- geng -->
+: kipisi sinpin la: kalama
+: kipisi  monsi la: kon
 
 恒: 亨, 无咎, 利贞, 利有攸往.
 : ...
@@ -412,9 +412,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 33
 
-䷠ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Tuwen</span> <!-- d'wen -->
-: sinpin la: sewi
-:  monsi la: nena
+䷠ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Tuwen</span> <!-- d'wen -->
+: kipisi sinpin la: sewi
+: kipisi  monsi la: nena
 
 遁: 亨, 小利贞.
 : ...
@@ -422,9 +422,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 34
 
-䷡ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Ta Sijan</span> <!-- d'âd tsiang -->
-: sinpin la: kalama
-:  monsi la: sewi
+䷡ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Ta Sijan</span> <!-- d'âd tsiang -->
+: kipisi sinpin la: kalama
+: kipisi  monsi la: sewi
 
 大壮: 利贞.
 : tenpo kama li wawa
@@ -432,9 +432,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 35
 
-䷢ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Sije</span> <!-- tsie -->
-: sinpin la: seli
-:  monsi la: ma
+䷢ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Sije</span> <!-- tsie -->
+: kipisi sinpin la: seli
+: kipisi  monsi la: ma
 
 晋: 康侯用锡马蕃庶, 昼日三接.
 : ...
@@ -442,9 +442,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 36
 
-䷣ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Mijan Sija</span> <!-- miang dier -->
-: sinpin la: ma
-:  monsi la: seli
+䷣ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Mijan Sija</span> <!-- miang dier -->
+: kipisi sinpin la: ma
+: kipisi  monsi la: seli
 
 明夷: 利艰贞.
 : tenpo ike la: alasa sona li wawa
@@ -452,9 +452,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 37
 
-䷤ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Ka Nijen</span> <!-- ka niên -->
-: sinpin la: kon
-:  monsi la: seli
+䷤ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Ka Nijen</span> <!-- ka niên -->
+: kipisi sinpin la: kon
+: kipisi  monsi la: seli
 
 家人: 利女贞.
 : tenpo mije li wawa
@@ -462,9 +462,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 38
 
-䷥ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Kiwa</span> <!-- k'iwer -->
-: sinpin la: seli
-:  monsi la: telo-pake
+䷥ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Kiwa</span> <!-- k'iwer -->
+: kipisi sinpin la: seli
+: kipisi  monsi la: telo-pake
 
 睽: 小事吉.
 : ...
@@ -472,9 +472,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 39
 
-䷦ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Kan</span> <!-- gân -->
-: sinpin la: telo-tawa
-:  monsi la: nena
+䷦ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Kan</span> <!-- gân -->
+: kipisi sinpin la: telo-tawa
+: kipisi  monsi la: nena
 
 蹇: 利西南, 不利东北; 利见大人, 贞吉.
 : ...
@@ -482,9 +482,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 40
 
-䷧ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Ke</span> <!-- kêg -->
-: sinpin la: kalama
-:  monsi la: telo-tawa
+䷧ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Ke</span> <!-- kêg -->
+: kipisi sinpin la: kalama
+: kipisi  monsi la: telo-tawa
 
 解: 利西南, 无所往, 其来复吉. 有攸往, 夙吉.
 : ...
@@ -492,9 +492,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 41
 
-䷨ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Suwen</span> <!-- swêng -->
-: sinpin la: nena
-:  monsi la: telo-tawa
+䷨ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Suwen</span> <!-- swêng -->
+: kipisi sinpin la: nena
+: kipisi  monsi la: telo-tawa
 
 损: 有孚, 元吉, 无咎, 可贞, 利有攸往. 曷之用, 二簋可用享.
 : ...
@@ -502,9 +502,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 42
 
-䷩ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Je</span> <!-- iêk -->
-: sinpin la: kon
-:  monsi la: kalama
+䷩ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Je</span> <!-- iêk -->
+: kipisi sinpin la: kon
+: kipisi  monsi la: kalama
 
 益: 利有攸往, 利涉大川.
 : ...
@@ -513,9 +513,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 43
 
-䷪ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Kiwe</span> <!-- kiwet -->
-: sinpin la: telo-tawa
-:  monsi la: sewi
+䷪ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Kiwe</span> <!-- kiwet -->
+: kipisi sinpin la: telo-tawa
+: kipisi  monsi la: sewi
 
 夬: 扬于王庭, 孚号, 有厉, 告自邑, 不利即戎, 利有攸往.
 : ...
@@ -523,9 +523,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 44
 
-䷫ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Ko</span> <!-- kôh -->
-: sinpin la: sewi
-:  monsi la: kon
+䷫ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Ko</span> <!-- kôh -->
+: kipisi sinpin la: sewi
+: kipisi  monsi la: kon
 
 姤: 女壮, 勿用取女.
 : ...
@@ -533,9 +533,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 45
 
-䷬ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Suse</span> <!-- dzuts -->
-: sinpin la: telo-pake
-:  monsi la: ma
+䷬ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Suse</span> <!-- dzuts -->
+: kipisi sinpin la: telo-pake
+: kipisi  monsi la: ma
 
 萃: 亨. 王假有庙, 利见大人, 亨, 利贞. 用大牲吉, 利有攸往.
 : ...
@@ -543,9 +543,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 46
 
-䷭ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Sijen</span> <!-- sieng -->
-: sinpin la: ma
-:  monsi la: kon
+䷭ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Sijen</span> <!-- sieng -->
+: kipisi sinpin la: ma
+: kipisi  monsi la: kon
 
 升: 元亨, 用见大人, 勿恤, 南征吉.
 : ...
@@ -553,9 +553,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 47
 
-䷮ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Kuwen</span> <!-- k'wen -->
-: sinpin la: telo-pake
-:  monsi la: telo-tawa
+䷮ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Kuwen</span> <!-- k'wen -->
+: kipisi sinpin la: telo-pake
+: kipisi  monsi la: telo-tawa
 
 困: 亨, 贞, 大人吉, 无咎, 有言不信.
 : ...
@@ -563,9 +563,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 48
 
-䷯ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Sijen</span> <!-- tsieng -->
-: sinpin la: telo-tawa
-:  monsi la: kon
+䷯ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Sijen</span> <!-- tsieng -->
+: kipisi sinpin la: telo-tawa
+: kipisi  monsi la: kon
 
 井: 改邑不改井, 无丧无得, 往来井井. 汔至, 亦未繘井, 羸其瓶, 凶.
 : ...
@@ -573,9 +573,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 49
 
-䷰ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Ke</span> <!-- kek -->
-: sinpin la: telo-pake
-:  monsi la: seli
+䷰ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Ke</span> <!-- kek -->
+: kipisi sinpin la: telo-pake
+: kipisi  monsi la: seli
 
 革: 巳日乃孚, 元亨利贞, 悔亡.
 : ...
@@ -583,9 +583,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 50
 
-䷱ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Ton</span> <!-- tieng -->
-: sinpin la: seli
-:  monsi la: kon
+䷱ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Ton</span> <!-- tieng -->
+: kipisi sinpin la: seli
+: kipisi  monsi la: kon
 
 鼎: 元吉, 亨.
 : ...
@@ -593,9 +593,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 51
 
-䷲ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">To</span> <!-- t'ien -->
-: sinpin la: kalama
-:  monsi la: kalama
+䷲ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">To</span> <!-- t'ien -->
+: kipisi sinpin la: kalama
+: kipisi  monsi la: kalama
 
 震: 亨. 震来虩虩, 笑言哑哑. 震惊百里, 不丧匕鬯.
 : ...
@@ -603,9 +603,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 52
 
-䷳ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Ken</span> <!-- ken -->
-: sinpin la: nena
-:  monsi la: nena
+䷳ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Ken</span> <!-- ken -->
+: kipisi sinpin la: nena
+: kipisi  monsi la: nena
 
 艮: 艮其背, 不获其身, 行其庭, 不见其人, 无咎.
 : ...
@@ -613,9 +613,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 53
 
-䷴ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Sijan</span> <!-- tsiam -->
-: sinpin la: kon
-:  monsi la: nena
+䷴ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Sijan</span> <!-- tsiam -->
+: kipisi sinpin la: kon
+: kipisi  monsi la: nena
 
 渐: 女归吉, 利贞.
 : ...
@@ -623,9 +623,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 54
 
-䷵ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Kiwe Muwe</span> <!-- kiwer mwed -->
-: sinpin la: kalama
-:  monsi la: telo-pake
+䷵ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Kiwe Muwe</span> <!-- kiwer mwed -->
+: kipisi sinpin la: kalama
+: kipisi  monsi la: telo-pake
 
 归妹: 征凶, 无攸利.
 : ...
@@ -633,9 +633,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 55
 
-䷶ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Pijon</span> <!-- p'iông -->
-: sinpin la: kalama
-:  monsi la: seli
+䷶ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Pijon</span> <!-- p'iông -->
+: kipisi sinpin la: kalama
+: kipisi  monsi la: seli
 
 丰: 亨, 王假之, 勿忧, 宜日中.
 : ...
@@ -643,9 +643,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 56
 
-䷷ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Li</span> <!-- gli -->
-: sinpin la: seli
-:  monsi la: nena
+䷷ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Li</span> <!-- gli -->
+: kipisi sinpin la: seli
+: kipisi  monsi la: nena
 
 旅: 小亨, 旅贞吉.
 : ...
@@ -653,9 +653,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 57
 
-䷸ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Suwen</span> <!-- swen -->
-: sinpin la: kon
-:  monsi la: kon
+䷸ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Suwen</span> <!-- swen -->
+: kipisi sinpin la: kon
+: kipisi  monsi la: kon
 
 巽: 小亨, 利攸往, 利见大人.
 : ...
@@ -663,9 +663,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 58
 
-䷹ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Tuwa</span> <!-- d'wâd -->
-: sinpin la: telo-pake
-:  monsi la: telo-pake
+䷹ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Tuwa</span> <!-- d'wâd -->
+: kipisi sinpin la: telo-pake
+: kipisi  monsi la: telo-pake
 
 兑: 亨, 利贞.
 : ...
@@ -673,9 +673,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 59
 
-䷺ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Suwan</span> <!-- xwân -->
-: sinpin la: kon
-:  monsi la: telo-tawa
+䷺ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Suwan</span> <!-- xwân -->
+: kipisi sinpin la: kon
+: kipisi  monsi la: telo-tawa
 
 涣: 亨. 王假有庙, 利涉大川, 利贞.
 : ...
@@ -683,9 +683,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 60
 
-䷻ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Sije</span> <!-- tsiet -->
-: sinpin la: telo-tawa
-:  monsi la: telo-pake
+䷻ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Sije</span> <!-- tsiet -->
+: kipisi sinpin la: telo-tawa
+: kipisi  monsi la: telo-pake
 
 节: 亨. 苦节, 不可贞.
 : ...
@@ -693,9 +693,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 61
 
-䷼ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Ton Piju</span> <!-- tiông p'iug -->
-: sinpin la: kon
-:  monsi la: telo-pake
+䷼ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Ton Piju</span> <!-- tiông p'iug -->
+: kipisi sinpin la: kon
+: kipisi  monsi la: telo-pake
 
 中孚: 豚鱼吉, 利涉大川, 利贞.
 : ...
@@ -703,18 +703,18 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 62
 
-䷽ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Sijo Kuwa</span> <!-- siog kwâ -->
-: sinpin la: kalama
-:  monsi la: nena
+䷽ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Sijo Kuwa</span> <!-- siog kwâ -->
+: kipisi sinpin la: kalama
+: kipisi  monsi la: nena
 
 小过: 亨, 利贞, 可小事, 不可大事. 飞鸟遗之音, 不宜上, 宜下, 大吉. 
 
 
 # 63
 
-䷾ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Kije Sija</span> <!-- kied tsier -->
-: sinpin la: telo-tawa
-:  monsi la: seli
+䷾ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Kije Sija</span> <!-- kied tsier -->
+: kipisi sinpin la: telo-tawa
+: kipisi  monsi la: seli
 
 既济: 亨, 小利贞, 初吉终乱.
 : ...
@@ -722,9 +722,9 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 64
 
-䷿ <span class="toki" data-sitelen="true" data-sitelen-ratio="2">Miwe Sija</span> <!-- miwed tsier -->
-: sinpin la: seli
-:  monsi la: telo-tawa
+䷿ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Miwe Sija</span> <!-- miwed tsier -->
+: kipisi sinpin la: seli
+: kipisi  monsi la: telo-tawa
 
 未济 亨 小狐汔济 濡其尾 无攸利
 : ...
@@ -781,7 +781,7 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
     font-size: 1.9rem;
   }
   .page__content h1 + dl dd { /* TODO how to toggle this using a UI element? */
-    /* font-family: linjapona; */
+    font-family: linjapona;
   }
   .page__content h1 + dl dd:first-of-type {
     margin-top: 0.5rem;
