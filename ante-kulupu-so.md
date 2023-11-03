@@ -361,8 +361,7 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 # 28
 
-䷛ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Ta Kuwa</span> <!-- d'âd kwâ
--->
+䷛ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Ta Kuwa</span> <!-- d'âd kwâ -->
 : kipisi sinpin la: telo-pake
 : kipisi  monsi la: kon
 
@@ -707,7 +706,8 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 : kipisi sinpin la: kalama
 : kipisi  monsi la: nena
 
-小过: 亨, 利贞, 可小事, 不可大事. 飞鸟遗之音, 不宜上, 宜下, 大吉. 
+小过: 亨, 利贞, 可小事, 不可大事. 飞鸟遗之音, 不宜上, 宜下, 大吉.
+: ...
 
 
 # 63
@@ -781,7 +781,7 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
     font-size: 1.9rem;
   }
   .page__content h1 + dl dd { /* TODO how to toggle this using a UI element? */
-    font-family: linjapona;
+    font: 1.1em / 1.1em linjapona;
   }
   .page__content h1 + dl dd:first-of-type {
     margin-top: 0.5rem;
@@ -803,4 +803,4 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
   }
 </style>
 
-// vim: spelllang+=tp,cjk:
+<!-- vim: spelllang+=tp,cjk: -->
