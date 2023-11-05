@@ -5,7 +5,70 @@ classes: wide
 sidebar:
   - title: quick nav
     text: |
-      
+      0. [01](#01)
+      0. [02](#02)
+      0. [03](#03)
+      0. [04](#04)
+      0. [05](#05)
+      0. [06](#06)
+      0. [07](#07)
+      0. [08](#08)
+      0. [09](#09)
+      0. [10](#10)
+      0. [11](#11)
+      0. [12](#12)
+      0. [13](#13)
+      0. [14](#14)
+      0. [15](#15)
+      0. [16](#16)
+      0. [17](#17)
+      0. [18](#18)
+      0. [19](#19)
+      0. [20](#20)
+      0. [21](#21)
+      0. [22](#22)
+      0. [23](#23)
+      0. [24](#24)
+      0. [25](#25)
+      0. [26](#26)
+      0. [27](#27)
+      0. [28](#28)
+      0. [29](#29)
+      0. [30](#30)
+      0. [31](#31)
+      0. [32](#32)
+      0. [33](#33)
+      0. [34](#34)
+      0. [35](#35)
+      0. [36](#36)
+      0. [37](#37)
+      0. [38](#38)
+      0. [39](#39)
+      0. [40](#40)
+      0. [41](#41)
+      0. [42](#42)
+      0. [43](#43)
+      0. [44](#44)
+      0. [45](#45)
+      0. [46](#46)
+      0. [47](#47)
+      0. [48](#48)
+      0. [49](#49)
+      0. [50](#50)
+      0. [51](#51)
+      0. [52](#52)
+      0. [53](#53)
+      0. [54](#54)
+      0. [55](#55)
+      0. [56](#56)
+      0. [57](#57)
+      0. [58](#58)
+      0. [59](#59)
+      0. [60](#60)
+      0. [61](#61)
+      0. [62](#62)
+      0. [63](#63)
+      0. [64](#64)
 ---
 
 A [toki pona] interpretation of "The Changes of Zhou": the 卦辭 hexagram initial commentary from the Chinese classic 易經 (Yi Jing / I Ching).
@@ -82,7 +145,6 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 # 02
 
 ䷁ <span class="toki" data-sitelen="true" data-sitelen-ratio="4">Kewen</span> <!-- k'wen -->
-
 : kipisi sinpin la: ma
 : kipisi  monsi la: ma
 
@@ -93,7 +155,7 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 : jan sewi ni la: tenpo pini li sewi
 : ma weka wan li jo e ilo pona
 : ma weka ante li weka e ilo pona
-: tenpo kama li pakala ala li wawa
+: &nbsp; &nbsp; &nbsp; tenpo kama li pakala ala li wawa
 
 
 # 03
@@ -743,6 +805,22 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 
 <style>
+  .sidebar ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .sidebar ol li {
+    padding: 0.2rem;
+    line-height: 0.5rem;
+  }
+  .sidebar ol li a {
+    font: 0.6rem monospace;
+    text-decoration: none;
+  }
+
   .page__content {
     display: flex;
     flex-flow: row wrap;
