@@ -808,5 +808,3 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
     lighting-color: chartreuse;
   }
 </style>
-
-<!-- vim: spelllang+=tp,cjk: -->
