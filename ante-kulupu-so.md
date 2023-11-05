@@ -24,7 +24,7 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 : linja mute — trigram, [bagua](https://en.wikipedia.org/wiki/Bagua)
 
 元
-: ...??
+: tenpo wan... 
 
 亨
 : alasa sona — divination, "augury" [Minford]; 'searching for knowledge'
@@ -42,10 +42,10 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 : jan pona — 'good person'
 
 小人
-: jan pona ala — 'not-good person'
+: jan anpa — 'lowly person'
 
 涉大川
-: pali suli — literally 'crossing a great river', but commonly understood to be a metaphor for commenting an important undertaking or "hazardous enterprise" [Minford]
+: pali suli — literally 'crossing a great river', metaphor for commencing a significant undertaking or "hazardous enterprise" [Minford]; 'important efforts'
 
 孚
 : ilo mani — Minford interprets as spoils of war, "captives" [Minford]; 'valuable things'
