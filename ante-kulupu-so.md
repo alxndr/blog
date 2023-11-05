@@ -3,6 +3,9 @@ title: ante kulupu So
 layout: single
 classes: wide
 sidebar:
+  - title: quick nav
+    text: |
+      
 ---
 
 A [toki pona] interpretation of "The Changes of Zhou": the 卦辭 hexagram initial commentary from the Chinese classic 易經 (Yi Jing / I Ching).
@@ -798,10 +801,10 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
     height: 2.5rem;
     color: #FFFc;
     background: #0000;
-    fill: red; /* eyeball center */
+    fill: yellow; /* eyeball center */
     stroke: green;
     stop-color: pink;
-    flood-color: purple;
+    flood-color: lime;
     lighting-color: chartreuse;
   }
 </style>
