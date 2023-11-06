@@ -8,13 +8,22 @@
 @import "minimal-mistakes";
 
 @font-face {
-  font-family: linjalipamanka;
+  font-family: tp-fairfax;
+  src: url('https://raw.githubusercontent.com/kreativekorp/open-relay/master/FairfaxHD/FairfaxHD.ttf') format('ttf');
+  line-height: 1.1em;
+}
+@font-face {
+  font-family: tp-sitelenselikiwen;
+  src: url('https://raw.githubusercontent.com/kreativekorp/sitelen-seli-kiwen/main/sitelenselikiwenjuniko.ttf') format('ttf');
+  line-height: 1.1em;
+}
+@font-face {
+  font-family: tp-linjalipamanka;
   src: url('https://lipamanka.gay/linjalipamanka-normal.otf') format('opentype');
   line-height: 1.1em;
 }
-
 @font-face {
-  font-family: linjapona;
+  font-family: tp-linjapona;
   src: url('https://raw.githubusercontent.com/janSame/linja-pona/master/linja-pona-4.9.otf') format('opentype');
   font-size: 1.1em / 1.1em;
 }
@@ -24,7 +33,8 @@
 
 // disable minimal-mistakes stuff...
 html * { transition: none; -webkit-transition: none; }
-html table { font-size: 0.95rem; }
+html table { font-size: inherit; }
+html dd { font-size: inherit; }
 
 
 #dough-ratio-calculator {

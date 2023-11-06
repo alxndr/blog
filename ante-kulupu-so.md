@@ -71,6 +71,19 @@ sidebar:
       0. [64](#64)
 ---
 
+<!-- - title: "toki pona font"
+  text: |
+    * <label for="latin">Latin letters</label>
+    * <label for="fairfax">SP: Fairfax</label>
+    * <label for="ssk">SP: sitelen seli kiwen</label>
+    * <label for="ll">SP: linja lipamanka</label>
+        * <label for="lp">SP: linja pona</label>
+<input markdown="span" type="radio" name="font" id="latin" />
+<input markdown="span" type="radio" name="font" id="fairfax" />
+<input markdown="span" type="radio" name="font" id="ssk" />
+<input markdown="span" type="radio" name="font" id="ll" />
+<input markdown="span" type="radio" name="font" id="lp" /> -->
+
 A [toki pona] interpretation of "The Changes of Zhou": the 卦辭 hexagram initial commentary from the Chinese classic 易經 (Yi Jing / I Ching).
 Started by jan Lesate (Alexander) in 2023…
 
@@ -79,42 +92,49 @@ Started by jan Lesate (Alexander) in 2023…
 
 Much is based on Part II of [John Minford]'s English interpretation, including the names of the hexagrams (written in [sitelen sitelen]).
 
-The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan Same<!-- [Lipamanka](https://lipamanka.gay)'s [Linja Lipamanka](https://lipamanka.gay/linjamanka) -->.
+The [sitelen pona] font is
+[Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxponahd/).
+<!-- TODO check out [sitelen seli kiwen](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/). -->
+<!-- [linja pona](https://musilili.net/linja-pona/) by jan Same. -->
+<!-- [Lipamanka](https://lipamanka.gay)'s [Linja Lipamanka](https://lipamanka.gay/linjamanka). -->
 
 {% include sitelen-sitelen-renderer.html %}
 
 
 ### Notes & common terms
 
+{:.terms}
 八卦
-: linja mute — trigram, [bagua](https://en.wikipedia.org/wiki/Bagua)
+: <span lang="tp">linja mute</span> <span lang="en">trigram, [bagua](https://en.wikipedia.org/wiki/Bagua)</span>
 
 元
-: tenpo wan... 
+: <span lang="tp">pona</span>
 
 亨
-: alasa sona — divination, "augury" [Minford]; 'searching for knowledge'
+: <span lang="tp">_[USAWI]_</span> <span lang="en">'supernatural' (non-pu)</span>
+: <span lang="tp">alasa sona</span> <span lang="en">divination, "augury" [Minford]; 'searching for knowledge'</span>
 
 利
-: tenpo kama — fortune; 'future'
+: <span lang="tp">tenpo kama</span> <span lang="en">fortune; 'future'</span>
+: <span lang="tp">pona</span> <span lang="en">auspicious, beneficial; 'good'</span>
 
 贞
-: wawa — auspicious; 'good'
+: <span lang="tp">wawa</span> <span lang="en">auspicious; 'powerful'</span>
 
 大人
-: jan wawa — 'great person'
+: <span lang="tp">jan wawa</span> <span lang="en">the ideal protagonist; 'sure person'</span>
 
 君子
-: jan pona — 'good person'
+: <span lang="tp">jan pona</span> <span lang="en">an honorable one; 'good person'</span>
 
 小人
-: jan anpa — 'lowly person'
+: <span lang="tp">jan anpa</span> <span lang="en">a dishonorable one; 'lowly person'</span>
 
 涉大川
-: pali suli — literally 'crossing a great river', metaphor for commencing a significant undertaking or "hazardous enterprise" [Minford]; 'important efforts'
+: <span lang="tp">pali suli</span> <span lang="en">literally 'crossing a great river'; metaphor for a significant undertaking or "hazardous enterprise" [Minford]; 'important efforts'</span>
 
 孚
-: ilo mani — Minford interprets as spoils of war, "captives" [Minford]; 'valuable things'
+: <span lang="tp">ilo mani</span> <span lang="en">spoils of war, "captives" [Minford]; 'valuable things'</span>
 
 {:.bagua}
 | linja | 名字 | English |  **sitelen**  | nimi
@@ -138,7 +158,7 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 : kipisi  monsi la: sewi
 
 乾: 元亨, 利贞
-: alasa sona li pona
+: _[USAWI]_ li pona
 : tenpo kama li wawa
 
 
@@ -204,20 +224,21 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 
 [讼] 有孚, 窒. 惕中吉. 终凶. 利见大人, 不利涉大川.
 : ilo mani la: pake
-: olin e meso li pona
-: pini li jaki
-: weka e jan wawa la: pona
-: pali suli la: tenpo kama li pona ala
+: _olin e meso_ la: ni li pona
+: pini la: sama e monsuta
+: pona la: lukin e jan wawa
+: pona ala la: pali suli
 
 
 # 07
 
-䷆ <span class="toki" data-sitelen="true" data-sitelen-ratio="5">Se</span> <!-- sier -->
+䷆ <span class="toki" data-sitelen="true" data-sitelen-ratio="5">Sije</span> <!-- sier -->
 : kipisi sinpin la: ma
 : kipisi  monsi la: telo-tawa
 
 师: 贞, 丈人, 吉无咎.
-: ...
+: pona la: jan _(MAJUNA)_<!-- not in linjapona/linjalipamanka -->
+: _[USAWI]_<!-- not in linjapona/linjalipamanka --> li pakala ala
 
 
 # 08
@@ -227,7 +248,10 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
 : kipisi  monsi la: ma
 
 比: 吉. 原筮元永贞, 无咎. 不宁方来, 后夫凶.
-: ...
+: _pona_
+: _[USAWI]_ li pona e tenpo mute li pakala ala
+: kama tan ma pona ala
+: jan kama tenpo pini la: tenpo pakala
 
 
 # 09
@@ -821,12 +845,55 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
     text-decoration: none;
   }
 
+  input#fairfax:checked { }
+  input#fairfax:checked + *[lang=tp] {
+    color: red;
+    background: chartreuse;
+    font-family: tp-fairfax;
+  }
+  input#fairfax:checked ~ *[lang=tp] {
+    color: chartreuse;
+    background: red;
+    font-family: tp-fairfax;
+  }
+  input#ssk:checked { }
+  input#ssk:checked + *[lang=tp] {
+    color: blue;
+    background: pink;
+    font-family: tp-sitelenselikiwen;
+  }
+  input#ssk:checked ~ *[lang=tp] {
+    color: pink;
+    background: blue;
+    font-family: tp-sitelenselikiwen;
+  }
+  input#ll:checked ~ *[lang=tp] {
+    font-family: tp-linjalipamanaka;
+  }
+  input#ll:checked + *[lang=tp] {
+    font-family: tp-linjalipamanaka;
+  }
+  input#lp:checked ~ *[lang=tp] {
+    font-family: tp-linjapona;
+  }
+  input#lp:checked + *[lang=tp] {
+    font-family: tp-linjapona;
+  }
+
   .page__content {
     display: flex;
     flex-flow: row wrap;
   }
   .page__content > * {
     flex-basis: 100%; /* approximate box-model behavior... */
+  }
+  .page__content input { display: inline-block; } /* reset a weird default */
+
+  .terms [lang=tp] {
+    font: 1.25em tp-sitelenselikiwen;
+  }
+  .terms [lang=en]:before {
+    content: ' — ';
   }
 
   .bagua {
@@ -840,7 +907,7 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
     font: 2em normal;
   }
   .bagua strong {
-    font: 1.25em linjapona;
+    font: 1.25em tp-sitelenselikiwen;
   }
 
   .page__content dd {
@@ -865,7 +932,7 @@ The [sitelen pona] font is [linja pona](https://musilili.net/linja-pona/) by jan
     font-size: 1.9rem;
   }
   .page__content h1 + dl dd { /* TODO how to toggle this using a UI element? */
-    font: 1.1em / 1.1em linjapona;
+    font: 1.1em / 1.1em tp-sitelenselikiwen;
   }
   .page__content h1 + dl dd:first-of-type {
     margin-top: 0.5rem;
