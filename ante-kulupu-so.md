@@ -188,7 +188,7 @@ The [sitelen pona] font is
 : alasa sona li pona
 : tenpo kama li wawa
 : o kama ala tawa ma ante
-: wawa la: jan sewi li jo e jan pona
+: wawa la: jan sewi li lawa e jan anpa
 
 
 # 04
@@ -248,10 +248,11 @@ The [sitelen pona] font is
 : kipisi  monsi la: ma
 
 比: 吉. 原筮元永贞, 无咎. 不宁方来, 后夫凶.
-: _pona_
-: usawi li pona e tenpo mute li pakala ala
-: kama tan ma pona ala
-: jan kama tenpo pini la: tenpo pakala
+: usawi li wawa
+: _tenpo ale_ la: usawi li pona
+: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; li pakala ala
+: kama tan ma pi utala jan
+: _tenpo pini_ la: jan kama li tenpo ike
 
 
 # 09
@@ -261,7 +262,8 @@ The [sitelen pona] font is
 : kipisi  monsi la: sewi
 
 小畜: 亨. 密云不雨, 自我西郊.
-: ...
+: usawi li pona
+: ma _ante_ la: sewi pimeja li telo ala
 
 
 # 10
@@ -271,7 +273,8 @@ The [sitelen pona] font is
 : kipisi  monsi la: telo-pake<!-- not in linjalipamanka -->
 
 履虎尾, 不咥人, 亨.
-: ...
+: jan li utala e soweli monsuta la: jan ni li pakala ala
+: usawi li pona
 
 
 # 11
@@ -281,7 +284,9 @@ The [sitelen pona] font is
 : kipisi  monsi la: sewi
 
 泰: 小往大来, 吉亨.
-: ...
+: lili li tawa
+: suli li kama
+: usawi li pona
 
 
 # 12
@@ -291,7 +296,9 @@ The [sitelen pona] font is
 : kipisi  monsi la: ma
 
 否之匪人, 不利君子贞, 大往小来.
-: ...
+: jan ike meli la: jan pona li tenpo ike
+: suli li tawa
+: lili li kama
 
 
 # 13
@@ -301,7 +308,9 @@ The [sitelen pona] font is
 : kipisi  monsi la: seli
 
 同人于野, 亨. 利涉大川, 利君子贞.
-: ...
+: ma _weka_ la: kulupu li pona
+: pona la: pali suli
+: _pona la: jan pona_
 
 
 # 14
@@ -311,7 +320,7 @@ The [sitelen pona] font is
 : kipisi  monsi la: sewi
 
 大有: 元亨.
-: ...
+: usawi li pona
 
 
 # 15
@@ -321,7 +330,8 @@ The [sitelen pona] font is
 : kipisi  monsi la: nena
 
 谦: 亨, 君子有终.
-: ...
+: usawi li pona
+: tenpo pini la: jan pona
 
 
 # 16
@@ -331,7 +341,8 @@ The [sitelen pona] font is
 : kipisi  monsi la: ma
 
 豫: 利建侯,行师.
-: ...
+: wawa la: jan sewi li lawa e jan anpa
+: wawa la: jan utala li tawa
 
 
 # 17
@@ -341,7 +352,9 @@ The [sitelen pona] font is
 : kipisi  monsi la: kalama
 
 随: 元亨利贞, 无咎.
-: ...
+: usawi li pona
+: tenpo kama li wawa
+: pakala ala
 
 
 # 18
@@ -353,7 +366,7 @@ The [sitelen pona] font is
 蛊: 元亨, 利涉大川. 先甲三日, 后甲三日.
 : alasa sona li pona
 : pali suli la: tenpo kama li wawa
-: ...
+: _tenpo kama suno mute_ en _tenpo pini suno mute_
 
 
 # 19
@@ -365,7 +378,7 @@ The [sitelen pona] font is
 临: 元亨, 利贞. 至于八月有凶.
 : alasa sona li pona
 : tenpo kama li wawa
-: ...
+: _tenpo suno mute mute_ li ike
 
 
 # 20
@@ -375,7 +388,8 @@ The [sitelen pona] font is
 : kipisi  monsi la: ma
 
 观: 盥而不荐, 有孚颙若.
-: ...
+: jan li ken _..._ la: taso _..._ ala
+: ilo mani...
 
 
 # 21
@@ -924,6 +938,9 @@ The [sitelen pona] font is
   .page__content h1 + dl {
     flex-basis: calc(100% - 3rem);
     margin: 0 0 2rem;
+  }
+  .page__content h1 + dl dt:not(:first-child) {
+    margin-bottom: 0.5rem;
   }
   .page__content h1 + dl dt:first-child {
     float: left;
