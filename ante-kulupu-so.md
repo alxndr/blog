@@ -576,7 +576,9 @@ The [sitelen pona] font is
 : kipisi  monsi la: nena
 
 遁: 亨, 小利贞.
-: ...
+: soweli esun li lili la
+: usawi li pona
+: tenpo kama li pona lili
 
 
 # 34
@@ -1014,8 +1016,7 @@ The [sitelen pona] font is
     font-size: 1.9rem;
   }
   .page__content h1 + dl dd { /* TODO how to toggle this using a UI element? */
-    font: 1.25rem / 1.5rem tp-linjapona;
-    word-spacing: 0.15rem;
+    font: 1.25rem / 1.5rem tp-linjalipamanka;
   }
   .page__content h1 + dl dd strong {
     font: 0.9rem / 1.5rem sans-serif;
