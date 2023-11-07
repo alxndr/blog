@@ -69,8 +69,8 @@ sidebar:
       0. [62](#62)
       0. [63](#63)
       0. [64](#64)
-      0. [Notes](#Notes)
-      0. [Acknowledgements](#Acknowledgements)
+      0. [Acknowledgements](#acknowledgements)
+      0. [Notes](#notes)
 ---
 
 <!-- - title: "toki pona font"
@@ -105,7 +105,7 @@ The [sitelen pona] font is
 {% include sitelen-sitelen-renderer.html %}
 
 
-### Notes & common terms (#Notes)
+### Notes
 
 {:.terms}
 八卦
@@ -373,7 +373,7 @@ The [sitelen pona] font is
 随: 元亨利贞, 无咎.
 : kute e lawa la
 : &nbsp; usawi li pona
-: tenpo kama li wawa <br/> &nbsp; &nbsp; li pakala ala
+: tenpo kama li wawa li pakala ala
 
 
 # 18
@@ -551,8 +551,8 @@ The [sitelen pona] font is
 
 咸, 亨, 利贞, 取女吉.
 : pilin sijelo la
-: usawi li pona
-: tenpo kama li wawa
+: &nbsp; &nbsp; usawi li pona
+: &nbsp; tenpo kama li wawa
 : jo e meli li pona
 
 
@@ -564,7 +564,7 @@ The [sitelen pona] font is
 
 恒: 亨, 无咎, 利贞, 利有攸往.
 : awen la
-: usawi li pona <br /> &nbsp; li pakala ala
+: &nbsp; usawi li pona li pakala ala
 : tenpo kama li pona
 : _tawa e ma ante_ li pona <!-- see #25, #28… -->
 
@@ -588,6 +588,7 @@ The [sitelen pona] font is
 : kipisi  monsi la: sewi
 
 大壮: 利贞.
+: pakala la
 : tenpo kama li wawa
 
 
@@ -608,6 +609,7 @@ The [sitelen pona] font is
 : kipisi  monsi la: seli
 
 明夷: 利艰贞.
+: ...
 : tenpo ike la: alasa sona li wawa
 
 
@@ -1011,7 +1013,7 @@ The [sitelen pona] font is
   }
   .page__content h1 + dl dt:first-child {
     float: left;
-    margin: 0 0 -0.5rem 0;
+    margin: 0.25rem 0 -0.25rem 0;
     padding: 0 0.5rem;
     font-size: 1.9rem;
   }
@@ -1024,6 +1026,10 @@ The [sitelen pona] font is
   }
   .page__content h1 + dl dd:first-of-type {
     margin-top: 0.25rem;
+  }
+  .page__content h1 + dl dt:first-of-type + dd,
+  .page__content h1 + dl dt:first-of-type + dd + dd {
+    font-family: tp-linjapona; /* bc it has both "pake" and can combine... */
   }
   .page__content h1 + dl dt:not(:first-of-type) ~ dd {
     text-indent: 2em;
