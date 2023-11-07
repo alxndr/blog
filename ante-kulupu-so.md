@@ -69,6 +69,8 @@ sidebar:
       0. [62](#62)
       0. [63](#63)
       0. [64](#64)
+      0. [Notes](#Notes)
+      0. [Acknowledgements](#Acknowledgements)
 ---
 
 <!-- - title: "toki pona font"
@@ -90,7 +92,9 @@ Started by jan Lesate (Alexander) in 2023…
 
 ### Acknowledgements
 
-Much is based on Part II of [John Minford]'s English interpretation, including the names of the hexagrams (written in [sitelen sitelen]).
+Much is based on Part II of [John Minford]'s English interpretation, including the inspiration for the "names" of the hexagrams rendered here in [sitelen sitelen].
+
+I turn to [Master Alfred Huang]'s English interpretation for much guidance as well.
 
 The [sitelen pona] font is
 [Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxponahd/).
@@ -101,7 +105,7 @@ The [sitelen pona] font is
 {% include sitelen-sitelen-renderer.html %}
 
 
-### Notes & common terms
+### Notes & common terms (#Notes)
 
 {:.terms}
 八卦
@@ -495,7 +499,10 @@ The [sitelen pona] font is
 : kipisi  monsi la: kalama
 
 颐: 贞吉. 观颐, 自求口实.
-: ...
+: moku la
+: wawa en pona
+: sona e moku mama
+: uta li wile moku
 
 
 # 28
@@ -505,7 +512,10 @@ The [sitelen pona] font is
 : kipisi  monsi la: kon
 
 大过: 栋桡, 利有攸往, 亨.
-: ...
+: mute suli la <!-- see #62 -->
+: insa _tomo_ li wawa
+: _tawa e ma ante_ li pona <!-- see #25… -->
+: usawi li pona
 
 
 # 29
@@ -515,7 +525,10 @@ The [sitelen pona] font is
 : kipisi  monsi la: telo-tawa
 
 坎: 习坎, 有孚, 维心亨, 行有尚.
-: ...
+: pakala la
+: _len e ilo mani_
+: _olin e sewi_ li pona
+: tawa e ma li pona
 
 
 # 30
@@ -524,8 +537,10 @@ The [sitelen pona] font is
 : kipisi sinpin la: seli
 : kipisi  monsi la: seli
 
-离: 利贞, 亨. 畜牝牛, 吉. 
-: ...
+离: 利贞, 亨. 畜牝牛, 吉.
+: lanpan e waso la
+: usawi li wawa pona
+: mama e _soweli esun_ li pona
 
 
 # 31
@@ -535,7 +550,10 @@ The [sitelen pona] font is
 : kipisi  monsi la: nena
 
 咸, 亨, 利贞, 取女吉.
-: ...
+: pilin sijelo la
+: usawi li pona
+: tenpo kama li wawa
+: jo e meli li pona
 
 
 # 32
@@ -545,7 +563,10 @@ The [sitelen pona] font is
 : kipisi  monsi la: kon
 
 恒: 亨, 无咎, 利贞, 利有攸往.
-: ...
+: awen la
+: usawi li pona <br /> &nbsp; li pakala ala
+: tenpo kama li pona
+: _tawa e ma ante_ li pona <!-- see #25, #28… -->
 
 
 # 33
@@ -852,6 +873,7 @@ The [sitelen pona] font is
 : kipisi  monsi la: nena
 
 小过: 亨, 利贞, 可小事, 不可大事. 飞鸟遗之音, 不宜上, 宜下, 大吉.
+: mute lili la <!-- see #28 -->
 : ...
 
 
@@ -878,6 +900,7 @@ The [sitelen pona] font is
 
 
 [John Minford]: https://www.johnminford.com/iching
+[Master Alfred Huang]: https://www.masteralfredhuang.com/books
 [Sitelen Pona]: https://omniglot.com/conscripts/sitelenpona.htm
 [Sitelen Sitelen]: https://www.jonathangabel.com/toki-pona/
 [toki pona]: https://tokipona.org
@@ -991,13 +1014,21 @@ The [sitelen pona] font is
     font-size: 1.9rem;
   }
   .page__content h1 + dl dd { /* TODO how to toggle this using a UI element? */
-    font: 1.25rem / 1.5rem tp-linjalipamanka;
+    font: 1.25rem / 1.5rem tp-linjapona;
+    word-spacing: 0.15rem;
   }
   .page__content h1 + dl dd strong {
     font: 0.9rem / 1.5rem sans-serif;
+    word-spacing: 0;
   }
   .page__content h1 + dl dd:first-of-type {
-    margin-top: 0.5rem;
+    margin-top: 0.25rem;
+  }
+  .page__content h1 + dl dt:not(:first-of-type) ~ dd {
+    text-indent: 2em;
+  }
+  .page__content h1 + dl dt:not(:first-of-type) + dd {
+    text-indent: inherit; /* undo text-indent of `~ dd` above */
   }
 
   .toki {
