@@ -193,7 +193,7 @@ The [sitelen pona] font is ...
 
 坤: 元亨, 利牝马之贞. 君子有攸往, 先迷后得主, 利西南得朋, 东北丧朋. 安贞, 吉
 : ma li nasin la
-: alasa sona li pona
+: usawi li pona
 : tenpo kama la soweli li ken mama
 : jan sewi li kama tawa ma ante la tenpo kama li nasa
 : jan sewi ni la tenpo pini li sewi
@@ -210,7 +210,7 @@ The [sitelen pona] font is ...
 
 屯: 元亨, 利贞, 勿用有攸往, 利建侯.
 : kasi lili li kama suli la
-: alasa sona li pona
+: usawi li pona
 : tenpo kama li wawa
 : o kama ala tawa ma ante
 : wawa la jan sewi li lawa e jan anpa
@@ -674,8 +674,12 @@ The [sitelen pona] font is ...
 : kipisi  monsi la telo-tawa
 
 解: 利西南, 无所往, 其来复吉. 有攸往, 夙吉.
-: pana la
-: pona la ma weka   
+: _pana kipisi_ la
+: pona la ma weka
+: _tawa taso awen ala_
+: pona la kama tawa
+: _tawa en awen_
+: _suno li kama sewi la pona_
 
 
 # 41
@@ -685,7 +689,14 @@ The [sitelen pona] font is ...
 : kipisi  monsi la telo-tawa
 
 损: 有孚, 元吉, 无咎, 可贞, 利有攸往. 曷之用, 二簋可用享.
-: ...
+: lili e mute la
+: ilo mani
+: usawi li wawa
+: pakala ala
+: ken usawi
+: _tawa e ma ante_ li pona
+: pali e seme?
+: poki tu li ken pali e usawi
 
 
 # 42
@@ -695,7 +706,8 @@ The [sitelen pona] font is ...
 : kipisi  monsi la kalama
 
 益: 利有攸往, 利涉大川.
-: ...
+: suli e mute la
+: _tawa e ma ante_ li pona
 : pali suli li pona
 
 
@@ -706,7 +718,12 @@ The [sitelen pona] font is ...
 : kipisi  monsi la sewi
 
 夬: 扬于王庭, 孚号, 有厉, 告自邑, 不利即戎, 利有攸往.
-: ...
+: tawa anpa la
+: tomo pi lawa kulupu la ilo mani li mu
+: _ike_
+: toki tan tomo mute
+: pona   ala  la utala
+: &nbsp; pona la _tawa e ma ante_
 
 
 # 44
@@ -716,7 +733,9 @@ The [sitelen pona] font is ...
 : kipisi  monsi la kon
 
 姤: 女壮, 勿用取女.
-: ...
+: unpa la
+: &nbsp; &nbsp; &nbsp; meli wawa
+: lanpan ala    e      meli
 
 
 # 45
