@@ -518,7 +518,7 @@ The [sitelen pona] font is ...
 颐: 贞吉. 观颐, 自求口实.
 : sijelo moku la
 : wawa
-: sona e moku mama
+: suno e moku mama
 : uta li wile moku
 
 
@@ -691,7 +691,7 @@ The [sitelen pona] font is ...
 损: 有孚, 元吉, 无咎, 可贞, 利有攸往. 曷之用, 二簋可用享.
 : lili e mute la
 : ilo mani
-: usawi li wawa
+: usawi li pona
 : pakala ala
 : ken usawi
 : _tawa e ma ante_ li pona
@@ -745,7 +745,14 @@ The [sitelen pona] font is ...
 : kipisi  monsi la ma
 
 萃: 亨. 王假有庙, 利见大人, 亨, 利贞. 用大牲吉, 利有攸往.
-: ...
+: nasa la
+: wawa
+: jan lawa li tawa e tomo usawi
+: wawa la lukin e jan wawa
+: wawa
+: tenpo kama li wawa
+: **sacrifice**<!-- TODO --> suli li pona
+: pona la _tawa e ma ante_
 
 
 # 46
@@ -755,7 +762,11 @@ The [sitelen pona] font is ...
 : kipisi  monsi la kon
 
 升: 元亨, 用见大人, 勿恤, 南征吉.
-: ...
+: tawa sewi la
+: usawi li pona
+: pona la lukin e jan wawa
+: pilin pakala ala
+: _ma weka la: tawa li pona_
 
 
 # 47
@@ -765,7 +776,12 @@ The [sitelen pona] font is ...
 : kipisi  monsi la telo-tawa
 
 困: 亨, 贞, 大人吉, 无咎, 有言不信.
-: ...
+: len la
+: wawa
+: pona
+: jan wawa li pona
+: pakala ala
+: toki taso _pilin_ ala
 
 
 # 48
@@ -775,7 +791,15 @@ The [sitelen pona] font is ...
 : kipisi  monsi la kon
 
 井: 改邑不改井, 无丧无得, 往来井井. 汔至, 亦未繘井, 羸其瓶, 凶.
-: ...
+: lupa-telo la
+: tomo   mute   li     ante
+: lupa   telo   li     ante ala
+: &nbsp; &nbsp; &nbsp; lili ala
+: &nbsp; &nbsp; &nbsp; suli ala
+: lupa telo la jan ale li kama li tawa
+: _lupa telo li jo ala e telo la_
+: poki telo li pakala
+: _tenpo ike_
 
 
 # 49
@@ -785,7 +809,11 @@ The [sitelen pona] font is ...
 : kipisi  monsi la seli
 
 革: 巳日乃孚, 元亨利贞, 悔亡.
-: ...
+: selo soweli la
+: _tenpo pi ilo mani_
+: &nbsp; usawi li pona
+: tenpo  kama  li wawa
+: tenpo ike li pini
 
 
 # 50
@@ -795,7 +823,9 @@ The [sitelen pona] font is ...
 : kipisi  monsi la kon
 
 鼎: 元吉, 亨.
-: ...
+: poki moku usawi la
+: usawi li pona
+: wawa
 
 
 # 51
@@ -826,6 +856,8 @@ The [sitelen pona] font is ...
 
 渐: 女归吉, 利贞.
 : ...
+: meli ... pona
+: tenpo kama li wawa
 
 
 # 54
@@ -845,6 +877,8 @@ The [sitelen pona] font is ...
 : kipisi  monsi la seli
 
 丰: 亨, 王假之, 勿忧, 宜日中.
+: ...
+: wawa
 : ...
 
 
@@ -911,6 +945,7 @@ The [sitelen pona] font is ...
 : kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
 
 中孚: 豚鱼吉, 利涉大川, 利贞.
+: ...
 : ...
 : pali suli li pona
 : tenpo kama li pona
