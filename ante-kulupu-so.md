@@ -96,8 +96,8 @@ Much is based on Part II of [John Minford]'s English interpretation, including t
 
 I turn to [Master Alfred Huang]'s English interpretation for much guidance as well.
 
-The [sitelen pona] font is
-[Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxponahd/).
+The [sitelen pona] font is ...
+<!-- [Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxponahd/). -->
 <!-- [sitelen seli kiwen](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/). -->
 <!-- [linja pona](https://musilili.net/linja-pona/) by jan Same. -->
 <!-- [Lipamanka](https://lipamanka.gay)'s [Linja Lipamanka](https://lipamanka.gay/linjamanka). -->
@@ -109,41 +109,54 @@ The [sitelen pona] font is
 
 {:.terms}
 八卦
-: <span lang="tp">linja mute</span> <span lang="en">trigram, [bagua](https://en.wikipedia.org/wiki/Bagua)</span>
+: <span lang="tp">linja mute</span>
+: <span lang="en">trigram, [bagua](https://en.wikipedia.org/wiki/Bagua)</span>
 
 元
 : <span lang="tp">pona</span>
 
 亨
-: <span lang="tp">usawi</span> <span lang="en">'supernatural' (non-pu)</span>
-: <span lang="tp">alasa sona</span> <span lang="en">divination, "augury" [^Minford]; 'searching for knowledge'</span>
-
-[^Minford]: John Minford, "I Ching: The Essential Translation of the Ancient Chinese Oracle and Book of Wisdom" (2014). Penguin Books, 4th printing, 2015? How do citations work again??
+: <span lang="tp">usawi</span> (non-pu)
+: <span lang="en">divination, "augury" [^Minford]</span>
 
 利
-: <span lang="tp">tenpo kama</span> <span lang="en">fortune; 'future'</span>
-: <span lang="tp">pona</span> <span lang="en">auspicious, beneficial; 'good'</span>
+: <span lang="tp">tenpo kama</span>
+: <span lang="en">fortune</span>
+: <span lang="tp">pona</span>
+: <span lang="en">auspicious, beneficial</span>
 
 贞
-: <span lang="tp">wawa</span> <span lang="en">auspicious; 'powerful'</span>
+: <span lang="tp">wawa</span>
+: <span lang="en">auspicious</span>
 
 大人
-: <span lang="tp">jan wawa</span> <span lang="en">the ideal protagonist; 'sure person'</span>
+: <span lang="tp">jan wawa</span>
+: <span lang="en">the ideal protagonist</span>
 
 君子
-: <span lang="tp">jan pona</span> <span lang="en">an honorable one; 'good person'</span>
+: <span lang="tp">jan pona</span>
+: <span lang="en">an honorable one; nobleperson</span>
 
 小人
-: <span lang="tp">jan anpa</span> <span lang="en">a dishonorable one; 'lowly person'</span>
+: <span lang="tp">jan anpa</span>
+: <span lang="en">a dishonorable one</span>
 
 涉大川
-: <span lang="tp">pali suli</span> <span lang="en">literally 'crossing a great river'; metaphor for a significant undertaking or "hazardous enterprise" [^Minford]; 'important efforts'</span>
+: <span lang="tp">pali suli</span>
+: <span lang="en">literally 'crossing a great river'; metaphor for a significant undertaking or "hazardous enterprise" [^Minford]</span>
+
+西南
+东北
+: <span lang="tp">ma weka</span>
+: <span lang="en">literally 'west-south' and 'east-north'; thousands of years ago, these referred to specific neighboring areas (and the people living in those places); I have chosen to leave the specific directions vague: 'far-away place'</span>
 
 孚
-: <span lang="tp">ilo mani</span> <span lang="en">spoils of war, "captives" [^Minford]; 'valuable things'</span>
+: <span lang="tp">ilo mani</span>
+: <span lang="en">spoils of war, "captives" [^Minford]</span>
 
 攸往
-: <span lang="tp">_tawa e ma ante_</span> <span lang="en">..."destination" [^Minford]; 'going to a different place'</span>
+: <span lang="tp">_tawa e ma ante_</span>
+: <span lang="en">"destination" [^Minford]</span> <!-- TODO Check… -->
 
 {:.bagua}
 | linja | 名字 | English |  **sitelen**  | nimi
@@ -169,7 +182,7 @@ The [sitelen pona] font is
 乾: 元亨, 利贞
 : suno li sewi la
 : &nbsp; usawi li pona
-: tenpo kama li wawa
+: tenpo  kama  li wawa
 
 
 # 02
@@ -185,8 +198,8 @@ The [sitelen pona] font is
 : jan sewi li kama tawa ma ante la tenpo kama li nasa
 : jan sewi ni la tenpo pini li sewi
 : ma weka wan li jo e ilo pona
-: ma weka ante li weka e ilo pona
-: &nbsp; tenpo kama li pakala ala li wawa <!-- nbsp to align the `li` with the ones above -->
+: ma     weka  ante li weka e ilo pona
+: &nbsp; tenpo kama li pakala ala li wawa
 
 
 # 03
@@ -214,7 +227,7 @@ The [sitelen pona] font is
 : pona
 : mi alasa ala e kasi la kasi li alasa e mi
 : &nbsp; wan la usawi li pona
-: tu mute la usawi li jaki
+: tu    mute la usawi li jaki
 : tenpo kama li wawa
 
 
@@ -242,7 +255,7 @@ The [sitelen pona] font is
 : _olin e meso_ li pona
 : &nbsp; pini la sama e monsuta
 : &nbsp; pona la lukin e jan wawa
-: pali suli li pona ala
+: pali   suli li pona ala
 
 
 # 07
@@ -253,7 +266,7 @@ The [sitelen pona] font is
 
 师: 贞, 丈人, 吉无咎.
 : kulupu utala la
-: jan majuna<!-- not in linjapona/linjalipamanka --> li pona
+: jan    majuna<!-- not in linjapona/linjalipamanka --> li pona
 : &nbsp; usawi<!-- not in linjapona --> li pakala ala
 
 
@@ -266,7 +279,7 @@ The [sitelen pona] font is
 比: 吉. 原筮元永贞, 无咎. 不宁方来, 后夫凶.
 : sama la
 : usawi li wawa
-: _tenpo ale_ la usawi li pona <br/> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; li pakala ala
+: _tenpo ale_ la usawi li pona li pakala ala
 : kama tan ma pi utala jan
 : _tenpo pini_ la jan kama li tenpo ike
 
@@ -378,7 +391,7 @@ The [sitelen pona] font is
 随: 元亨利贞, 无咎.
 : alasa la
 : &nbsp; usawi li pona
-: tenpo kama li wawa li pakala ala
+: tenpo  kama  li wawa li pakala ala
 
 
 # 18
@@ -390,7 +403,7 @@ The [sitelen pona] font is
 蛊: 元亨, 利涉大川. 先甲三日, 后甲三日.
 : moli la
 : &nbsp; usawi li pona
-: pali suli li pona
+: pali   suli  li pona
 : _tenpo kama suno mute_ en _tenpo pini suno mute_
 
 
@@ -403,8 +416,8 @@ The [sitelen pona] font is
 临: 元亨, 利贞. 至于八月有凶.
 : mu la
 : &nbsp; &nbsp; &nbsp; usawi li pona
-: &nbsp; &nbsp; tenpo kama li wawa
-: _tenpo suno mute mute_ li ike
+: &nbsp; &nbsp; tenpo  kama  li wawa
+: _tenpo suno   mute  mute_  li ike
 
 
 # 20
@@ -463,7 +476,7 @@ The [sitelen pona] font is
 复: 亨. 出入无疾, 朋来无咎. 反复其道, 七日来复, 利有攸往.
 : sike la
 : usawi li pona
-: &nbsp; &nbsp; tawa en kama li ike ala
+: tawa en kama li ike ala
 : jan pona li kama la pakala ala
 : nasin sewi li sike la suno mute mute li kama sin
 : _tawa e ma ante_ li pona
@@ -478,8 +491,8 @@ The [sitelen pona] font is
 无妄: 元亨, 利贞. 其匪正有眚, 不利有攸往.
 : jo la
 : &nbsp; usawi li pona
-: tenpo kama li wawa
-: tenpo kama la ken pali la taso pali ike
+: tenpo  kama  li wawa
+: tenpo  kama  la ken pali la taso pali ike
 : _tawa e ma ante_ li pona ala
 
 
@@ -556,7 +569,7 @@ The [sitelen pona] font is
 咸, 亨, 利贞, 取女吉.
 : pilin sijelo la
 : &nbsp; &nbsp; usawi li pona
-: &nbsp; tenpo kama li wawa
+: &nbsp; tenpo  kama  li wawa
 : jo e meli li pona
 
 
@@ -569,7 +582,7 @@ The [sitelen pona] font is
 恒: 亨, 无咎, 利贞, 利有攸往.
 : awen la
 : &nbsp; usawi li pona li pakala ala
-: tenpo kama li pona
+: tenpo  kama  li pona
 : _tawa e ma ante_ li pona <!-- see #25, #28… -->
 
 
@@ -648,8 +661,9 @@ The [sitelen pona] font is
 : kipisi  monsi la nena
 
 蹇: 利西南, 不利东北; 利见大人, 贞吉.
-: ...
-: ...
+: noka pakala la
+: &nbsp; pona la ma weka wan
+: pona   ala  la ma weka ante
 : lukin e jan wawa li wawa
 
 
@@ -660,7 +674,8 @@ The [sitelen pona] font is
 : kipisi  monsi la telo-tawa
 
 解: 利西南, 无所往, 其来复吉. 有攸往, 夙吉.
-: ...
+: pana la
+: pona la ma weka   
 
 
 # 41
@@ -909,11 +924,13 @@ The [sitelen pona] font is
 : kipisi sinpin la seli
 : kipisi  monsi la telo-tawa
 
-未济 亨 小狐汔济 濡其尾 无攸利
+未济: 亨, 小狐汔济, 濡其尾, 无攸利.
 : ...
 
 
 
+
+[^Minford]: John Minford, "I Ching: The Essential Translation of the Ancient Chinese Oracle and Book of Wisdom" (2014). Penguin Books, 4th printing, 2015? How do citations work again??
 
 [John Minford]: https://www.johnminford.com/iching
 [Master Alfred Huang]: https://www.masteralfredhuang.com/books
@@ -986,9 +1003,6 @@ The [sitelen pona] font is
 
   .terms [lang=tp] {
     font: 1.25em tp-linjalipamanka;
-  }
-  .terms [lang=en]:before {
-    content: ' — ';
   }
 
   .bagua {
