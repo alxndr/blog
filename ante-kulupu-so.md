@@ -125,7 +125,7 @@ Fonts used to display [sitelen pona]:
 
 利
 : <span lang="tp">tenpo kama</span>
-: <span lang="en">fortune</span>
+: <span lang="en">fortune, future</span>
 : <span lang="tp">pona</span>
 : <span lang="en">auspicious, beneficial</span>
 
@@ -139,7 +139,7 @@ Fonts used to display [sitelen pona]:
 
 君子
 : <span lang="tp">jan pona</span>
-: <span lang="en">an honorable one; nobleperson</span>
+: <span lang="en">an honorable one; a noble person</span>
 
 小人
 : <span lang="tp">jan anpa</span>
@@ -152,15 +152,15 @@ Fonts used to display [sitelen pona]:
 西南
 东北
 : <span lang="tp">ma weka</span>
-: <span lang="en">literally 'west-south' and 'east-north'; thousands of years ago, these referred to specific neighboring areas (and the people living in those places); I have chosen to leave the specific directions vague: 'far-away place'</span>
+: <span lang="en">'far-away place': literally 'west-south' and 'east-north'; thousands of years ago, these referred to specific neighboring areas (and the people living in those places); I have chosen to leave the specific directions vague</span>
 
 孚
 : <span lang="tp">ilo mani</span>
-: <span lang="en">spoils of war, "captives" [^Minford]</span>
+: <span lang="en">'valuable things': spoils of war, "captives" [^Minford]</span>
 
 攸往
-: <span lang="tp">_tawa e ma ante_</span>
-: <span lang="en">"destination" [^Minford]</span> <!-- TODO Check… -->
+: <span lang="tp">_tawa ma ante_</span>
+: <span lang="en">'visiting a different place': "destination" [^Minford]</span> <!-- TODO Check… -->
 
 {:.bagua}
 | linja | 名字 | English |  **sitelen**  | nimi
@@ -479,7 +479,7 @@ Fonts used to display [sitelen pona]:
 贲: 亨. 小利有攸往.
 : kule olin la
 : usawi li pona
-: _tawa e ma ante_<!-- see #23, 24, etc... --> li pona lili
+: _tawa ma ante_<!-- see #23, 24, etc... --> li pona lili
 
 
 # 23
@@ -491,7 +491,7 @@ Fonts used to display [sitelen pona]:
 
 剥: 不利有攸往.
 : kipisi la
-: _tawa e ma ante_<!-- see #22 --> li pona ala
+: _tawa ma ante_<!-- see #22 --> li pona ala
 
 
 # 24
@@ -504,10 +504,10 @@ Fonts used to display [sitelen pona]:
 复: 亨. 出入无疾, 朋来无咎. 反复其道, 七日来复, 利有攸往.
 : sike la
 : usawi li pona
-: tawa en kama li ike ala
+: tawa kama li ike ala
 : jan pona li kama la pakala ala
 : nasin sewi li sike la suno mute mute li kama sin
-: _tawa e ma ante_ li pona
+: _tawa ma ante_ li pona
 
 
 # 25
@@ -522,7 +522,7 @@ Fonts used to display [sitelen pona]:
 : &nbsp; usawi li pona
 : tenpo  kama  li wawa
 : tenpo  kama  la ken pali la taso pali ike
-: _tawa e ma ante_ li pona ala
+: _tawa ma ante_ li pona ala
 
 
 # 26
@@ -563,7 +563,7 @@ Fonts used to display [sitelen pona]:
 大过: 栋桡, 利有攸往, 亨.
 : mute suli la <!-- see #62 -->
 : insa _tomo_ li wawa
-: _tawa e ma ante_ li pona <!-- see #25… -->
+: _tawa ma ante_ li pona <!-- see #25… -->
 : usawi li pona
 
 
@@ -578,7 +578,7 @@ Fonts used to display [sitelen pona]:
 : pakala la
 : _len e ilo mani_
 : _olin e sewi_ li pona
-: tawa e ma li pona
+: tawa ma li pona
 
 
 # 30
@@ -619,7 +619,7 @@ Fonts used to display [sitelen pona]:
 : awen la
 : &nbsp; usawi li pona li pakala ala
 : tenpo  kama  li pona
-: _tawa e ma ante_ li pona <!-- see #25, #28… -->
+: _tawa ma ante_ li pona
 
 
 # 33
@@ -739,7 +739,7 @@ Fonts used to display [sitelen pona]:
 : usawi li pona
 : pakala ala
 : ken usawi
-: _tawa e ma ante_ li pona
+: _tawa ma ante_ li pona
 : pali e seme?
 : poki tu li ken pali e usawi
 
@@ -753,7 +753,7 @@ Fonts used to display [sitelen pona]:
 
 益: 利有攸往, 利涉大川.
 : suli e mute la
-: _tawa e ma ante_ li pona
+: _tawa ma ante_ li pona
 : pali suli li pona
 
 
@@ -770,7 +770,7 @@ Fonts used to display [sitelen pona]:
 : _ike_
 : toki tan tomo mute
 : pona   ala  la utala
-: &nbsp; pona la _tawa e ma ante_
+: &nbsp; pona la _tawa ma ante_
 
 
 # 44
@@ -796,12 +796,12 @@ Fonts used to display [sitelen pona]:
 萃: 亨. 王假有庙, 利见大人, 亨, 利贞. 用大牲吉, 利有攸往.
 : nasa la
 : wawa
-: jan lawa li tawa e tomo usawi
+: jan lawa li tawa tomo usawi
 : wawa la lukin e jan wawa
 : wawa
 : tenpo kama li wawa
 : **sacrifice**<!-- TODO --> suli li pona
-: pona la _tawa e ma ante_
+: pona la _tawa ma ante_
 
 
 # 46
@@ -977,7 +977,7 @@ Fonts used to display [sitelen pona]:
 巽: 小亨, 利攸往, 利见大人.
 : pana usawi la
 : wawa lili
-: pona la _tawa e ma ante_
+: pona la _tawa ma ante_
 : pona la lukin e jan wawa
 
 
