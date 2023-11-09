@@ -87,7 +87,8 @@ sidebar:
 <input markdown="span" type="radio" name="font" id="lp" /> -->
 
 A [toki pona] interpretation of "The Changes of Zhou": the 卦辭 hexagram initial commentary from the Chinese classic 易經 (Yi Jing / I Ching).
-Started by jan Lesate (Alexander) in 2023…
+
+By jan Lesate (Alexander), autumn 2023.
 
 
 ### Acknowledgements
