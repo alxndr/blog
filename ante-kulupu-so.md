@@ -175,7 +175,8 @@ The [sitelen pona] font is ...
 
 # 01
 
-䷀ _Kan_{:hexagram-name} <!-- kân -->
+䷀
+: _Kan_{:hexagram-name} <!-- kân -->
 : kipisi sinpin la sewi
 : kipisi  monsi la sewi
 
@@ -187,7 +188,8 @@ The [sitelen pona] font is ...
 
 # 02
 
-䷁ _Kewen_{:hexagram-name} <!-- k'wen -->
+䷁
+: _Kewen_{:hexagram-name} <!-- k'wen -->
 : kipisi sinpin la ma
 : kipisi  monsi la ma
 
@@ -204,7 +206,8 @@ The [sitelen pona] font is ...
 
 # 03
 
-䷂ _Tewen_{:hexagram-name} <!-- d'wen -->
+䷂
+: _Tewen_{:hexagram-name} <!-- d'wen -->
 : kipisi sinpin la telo-tawa
 : kipisi  monsi la kalama
 
@@ -218,7 +221,8 @@ The [sitelen pona] font is ...
 
 # 04
 
-䷃ _Mun_{:hexagram-name} <!-- mung -->
+䷃
+: _Mun_{:hexagram-name} <!-- mung -->
 : kipisi sinpin la nena
 : kipisi  monsi la telo-tawa
 
@@ -233,7 +237,8 @@ The [sitelen pona] font is ...
 
 # 05
 
-䷄ _Senju_{:hexagram-name} <!-- sniu -->
+䷄
+: _Senju_{:hexagram-name} <!-- sniu -->
 : kipisi sinpin la telo-tawa
 : kipisi  monsi la sewi
 
@@ -245,7 +250,8 @@ The [sitelen pona] font is ...
 
 # 06
 
-䷅ _Sijun_{:hexagram-name} <!-- dziung -->
+䷅
+: _Sijun_{:hexagram-name} <!-- dziung -->
 : kipisi sinpin la sewi
 : kipisi  monsi la telo-tawa
 
@@ -260,7 +266,8 @@ The [sitelen pona] font is ...
 
 # 07
 
-䷆ _Sije_{:hexagram-name} <!-- sier -->
+䷆
+: _Sije_{:hexagram-name} <!-- sier -->
 : kipisi sinpin la ma
 : kipisi  monsi la telo-tawa
 
@@ -272,7 +279,8 @@ The [sitelen pona] font is ...
 
 # 08
 
-䷇ _Pije_{:hexagram-name} <!-- bier -->
+䷇
+: _Pije_{:hexagram-name} <!-- bier -->
 : kipisi sinpin la telo-tawa
 : kipisi  monsi la ma
 
@@ -286,7 +294,8 @@ The [sitelen pona] font is ...
 
 # 09
 
-䷈ _Sija Sijo_{:hexagram-name} <!-- siog xiôk -->
+䷈
+: _Sija Sijo_{:hexagram-name} <!-- siog xiôk -->
 : kipisi sinpin la kon
 : kipisi  monsi la sewi
 
@@ -298,7 +307,8 @@ The [sitelen pona] font is ...
 
 # 10
 
-䷉ _Lije_{:hexagram-name} <!-- lier -->
+䷉
+: _Lije_{:hexagram-name} <!-- lier -->
 : kipisi sinpin la sewi
 : kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
 
@@ -310,7 +320,8 @@ The [sitelen pona] font is ...
 
 # 11
 
-䷊ _Ta_{:hexagram-name} <!-- t'âd -->
+䷊
+: _Ta_{:hexagram-name} <!-- t'âd -->
 : kipisi sinpin la ma
 : kipisi  monsi la sewi
 
@@ -323,7 +334,8 @@ The [sitelen pona] font is ...
 
 # 12
 
-䷋ _Piju_{:hexagram-name} <!-- b'iûg -->
+䷋
+: _Piju_{:hexagram-name} <!-- b'iûg -->
 : kipisi sinpin la sewi
 : kipisi  monsi la ma
 
@@ -336,7 +348,8 @@ The [sitelen pona] font is ...
 
 # 13
 
-䷌ _Tun Nijen_{:hexagram-name} <!-- d'ung nien -->
+䷌
+: _Tun Nijen_{:hexagram-name} <!-- d'ung nien -->
 : kipisi sinpin la sewi
 : kipisi  monsi la seli
 
@@ -349,7 +362,8 @@ The [sitelen pona] font is ...
 
 # 14
 
-䷍ _Ta Kiju_{:hexagram-name} <!-- d'âd giug -->
+䷍
+: _Ta Kiju_{:hexagram-name} <!-- d'âd giug -->
 : kipisi sinpin la seli
 : kipisi  monsi la sewi
 
@@ -360,7 +374,8 @@ The [sitelen pona] font is ...
 
 # 15
 
-䷎ _Kelijan_{:hexagram-name} <!-- g'liam -->
+䷎
+: _Kelijan_{:hexagram-name} <!-- g'liam -->
 : kipisi sinpin la ma
 : kipisi  monsi la nena
 
@@ -372,7 +387,8 @@ The [sitelen pona] font is ...
 
 # 16
 
-䷏ _Sijo_{:hexagram-name} <!-- dio -->
+䷏
+: _Sijo_{:hexagram-name} <!-- dio -->
 : kipisi sinpin la kalama
 : kipisi  monsi la ma
 
@@ -384,7 +400,8 @@ The [sitelen pona] font is ...
 
 # 17
 
-䷐ _Suja_{:hexagram-name} <!-- dzwia -->
+䷐
+: _Suja_{:hexagram-name} <!-- dzwia -->
 : kipisi sinpin la telo-pake<!-- not in linjalipamanka -->
 : kipisi  monsi la kalama
 
@@ -396,7 +413,8 @@ The [sitelen pona] font is ...
 
 # 18
 
-䷑ _Ko_{:hexagram-name} <!-- ko -->
+䷑
+: _Ko_{:hexagram-name} <!-- ko -->
 : kipisi sinpin la nena
 : kipisi  monsi la kon
 
@@ -409,7 +427,8 @@ The [sitelen pona] font is ...
 
 # 19
 
-䷒ _Pulijen_{:hexagram-name} <!-- bliem -->
+䷒
+: _Pulijen_{:hexagram-name} <!-- bliem -->
 : kipisi sinpin la ma
 : kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
 
@@ -422,7 +441,8 @@ The [sitelen pona] font is ...
 
 # 20
 
-䷓ _Kuwan_{:hexagram-name} <!-- kwân -->
+䷓
+: _Kuwan_{:hexagram-name} <!-- kwân -->
 : kipisi sinpin la kon
 : kipisi  monsi la ma
 
@@ -434,7 +454,8 @@ The [sitelen pona] font is ...
 
 # 21
 
-䷔ _Sija Ka_{:hexagram-name} <!-- diad g'a -->
+䷔
+: _Sija Ka_{:hexagram-name} <!-- diad g'a -->
 : kipisi sinpin la seli
 : kipisi  monsi la kalama
 
@@ -446,7 +467,8 @@ The [sitelen pona] font is ...
 
 # 22
 
-䷕ _Pija_{:hexagram-name} <!-- piar -->
+䷕
+: _Pija_{:hexagram-name} <!-- piar -->
 : kipisi sinpin la nena
 : kipisi  monsi la seli
 
@@ -458,7 +480,8 @@ The [sitelen pona] font is ...
 
 # 23
 
-䷖ _Pe_{:hexagram-name} <!-- pûk -->
+䷖
+: _Pe_{:hexagram-name} <!-- pûk -->
 : kipisi sinpin la nena
 : kipisi  monsi la ma
 
@@ -469,7 +492,8 @@ The [sitelen pona] font is ...
 
 # 24
 
-䷗ _Pijo_{:hexagram-name} <!-- b'iôk -->
+䷗
+: _Pijo_{:hexagram-name} <!-- b'iôk -->
 : kipisi sinpin la ma
 : kipisi  monsi la kalama
 
@@ -484,7 +508,8 @@ The [sitelen pona] font is ...
 
 # 25
 
-䷘ _Miwe Miwan_{:hexagram-name} <!-- miwo miwang -->
+䷘
+: _Miwe Miwan_{:hexagram-name} <!-- miwo miwang -->
 : kipisi sinpin la sewi
 : kipisi  monsi la kalama
 
@@ -498,7 +523,8 @@ The [sitelen pona] font is ...
 
 # 26
 
-䷙ _Ta Sijo_{:hexagram-name} <!-- d'âd xiôk -->
+䷙
+: _Ta Sijo_{:hexagram-name} <!-- d'âd xiôk -->
 : kipisi sinpin la nena
 : kipisi  monsi la sewi
 
@@ -511,7 +537,8 @@ The [sitelen pona] font is ...
 
 # 27
 
-䷚ _Kije_{:hexagram-name} <!-- gieg -->
+䷚
+: _Kije_{:hexagram-name} <!-- gieg -->
 : kipisi sinpin la nena
 : kipisi  monsi la kalama
 
@@ -524,7 +551,8 @@ The [sitelen pona] font is ...
 
 # 28
 
-䷛ _Ta Kuwa_{:hexagram-name} <!-- d'âd kwâ -->
+䷛
+: _Ta Kuwa_{:hexagram-name} <!-- d'âd kwâ -->
 : kipisi sinpin la telo-pake<!-- not in linjalipamanka -->
 : kipisi  monsi la kon
 
@@ -537,7 +565,8 @@ The [sitelen pona] font is ...
 
 # 29
 
-䷜ _Ken_{:hexagram-name} <!-- k'em -->
+䷜
+: _Ken_{:hexagram-name} <!-- k'em -->
 : kipisi sinpin la telo-tawa
 : kipisi  monsi la telo-tawa
 
@@ -550,7 +579,8 @@ The [sitelen pona] font is ...
 
 # 30
 
-䷝ _Lija_{:hexagram-name} <!-- lia -->
+䷝
+: _Lija_{:hexagram-name} <!-- lia -->
 : kipisi sinpin la seli
 : kipisi  monsi la seli
 
@@ -562,7 +592,8 @@ The [sitelen pona] font is ...
 
 # 31
 
-䷞ _Ken_{:hexagram-name} <!-- g'em -->
+䷞
+: _Ken_{:hexagram-name} <!-- g'em -->
 : kipisi sinpin la telo-pake<!-- not in linjalipamanka -->
 : kipisi  monsi la nena
 
@@ -575,7 +606,8 @@ The [sitelen pona] font is ...
 
 # 32
 
-䷟ _Kene_{:hexagram-name} <!-- geng -->
+䷟
+: _Kene_{:hexagram-name} <!-- geng -->
 : kipisi sinpin la kalama
 : kipisi  monsi la kon
 
@@ -588,7 +620,8 @@ The [sitelen pona] font is ...
 
 # 33
 
-䷠ _Tuwen_{:hexagram-name} <!-- d'wen -->
+䷠
+: _Tuwen_{:hexagram-name} <!-- d'wen -->
 : kipisi sinpin la sewi
 : kipisi  monsi la nena
 
@@ -600,7 +633,8 @@ The [sitelen pona] font is ...
 
 # 34
 
-䷡ _Ta Sijan_{:hexagram-name} <!-- d'âd tsiang -->
+䷡
+: _Ta Sijan_{:hexagram-name} <!-- d'âd tsiang -->
 : kipisi sinpin la kalama
 : kipisi  monsi la sewi
 
@@ -611,7 +645,8 @@ The [sitelen pona] font is ...
 
 # 35
 
-䷢ _Sije_{:hexagram-name} <!-- tsie -->
+䷢
+: _Sije_{:hexagram-name} <!-- tsie -->
 : kipisi sinpin la seli
 : kipisi  monsi la ma
 
@@ -623,7 +658,8 @@ The [sitelen pona] font is ...
 
 # 36
 
-䷣ _Mijan Sija_{:hexagram-name} <!-- miang dier -->
+䷣
+: _Mijan Sija_{:hexagram-name} <!-- miang dier -->
 : kipisi sinpin la ma
 : kipisi  monsi la seli
 
@@ -634,7 +670,8 @@ The [sitelen pona] font is ...
 
 # 37
 
-䷤ _Ka Nijen_{:hexagram-name} <!-- ka niên -->
+䷤
+: _Ka Nijen_{:hexagram-name} <!-- ka niên -->
 : kipisi sinpin la kon
 : kipisi  monsi la seli
 
@@ -645,7 +682,8 @@ The [sitelen pona] font is ...
 
 # 38
 
-䷥ _Kiwa_{:hexagram-name} <!-- k'iwer -->
+䷥
+: _Kiwa_{:hexagram-name} <!-- k'iwer -->
 : kipisi sinpin la seli
 : kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
 
@@ -656,7 +694,8 @@ The [sitelen pona] font is ...
 
 # 39
 
-䷦ _Kan_{:hexagram-name} <!-- gân -->
+䷦
+: _Kan_{:hexagram-name} <!-- gân -->
 : kipisi sinpin la telo-tawa
 : kipisi  monsi la nena
 
@@ -669,7 +708,8 @@ The [sitelen pona] font is ...
 
 # 40
 
-䷧ _Ke_{:hexagram-name} <!-- kêg -->
+䷧
+: _Ke_{:hexagram-name} <!-- kêg -->
 : kipisi sinpin la kalama
 : kipisi  monsi la telo-tawa
 
@@ -684,7 +724,8 @@ The [sitelen pona] font is ...
 
 # 41
 
-䷨ _Suwen_{:hexagram-name} <!-- swêng -->
+䷨
+: _Suwen_{:hexagram-name} <!-- swêng -->
 : kipisi sinpin la nena
 : kipisi  monsi la telo-tawa
 
@@ -701,7 +742,8 @@ The [sitelen pona] font is ...
 
 # 42
 
-䷩ _Je_{:hexagram-name} <!-- iêk -->
+䷩
+: _Je_{:hexagram-name} <!-- iêk -->
 : kipisi sinpin la kon
 : kipisi  monsi la kalama
 
@@ -713,7 +755,8 @@ The [sitelen pona] font is ...
 
 # 43
 
-䷪ _Kiwe_{:hexagram-name} <!-- kiwet -->
+䷪
+: _Kiwe_{:hexagram-name} <!-- kiwet -->
 : kipisi sinpin la telo-tawa
 : kipisi  monsi la sewi
 
@@ -728,7 +771,8 @@ The [sitelen pona] font is ...
 
 # 44
 
-䷫ _Ko_{:hexagram-name} <!-- kôh -->
+䷫
+: _Ko_{:hexagram-name} <!-- kôh -->
 : kipisi sinpin la sewi
 : kipisi  monsi la kon
 
@@ -740,7 +784,8 @@ The [sitelen pona] font is ...
 
 # 45
 
-䷬ _Suse_{:hexagram-name} <!-- dzuts -->
+䷬
+: _Suse_{:hexagram-name} <!-- dzuts -->
 : kipisi sinpin la telo-pake<!-- not in linjalipamanka -->
 : kipisi  monsi la ma
 
@@ -757,7 +802,8 @@ The [sitelen pona] font is ...
 
 # 46
 
-䷭ _Sijen_{:hexagram-name} <!-- sieng -->
+䷭
+: _Sijen_{:hexagram-name} <!-- sieng -->
 : kipisi sinpin la ma
 : kipisi  monsi la kon
 
@@ -771,7 +817,8 @@ The [sitelen pona] font is ...
 
 # 47
 
-䷮ _Kuwen_{:hexagram-name} <!-- k'wen -->
+䷮
+: _Kuwen_{:hexagram-name} <!-- k'wen -->
 : kipisi sinpin la telo-pake<!-- not in linjalipamanka -->
 : kipisi  monsi la telo-tawa
 
@@ -786,7 +833,8 @@ The [sitelen pona] font is ...
 
 # 48
 
-䷯ _Sijen_{:hexagram-name} <!-- tsieng -->
+䷯
+: _Sijen_{:hexagram-name} <!-- tsieng -->
 : kipisi sinpin la telo-tawa
 : kipisi  monsi la kon
 
@@ -804,7 +852,8 @@ The [sitelen pona] font is ...
 
 # 49
 
-䷰ _Ke_{:hexagram-name} <!-- kek -->
+䷰
+: _Ke_{:hexagram-name} <!-- kek -->
 : kipisi sinpin la telo-pake<!-- not in linjalipamanka -->
 : kipisi  monsi la seli
 
@@ -818,7 +867,8 @@ The [sitelen pona] font is ...
 
 # 50
 
-䷱ _Ton_{:hexagram-name} <!-- tieng -->
+䷱
+: _Ton_{:hexagram-name} <!-- tieng -->
 : kipisi sinpin la seli
 : kipisi  monsi la kon
 
@@ -830,7 +880,8 @@ The [sitelen pona] font is ...
 
 # 51
 
-䷲ _To_{:hexagram-name} <!-- t'ien -->
+䷲
+: _To_{:hexagram-name} <!-- t'ien -->
 : kipisi sinpin la kalama
 : kipisi  monsi la kalama
 
@@ -842,7 +893,8 @@ The [sitelen pona] font is ...
 
 # 52
 
-䷳ _Ken_{:hexagram-name} <!-- ken -->
+䷳
+: _Ken_{:hexagram-name} <!-- ken -->
 : kipisi sinpin la nena
 : kipisi  monsi la nena
 
@@ -852,7 +904,8 @@ The [sitelen pona] font is ...
 
 # 53
 
-䷴ _Sijan_{:hexagram-name} <!-- tsiam -->
+䷴
+: _Sijan_{:hexagram-name} <!-- tsiam -->
 : kipisi sinpin la kon
 : kipisi  monsi la nena
 
@@ -864,7 +917,8 @@ The [sitelen pona] font is ...
 
 # 54
 
-䷵ _Kiwe Muwe_{:hexagram-name} <!-- kiwer mwed -->
+䷵
+: _Kiwe Muwe_{:hexagram-name} <!-- kiwer mwed -->
 : kipisi sinpin la kalama
 : kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
 
@@ -874,7 +928,8 @@ The [sitelen pona] font is ...
 
 # 55
 
-䷶ _Pijon_{:hexagram-name} <!-- p'iông -->
+䷶
+: _Pijon_{:hexagram-name} <!-- p'iông -->
 : kipisi sinpin la kalama
 : kipisi  monsi la seli
 
@@ -886,7 +941,8 @@ The [sitelen pona] font is ...
 
 # 56
 
-䷷ _Li_{:hexagram-name} <!-- gli -->
+䷷
+: _Li_{:hexagram-name} <!-- gli -->
 : kipisi sinpin la seli
 : kipisi  monsi la nena
 
@@ -896,7 +952,8 @@ The [sitelen pona] font is ...
 
 # 57
 
-䷸ _Suwen_{:hexagram-name} <!-- swen -->
+䷸
+: _Suwen_{:hexagram-name} <!-- swen -->
 : kipisi sinpin la kon
 : kipisi  monsi la kon
 
@@ -908,7 +965,8 @@ The [sitelen pona] font is ...
 
 # 58
 
-䷹ _Tuwa_{:hexagram-name} <!-- d'wâd -->
+䷹
+: _Tuwa_{:hexagram-name} <!-- d'wâd -->
 : kipisi sinpin la telo-pake<!-- not in linjalipamanka -->
 : kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
 
@@ -918,7 +976,8 @@ The [sitelen pona] font is ...
 
 # 59
 
-䷺ _Suwan_{:hexagram-name} <!-- xwân -->
+䷺
+: _Suwan_{:hexagram-name} <!-- xwân -->
 : kipisi sinpin la kon
 : kipisi  monsi la telo-tawa
 
@@ -932,7 +991,8 @@ The [sitelen pona] font is ...
 
 # 60
 
-䷻ _Sije_{:hexagram-name} <!-- tsiet -->
+䷻
+: _Sije_{:hexagram-name} <!-- tsiet -->
 : kipisi sinpin la telo-tawa
 : kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
 
@@ -942,7 +1002,8 @@ The [sitelen pona] font is ...
 
 # 61
 
-䷼ _Ton Piju_{:hexagram-name} <!-- tiông p'iug -->
+䷼
+: _Ton Piju_{:hexagram-name} <!-- tiông p'iug -->
 : kipisi sinpin la kon
 : kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
 
@@ -955,7 +1016,8 @@ The [sitelen pona] font is ...
 
 # 62
 
-䷽ _Sijo Kuwa_{:hexagram-name} <!-- siog kwâ -->
+䷽
+: _Sijo Kuwa_{:hexagram-name} <!-- siog kwâ -->
 : kipisi sinpin la kalama
 : kipisi  monsi la nena
 
@@ -966,7 +1028,8 @@ The [sitelen pona] font is ...
 
 # 63
 
-䷾ _Kije Sija_{:hexagram-name} <!-- kied tsier -->
+䷾
+: _Kije Sija_{:hexagram-name} <!-- kied tsier -->
 : kipisi sinpin la telo-tawa
 : kipisi  monsi la seli
 
@@ -979,7 +1042,8 @@ The [sitelen pona] font is ...
 
 # 64
 
-䷿ _Miwe Sija_{:hexagram-name} <!-- miwed tsier -->
+䷿
+: _Miwe Sija_{:hexagram-name} <!-- miwed tsier -->
 : kipisi sinpin la seli
 : kipisi  monsi la telo-tawa
 
@@ -1095,48 +1159,67 @@ The [sitelen pona] font is ...
     flex-basis: calc(100% - 3rem);
     margin: 0 0 10rem;
   }
-  .page__content h1 + dl dt {
-    vertical-align: middle;
-  }
-  .page__content h1 + dl dt:not(:first-child) {
-    margin-bottom: 0.5rem;
-  }
-  .page__content h1 + dl dt:first-child {
+  .page__content h1 + dl dt { /* "left side": trigram and reading */
     float: left;
-    margin: 0.25rem 0 -0.25rem 0;
-    padding: 0 0.5rem;
-    font-size: 1.9rem;
+    width: 32%;
+    margin-top: 0;
   }
-  .page__content h1 + dl dd { /* TODO how to toggle this using a UI element? */
-    font: 1.25rem / 1.5rem tp-linjalipamanka;
+  .page__content h1 + dl dt:first-child { /* trigram */
+    padding: 0 0.5rem 1rem;
+    font-size: 3rem;
   }
-  .page__content h1 + dl dd strong {
+  .page__content h1 + dl dt:not(:first-child) { /* reading */
+    margin-top: 2rem; /* match what's above interpretation's first line */
+    font-size: 1.5rem;
+  }
+  .page__content h1 + dl dd { /* "right side": TP interpretations */
+    width: 60%;
+    margin-left: 40%;
+    padding-left: 2rem;
+    font: 1.5rem / 2rem tp-linjalipamanka /* TODO how to toggle fonts using a UI element? */;
+  }
+  .page__content h1 + dl dd strong, /* any one-off english... */
+  .page__content h1 + dl [lang=en] {
     font: 0.9rem / 1.5rem sans-serif;
-    word-spacing: 0;
   }
-  .page__content h1 + dl dd:first-of-type {
-    margin-top: 0.25rem;
+  .page__content h1 + dl dd:first-of-type { /* sitelen-sitelen pronunciation */
   }
-  .page__content h1 + dl dt:first-of-type + dd,
-  .page__content h1 + dl dt:first-of-type + dd + dd {
+  .page__content h1 + dl dt:first-of-type dd { /* kipisi-pi-linja-mute */
     font-family: tp-linjapona; /* bc it has both "pake" and can combine... */
   }
-  .page__content h1 + dl dt:not(:first-of-type) ~ dd {
-    text-indent: 2em;
+  .page__content h1 + dl dt:not(:first-of-type) ~ dd { /* TP interpretation all lines */
+    padding-left: 2rem;
   }
-  .page__content h1 + dl dt:not(:first-of-type) + dd {
-    text-indent: inherit; /* undo text-indent of `~ dd` above */
+  .page__content h1 + dl dt:not(:first-of-type) + dd { /* first line of interpretation */
+    margin-top: 2rem; /* match what's above source reading */
+    padding-left: 0;
   }
 
   .nimiPiLinjaMute {
   }
-  .nimiPiLinjaMute svg {
-    height: 3rem;
+  .nimiPiLinjaMute > svg {
+    max-width: 50%;
+    min-width: 3rem;
+    max-height: 7rem;
+    min-height: 3rem;
   }
   .nimiPiLinjaMute * {
     stroke: rgba(250 250 250 / 0.68);
     stroke-width: 1.32;
-    fill: #252A34EE;
+  }
+  .nimiPiLinjaMute g#cartouche > path,
+  .nimiPiLinjaMute g#cartouche-tall-wide > path {
+    fill: rgba(250 250 250 / 0.68);
+    stroke: rgba(13 13 13 / 0.68);
+    stroke-width: 2.64;
+  }
+  .nimiPiLinjaMute circle,
+  .nimiPiLinjaMute ellipse,
+  .nimiPiLinjaMute path {
+    fill: #221;
+  }
+  .nimiPiLinjaMute [fill=none] {
+    fill: rgba(0,0,0,0);
   }
 
   /*
