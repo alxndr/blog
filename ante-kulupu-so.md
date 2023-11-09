@@ -135,15 +135,15 @@ Fonts used to display [sitelen pona]:
 
 大人
 : <span lang="tp">jan wawa</span>
-: <span lang="en">the ideal protagonist</span>
+: <span lang="en">the ideal protagonist; the aligned self; a person-in-flow</span>
 
 君子
 : <span lang="tp">jan pona</span>
-: <span lang="en">an honorable one; a noble person</span>
+: <span lang="en">a noble person; an honorable one</span>
 
 小人
 : <span lang="tp">jan anpa</span>
-: <span lang="en">a dishonorable one</span>
+: <span lang="en">a lowly person; a dishonorable one</span>
 
 涉大川
 : <span lang="tp">pali suli</span>
@@ -160,7 +160,7 @@ Fonts used to display [sitelen pona]:
 
 攸往
 : <span lang="tp">_tawa ma ante_</span>
-: <span lang="en">'visiting a different place': "destination" [^Minford]</span> <!-- TODO Check… -->
+: <span lang="en">'visiting a different place': "destination" [^Minford]</span>
 
 {:.bagua}
 | linja | 名字 | English |  **sitelen**  | nimi
@@ -1114,7 +1114,7 @@ Fonts used to display [sitelen pona]:
     text-decoration: none;
   }
 
-  input#fairfax:checked { }
+  /* input#fairfax:checked { }
   input#fairfax:checked + *[lang=tp] {
     color: red;
     background: chartreuse;
@@ -1147,7 +1147,7 @@ Fonts used to display [sitelen pona]:
   }
   input#lp:checked + *[lang=tp] {
     font-family: tp-linjapona;
-  }
+  } */
 
   .page__content {
     display: flex;
@@ -1159,7 +1159,7 @@ Fonts used to display [sitelen pona]:
   .page__content input { display: inline-block; } /* reset a weird default */
 
   .terms [lang=tp] {
-    font: 1.25em tp-linjalipamanka;
+    font: 1.25em tp-LinjaLipamanka;
   }
 
   .bagua {
@@ -1173,7 +1173,7 @@ Fonts used to display [sitelen pona]:
     font: 2em normal;
   }
   .bagua strong {
-    font: 1.25em tp-linjapona;
+    font: 1.25em tp-LinjaPona;
   }
 
   .page__content dd {
@@ -1210,7 +1210,7 @@ Fonts used to display [sitelen pona]:
     width: 55%;
     margin-left: 45%;
     padding-left: 2rem;
-    font: 1.5rem / 2rem tp-linjalipamanka /* TODO how to toggle fonts using a UI element? */;
+    font: 1.5rem / 2rem tp-LinjaLipamanka /* TODO how to toggle fonts using a UI element? */;
   }
   .page__content h1 + dl dd strong, /* any one-off english... */
   .page__content h1 + dl [lang=en] {

@@ -8,24 +8,31 @@
 @import "minimal-mistakes";
 
 // @font-face {
-//   font-family: tp-fairfax; // TODO fix ... or are these unicode??
+//   font-family: tp-Fairfax; // TODO fix ... or are these unicode??
 //   src: url('https://raw.githubusercontent.com/kreativekorp/open-relay/3326b936d7bc0b83aaef5a84c715e6a53070fb78/Fairfax/Fairfax.ttf') format('truetype');
 //   line-height: 1.1em;
 // }
 // @font-face {
-//   font-family: tp-sitelenselikiwen; // TODO fix...
+//   font-family: tp-SitelenSeliKiwen; // TODO fix...
 //   src: url('https://raw.githubusercontent.com/kreativekorp/sitelen-seli-kiwen/e964709/main/sitelenselikiwenasuki.ttf') format('truetype');
 //   line-height: 1.1em;
 // }
 @font-face {
-  font-family: tp-linjalipamanka; // missing: pake
+  font-family: tp-LinjaLipamanka; // missing: pake
   src: url('https://lipamanka.gay/linjalipamanka-normal.otf') format('opentype');
   line-height: 1.1em;
 }
 @font-face {
-  font-family: tp-linjapona; // missing: pake powe usawi
+  font-family: tp-LinjaPona; // missing: pake powe usawi
   src: url('https://raw.githubusercontent.com/janSame/linja-pona/master/linja-pona-4.9.otf') format('opentype');
   font-size: 1.1em / 1.1em; // no monospacing of nbsp...
+}
+@font-face {
+  font-family: tp-SitelenPonaPona;
+  src: url('https://jackhumbert.github.io/sitelen-pona-pona/fonts/sitelen-pona-pona.otf');
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga" 1;
 }
 
 
