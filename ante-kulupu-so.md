@@ -92,15 +92,17 @@ Started by jan Lesate (Alexander) in 2023…
 
 ### Acknowledgements
 
-Much is based on Part II of [John Minford]'s English interpretation, including the inspiration for the "names" of the hexagrams rendered here in [sitelen sitelen].
+Much is based on Part II of [John Minford]'s English interpretation[^Minford], including the inspiration for the "names" of the hexagrams rendered here in [sitelen sitelen].
 
-I turn to [Master Alfred Huang]'s English interpretation for much guidance as well.
+I turn to [Master Alfred Huang]'s English interpretation[^Huang] for much guidance as well.
 
-The [sitelen pona] font is ...
-<!-- [Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxponahd/). -->
-<!-- [sitelen seli kiwen](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/). -->
-<!-- [linja pona](https://musilili.net/linja-pona/) by jan Same. -->
-<!-- [Lipamanka](https://lipamanka.gay)'s [Linja Lipamanka](https://lipamanka.gay/linjamanka). -->
+{:style="margin-bottom:0"}
+Fonts used to display [sitelen pona]:
+<!-- * [Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxponahd/). -->
+<!-- * [sitelen seli kiwen](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/). -->
+* [linja pona](https://musilili.net/linja-pona/) by [jan Same](https://musilili.net)
+* [linja lipamanka](https://lipamanka.gay/linjamanka) by [lipamanka](https://lipamanka.gay)
+{:style="margin-top:0.1rem;line-height:1.2rem"}
 
 {% include sitelen-sitelen-renderer.html %}
 
@@ -812,7 +814,7 @@ The [sitelen pona] font is ...
 : usawi li pona
 : pona la lukin e jan wawa
 : pilin pakala ala
-: _ma weka la: tawa li pona_
+: _ma weka la tawa li pona_
 
 
 # 47
@@ -868,12 +870,12 @@ The [sitelen pona] font is ...
 # 50
 
 ䷱
-: _Ton_{:hexagram-name} <!-- tieng -->
+: _Tan_{:hexagram-name} <!-- tieng -->
 : kipisi sinpin la seli
 : kipisi  monsi la kon
 
 鼎: 元吉, 亨.
-: poki moku usawi la
+: poki moku la
 : usawi li pona
 : wawa
 
@@ -881,14 +883,17 @@ The [sitelen pona] font is ...
 # 51
 
 ䷲
-: _To_{:hexagram-name} <!-- t'ien -->
+: _Ta_{:hexagram-name} <!-- t'ien -->
 : kipisi sinpin la kalama
 : kipisi  monsi la kalama
 
 震: 亨. 震来虩虩, 笑言哑哑. 震惊百里, 不丧匕鬯.
-: ...
+: pakala ma la
 : wawa
-: ...
+: ma pakala li mu a
+: uta pona li kalama a
+: pakala ma li suli mute
+: moku usawi li pakala ala
 
 
 # 52
@@ -899,7 +904,11 @@ The [sitelen pona] font is ...
 : kipisi  monsi la nena
 
 艮: 艮其背, 不获其身, 行其庭, 不见其人, 无咎.
-: ...
+: mama la
+: mama e monsi la sinpin li awen ala
+: jan li tawa lon ma kulupu
+: jan li ken ala lukin e jan ante
+: pakala ala
 
 
 # 53
@@ -910,8 +919,8 @@ The [sitelen pona] font is ...
 : kipisi  monsi la nena
 
 渐: 女归吉, 利贞.
-: ...
-: meli ... pona
+: tawa weka la
+: pona la meli en jan ante li wan
 : tenpo kama li wawa
 
 
@@ -923,7 +932,9 @@ The [sitelen pona] font is ...
 : kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
 
 归妹: 征凶, 无攸利.
-: ...
+: _jan tu li wan_ la
+: tawa li ike
+: pona la tawa ala
 
 
 # 55
@@ -934,9 +945,11 @@ The [sitelen pona] font is ...
 : kipisi  monsi la seli
 
 丰: 亨, 王假之, 勿忧, 宜日中.
-: ...
+: tomo wawa la
 : wawa
-: ...
+: jan lawa li lon
+: ike ala
+: pona la tenpo pi suno meso
 
 
 # 56
@@ -947,7 +960,9 @@ The [sitelen pona] font is ...
 : kipisi  monsi la nena
 
 旅: 小亨, 旅贞吉.
-: ...
+: jan tawa la
+: wawa lili
+: jan tawa li pona
 
 
 # 57
@@ -958,9 +973,10 @@ The [sitelen pona] font is ...
 : kipisi  monsi la kon
 
 巽: 小亨, 利攸往, 利见大人.
-: ...
-: ...
-: lukin e jan wawa li pona
+: pana usawi la
+: wawa lili
+: pona la _tawa e ma ante_
+: pona la lukin e jan wawa
 
 
 # 58
@@ -971,7 +987,9 @@ The [sitelen pona] font is ...
 : kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
 
 兑: 亨, 利贞.
-: ...
+: pilin pona la
+: wawa
+: tenpo kama li wawa
 
 
 # 59
@@ -982,11 +1000,11 @@ The [sitelen pona] font is ...
 : kipisi  monsi la telo-tawa
 
 涣: 亨. 王假有庙, 利涉大川, 利贞.
-: ... la
-: pona
-: ...
+: telo sijelo la
+: wawa
+: jan lawa li tawa lon tomo usawi
 : pali suli li pona
-: tenpo kama li pona
+: tenpo kama li wawa
 
 
 # 60
@@ -997,19 +1015,22 @@ The [sitelen pona] font is ...
 : kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
 
 节: 亨. 苦节, 不可贞.
-: ...
+: kiki la
+: wawa
+: kiki ike
+: ken ala usawi
 
 
 # 61
 
 ䷼
-: _Ton Piju_{:hexagram-name} <!-- tiông p'iug -->
+: _Tajon Piju_{:hexagram-name} <!-- tiông p'iug -->
 : kipisi sinpin la kon
 : kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
 
 中孚: 豚鱼吉, 利涉大川, 利贞.
-: ...
-: ...
+: lanpan e ilo mani la
+: pona la soweli en kala
 : pali suli li pona
 : tenpo kama li pona
 
@@ -1017,13 +1038,20 @@ The [sitelen pona] font is ...
 # 62
 
 ䷽
-: _Sijo Kuwa_{:hexagram-name} <!-- siog kwâ -->
+: _Sejo Kuwa_{:hexagram-name} <!-- siog kwâ -->
 : kipisi sinpin la kalama
 : kipisi  monsi la nena
 
 小过: 亨, 利贞, 可小事, 不可大事. 飞鸟遗之音, 不宜上, 宜下, 大吉.
 : mute lili la <!-- see #28 -->
-: ...
+: wawa
+: tenpo kama li pona
+: pali  lili li pona
+: pali  suli li pona ala
+: waso pi tawa sewi li mu
+: pona   ala  la lawa
+: &nbsp; pona la anpa
+: usawi li wawa
 
 
 # 63
@@ -1034,10 +1062,10 @@ The [sitelen pona] font is ...
 : kipisi  monsi la seli
 
 既济: 亨, 小利贞, 初吉终乱.
-: ...
+: pini la
 : wawa
-: tenpo kama lili li pona
-: ...
+: tenpo kama li pona lili
+: open li pona la pini li ike
 
 
 # 64
@@ -1048,14 +1076,16 @@ The [sitelen pona] font is ...
 : kipisi  monsi la telo-tawa
 
 未济: 亨, 小狐汔济, 濡其尾, 无攸利.
-: ...
+: pini ala la
 : wawa
-: ...
+: soweli lili li poka lon telo tawa
+: telo e monsi ona
 
 
 
 
-[^Minford]: John Minford, "I Ching: The Essential Translation of the Ancient Chinese Oracle and Book of Wisdom" (2014). Penguin Books, 4th printing, 2015? How do citations work again??
+[^Minford]: Minford, John: "I Ching: The Essential Translation of the Ancient Chinese Oracle and Book of Wisdom" (2014). Penguin Books, 4th printing, 2015… How do citations work again??
+[^Huang]: Huang, Alfred: "The Complete I Ching" (1998). Inner Traditions, 2010…
 
 [John Minford]: https://www.johnminford.com/iching
 [Master Alfred Huang]: https://www.masteralfredhuang.com/books
@@ -1157,7 +1187,7 @@ The [sitelen pona] font is ...
 
   .page__content h1 + dl { /* only the `dl`s in each chapter */
     flex-basis: calc(100% - 3rem);
-    margin: 0 0 10rem;
+    margin: 0 0 13rem;
   }
   .page__content h1 + dl dt { /* "left side": trigram and reading */
     float: left;
@@ -1165,16 +1195,18 @@ The [sitelen pona] font is ...
     margin-top: 0;
   }
   .page__content h1 + dl dt:first-child { /* trigram */
-    padding: 0 0.5rem 1rem;
-    font-size: 3rem;
+    padding: 2rem 0.5rem;
+    font-size: 5rem;
+    line-height: 0;
+    text-align: center;
   }
   .page__content h1 + dl dt:not(:first-child) { /* reading */
     margin-top: 2rem; /* match what's above interpretation's first line */
     font-size: 1.5rem;
   }
   .page__content h1 + dl dd { /* "right side": TP interpretations */
-    width: 60%;
-    margin-left: 40%;
+    width: 55%;
+    margin-left: 45%;
     padding-left: 2rem;
     font: 1.5rem / 2rem tp-linjalipamanka /* TODO how to toggle fonts using a UI element? */;
   }
@@ -1182,10 +1214,13 @@ The [sitelen pona] font is ...
   .page__content h1 + dl [lang=en] {
     font: 0.9rem / 1.5rem sans-serif;
   }
-  .page__content h1 + dl dd:first-of-type { /* sitelen-sitelen pronunciation */
+  .page__content h1 + dl dd:first-of-type, /* sitelen-sitelen pronunciation */
+  .page__content h1 + dl dd:nth-of-type(2),  /* kipisi wan pi linja mute */
+  .page__content h1 + dl dd:nth-of-type(3) { /* kipisi tu pi linja mute */
+    text-align: center;
+    font-family: tp-linjapona; /* bc it has both "pake" and can combine... */
   }
   .page__content h1 + dl dt:first-of-type dd { /* kipisi-pi-linja-mute */
-    font-family: tp-linjapona; /* bc it has both "pake" and can combine... */
   }
   .page__content h1 + dl dt:not(:first-of-type) ~ dd { /* TP interpretation all lines */
     padding-left: 2rem;
@@ -1209,7 +1244,7 @@ The [sitelen pona] font is ...
   }
   .nimiPiLinjaMute g#cartouche > path,
   .nimiPiLinjaMute g#cartouche-tall-wide > path {
-    fill: rgba(250 250 250 / 0.68);
+    fill: rgb(213 213 213);
     stroke: rgba(13 13 13 / 0.68);
     stroke-width: 2.64;
   }
