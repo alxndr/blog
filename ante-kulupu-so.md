@@ -1219,7 +1219,7 @@ Fonts used to display [sitelen pona]:
   .page__content h1 + dl dd:first-of-type, /* sitelen-sitelen pronunciation */
   .page__content h1 + dl dd:nth-of-type(2),  /* kipisi wan pi linja mute */
   .page__content h1 + dl dd:nth-of-type(3) { /* kipisi tu pi linja mute */
-    text-align: center;
+    padding-left: 13%; /* don't center because the combining glyphs are counted as double-wide */
     font-family: tp-linjapona; /* bc it has both "pake" and can combine... */
   }
   .page__content h1 + dl dt:first-of-type dd { /* kipisi-pi-linja-mute */
