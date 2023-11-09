@@ -1,5 +1,6 @@
 ---
 title: ante kulupu So
+excerpt: mi toki kepeken toki pona e lipu pu ante kulupu So
 layout: single
 classes: wide
 sidebar:
