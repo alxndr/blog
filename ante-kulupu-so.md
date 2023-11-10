@@ -91,102 +91,6 @@ sidebar:
 
 [toki pona] interpretation by jan Lesate (Alexander), autumn 2023
 
-
-### Acknowledgements
-
-Many thanks to my professors at Oberlin College.
-
-Much of my understanding of the source is based on Part II of [John Minford]'s English interpretation[^Minford], including the inspiration for the "names" of the hexagrams rendered here in [sitelen sitelen].
-
-I turn to [Master Alfred Huang]'s English interpretation[^Huang] for lots of guidance as well.
-
-My understanding of [toki pona] is based largely on usage and correction from the Discord community (jan ilo Siko):
-* kama sona
-* ma pona pi toki pona
-
-... as well as other dictionaries:
-* https://nimi.li/
-* https://linku.la/
-
-Fonts used to display [sitelen pona]:
-* [Fairfax Pona HD](https://www.kreativekorp.com/software/fonts/fairfaxponahd/)
-<!-- * [sitelen seli kiwen](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/). -->
-* [linja pona](https://musilili.net/linja-pona/) by [jan Same](https://musilili.net)
-* [linja lipamanka](https://lipamanka.gay/linjamanka) by [lipamanka](https://lipamanka.gay)
-
-{% include sitelen-sitelen-renderer.html %}
-
-
-This page (en mute pali musi mi) is hosted by GitHub Pages.
-
-
-### Notes
-
-{:.terms}
-八卦
-: <span lang="tp">linja mute</span>
-: <span lang="en">trigram, [bagua](https://en.wikipedia.org/wiki/Bagua)</span>
-
-元
-: <span lang="tp">pona</span>
-
-亨
-: <span lang="tp">usawi</span> (non-pu)
-: <span lang="en">divination, "augury" [^Minford]</span>
-
-利
-: <span lang="tp">tenpo kama</span>
-: <span lang="en">fortune, future</span>
-: <span lang="tp">pona</span>
-: <span lang="en">auspicious, beneficial</span>
-
-贞
-: <span lang="tp">wawa</span>
-: <span lang="en">auspicious</span>
-
-大人
-: <span lang="tp">jan wawa</span>
-: <span lang="en">the ideally-embodied self, the confidently-aligned individual; 'sure person'</span>
-
-君子
-: <span lang="tp">jan pona</span>
-: <span lang="en">a noble person; an honorable one</span>
-
-小人
-: <span lang="tp">jan anpa</span>
-: <span lang="en">an un-embodied self, a mis-aligned individual; 'lowly person'</span>
-
-涉大川
-: <span lang="tp">pali suli</span>
-: <span lang="en">literally 'crossing a great river'; metaphor for a significant undertaking or "hazardous enterprise" [^Minford]</span>
-
-西南
-东北
-: <span lang="tp">ma weka</span>
-: <span lang="en">'far-away place': literally 'west-south' and 'east-north'; thousands of years ago, these referred to specific neighboring areas (and the people living in those places); I have chosen to leave the specific directions vague</span>
-
-孚
-: <span lang="tp">ilo mani</span>
-: <span lang="en">'valuable things': spoils of war, "captives"[^Minford] often involved with ritual sacrifice</span>
-: <!-- jan lanpan — captive person(s) -->
-: <!-- ilo usawi — objects-of-ritual -->
-
-攸往
-: <span lang="tp">_tawa ma ante_</span>
-: <span lang="en">'visiting a different place': "destination" [^Minford]</span>
-
-{:.bagua}
-| linja | 名字 | English |  **sitelen**  | nimi
-|:-----:|:----:|:--------|:-------------:|:-----
-|  _☰_  |  乾  | heavens | **sewi**      | sewi
-|  _☱_  |  兌  | lake    | **telo-pake** | telo pake
-|  _☲_  |  離  | fire    | **seli**      | seli
-|  _☳_  |  震  | thunder | **kalama**    | kalama
-|  _☴_  |  巽  | air     | **kon**       | kon
-|  _☵_  |  坎  | river   | **telo-tawa** | telo tawa
-|  _☶_  |  艮  | mountain| **nena**      | nena
-|  _☷_  |  坤  | earth   | **ma**        | ma
-
 -------
 
 
@@ -1098,6 +1002,100 @@ This page (en mute pali musi mi) is hosted by GitHub Pages.
 : telo e monsi ona
 
 
+### Acknowledgements
+
+Many thanks to my professors at Oberlin College.
+
+Much of my understanding of the source is based on Part II of [John Minford]'s English interpretation[^Minford], including the inspiration for the "names" of the hexagrams rendered here in [sitelen sitelen].
+
+I turn to [Master Alfred Huang]'s English interpretation[^Huang] for lots of guidance as well.
+
+My understanding of [toki pona] is based largely on usage and correction from the Discord community (jan ilo Siko):
+* kama sona
+* ma pona pi toki pona
+
+... as well as other dictionaries:
+* https://nimi.li/
+* https://linku.la/
+
+Fonts used to display [sitelen pona]:
+* [Fairfax Pona HD](https://www.kreativekorp.com/software/fonts/fairfaxponahd/)
+<!-- * [sitelen seli kiwen](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/). -->
+* [linja pona](https://musilili.net/linja-pona/) by [jan Same](https://musilili.net)
+* [linja lipamanka](https://lipamanka.gay/linjamanka) by [lipamanka](https://lipamanka.gay)
+
+{% include sitelen-sitelen-renderer.html %}
+
+
+This page (en mute pali musi mi) is hosted by GitHub Pages.
+
+
+### Notes
+
+{:.terms}
+八卦
+: <span lang="tp">linja mute</span>
+: <span lang="en">trigram, [bagua](https://en.wikipedia.org/wiki/Bagua)</span>
+
+元
+: <span lang="tp">pona</span>
+
+亨
+: <span lang="tp">usawi</span> (non-pu)
+: <span lang="en">divination, "augury" [^Minford]</span>
+
+利
+: <span lang="tp">tenpo kama</span>
+: <span lang="en">fortune, future</span>
+: <span lang="tp">pona</span>
+: <span lang="en">auspicious, beneficial</span>
+
+贞
+: <span lang="tp">wawa</span>
+: <span lang="en">auspicious</span>
+
+大人
+: <span lang="tp">jan wawa</span>
+: <span lang="en">the ideally-embodied self, the confidently-aligned individual; 'sure person'</span>
+
+君子
+: <span lang="tp">jan pona</span>
+: <span lang="en">a noble person; an honorable one</span>
+
+小人
+: <span lang="tp">jan anpa</span>
+: <span lang="en">an un-embodied self, a mis-aligned individual; 'lowly person'</span>
+
+涉大川
+: <span lang="tp">pali suli</span>
+: <span lang="en">literally 'crossing a great river'; metaphor for a significant undertaking or "hazardous enterprise" [^Minford]</span>
+
+西南
+东北
+: <span lang="tp">ma weka</span>
+: <span lang="en">'far-away place': literally 'west-south' and 'east-north'; thousands of years ago, these referred to specific neighboring areas (and the people living in those places); I have chosen to leave the specific directions vague</span>
+
+孚
+: <span lang="tp">ilo mani</span>
+: <span lang="en">'valuable things': spoils of war, "captives"[^Minford] often involved with ritual sacrifice</span>
+: <!-- jan lanpan — captive person(s) -->
+: <!-- ilo usawi — objects-of-ritual -->
+
+攸往
+: <span lang="tp">_tawa ma ante_</span>
+: <span lang="en">'visiting a different place': "destination" [^Minford]</span>
+
+{:.bagua}
+| linja | 名字 | English |  **sitelen**  | nimi
+|:-----:|:----:|:--------|:-------------:|:-----
+|  _☰_  |  乾  | heavens | **sewi**      | sewi
+|  _☱_  |  兌  | lake    | **telo-pake** | telo pake
+|  _☲_  |  離  | fire    | **seli**      | seli
+|  _☳_  |  震  | thunder | **kalama**    | kalama
+|  _☴_  |  巽  | air     | **kon**       | kon
+|  _☵_  |  坎  | river   | **telo-tawa** | telo tawa
+|  _☶_  |  艮  | mountain| **nena**      | nena
+|  _☷_  |  坤  | earth   | **ma**        | ma
 
 
 [^Minford]: Minford, John: "I Ching: The Essential Translation of the Ancient Chinese Oracle and Book of Wisdom" (2014). Penguin Books, 4th printing, 2015… How do citations work again??
