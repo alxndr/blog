@@ -98,8 +98,8 @@ sidebar:
 
 ䷀
 : _Kan_{:hexagram-name} <!-- kân -->
-: kipisi sinpin la sewi
-: kipisi  monsi la sewi
+: kipisi lawa la sewi
+: kipisi noka la sewi
 
 乾。︁元亨、利贞。
 : sewi suno la
@@ -111,8 +111,8 @@ sidebar:
 
 ䷁
 : _Kewen_{:hexagram-name} <!-- k'wen -->
-: kipisi sinpin la ma
-: kipisi  monsi la ma
+: kipisi lawa la ma
+: kipisi noka la ma
 
 坤。︁元亨、利牝马之贞。 君子有攸往、先迷后得主、利西南得朋、东北丧朋. 安贞、吉。︁
 : nasin ma la
@@ -129,8 +129,8 @@ sidebar:
 
 ䷂
 : _Tewen_{:hexagram-name} <!-- d'wen -->
-: kipisi sinpin la telo-tawa
-: kipisi  monsi la kalama
+: kipisi lawa la telo-tawa
+: kipisi noka la kalama
 
 屯。︁元亨、利贞、勿用有攸往、利建侯。
 : suli pi (kasi lili) la
@@ -144,8 +144,8 @@ sidebar:
 
 ䷃
 : _Mun_{:hexagram-name} <!-- mung -->
-: kipisi sinpin la nena
-: kipisi  monsi la telo-tawa
+: kipisi lawa la nena
+: kipisi noka la telo-tawa
 
 蒙。︁亨。 匪我求童蒙、童蒙求我. 初筮告、再三渎、渎则不告. 利贞。︁
 : kasi misikeke la
@@ -161,8 +161,8 @@ sidebar:
 
 ䷄
 : _Senju_{:hexagram-name} <!-- sniu -->
-: kipisi sinpin la telo-tawa
-: kipisi  monsi la sewi
+: kipisi lawa la telo-tawa
+: kipisi noka la sewi
 
 需。︁有孚、光亨、贞吉。 利涉大川。︁
 : telo sewi la
@@ -174,8 +174,8 @@ sidebar:
 
 ䷅
 : _Sijun_{:hexagram-name} <!-- dziung -->
-: kipisi sinpin la sewi
-: kipisi  monsi la telo-tawa
+: kipisi lawa la sewi
+: kipisi noka la telo-tawa
 
 讼。︁有孚、窒。︁惕中吉。︁终凶。︁利见大人、不利涉大川。︁
 : utala la
@@ -190,8 +190,8 @@ sidebar:
 
 ䷆
 : _Sije_{:hexagram-name} <!-- sier -->
-: kipisi sinpin la ma
-: kipisi  monsi la telo-tawa
+: kipisi lawa la ma
+: kipisi noka la telo-tawa
 
 师。︁贞、丈人、吉无咎。
 : kulupu utala la
@@ -203,8 +203,8 @@ sidebar:
 
 ䷇
 : _Pije_{:hexagram-name} <!-- bier -->
-: kipisi sinpin la telo-tawa
-: kipisi  monsi la ma
+: kipisi lawa la telo-tawa
+: kipisi noka la ma
 
 比。︁吉。 原筮元永贞、无咎. 不宁方来、后夫凶。︁
 : sama la
@@ -218,8 +218,8 @@ sidebar:
 
 ䷈
 : _Sija Sijo_{:hexagram-name} <!-- siog xiôk -->
-: kipisi sinpin la kon
-: kipisi  monsi la sewi
+: kipisi lawa la kon
+: kipisi noka la sewi
 
 小畜。︁亨。密云不雨、自我西郊。︁
 : mama lili la
@@ -231,8 +231,8 @@ sidebar:
 
 ䷉
 : _Lije_{:hexagram-name} <!-- lier -->
-: kipisi sinpin la sewi
-: kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
+: kipisi lawa la sewi
+: kipisi noka la telo-pake<!-- not in linjalipamanka -->
 
 履虎尾, 不咥人, 亨.
 : pali lili la
@@ -244,8 +244,8 @@ sidebar:
 
 ䷊
 : _Ta_{:hexagram-name} <!-- t'âd -->
-: kipisi sinpin la ma
-: kipisi  monsi la sewi
+: kipisi lawa la ma
+: kipisi noka la sewi
 
 泰。︁小往大来、吉亨。
 : suli la
@@ -258,8 +258,8 @@ sidebar:
 
 ䷋
 : _Piju_{:hexagram-name} <!-- b'iûg -->
-: kipisi sinpin la sewi
-: kipisi  monsi la ma
+: kipisi lawa la sewi
+: kipisi noka la ma
 
 否之匪人, 不利君子贞, 大往小来.
 : meli la
@@ -272,8 +272,8 @@ sidebar:
 
 ䷌
 : _Tun Nijen_{:hexagram-name} <!-- d'ung nien -->
-: kipisi sinpin la sewi
-: kipisi  monsi la seli
+: kipisi lawa la sewi
+: kipisi noka la seli
 
 同人于野, 亨. 利涉大川, 利君子贞.
 : kulupu la
@@ -286,8 +286,8 @@ sidebar:
 
 ䷍
 : _Ta Kiju_{:hexagram-name} <!-- d'âd giug -->
-: kipisi sinpin la seli
-: kipisi  monsi la sewi
+: kipisi lawa la seli
+: kipisi noka la sewi
 
 大有。︁元亨。
 : _lanpan_ suli la
@@ -298,8 +298,8 @@ sidebar:
 
 ䷎
 : _Kelijan_{:hexagram-name} <!-- g'liam -->
-: kipisi sinpin la ma
-: kipisi  monsi la nena
+: kipisi lawa la ma
+: kipisi noka la nena
 
 谦。︁亨、君子有终。
 : soweli lili wawa la
@@ -311,8 +311,8 @@ sidebar:
 
 ䷏
 : _Sijo_{:hexagram-name} <!-- dio -->
-: kipisi sinpin la kalama
-: kipisi  monsi la ma
+: kipisi lawa la kalama
+: kipisi noka la ma
 
 豫。︁利建侯、行师。
 : soweli suli wawa la
@@ -324,8 +324,8 @@ sidebar:
 
 ䷐
 : _Suja_{:hexagram-name} <!-- dzwia -->
-: kipisi sinpin la telo-pake<!-- not in linjalipamanka -->
-: kipisi  monsi la kalama
+: kipisi lawa la telo-pake<!-- not in linjalipamanka -->
+: kipisi noka la kalama
 
 随。︁元亨利贞、无咎。
 : alasa la
@@ -337,8 +337,8 @@ sidebar:
 
 ䷑
 : _Ko_{:hexagram-name} <!-- ko -->
-: kipisi sinpin la nena
-: kipisi  monsi la kon
+: kipisi lawa la nena
+: kipisi noka la kon
 
 蛊。︁元亨、利涉大川。 先甲三日、后甲三日。︁
 : moli la
@@ -351,8 +351,8 @@ sidebar:
 
 ䷒
 : _Pulijen_{:hexagram-name} <!-- bliem -->
-: kipisi sinpin la ma
-: kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
+: kipisi lawa la ma
+: kipisi noka la telo-pake<!-- not in linjalipamanka -->
 
 临。︁元亨、利贞。 至于八月有凶。︁
 : mu la
@@ -365,8 +365,8 @@ sidebar:
 
 ䷓
 : _Kuwan_{:hexagram-name} <!-- kwân -->
-: kipisi sinpin la kon
-: kipisi  monsi la ma
+: kipisi lawa la kon
+: kipisi noka la ma
 
 观。︁盥而不荐、有孚颙若。
 : lukin la
@@ -378,8 +378,8 @@ sidebar:
 
 ䷔
 : _Sija Ka_{:hexagram-name} <!-- diad g'a -->
-: kipisi sinpin la seli
-: kipisi  monsi la kalama
+: kipisi lawa la seli
+: kipisi noka la kalama
 
 噬嗑。︁亨。利用狱。︁
 : pini uta la
@@ -391,8 +391,8 @@ sidebar:
 
 ䷕
 : _Pija_{:hexagram-name} <!-- piar -->
-: kipisi sinpin la nena
-: kipisi  monsi la seli
+: kipisi lawa la nena
+: kipisi noka la seli
 
 贲。︁亨。 小利有攸往。︁
 : kule olin la
@@ -404,8 +404,8 @@ sidebar:
 
 ䷖
 : _Pe_{:hexagram-name} <!-- pûk -->
-: kipisi sinpin la nena
-: kipisi  monsi la ma
+: kipisi lawa la nena
+: kipisi noka la ma
 
 剥。︁不利有攸往。
 : kipisi la
@@ -416,8 +416,8 @@ sidebar:
 
 ䷗
 : _Pijo_{:hexagram-name} <!-- b'iôk -->
-: kipisi sinpin la ma
-: kipisi  monsi la kalama
+: kipisi lawa la ma
+: kipisi noka la kalama
 
 复。︁亨。 出入无疾、朋来无咎. 反复其道、七日来复、利有攸往。︁
 : sike la
@@ -432,8 +432,8 @@ sidebar:
 
 ䷘
 : _Miwe Miwan_{:hexagram-name} <!-- miwo miwang -->
-: kipisi sinpin la sewi
-: kipisi  monsi la kalama
+: kipisi lawa la sewi
+: kipisi noka la kalama
 
 无妄。︁元亨、利贞。其匪正有眚、不利有攸往。︁
 : jo la
@@ -447,8 +447,8 @@ sidebar:
 
 ䷙
 : _Ta Sijo_{:hexagram-name} <!-- d'âd xiôk -->
-: kipisi sinpin la nena
-: kipisi  monsi la sewi
+: kipisi lawa la nena
+: kipisi noka la sewi
 
 大畜。︁利贞、不家食吉、利涉大川。
 : mama suli la
@@ -461,8 +461,8 @@ sidebar:
 
 ䷚
 : _Kije_{:hexagram-name} <!-- gieg -->
-: kipisi sinpin la nena
-: kipisi  monsi la kalama
+: kipisi lawa la nena
+: kipisi noka la kalama
 
 颐。︁贞吉。 观颐、自求口实。︁
 : sijelo moku la
@@ -475,8 +475,8 @@ sidebar:
 
 ䷛
 : _Ta Kuwa_{:hexagram-name} <!-- d'âd kwâ -->
-: kipisi sinpin la telo-pake<!-- not in linjalipamanka -->
-: kipisi  monsi la kon
+: kipisi lawa la telo-pake<!-- not in linjalipamanka -->
+: kipisi noka la kon
 
 大过。︁栋桡、利有攸往、亨。
 : mute suli la <!-- see #62 -->
@@ -489,8 +489,8 @@ sidebar:
 
 ䷜
 : _Ken_{:hexagram-name} <!-- k'em -->
-: kipisi sinpin la telo-tawa
-: kipisi  monsi la telo-tawa
+: kipisi lawa la telo-tawa
+: kipisi noka la telo-tawa
 
 坎。︁习坎、有孚、维心亨、行有尚。
 : pakala la
@@ -503,8 +503,8 @@ sidebar:
 
 ䷝
 : _Lija_{:hexagram-name} <!-- lia -->
-: kipisi sinpin la seli
-: kipisi  monsi la seli
+: kipisi lawa la seli
+: kipisi noka la seli
 
 离。︁利贞、亨。 畜牝牛、吉。︁
 : lanpan e waso la
@@ -516,8 +516,8 @@ sidebar:
 
 ䷞
 : _Ken_{:hexagram-name} <!-- g'em -->
-: kipisi sinpin la telo-pake<!-- not in linjalipamanka -->
-: kipisi  monsi la nena
+: kipisi lawa la telo-pake<!-- not in linjalipamanka -->
+: kipisi noka la nena
 
 咸, 亨, 利贞, 取女吉.
 : pilin sijelo la
@@ -530,8 +530,8 @@ sidebar:
 
 ䷟
 : _Kene_{:hexagram-name} <!-- geng -->
-: kipisi sinpin la kalama
-: kipisi  monsi la kon
+: kipisi lawa la kalama
+: kipisi noka la kon
 
 恒。︁亨、无咎、利贞、利有攸往。
 : awen la
@@ -544,8 +544,8 @@ sidebar:
 
 ䷠
 : _Tuwen_{:hexagram-name} <!-- d'wen -->
-: kipisi sinpin la sewi
-: kipisi  monsi la nena
+: kipisi lawa la sewi
+: kipisi noka la nena
 
 遁。︁亨、小利贞。
 : soweli esun lili la
@@ -557,8 +557,8 @@ sidebar:
 
 ䷡
 : _Ta Sijan_{:hexagram-name} <!-- d'âd tsiang -->
-: kipisi sinpin la kalama
-: kipisi  monsi la sewi
+: kipisi lawa la kalama
+: kipisi noka la sewi
 
 大壮。︁利贞。
 : pakala sijelo la
@@ -569,8 +569,8 @@ sidebar:
 
 ䷢
 : _Sije_{:hexagram-name} <!-- tsie -->
-: kipisi sinpin la seli
-: kipisi  monsi la ma
+: kipisi lawa la seli
+: kipisi noka la ma
 
 晋。︁康侯用锡马蕃庶、昼日三接。
 : sinpin la
@@ -582,8 +582,8 @@ sidebar:
 
 ䷣
 : _Mijan Sija_{:hexagram-name} <!-- miang dier -->
-: kipisi sinpin la ma
-: kipisi  monsi la seli
+: kipisi lawa la ma
+: kipisi noka la seli
 
 明夷。︁利艰贞。
 : mu pi (waso suli) la
@@ -594,8 +594,8 @@ sidebar:
 
 ䷤
 : _Ka Nijen_{:hexagram-name} <!-- ka niên -->
-: kipisi sinpin la kon
-: kipisi  monsi la seli
+: kipisi lawa la kon
+: kipisi noka la seli
 
 家人。︁利女贞。
 : jan mama en jan lili la
@@ -606,8 +606,8 @@ sidebar:
 
 ䷥
 : _Kiwa_{:hexagram-name} <!-- k'iwer -->
-: kipisi sinpin la seli
-: kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
+: kipisi lawa la seli
+: kipisi noka la telo-pake<!-- not in linjalipamanka -->
 
 睽。︁小事吉。
 : lukin e sike la
@@ -618,8 +618,8 @@ sidebar:
 
 ䷦
 : _Kan_{:hexagram-name} <!-- gân -->
-: kipisi sinpin la telo-tawa
-: kipisi  monsi la nena
+: kipisi lawa la telo-tawa
+: kipisi noka la nena
 
 蹇。︁利西南、不利东北; 利见大人、贞吉。
 : noka pakala la
@@ -632,8 +632,8 @@ sidebar:
 
 ䷧
 : _Ke_{:hexagram-name} <!-- kêg -->
-: kipisi sinpin la kalama
-: kipisi  monsi la telo-tawa
+: kipisi lawa la kalama
+: kipisi noka la telo-tawa
 
 解。︁利西南、无所往、其来复吉。 有攸往、夙吉。︁
 : _pana kipisi_ la
@@ -648,8 +648,8 @@ sidebar:
 
 ䷨
 : _Suwen_{:hexagram-name} <!-- swêng -->
-: kipisi sinpin la nena
-: kipisi  monsi la telo-tawa
+: kipisi lawa la nena
+: kipisi noka la telo-tawa
 
 损。︁有孚、元吉、无咎、可贞、利有攸往。 曷之用、二簋可用享。︁
 : lili e mute la
@@ -666,8 +666,8 @@ sidebar:
 
 ䷩
 : _Je_{:hexagram-name} <!-- iêk -->
-: kipisi sinpin la kon
-: kipisi  monsi la kalama
+: kipisi lawa la kon
+: kipisi noka la kalama
 
 益。︁利有攸往、利涉大川。
 : suli e mute la
@@ -679,8 +679,8 @@ sidebar:
 
 ䷪
 : _Kiwe_{:hexagram-name} <!-- kiwet -->
-: kipisi sinpin la telo-tawa
-: kipisi  monsi la sewi
+: kipisi lawa la telo-tawa
+: kipisi noka la sewi
 
 夬。︁扬于王庭、孚号、有厉、告自邑、不利即戎、利有攸往。
 : tawa anpa la
@@ -695,8 +695,8 @@ sidebar:
 
 ䷫
 : _Ko_{:hexagram-name} <!-- kôh -->
-: kipisi sinpin la sewi
-: kipisi  monsi la kon
+: kipisi lawa la sewi
+: kipisi noka la kon
 
 姤。︁女壮、勿用取女。
 : unpa la
@@ -708,8 +708,8 @@ sidebar:
 
 ䷬
 : _Suse_{:hexagram-name} <!-- dzuts -->
-: kipisi sinpin la telo-pake<!-- not in linjalipamanka -->
-: kipisi  monsi la ma
+: kipisi lawa la telo-pake<!-- not in linjalipamanka -->
+: kipisi noka la ma
 
 萃。︁亨。 王假有庙、利见大人、亨、利贞. 用大牲吉、利有攸往。︁
 : nasa la
@@ -726,8 +726,8 @@ sidebar:
 
 ䷭
 : _Sijen_{:hexagram-name} <!-- sieng -->
-: kipisi sinpin la ma
-: kipisi  monsi la kon
+: kipisi lawa la ma
+: kipisi noka la kon
 
 升。︁元亨、用见大人、勿恤、南征吉。
 : tawa sewi la
@@ -741,8 +741,8 @@ sidebar:
 
 ䷮
 : _Kuwen_{:hexagram-name} <!-- k'wen -->
-: kipisi sinpin la telo-pake<!-- not in linjalipamanka -->
-: kipisi  monsi la telo-tawa
+: kipisi lawa la telo-pake<!-- not in linjalipamanka -->
+: kipisi noka la telo-tawa
 
 困。︁亨、贞、大人吉、无咎、有言不信。
 : len la
@@ -757,8 +757,8 @@ sidebar:
 
 ䷯
 : _Sijen_{:hexagram-name} <!-- tsieng -->
-: kipisi sinpin la telo-tawa
-: kipisi  monsi la kon
+: kipisi lawa la telo-tawa
+: kipisi noka la kon
 
 井。︁改邑不改井、无丧无得、往来井井。 汔至、亦未繘井、羸其瓶、凶。︁
 : lupa-telo la
@@ -776,8 +776,8 @@ sidebar:
 
 ䷰
 : _Ke_{:hexagram-name} <!-- kek -->
-: kipisi sinpin la telo-pake<!-- not in linjalipamanka -->
-: kipisi  monsi la seli
+: kipisi lawa la telo-pake<!-- not in linjalipamanka -->
+: kipisi noka la seli
 
 革。︁巳日乃孚、元亨利贞、悔亡。
 : selo soweli la
@@ -791,8 +791,8 @@ sidebar:
 
 ䷱
 : _Tan_{:hexagram-name} <!-- tieng -->
-: kipisi sinpin la seli
-: kipisi  monsi la kon
+: kipisi lawa la seli
+: kipisi noka la kon
 
 鼎。︁元吉、亨。
 : poki moku la
@@ -804,8 +804,8 @@ sidebar:
 
 ䷲
 : _Ta_{:hexagram-name} <!-- t'ien -->
-: kipisi sinpin la kalama
-: kipisi  monsi la kalama
+: kipisi lawa la kalama
+: kipisi noka la kalama
 
 震。︁亨。 震来虩虩、笑言哑哑. 震惊百里、不丧匕鬯。︁
 : pakala ma la
@@ -820,8 +820,8 @@ sidebar:
 
 ䷳
 : _Ken_{:hexagram-name} <!-- ken -->
-: kipisi sinpin la nena
-: kipisi  monsi la nena
+: kipisi lawa la nena
+: kipisi noka la nena
 
 艮。︁艮其背、不获其身、行其庭、不见其人、无咎。
 : mama la
@@ -835,8 +835,8 @@ sidebar:
 
 ䷴
 : _Sijan_{:hexagram-name} <!-- tsiam -->
-: kipisi sinpin la kon
-: kipisi  monsi la nena
+: kipisi lawa la kon
+: kipisi noka la nena
 
 渐。︁女归吉、利贞。
 : tawa weka la
@@ -848,8 +848,8 @@ sidebar:
 
 ䷵
 : _Kiwe Muwe_{:hexagram-name} <!-- kiwer mwed -->
-: kipisi sinpin la kalama
-: kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
+: kipisi lawa la kalama
+: kipisi noka la telo-pake<!-- not in linjalipamanka -->
 
 归妹。︁征凶、无攸利。
 : _jan tu li wan_ la
@@ -861,8 +861,8 @@ sidebar:
 
 ䷶
 : _Pijon_{:hexagram-name} <!-- p'iông -->
-: kipisi sinpin la kalama
-: kipisi  monsi la seli
+: kipisi lawa la kalama
+: kipisi noka la seli
 
 丰。︁亨、王假之、勿忧、宜日中。
 : tomo wawa la
@@ -876,8 +876,8 @@ sidebar:
 
 ䷷
 : _Li_{:hexagram-name} <!-- gli -->
-: kipisi sinpin la seli
-: kipisi  monsi la nena
+: kipisi lawa la seli
+: kipisi noka la nena
 
 旅。︁小亨、旅贞吉。
 : jan tawa la
@@ -889,8 +889,8 @@ sidebar:
 
 ䷸
 : _Suwen_{:hexagram-name} <!-- swen -->
-: kipisi sinpin la kon
-: kipisi  monsi la kon
+: kipisi lawa la kon
+: kipisi noka la kon
 
 巽。︁小亨、利攸往、利见大人。
 : pana usawi la
@@ -903,8 +903,8 @@ sidebar:
 
 ䷹
 : _Tuwa_{:hexagram-name} <!-- d'wâd -->
-: kipisi sinpin la telo-pake<!-- not in linjalipamanka -->
-: kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
+: kipisi lawa la telo-pake<!-- not in linjalipamanka -->
+: kipisi noka la telo-pake<!-- not in linjalipamanka -->
 
 兑。︁亨、利贞。
 : pilin pona la
@@ -916,8 +916,8 @@ sidebar:
 
 ䷺
 : _Suwan_{:hexagram-name} <!-- xwân -->
-: kipisi sinpin la kon
-: kipisi  monsi la telo-tawa
+: kipisi lawa la kon
+: kipisi noka la telo-tawa
 
 涣。︁亨。 王假有庙、利涉大川、利贞。︁
 : telo sijelo la
@@ -931,8 +931,8 @@ sidebar:
 
 ䷻
 : _Sije_{:hexagram-name} <!-- tsiet -->
-: kipisi sinpin la telo-tawa
-: kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
+: kipisi lawa la telo-tawa
+: kipisi noka la telo-pake<!-- not in linjalipamanka -->
 
 节。︁亨。 苦节、不可贞。︁
 : kiki la
@@ -945,8 +945,8 @@ sidebar:
 
 ䷼
 : _Tajon Piju_{:hexagram-name} <!-- tiông p'iug -->
-: kipisi sinpin la kon
-: kipisi  monsi la telo-pake
+: kipisi lawa la kon
+: kipisi noka la telo-pake
 
 中孚。︁豚鱼吉、利涉大川、利贞。
 : jo e ilo mani la
@@ -959,8 +959,8 @@ sidebar:
 
 ䷽
 : _Sejo Kuwa_{:hexagram-name} <!-- siog kwâ -->
-: kipisi sinpin la kalama
-: kipisi  monsi la nena
+: kipisi lawa la kalama
+: kipisi noka la nena
 
 小过。︁亨、利贞、可小事、不可大事。飞鸟遗之音、不宜上、宜下、大吉。︁
 : mute lili la <!-- see #28 -->
@@ -978,8 +978,8 @@ sidebar:
 
 ䷾
 : _Kije Sija_{:hexagram-name} <!-- kied tsier -->
-: kipisi sinpin la telo-tawa
-: kipisi  monsi la seli
+: kipisi lawa la telo-tawa
+: kipisi noka la seli
 
 既济。︁亨、小利贞、初吉终乱。
 : pini la
@@ -992,8 +992,8 @@ sidebar:
 
 ䷿
 : _Miwe Sija_{:hexagram-name} <!-- miwed tsier -->
-: kipisi sinpin la seli
-: kipisi  monsi la telo-tawa
+: kipisi lawa la seli
+: kipisi noka la telo-tawa
 
 未济。︁亨、小狐汔济、濡其尾、无攸利。
 : pini ala la
@@ -1231,8 +1231,8 @@ This page (en mute pali musi mi) is hosted by GitHub Pages.
     font: 0.9rem / 1.5rem sans-serif;
   }
   .page__content h1 + dl dd:first-of-type, /* sitelen-sitelen pronunciation */
-  .page__content h1 + dl dd:nth-of-type(2),  /* kipisi sinpin pi linja mute */
-  .page__content h1 + dl dd:nth-of-type(3) { /* kipisi monsi  pi linja mute */
+  .page__content h1 + dl dd:nth-of-type(2),  /* kipisi lawa pi linja mute */
+  .page__content h1 + dl dd:nth-of-type(3) { /* kipisi noka pi linja mute */
     padding-left: 13%; /* don't center because tp-LinjaPona combining glyphs are counted as double-wide */
     font-family: tp-LinjaPona; /* has both "pake" and can combine... */
   }
