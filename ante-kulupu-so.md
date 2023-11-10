@@ -1,6 +1,6 @@
 ---
-title: ante kulupu So
-excerpt: mi toki pona e lipu pi ante kulupu So
+title: lipu Ante Kulupu So
+excerpt: mi ante toki e lipu Ante Kulupu So
 layout: single
 classes: wide
 sidebar:
@@ -292,7 +292,7 @@ Fonts used to display [sitelen pona]:
 : sama la
 : usawi li wawa
 : _tenpo ale_ la usawi li pona li pakala ala
-: kama tan ma pi utala jan
+: kama tan ma pi (utala jan)
 : _tenpo pini_ la jan kama li tenpo ike
 
 
@@ -668,7 +668,7 @@ Fonts used to display [sitelen pona]:
 : kipisi  monsi la seli
 
 明夷。︁利艰贞。
-: mu pi waso suli la
+: mu pi (waso suli) la
 : tenpo ike la usawi wawa
 
 
@@ -766,7 +766,7 @@ Fonts used to display [sitelen pona]:
 
 夬。︁扬于王庭、孚号、有厉、告自邑、不利即戎、利有攸往。
 : tawa anpa la
-: tomo pi lawa kulupu la ilo mani li mu
+: tomo pi (lawa kulupu) la ilo mani li mu
 : _ike_
 : toki tan tomo mute
 : pona   ala  la utala
@@ -863,7 +863,7 @@ Fonts used to display [sitelen pona]:
 
 革。︁巳日乃孚、元亨利贞、悔亡。
 : selo soweli la
-: _tenpo pi ilo mani_
+: _tenpo pi (ilo mani)_
 : &nbsp; usawi li pona
 : tenpo  kama  li wawa
 : tenpo ike li pini
@@ -951,7 +951,7 @@ Fonts used to display [sitelen pona]:
 : wawa
 : jan lawa li lon
 : ike ala
-: pona la tenpo pi suno meso
+: tenpo pi (suno meso) li pona
 
 
 # 56
@@ -1047,13 +1047,13 @@ Fonts used to display [sitelen pona]:
 小过。︁亨、利贞、可小事、不可大事。飞鸟遗之音、不宜上、宜下、大吉。︁
 : mute lili la <!-- see #28 -->
 : wawa
-: tenpo kama li pona
-: pali  lili li pona
-: pali  suli li pona ala
-: waso pi tawa sewi li mu
-: pona   ala  la lawa
-: &nbsp; pona la anpa
-: usawi li wawa
+: tenpo  kama  li pona
+: pali   lili  li pona
+: pali   suli  li pona ala
+: &nbsp; waso  li tawa sewi li mu
+: pona   ala   la tawa sewi
+: &nbsp; pona  la tawa noka
+: &nbsp; usawi li wawa
 
 
 # 63
