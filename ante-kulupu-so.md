@@ -87,26 +87,37 @@ sidebar:
 <input markdown="span" type="radio" name="font" id="ll" />
 <input markdown="span" type="radio" name="font" id="lp" /> -->
 
-A [toki pona] interpretation of 周易 "The Changes of Zhou": the 卦辭 hexagram initial commentary from the Chinese classic 易經 (Yi Jing / I Ching).
+周易 "The Changes of Zhou": each hexagram's 卦辭 initial commentary, from the Chinese classic 易經 (Yi Jing / I Ching)
 
-By jan Lesate (Alexander), autumn 2023.
+[toki pona] interpretation by jan Lesate (Alexander), autumn 2023
 
 
 ### Acknowledgements
 
-Much is based on Part II of [John Minford]'s English interpretation[^Minford], including the inspiration for the "names" of the hexagrams rendered here in [sitelen sitelen].
+Many thanks to my professors at Oberlin College.
 
-I turn to [Master Alfred Huang]'s English interpretation[^Huang] for much guidance as well.
+Much of my understanding of the source is based on Part II of [John Minford]'s English interpretation[^Minford], including the inspiration for the "names" of the hexagrams rendered here in [sitelen sitelen].
 
-{:style="margin-bottom:0"}
+I turn to [Master Alfred Huang]'s English interpretation[^Huang] for lots of guidance as well.
+
+My understanding of [toki pona] is based largely on usage and correction from the Discord community (jan ilo Siko):
+* kama sona
+* ma pona pi toki pona
+
+... as well as other dictionaries:
+* https://nimi.li/
+* https://linku.la/
+
 Fonts used to display [sitelen pona]:
-<!-- * [Fairfax HD](https://www.kreativekorp.com/software/fonts/fairfaxponahd/). -->
+* [Fairfax Pona HD](https://www.kreativekorp.com/software/fonts/fairfaxponahd/)
 <!-- * [sitelen seli kiwen](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/). -->
 * [linja pona](https://musilili.net/linja-pona/) by [jan Same](https://musilili.net)
 * [linja lipamanka](https://lipamanka.gay/linjamanka) by [lipamanka](https://lipamanka.gay)
-{:style="margin-top:0.1rem;line-height:1.2rem"}
 
 {% include sitelen-sitelen-renderer.html %}
+
+
+This page (en mute pali musi mi) is hosted by GitHub Pages.
 
 
 ### Notes
@@ -156,7 +167,9 @@ Fonts used to display [sitelen pona]:
 
 孚
 : <span lang="tp">ilo mani</span>
-: <span lang="en">'valuable things': spoils of war, "captives" [^Minford]</span>
+: <span lang="en">'valuable things': spoils of war, "captives"[^Minford] often involved with ritual sacrifice</span>
+: <!-- jan lanpan — captive person(s) -->
+: <!-- ilo usawi — objects-of-ritual -->
 
 攸往
 : <span lang="tp">_tawa ma ante_</span>
@@ -185,7 +198,7 @@ Fonts used to display [sitelen pona]:
 : kipisi  monsi la sewi
 
 乾。︁元亨、利贞。
-: suno li sewi la
+: sewi suno la
 : &nbsp; usawi li pona <!-- usawawa -->
 : tenpo  kama  li wawa <!-- tenpona -->
 
@@ -198,7 +211,7 @@ Fonts used to display [sitelen pona]:
 : kipisi  monsi la ma
 
 坤。︁元亨、利牝马之贞。 君子有攸往、先迷后得主、利西南得朋、东北丧朋. 安贞、吉。︁
-: ma li nasin la
+: nasin ma la
 : usawi li pona
 : tenpo kama la soweli li ken mama
 : jan sewi li kama tawa ma ante la tenpo kama li nasa
@@ -216,7 +229,7 @@ Fonts used to display [sitelen pona]:
 : kipisi  monsi la kalama
 
 屯。︁元亨、利贞、勿用有攸往、利建侯。
-: kasi lili li kama suli la
+: suli pi (kasi lili) la
 : usawi li pona
 : tenpo kama li wawa
 : o kama ala tawa ma ante
@@ -1159,6 +1172,8 @@ Fonts used to display [sitelen pona]:
   }
   .page__content input { display: inline-block; } /* reset a weird default */
 
+  .page__content > p + ul { margin-top: -1em; }
+
   .terms [lang=tp] {
     font: 1.25em tp-LinjaLipamanka;
   }
@@ -1210,8 +1225,8 @@ Fonts used to display [sitelen pona]:
   .page__content h1 + dl dd { /* "right side": TP interpretations */
     width: 55%;
     margin-left: 45%;
-    padding-left: 2rem;
-    font: 1.5rem / 2rem tp-FairfaxPonaHD; /* FPH can use ZWJ to stack glyphs… */
+    /* padding-left: 2rem; */
+    font: 1.5rem / 2rem tp-FairfaxPonaHD; /* FPH 'should' use ZWJ to stack glyphs… */
   }
   .page__content h1 + dl dd strong, /* any one-off english... */
   .page__content h1 + dl [lang=en] {
@@ -1226,7 +1241,7 @@ Fonts used to display [sitelen pona]:
   .page__content h1 + dl dt:first-of-type dd { /* kipisi-pi-linja-mute */
   }
   .page__content h1 + dl dt:not(:first-of-type) ~ dd { /* TP interpretation all lines */
-    padding-left: 2rem;
+    padding-left: 2em; /* this one is `em` intentionally, to indent by two glyphs */
   }
   .page__content h1 + dl dt:not(:first-of-type) + dd { /* first line of interpretation */
     margin-top: 2rem; /* match what's above source reading */
