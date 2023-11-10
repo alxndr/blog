@@ -8,24 +8,24 @@
 @import "minimal-mistakes";
 
 @font-face {
-  font-family: tp-FairfaxPona;
+  font-family: tp-FairfaxPonaHD;
   src: url('https://raw.githubusercontent.com/kreativekorp/open-relay/master/FairfaxHD/FairfaxPonaHD.ttf');
   line-height: 1.1em;
 }
-// @font-face {
-//   font-family: tp-SitelenSeliKiwen; // TODO fix...
-//   src: url('https://raw.githubusercontent.com/kreativekorp/sitelen-seli-kiwen/e964709/main/sitelenselikiwenasuki.ttf') format('truetype');
-//   line-height: 1.1em;
-// }
 @font-face {
   font-family: tp-LinjaLipamanka; // missing: pake
   src: url('https://lipamanka.gay/linjalipamanka-normal.otf') format('opentype');
   line-height: 1.1em;
 }
 @font-face {
-  font-family: tp-LinjaPona; // missing: pake powe usawi
+  font-family: tp-LinjaPona; // missing: pake powe usawi ... not monospaced
   src: url('https://raw.githubusercontent.com/janSame/linja-pona/master/linja-pona-4.9.otf') format('opentype');
   font-size: 1.1em / 1.1em; // no monospacing of nbsp...
+}
+@font-face {
+  font-family: tp-LinjaSuwi; // missing pake ... not monospaced
+  src: url('https://raw.githubusercontent.com/anna328p/linjasuwi/main/linjasuwi.otf');
+  line-height: 1.1em;
 }
 @font-face {
   font-family: tp-SitelenPonaPona;

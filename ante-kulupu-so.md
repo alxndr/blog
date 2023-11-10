@@ -166,7 +166,7 @@ Fonts used to display [sitelen pona]:
 | linja | 名字 | English |  **sitelen**  | nimi
 |:-----:|:----:|:--------|:-------------:|:-----
 |  _☰_  |  乾  | heavens | **sewi**      | sewi
-|  _☱_  |  兌  | lake    | **telo-pake<!-- not in linjalipamanka -->** | telo pake<!-- not in linjalipamanka -->
+|  _☱_  |  兌  | lake    | **telo-pake** | telo pake
 |  _☲_  |  離  | fire    | **seli**      | seli
 |  _☳_  |  震  | thunder | **kalama**    | kalama
 |  _☴_  |  巽  | air     | **kon**       | kon
@@ -233,7 +233,8 @@ Fonts used to display [sitelen pona]:
 蒙。︁亨。 匪我求童蒙、童蒙求我. 初筮告、再三渎、渎则不告. 利贞。︁
 : kasi misikeke la
 : pona
-: mi alasa ala e kasi la kasi li alasa e mi
+: jan li alasa ala e kasi
+: kasi li alasa e jan ni3<!-- 3 points the arrow up in FairfaxPonaHD -->
 : &nbsp; wan la usawi li pona
 : tu    mute la usawi li jaki
 : tenpo kama li wawa
@@ -248,8 +249,8 @@ Fonts used to display [sitelen pona]:
 
 需。︁有孚、光亨、贞吉。 利涉大川。︁
 : telo sewi la
-: ilo mani la tenpo kama li suno li wawa
-: pali suli li pona
+: ilo mani la tenpo kama li suno <br/> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; li wawa
+: &nbsp; &nbsp; &nbsp; pali suli li pona
 
 
 # 06
@@ -259,10 +260,10 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la sewi
 : kipisi  monsi la telo-tawa
 
-[讼] 有孚, 窒. 惕中吉. 终凶. 利见大人, 不利涉大川.
+讼。︁有孚、窒。︁惕中吉。︁终凶。︁利见大人、不利涉大川。︁
 : utala la
-: ilo mani li _pake_{:LinjaPona}<!-- not in linjalipamanka -->
-: _olin e meso_ li pona
+: ilo mani la pake
+: olin e meso li pona
 : pini la sama e monsuta
 : pona la lukin e jan wawa
 : pali suli li pona ala
@@ -277,7 +278,7 @@ Fonts used to display [sitelen pona]:
 
 师。︁贞、丈人、吉无咎。
 : kulupu utala la
-: jan    _majuna_{:FairfaxPona}<!-- not in linjapona/linjalipamanka --> li pona
+: jan    _majuna_{:FairfaxPonaHD}<!-- not in linjapona/linjalipamanka --> li pona
 : &nbsp; usawi<!-- not in linjapona --> li pakala ala
 
 
@@ -1028,13 +1029,13 @@ Fonts used to display [sitelen pona]:
 ䷼
 : _Tajon Piju_{:hexagram-name} <!-- tiông p'iug -->
 : kipisi sinpin la kon
-: kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
+: kipisi  monsi la telo-pake
 
 中孚。︁豚鱼吉、利涉大川、利贞。
-: lanpan e ilo mani la
-: pona la soweli en kala
-: pali suli li pona
-: tenpo kama li pona
+: jo e ilo mani la
+: soweli en    kala li pona
+: &nbsp; pali  suli li pona
+: &nbsp; tenpo kama li pona
 
 
 # 62
@@ -1051,8 +1052,8 @@ Fonts used to display [sitelen pona]:
 : pali   lili  li pona
 : pali   suli  li pona ala
 : &nbsp; waso  li tawa sewi li mu
-: pona   ala   la tawa sewi
-: &nbsp; pona  la tawa noka
+: tawa   sewi  li pona ala
+: tawa   noka  li pona
 : &nbsp; usawi li wawa
 
 
@@ -1210,17 +1211,17 @@ Fonts used to display [sitelen pona]:
     width: 55%;
     margin-left: 45%;
     padding-left: 2rem;
-    font: 1.5rem / 2rem tp-FairfaxPona; /* FfP can use ZWJ to stack glyphs… */
+    font: 1.5rem / 2rem tp-FairfaxPonaHD; /* FPH can use ZWJ to stack glyphs… */
   }
   .page__content h1 + dl dd strong, /* any one-off english... */
   .page__content h1 + dl [lang=en] {
     font: 0.9rem / 1.5rem sans-serif;
   }
   .page__content h1 + dl dd:first-of-type, /* sitelen-sitelen pronunciation */
-  .page__content h1 + dl dd:nth-of-type(2),  /* kipisi wan pi linja mute */
-  .page__content h1 + dl dd:nth-of-type(3) { /* kipisi tu pi linja mute */
-    padding-left: 13%; /* don't center because the combining glyphs are counted as double-wide */
-    font-family: tp-LinjaPona; /* bc it has both "pake" and can combine... */
+  .page__content h1 + dl dd:nth-of-type(2),  /* kipisi sinpin pi linja mute */
+  .page__content h1 + dl dd:nth-of-type(3) { /* kipisi monsi  pi linja mute */
+    padding-left: 13%; /* don't center because tp-LinjaPona combining glyphs are counted as double-wide */
+    font-family: tp-LinjaPona; /* has both "pake" and can combine... */
   }
   .page__content h1 + dl dt:first-of-type dd { /* kipisi-pi-linja-mute */
   }
@@ -1262,4 +1263,4 @@ Fonts used to display [sitelen pona]:
 
 {:hexagram-name: .nimiPiLinjaMute data-sitelen="true" data-sitelen-ratio="4"}
 {:LinjaPona: style="font-family:tp-LinjaPona"}
-{:FairfaxPona: style="font-family:tp-FairfaxPona"}
+{:FairfaxPonaHD: style="font-family:tp-FairfaxPonaHD"}
