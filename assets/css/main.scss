@@ -7,11 +7,11 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-// @font-face {
-//   font-family: tp-Fairfax; // TODO fix ... or are these unicode??
-//   src: url('https://raw.githubusercontent.com/kreativekorp/open-relay/3326b936d7bc0b83aaef5a84c715e6a53070fb78/Fairfax/Fairfax.ttf') format('truetype');
-//   line-height: 1.1em;
-// }
+@font-face {
+  font-family: tp-FairfaxPona;
+  src: url('https://raw.githubusercontent.com/kreativekorp/open-relay/master/FairfaxHD/FairfaxPonaHD.ttf');
+  line-height: 1.1em;
+}
 // @font-face {
 //   font-family: tp-SitelenSeliKiwen; // TODO fix...
 //   src: url('https://raw.githubusercontent.com/kreativekorp/sitelen-seli-kiwen/e964709/main/sitelenselikiwenasuki.ttf') format('truetype');

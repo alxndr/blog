@@ -261,11 +261,11 @@ Fonts used to display [sitelen pona]:
 
 [讼] 有孚, 窒. 惕中吉. 终凶. 利见大人, 不利涉大川.
 : utala la
-: ilo mani li pake<!-- not in linjalipamanka -->
+: ilo mani li _pake_{:LinjaPona}<!-- not in linjalipamanka -->
 : _olin e meso_ li pona
-: &nbsp; pini la sama e monsuta
-: &nbsp; pona la lukin e jan wawa
-: pali   suli li pona ala
+: pini la sama e monsuta
+: pona la lukin e jan wawa
+: pali suli li pona ala
 
 
 # 07
@@ -277,7 +277,7 @@ Fonts used to display [sitelen pona]:
 
 师。︁贞、丈人、吉无咎。
 : kulupu utala la
-: jan    majuna<!-- not in linjapona/linjalipamanka --> li pona
+: jan    _majuna_{:FairfaxPona}<!-- not in linjapona/linjalipamanka --> li pona
 : &nbsp; usawi<!-- not in linjapona --> li pakala ala
 
 
@@ -800,7 +800,7 @@ Fonts used to display [sitelen pona]:
 : wawa la lukin e jan wawa
 : wawa
 : tenpo kama li wawa
-: **sacrifice**<!-- TODO --> suli li pona
+: pali‍usawi suli li pona
 : pona la _tawa ma ante_
 
 
@@ -1118,35 +1118,35 @@ Fonts used to display [sitelen pona]:
   input#fairfax:checked + *[lang=tp] {
     color: red;
     background: chartreuse;
-    font-family: tp-fairfax;
+    font-family: tp-Fairfax;
   }
   input#fairfax:checked ~ *[lang=tp] {
     color: chartreuse;
     background: red;
-    font-family: tp-fairfax;
+    font-family: tp-Fairfax;
   }
   input#ssk:checked { }
   input#ssk:checked + *[lang=tp] {
     color: blue;
     background: pink;
-    font-family: tp-sitelenselikiwen;
+    font-family: tp-SitelenSeliKiwen;
   }
   input#ssk:checked ~ *[lang=tp] {
     color: pink;
     background: blue;
-    font-family: tp-sitelenselikiwen;
+    font-family: tp-SitelenSeliKiwen;
   }
   input#ll:checked ~ *[lang=tp] {
-    font-family: tp-linjalipamanaka;
+    font-family: tp-LinjaLipamanaka;
   }
   input#ll:checked + *[lang=tp] {
-    font-family: tp-linjalipamanaka;
+    font-family: tp-LinjaLipamanaka;
   }
   input#lp:checked ~ *[lang=tp] {
-    font-family: tp-linjapona;
+    font-family: tp-LinjaPona;
   }
   input#lp:checked + *[lang=tp] {
-    font-family: tp-linjapona;
+    font-family: tp-LinjaPona;
   } */
 
   .page__content {
@@ -1210,7 +1210,7 @@ Fonts used to display [sitelen pona]:
     width: 55%;
     margin-left: 45%;
     padding-left: 2rem;
-    font: 1.5rem / 2rem tp-LinjaLipamanka /* TODO how to toggle fonts using a UI element? */;
+    font: 1.5rem / 2rem tp-FairfaxPona; /* FfP can use ZWJ to stack glyphs… */
   }
   .page__content h1 + dl dd strong, /* any one-off english... */
   .page__content h1 + dl [lang=en] {
@@ -1220,7 +1220,7 @@ Fonts used to display [sitelen pona]:
   .page__content h1 + dl dd:nth-of-type(2),  /* kipisi wan pi linja mute */
   .page__content h1 + dl dd:nth-of-type(3) { /* kipisi tu pi linja mute */
     padding-left: 13%; /* don't center because the combining glyphs are counted as double-wide */
-    font-family: tp-linjapona; /* bc it has both "pake" and can combine... */
+    font-family: tp-LinjaPona; /* bc it has both "pake" and can combine... */
   }
   .page__content h1 + dl dt:first-of-type dd { /* kipisi-pi-linja-mute */
   }
@@ -1256,82 +1256,10 @@ Fonts used to display [sitelen pona]:
     fill: #221;
   }
   .nimiPiLinjaMute [fill=none] {
-    fill: rgba(0,0,0,0);
-  }
-
-  /*
-  .nimiPiLinjaMute g,
-  .nimiPiLinjaMute ellipse,
-  .nimiPiLinjaMute polygon,
-  .nimiPiLinjaMute polyline,
-  .nimiPiLinjaMute rect,
-  .nimiPiLinjaMute circle,
-  .nimiPiLinjaMute line,
-  .nimiPiLinjaMute path,
-  .nimiPiLinjaMute svg,
-  .nimiPiLinjaMute symbol,
-  .nimiPiLinjaMute use {
-    color: indigo;
-    background: red;
-    accent-color: black;
-    border-color: pink;
-    border-inline-color: pink;
-    caret-color: black;
-    fill: red;
-    flood-color: lime;
-    lighting-color: orange;
-    outline-color: beccapurple;
-    stop-color: pink;
-    stroke: cyan;
-    text-decoration-color: blue;
-    text-emphasis-color: green;
-  } */
-  .nimiPiLinjaMute circle { /* "t" */
-    /* fill: orange; */
-    /* background: orange; */
-    /* stroke-width: 1; */
-    /* stroke: rgba(0 100 100 / 0.5); */
-  }
-  .nimiPiLinjaMute ellipse { /* "s" */
-    /* fill: orange; */
-    /* /* background: orange; */ */
-    /* stroke-width: 1; */
-    /* stroke: rgba(0 100 100 / 0.5); */
-  }
-    [href="#tp-c-cartouche-wide"] {
-        /* fill: purple; */
-        /* background: purple; */
-        /* stroke-width: 1; */
-        /* stroke: rgba(100 100 0 / 0.5); */
-    }
-  .nimiPiLinjaMute g {
-    /* fill: cyan; */
-    /* background: cyan; */
-    /* stroke-width: 1; */
-    /* stroke: rgba(0 0 200 / 0.5); */
-  }
-  .nimiPiLinjaMute line {
-    /* fill: blue; */
-    /* background: blue; */
-    /* stroke-width: 1; */
-    /* stroke: rgba(200 0 0 / 0.5); */
-  }
-  .nimiPiLinjaMute path { /* cartouche, many consonants */
-    /* fill: lime; */
-    /* background: lime; */
-    /* stroke-width: 1; */
-    /* stroke: rgba(0 0 0 / 0.5); */
-  }
-  .nimiPiLinjaMute symbol { /* "i", "p" */
-    /* fill: red; */
-    /* background: red; */
-    /* stroke-width: 1; */
-    /* stroke: rgba(100 0 100 / 0.5); */
-  }
-  .nimiPiLinjaMute use {
-    /* fill: pink; */
-    /* background: pink; */
+    fill: rgba(0,0,0,0); /* 'eyes' need to have transparency */
   }
 </style>
 
 {:hexagram-name: .nimiPiLinjaMute data-sitelen="true" data-sitelen-ratio="4"}
+{:LinjaPona: style="font-family:tp-LinjaPona"}
+{:FairfaxPona: style="font-family:tp-FairfaxPona"}
