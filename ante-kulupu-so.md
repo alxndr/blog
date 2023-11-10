@@ -135,7 +135,7 @@ Fonts used to display [sitelen pona]:
 
 大人
 : <span lang="tp">jan wawa</span>
-: <span lang="en">the ideal protagonist; the aligned self; a person-in-flow</span>
+: <span lang="en">the ideally-embodied self, the confidently-aligned individual; 'sure person'</span>
 
 君子
 : <span lang="tp">jan pona</span>
@@ -143,7 +143,7 @@ Fonts used to display [sitelen pona]:
 
 小人
 : <span lang="tp">jan anpa</span>
-: <span lang="en">a lowly person; a dishonorable one</span>
+: <span lang="en">an un-embodied self, a mis-aligned individual; 'lowly person'</span>
 
 涉大川
 : <span lang="tp">pali suli</span>
@@ -184,7 +184,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la sewi
 : kipisi  monsi la sewi
 
-乾。︁元亨、利。
+乾。︁元亨、利贞。
 : suno li sewi la
 : &nbsp; usawi li pona <!-- usawawa -->
 : tenpo  kama  li wawa <!-- tenpona -->
@@ -197,7 +197,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la ma
 : kipisi  monsi la ma
 
-坤。︁元亨、利牝马之贞。 君子有攸往、先迷后得主、利西南得朋、东北丧朋. 安贞、吉
+坤。︁元亨、利牝马之贞。 君子有攸往、先迷后得主、利西南得朋、东北丧朋. 安贞、吉。︁
 : ma li nasin la
 : usawi li pona
 : tenpo kama la soweli li ken mama
@@ -230,7 +230,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la nena
 : kipisi  monsi la telo-tawa
 
-蒙。︁亨。 匪我求童蒙、童蒙求我. 初筮告、再三渎、渎则不告. 利贞.
+蒙。︁亨。 匪我求童蒙、童蒙求我. 初筮告、再三渎、渎则不告. 利贞。︁
 : kasi misikeke la
 : pona
 : mi alasa ala e kasi la kasi li alasa e mi
@@ -246,7 +246,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la telo-tawa
 : kipisi  monsi la sewi
 
-需。︁有孚、光亨、贞吉。 利涉大川.
+需。︁有孚、光亨、贞吉。 利涉大川。︁
 : telo sewi la
 : ilo mani la tenpo kama li suno li wawa
 : pali suli li pona
@@ -288,7 +288,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la telo-tawa
 : kipisi  monsi la ma
 
-比。︁吉。 原筮元永贞、无咎. 不宁方来、后夫凶.
+比。︁吉。 原筮元永贞、无咎. 不宁方来、后夫凶。︁
 : sama la
 : usawi li wawa
 : _tenpo ale_ la usawi li pona li pakala ala
@@ -303,7 +303,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la kon
 : kipisi  monsi la sewi
 
-小畜。︁亨。密云不雨、自我西郊.
+小畜。︁亨。密云不雨、自我西郊。︁
 : mama lili la
 : usawi li pona
 : ma _ante_ la sewi pimeja li telo ala
@@ -422,7 +422,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la nena
 : kipisi  monsi la kon
 
-蛊。︁元亨、利涉大川。 先甲三日、后甲三日.
+蛊。︁元亨、利涉大川。 先甲三日、后甲三日。︁
 : moli la
 : &nbsp; usawi li pona
 : pali   suli  li pona
@@ -436,7 +436,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la ma
 : kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
 
-临。︁元亨、利贞。 至于八月有凶.
+临。︁元亨、利贞。 至于八月有凶。︁
 : mu la
 : &nbsp; &nbsp; &nbsp; usawi li pona
 : &nbsp; &nbsp; tenpo  kama  li wawa
@@ -463,7 +463,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la seli
 : kipisi  monsi la kalama
 
-噬嗑。︁亨。利用狱.
+噬嗑。︁亨。利用狱。︁
 : pini uta la
 : usawi li pona
 : apeja<!-- not in lipamanka… --> tan jan lawa li pona
@@ -476,7 +476,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la nena
 : kipisi  monsi la seli
 
-贲。︁亨。 小利有攸往.
+贲。︁亨。 小利有攸往。︁
 : kule olin la
 : usawi li pona
 : _tawa ma ante_<!-- see #23, 24, etc... --> li pona lili
@@ -501,7 +501,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la ma
 : kipisi  monsi la kalama
 
-复。︁亨。 出入无疾、朋来无咎. 反复其道、七日来复、利有攸往.
+复。︁亨。 出入无疾、朋来无咎. 反复其道、七日来复、利有攸往。︁
 : sike la
 : usawi li pona
 : tawa kama li ike ala
@@ -517,7 +517,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la sewi
 : kipisi  monsi la kalama
 
-无妄。︁元亨、利贞。其匪正有眚、不利有攸往.
+无妄。︁元亨、利贞。其匪正有眚、不利有攸往。︁
 : jo la
 : &nbsp; usawi li pona
 : tenpo  kama  li wawa
@@ -546,7 +546,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la nena
 : kipisi  monsi la kalama
 
-颐。︁贞吉。 观颐、自求口实.
+颐。︁贞吉。 观颐、自求口实。︁
 : sijelo moku la
 : wawa
 : suno e moku mama
@@ -588,7 +588,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la seli
 : kipisi  monsi la seli
 
-离。︁利贞、亨。 畜牝牛、吉.
+离。︁利贞、亨。 畜牝牛、吉。︁
 : lanpan e waso la
 : usawi li wawa pona
 : mama e _soweli esun_ li pona
@@ -717,7 +717,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la kalama
 : kipisi  monsi la telo-tawa
 
-解。︁利西南、无所往、其来复吉。 有攸往、夙吉.
+解。︁利西南、无所往、其来复吉。 有攸往、夙吉。︁
 : _pana kipisi_ la
 : pona la ma weka
 : _tawa taso awen ala_
@@ -733,7 +733,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la nena
 : kipisi  monsi la telo-tawa
 
-损。︁有孚、元吉、无咎、可贞、利有攸往。 曷之用、二簋可用享.
+损。︁有孚、元吉、无咎、可贞、利有攸往。 曷之用、二簋可用享。︁
 : lili e mute la
 : ilo mani
 : usawi li pona
@@ -793,7 +793,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la telo-pake<!-- not in linjalipamanka -->
 : kipisi  monsi la ma
 
-萃。︁亨。 王假有庙、利见大人、亨、利贞. 用大牲吉、利有攸往.
+萃。︁亨。 王假有庙、利见大人、亨、利贞. 用大牲吉、利有攸往。︁
 : nasa la
 : wawa
 : jan lawa li tawa tomo usawi
@@ -842,7 +842,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la telo-tawa
 : kipisi  monsi la kon
 
-井。︁改邑不改井、无丧无得、往来井井。 汔至、亦未繘井、羸其瓶、凶.
+井。︁改邑不改井、无丧无得、往来井井。 汔至、亦未繘井、羸其瓶、凶。︁
 : lupa-telo la
 : tomo   mute   li     ante
 : lupa   telo   li     ante ala
@@ -889,7 +889,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la kalama
 : kipisi  monsi la kalama
 
-震。︁亨。 震来虩虩、笑言哑哑. 震惊百里、不丧匕鬯.
+震。︁亨。 震来虩虩、笑言哑哑. 震惊百里、不丧匕鬯。︁
 : pakala ma la
 : wawa
 : ma pakala li mu a
@@ -1001,7 +1001,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la kon
 : kipisi  monsi la telo-tawa
 
-涣。︁亨。 王假有庙、利涉大川、利贞.
+涣。︁亨。 王假有庙、利涉大川、利贞。︁
 : telo sijelo la
 : wawa
 : jan lawa li tawa lon tomo usawi
@@ -1016,7 +1016,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la telo-tawa
 : kipisi  monsi la telo-pake<!-- not in linjalipamanka -->
 
-节。︁亨。 苦节、不可贞.
+节。︁亨。 苦节、不可贞。︁
 : kiki la
 : wawa
 : kiki ike
@@ -1044,7 +1044,7 @@ Fonts used to display [sitelen pona]:
 : kipisi sinpin la kalama
 : kipisi  monsi la nena
 
-小过。︁亨、利贞、可小事、不可大事。飞鸟遗之音、不宜上、宜下、大吉.
+小过。︁亨、利贞、可小事、不可大事。飞鸟遗之音、不宜上、宜下、大吉。︁
 : mute lili la <!-- see #28 -->
 : wawa
 : tenpo kama li pona
