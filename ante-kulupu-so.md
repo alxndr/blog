@@ -117,11 +117,12 @@ sidebar:
 坤。︁元亨、利牝马之贞。 君子有攸往、先迷后得主、利西南得朋、东北丧朋. 安贞、吉。︁
 : nasin ma la
 : usawi li pona
-: tenpo kama la soweli li ken mama
-: jan sewi li kama tawa ma ante la tenpo kama li nasa
-: jan sewi ni la tenpo pini li sewi
-: ma weka wan li jo e ilo pona
-: ma     weka  ante li weka e ilo pona
+: wawa  la soweli esun li mama
+: jan sewi li kama tawa ma ante la
+: &nbsp; tenpo kama li nasa
+: &nbsp; tenpo pini li sewi
+: ma weka wan li jo e ijo pona
+: ma     weka  ante li weka e ijo pona
 : &nbsp; tenpo kama li pakala ala li wawa
 
 
@@ -166,7 +167,7 @@ sidebar:
 
 需。︁有孚、光亨、贞吉。 利涉大川。︁
 : telo sewi la
-: ilo mani la tenpo kama li suno <br/> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; li wawa
+: ijo mani la tenpo kama li suno <br/> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; li wawa
 : &nbsp; &nbsp; &nbsp; pali suli li pona
 
 
@@ -179,7 +180,7 @@ sidebar:
 
 讼。︁有孚、窒。︁惕中吉。︁终凶。︁利见大人、不利涉大川。︁
 : utala la
-: ilo mani la pake
+: ijo mani la pake
 : olin e meso li pona
 : pini la sama e monsuta
 : pona la lukin e jan wawa
@@ -371,7 +372,7 @@ sidebar:
 观。︁盥而不荐、有孚颙若。
 : lukin la
 : jan usawi li ken pali la taso pali ala
-: ilo mani li jo e lawa suli
+: ijo mani li jo e lawa suli
 
 
 # 21
@@ -494,7 +495,7 @@ sidebar:
 
 坎。︁习坎、有孚、维心亨、行有尚。
 : pakala la
-: _len e ilo mani_
+: _len e ijo mani_
 : _olin e sewi_ li pona
 : tawa ma li pona
 
@@ -653,7 +654,7 @@ sidebar:
 
 损。︁有孚、元吉、无咎、可贞、利有攸往。 曷之用、二簋可用享。︁
 : lili e mute la
-: ilo mani
+: ijo mani
 : usawi li pona
 : pakala ala
 : ken usawi
@@ -684,7 +685,7 @@ sidebar:
 
 夬。︁扬于王庭、孚号、有厉、告自邑、不利即戎、利有攸往。
 : tawa anpa la
-: tomo pi (lawa kulupu) la ilo mani li mu
+: tomo pi (lawa kulupu) la ijo mani li mu
 : _ike_
 : toki tan tomo mute
 : pona   ala  la utala
@@ -781,7 +782,7 @@ sidebar:
 
 革。︁巳日乃孚、元亨利贞、悔亡。
 : selo soweli la
-: _tenpo pi (ilo mani)_
+: _tenpo pi (ijo mani)_
 : &nbsp; usawi li pona
 : tenpo  kama  li wawa
 : tenpo ike li pini
@@ -949,7 +950,7 @@ sidebar:
 : kipisi noka la telo-pake
 
 中孚。︁豚鱼吉、利涉大川、利贞。
-: jo e ilo mani la
+: jo e ijo mani la
 : soweli en    kala li pona
 : &nbsp; pali  suli li pona
 : &nbsp; tenpo kama li pona
@@ -1076,7 +1077,7 @@ This page (en mute pali musi mi) is hosted by GitHub Pages.
 : <span lang="en">'far-away place': literally 'west-south' and 'east-north'; thousands of years ago, these referred to specific neighboring areas (and the people living in those places); I have chosen to leave the specific directions vague</span>
 
 孚
-: <span lang="tp">ilo mani</span>
+: <span lang="tp">ijo mani</span>
 : <span lang="en">'valuable things': spoils of war, "captives"[^Minford] often involved with ritual sacrifice</span>
 : <!-- jan lanpan — captive person(s) -->
 : <!-- ilo usawi — objects-of-ritual -->
@@ -1084,6 +1085,10 @@ This page (en mute pali musi mi) is hosted by GitHub Pages.
 攸往
 : <span lang="tp">_tawa ma ante_</span>
 : <span lang="en">'visiting a different place': "destination" [^Minford]</span>
+
+朋
+: <span lang="tp">ijo pona</span>
+: <span lang="en">'good things'</span>
 
 {:.bagua}
 | linja | 名字 | English |  **sitelen**  | nimi
