@@ -8,8 +8,8 @@
 @import "minimal-mistakes";
 
 @font-face {
-  font-family: tp-FairfaxPonaHD;
-  src: url('https://raw.githubusercontent.com/kreativekorp/open-relay/master/FairfaxHD/FairfaxPonaHD.ttf');
+  font-family: tp-FairfaxPonaHD; // not working consistently...
+  src: url('https://raw.githubusercontent.com/kreativekorp/open-relay/4d7cfda/FairfaxHD/FairfaxPonaHD.ttf');
   line-height: 1.1em;
 }
 @font-face {

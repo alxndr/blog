@@ -1199,8 +1199,8 @@ This page (en mute pali musi mi) is hosted by GitHub Pages.
     font-size: 1.1em;
   }
   .page__content h1 { /* each hexagram */
-    flex-basis: 3rem;
-    font-size: 1.5rem;
+    flex-basis: 2rem;
+    font-size: 1.9rem;
   }
   .page__content h1 .header-link {
     display: block; /* will move to below the content of the h1 */
@@ -1212,7 +1212,7 @@ This page (en mute pali musi mi) is hosted by GitHub Pages.
   }
   .page__content h1 + dl dt { /* "left side": trigram and reading */
     float: left;
-    width: 32%;
+    width: 41%;
     margin-top: 0;
   }
   .page__content h1 + dl dt:first-child { /* trigram */
