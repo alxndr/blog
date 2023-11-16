@@ -27,9 +27,11 @@ redirect_from:
 > tenpo kama la o toki a!
 
 
-o jan ale, toki a! tenpo ni la, mi kama sona toki e toki pona a!
+o jan ale, toki a!
+tenpo ni la, mi kama sona toki e toki pona a!
 
-mi pali e nimi mi la, jan Lesate. ona la, sina pilin pona anu seme?
+mi pali e nimi mi la, jan Lesate.
+ona la, sina pilin pona anu seme?
 
 toki pona la [lipu linluwi Matoton mi li lon ni][mastodon]{:rel="me"}.
 
