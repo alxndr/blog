@@ -3,7 +3,7 @@ title: a basic Vim syntax file for Toki Pona
 tags: [vim, toki pona]
 ---
 
-ilo Vim la mi pali e [lipu-kule][tp-vim-main] a
+ilo Vim la mi pali e [lipu-kule][vim-syntax-tokipona] a
 {:tp}
 
 I made [a Vim syntax file for Toki Pona text][vim-syntax-tokipona]!
