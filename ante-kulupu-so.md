@@ -1017,7 +1017,7 @@ Fonts used to display [sitelen pona]:
 
 Chinese fonts are from <a href="https://chinesefontdesign.com" target="_blank" rel="noopener">chinesefontdesign.com</a>.
 
-This page is hosted on GitHub Pages.
+This page (en mute pali musi mi) is hosted by GitHub Pages.
 
 
 ### Notes
