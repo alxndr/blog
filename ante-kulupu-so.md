@@ -1236,13 +1236,13 @@ This page (en mute pali musi mi) is hosted by GitHub Pages.
   .page__content h1 + dl [lang=en] {
     font: 0.9rem / 1.5rem sans-serif;
   }
-  .page__content h1 + dl dd:first-of-type, /* sitelen-sitelen pronunciation */
+  .page__content h1 + dl dd:first-of-type { /* sitelen-sitelen pronunciation */
+    padding-left: 7%;
+  }
   .page__content h1 + dl dd:nth-of-type(2),  /* kipisi lawa pi linja mute */
   .page__content h1 + dl dd:nth-of-type(3) { /* kipisi noka pi linja mute */
     padding-left: 13%; /* don't center because tp-LinjaPona combining glyphs are counted as double-wide */
-    font-family: tp-LinjaPona; /* has both "pake" and can combine... */
-  }
-  .page__content h1 + dl dt:first-of-type dd { /* kipisi-pi-linja-mute */
+    font: 1.5rem tp-LinjaPona; /* tp-LinjaPona has both "pake" and can combine... */
   }
   .page__content h1 + dl dt:not(:first-of-type) ~ dd { /* TP interpretation all lines */
     padding-left: 0.5em;
@@ -1252,8 +1252,6 @@ This page (en mute pali musi mi) is hosted by GitHub Pages.
     padding-left: 0;
   }
 
-  .nimiPiLinjaMute {
-  }
   .nimiPiLinjaMute > svg {
     max-width: 50%;
     min-width: 3rem;
