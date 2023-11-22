@@ -655,13 +655,13 @@ sidebar:
 : kipisi noka la telo-tawa
 
 损。︁有孚、元吉、无咎、可贞、利有攸往。 曷之用、二簋可用享。︁
-: lili e mute la
+: _lili_ la
 : jo e ijo mani
 : usawi li pona
 : pakala ala
 : ken usawi
 : _tawa ma ante_ li pona
-: pali e seme?
+: pali e seme
 : poki tu li ken pali e usawi
 
 
@@ -1030,6 +1030,19 @@ This page is hosted on GitHub Pages.
 
 ### Notes
 
+{:.bagua}
+| linja | 名字 | English |  **sitelen**  | nimi
+|:-----:|:----:|:--------|:-------------:|:-----
+|  _☰_  |  乾  | heavens | **sewi**      | sewi
+|  _☱_  |  兌  | lake    | **telo-pake** | telo pake
+|  _☲_  |  離  | fire    | **seli**      | seli
+|  _☳_  |  震  | thunder | **kalama**    | kalama
+|  _☴_  |  巽  | air     | **kon**       | kon
+|  _☵_  |  坎  | river   | **telo-tawa** | telo tawa
+|  _☶_  |  艮  | mountain| **nena**      | nena
+|  _☷_  |  坤  | earth   | **ma**        | ma
+
+
 {:.terms}
 八卦
 : <span lang="tp">linja mute</span>
@@ -1068,16 +1081,15 @@ This page is hosted on GitHub Pages.
 : <span lang="tp">pali suli</span>
 : <span lang="en">literally 'crossing a great river'; metaphor for a significant undertaking or "hazardous enterprise" [^Minford]</span>
 
-西南
-东北
-: <span lang="tp">ma weka</span>
-: <span lang="en">'far-away place': literally 'west-south' and 'east-north'; thousands of years ago, these referred to specific neighboring areas (and the people living in those places); I have chosen to leave the specific directions vague</span>
-
 孚
 : <span lang="tp">ijo mani</span>
 : <span lang="en">'valuable things': spoils of war, "captives"[^Minford] often involved with ritual sacrifice</span>
 : <!-- jan ilo — captive person(s) -->
 : <!-- ilo usawi — objects-of-ritual -->
+
+西南、东北
+: <span lang="tp">ma weka</span>
+: <span lang="en">'far-away place': literally 'west-south' and 'east-north'; thousands of years ago, these referred to specific neighboring areas (and the people living in those places); I have chosen to leave the specific directions vague</span>
 
 攸往
 : <span lang="tp">_tawa ma ante_</span>
@@ -1086,19 +1098,6 @@ This page is hosted on GitHub Pages.
 朋
 : <span lang="tp">ijo pona</span>
 : <span lang="en">'good things'</span>
-
-{:.bagua}
-| linja | 名字 | English |  **sitelen**  | nimi
-|:-----:|:----:|:--------|:-------------:|:-----
-|  _☰_  |  乾  | heavens | **sewi**      | sewi
-|  _☱_  |  兌  | lake    | **telo-pake** | telo pake
-|  _☲_  |  離  | fire    | **seli**      | seli
-|  _☳_  |  震  | thunder | **kalama**    | kalama
-|  _☴_  |  巽  | air     | **kon**       | kon
-|  _☵_  |  坎  | river   | **telo-tawa** | telo tawa
-|  _☶_  |  艮  | mountain| **nena**      | nena
-|  _☷_  |  坤  | earth   | **ma**        | ma
-
 
 [^Minford]: Minford, John: "I Ching: The Essential Translation of the Ancient Chinese Oracle and Book of Wisdom" (2014). Penguin Books, 4th printing, 2015… How do citations work again??
 [^Huang]: Huang, Alfred: "The Complete I Ching" (1998). Inner Traditions, 2010…
