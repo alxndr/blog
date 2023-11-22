@@ -117,7 +117,7 @@ sidebar:
 坤。︁元亨、利牝马之贞。 君子有攸往、先迷后得主、利西南得朋、东北丧朋. 安贞、吉。︁
 : nasin ma la
 : usawi li pona
-: wawa  la soweli esun li mama
+: wawa  la _soweli esun_ li mama
 : jan sewi li kama tawa ma ante la
 : &nbsp; tenpo kama li nasa
 : &nbsp; tenpo pini li sewi
@@ -134,7 +134,7 @@ sidebar:
 : kipisi noka la kalama
 
 屯。︁元亨、利贞、勿用有攸往、利建侯。
-: suli pi (kasi lili) la
+: suli pi kasi lili la
 : usawi li pona
 : tenpo kama li wawa
 : o kama ala tawa ma ante
@@ -167,8 +167,10 @@ sidebar:
 
 需。︁有孚、光亨、贞吉。 利涉大川。︁
 : telo sewi la
-: ijo mani la tenpo kama li suno <br/> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; li wawa
-: &nbsp; &nbsp; &nbsp; pali suli li pona
+: jo e ijo mani
+: _usawi_ li suno
+: wawa
+: pali suli li pona
 
 
 # 06
@@ -211,7 +213,7 @@ sidebar:
 : sama la
 : usawi li wawa
 : _tenpo ale_ la usawi li pona li pakala ala
-: kama tan ma pi (utala jan)
+: kama tan ma pi utala jan
 : _tenpo pini_ la jan kama li tenpo ike
 
 
@@ -291,7 +293,7 @@ sidebar:
 : kipisi noka la sewi
 
 大有。︁元亨。
-: _lanpan_ suli la
+: jo suli la
 : usawi li pona
 
 
@@ -508,7 +510,7 @@ sidebar:
 : kipisi noka la seli
 
 离。︁利贞、亨。 畜牝牛、吉。︁
-: lanpan e waso la
+: _lanpan_ e waso la
 : usawi li wawa pona
 : mama e _soweli esun_ li pona
 
@@ -524,7 +526,7 @@ sidebar:
 : pilin sijelo la
 : &nbsp; &nbsp; usawi li pona
 : &nbsp; tenpo  kama  li wawa
-: jo e meli li pona
+: jo e _meli_ li pona
 
 
 # 32
@@ -575,7 +577,7 @@ sidebar:
 
 晋。︁康侯用锡马蕃庶、昼日三接。
 : sinpin la
-: pana   tawa   jan    lawa   e      soweli mani
+: pana   tawa   jan    lawa   e      _soweli mani_
 : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; soweli ni li unpa mute
 
 
@@ -587,7 +589,7 @@ sidebar:
 : kipisi noka la seli
 
 明夷。︁利艰贞。
-: mu pi (waso suli) la
+: mu pi waso suli la
 : tenpo ike la usawi wawa
 
 
@@ -654,7 +656,7 @@ sidebar:
 
 损。︁有孚、元吉、无咎、可贞、利有攸往。 曷之用、二簋可用享。︁
 : lili e mute la
-: ijo mani
+: jo e ijo mani
 : usawi li pona
 : pakala ala
 : ken usawi
@@ -685,7 +687,7 @@ sidebar:
 
 夬。︁扬于王庭、孚号、有厉、告自邑、不利即戎、利有攸往。
 : tawa anpa la
-: tomo pi (lawa kulupu) la ijo mani li mu
+: tomo pi lawa kulupu la ijo mani li _mu_
 : _ike_
 : toki tan tomo mute
 : pona   ala  la utala
@@ -701,8 +703,8 @@ sidebar:
 
 姤。︁女壮、勿用取女。
 : unpa la
-: &nbsp; &nbsp; &nbsp; meli wawa
-: lanpan ala    e      meli
+: &nbsp; &nbsp; &nbsp; _meli_ wawa
+: _lanpan_ ala    e    _meli_
 
 
 # 45
@@ -782,7 +784,7 @@ sidebar:
 
 革。︁巳日乃孚、元亨利贞、悔亡。
 : selo soweli la
-: _tenpo pi (ijo mani)_
+: _tenpo_ pi ijo mani
 : &nbsp; usawi li pona
 : tenpo  kama  li wawa
 : tenpo ike li pini
@@ -870,7 +872,7 @@ sidebar:
 : wawa
 : jan lawa li lon
 : ike ala
-: tenpo pi (suno meso) li pona
+: tenpo pi suno meso li pona
 
 
 # 56
@@ -952,8 +954,8 @@ sidebar:
 中孚。︁豚鱼吉、利涉大川、利贞。
 : jo e ijo mani la
 : soweli en    kala li pona
-: &nbsp; pali  suli li pona
-: &nbsp; tenpo kama li pona
+: pali  suli li pona
+: tenpo kama li pona
 
 
 # 62
@@ -1079,7 +1081,7 @@ This page (en mute pali musi mi) is hosted by GitHub Pages.
 孚
 : <span lang="tp">ijo mani</span>
 : <span lang="en">'valuable things': spoils of war, "captives"[^Minford] often involved with ritual sacrifice</span>
-: <!-- jan lanpan — captive person(s) -->
+: <!-- jan ilo — captive person(s) -->
 : <!-- ilo usawi — objects-of-ritual -->
 
 攸往
@@ -1228,8 +1230,7 @@ This page (en mute pali musi mi) is hosted by GitHub Pages.
   .page__content h1 + dl dd { /* "right side": TP interpretations */
     width: 55%;
     margin-left: 45%;
-    /* padding-left: 2rem; */
-    font: 1.5rem / 2rem tp-FairfaxPonaHD; /* FPH 'should' use ZWJ to stack glyphs… */
+    font: 2.5rem / 2rem tp-LinjaSuwi;
   }
   .page__content h1 + dl dd strong, /* any one-off english... */
   .page__content h1 + dl [lang=en] {
@@ -1244,7 +1245,7 @@ This page (en mute pali musi mi) is hosted by GitHub Pages.
   .page__content h1 + dl dt:first-of-type dd { /* kipisi-pi-linja-mute */
   }
   .page__content h1 + dl dt:not(:first-of-type) ~ dd { /* TP interpretation all lines */
-    padding-left: 2em; /* this one is `em` intentionally, to indent by two glyphs */
+    padding-left: 0.5em;
   }
   .page__content h1 + dl dt:not(:first-of-type) + dd { /* first line of interpretation */
     margin-top: 2rem; /* match what's above source reading */
