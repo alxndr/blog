@@ -103,8 +103,8 @@ sidebar:
 
 乾。︁元亨、利贞。
 : sewi suno la
-: &nbsp; usawi li pona <!-- usawawa -->
-: tenpo  kama  li wawa <!-- tenpona -->
+: usawi li pona
+: tenpo kama li wawa
 
 
 # 02
@@ -117,13 +117,13 @@ sidebar:
 坤。︁元亨、利牝马之贞。 君子有攸往、先迷后得主、利西南得朋、东北丧朋. 安贞、吉。︁
 : nasin ma la
 : usawi li pona
-: wawa  la _soweli esun_ li mama
+: wawa la _soweli esun_ li mama
 : jan sewi li kama tawa ma ante la
-: &nbsp; tenpo kama li nasa
-: &nbsp; tenpo pini li sewi
+: tenpo kama li nasa
+: tenpo pini li sewi
 : ma weka wan li jo e ijo pona
-: ma     weka  ante li weka e ijo pona
-: &nbsp; tenpo kama li pakala ala li wawa
+: ma weka ante li weka e ijo pona
+: tenpo kama li pakala ala li wawa
 
 
 # 03
@@ -153,8 +153,8 @@ sidebar:
 : pona
 : jan li alasa ala e kasi
 : kasi li alasa e jan ni3<!-- 3 points the arrow up in FairfaxPonaHD -->
-: &nbsp; wan la usawi li pona
-: tu    mute la usawi li jaki
+: wan la usawi li pona
+: tu mute la usawi li jaki
 : tenpo kama li wawa
 
 
@@ -198,8 +198,8 @@ sidebar:
 
 师。︁贞、丈人、吉无咎。
 : kulupu utala la
-: jan    _majuna_{:FairfaxPonaHD} li pona
-: &nbsp; usawi li pakala ala
+: jan _majuna_{:FairfaxPonaHD} li pona
+: usawi li pakala ala
 
 
 # 08
@@ -332,8 +332,8 @@ sidebar:
 
 随。︁元亨利贞、无咎。
 : alasa la
-: &nbsp; usawi li pona
-: tenpo  kama  li wawa li pakala ala
+: usawi li pona
+: tenpo kama li wawa li pakala ala
 
 
 # 18
@@ -345,8 +345,8 @@ sidebar:
 
 蛊。︁元亨、利涉大川。 先甲三日、后甲三日。︁
 : moli la
-: &nbsp; usawi li pona
-: pali   suli  li pona
+: usawi li pona
+: pali suli li pona
 : _tenpo kama suno mute_ en _tenpo pini suno mute_
 
 
@@ -359,9 +359,9 @@ sidebar:
 
 临。︁元亨、利贞。 至于八月有凶。︁
 : mu la
-: &nbsp; &nbsp; &nbsp; usawi li pona
-: &nbsp; &nbsp; tenpo  kama  li wawa
-: _tenpo suno   mute  mute_  li ike
+: usawi li pona
+: tenpo kama li wawa
+: _tenpo suno mute mute_ li ike
 
 
 # 20
@@ -440,9 +440,9 @@ sidebar:
 
 无妄。︁元亨、利贞。其匪正有眚、不利有攸往。︁
 : jo la
-: &nbsp; usawi li pona
-: tenpo  kama  li wawa
-: tenpo  kama  la ken pali la taso pali ike
+: usawi li pona
+: tenpo kama li wawa
+: tenpo kama la ken pali la taso pali ike
 : _tawa ma ante_ li pona ala
 
 
@@ -524,8 +524,8 @@ sidebar:
 
 咸, 亨, 利贞, 取女吉.
 : pilin sijelo la
-: &nbsp; &nbsp; usawi li pona
-: &nbsp; tenpo  kama  li wawa
+: usawi li pona
+: tenpo kama li wawa
 : jo e _meli_ li pona
 
 
@@ -538,8 +538,8 @@ sidebar:
 
 恒。︁亨、无咎、利贞、利有攸往。
 : awen la
-: &nbsp; usawi li pona li pakala ala
-: tenpo  kama  li pona
+: usawi li pona li pakala ala
+: tenpo kama li pona
 : _tawa ma ante_ li pona
 
 
@@ -577,8 +577,8 @@ sidebar:
 
 晋。︁康侯用锡马蕃庶、昼日三接。
 : sinpin la
-: pana   tawa   jan    lawa   e      _soweli mani_
-: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; soweli ni li unpa mute
+: pana tawa jan lawa e _soweli mani_
+: soweli ni li unpa mute
 
 
 # 36
@@ -626,8 +626,8 @@ sidebar:
 
 蹇。︁利西南、不利东北; 利见大人、贞吉。
 : noka pakala la
-: &nbsp; pona la ma weka wan
-: pona   ala  la ma weka ante
+: pona la ma weka wan
+: pona ala la ma weka ante
 : lukin e jan wawa li wawa
 
 
@@ -690,8 +690,8 @@ sidebar:
 : tomo pi lawa kulupu la ijo mani li _mu_
 : _ike_
 : toki tan tomo mute
-: pona   ala  la utala
-: &nbsp; pona la _tawa ma ante_
+: pona ala la utala
+: pona la _tawa ma ante_
 
 
 # 44
@@ -703,8 +703,8 @@ sidebar:
 
 姤。︁女壮、勿用取女。
 : unpa la
-: &nbsp; &nbsp; &nbsp; _meli_ wawa
-: _lanpan_ ala    e    _meli_
+: _meli_ wawa
+: _lanpan_ ala e _meli_
 
 
 # 45
@@ -765,10 +765,10 @@ sidebar:
 
 井。︁改邑不改井、无丧无得、往来井井。 汔至、亦未繘井、羸其瓶、凶。︁
 : lupa-telo la
-: tomo   mute   li     ante
-: lupa   telo   li     ante ala
-: &nbsp; &nbsp; &nbsp; lili ala
-: &nbsp; &nbsp; &nbsp; suli ala
+: tomo mute li ante
+: lupa telo li ante ala
+: lili ala
+: suli ala
 : lupa telo la jan ale li kama li tawa
 : _lupa telo li jo ala e telo la_
 : poki telo li pakala
@@ -785,8 +785,8 @@ sidebar:
 革。︁巳日乃孚、元亨利贞、悔亡。
 : selo soweli la
 : _tenpo_ pi ijo mani
-: &nbsp; usawi li pona
-: tenpo  kama  li wawa
+: usawi li pona
+: tenpo kama li wawa
 : tenpo ike li pini
 
 
@@ -953,8 +953,8 @@ sidebar:
 
 中孚。︁豚鱼吉、利涉大川、利贞。
 : jo e ijo mani la
-: soweli en    kala li pona
-: pali  suli li pona
+: soweli en kala li pona
+: pali suli li pona
 : tenpo kama li pona
 
 
@@ -968,13 +968,13 @@ sidebar:
 小过。︁亨、利贞、可小事、不可大事。飞鸟遗之音、不宜上、宜下、大吉。︁
 : mute lili la <!-- see #28 -->
 : wawa
-: tenpo  kama  li pona
-: pali   lili  li pona
-: pali   suli  li pona ala
-: &nbsp; waso  li tawa sewi li mu
-: tawa   sewi  li pona ala
-: tawa   noka  li pona
-: &nbsp; usawi li wawa
+: tenpo kama li pona
+: pali lili li pona
+: pali suli li pona ala
+: waso li tawa sewi li mu
+: tawa sewi li pona ala
+: tawa noka li pona
+: usawi li wawa
 
 
 # 63
