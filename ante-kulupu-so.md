@@ -89,7 +89,7 @@ sidebar:
 
 周易 "The Changes of Zhou": each hexagram's 卦辭 initial commentary, from the Chinese classic 易經 (Yi Jing / I Ching)
 
-[toki pona] interpretation by jan Lesate (Alexander), autumn 2023
+[toki pona] interpretation by jan Lesate (Alexander), 2023
 
 -------
 
@@ -152,7 +152,7 @@ sidebar:
 : kasi misikeke la
 : pona
 : jan li alasa ala e kasi
-: kasi li alasa e jan ni3<!-- 3 points the arrow up in FairfaxPonaHD -->
+: kasi li alasa e jan ni
 : wan la usawi li pona
 : tu mute la usawi li jaki
 : tenpo kama li wawa
@@ -1007,30 +1007,25 @@ sidebar:
 
 ### Acknowledgements
 
-Many thanks to my professors at Oberlin College.
+I studied contemporary and classical Chinese at [Oberlin College](https://oberlin.edu); 谢谢老师！
 
 Much of my understanding of the source is based on Part II of [John Minford]'s English interpretation[^Minford], including the inspiration for the "names" of the hexagrams rendered here in [sitelen sitelen].
 
 I turn to [Master Alfred Huang]'s English interpretation[^Huang] for lots of guidance as well.
 
-My understanding of [toki pona] is based largely on usage and correction from the Discord community (jan ilo Siko):
-* kama sona
-* ma pona pi toki pona
+My understanding of [toki pona] is based largely on usage and correction from the Discord communities of [kama sona](https://discord.gg/Sw42hJ6Qc9) and [ma pona pi toki pona](https://discord.gg/mapona). I frequently refer to the online dictionaries [nimi.li](https://nimi.li) and [linku.la](https://linku.la).
 
-... as well as other dictionaries:
-* https://nimi.li/
-* https://linku.la/
-
-Fonts used to display [sitelen pona]:
-* [Fairfax Pona HD](https://www.kreativekorp.com/software/fonts/fairfaxponahd/)
-<!-- * [sitelen seli kiwen](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/). -->
-* [linja pona](https://musilili.net/linja-pona/) by [jan Same](https://musilili.net)
-* [linja lipamanka](https://lipamanka.gay/linjamanka) by [lipamanka](https://lipamanka.gay)
-
+Much gratitude to [Jonathan Gabel](https://jonathangabel.com) for creating and sharing [the sitelen sitelen writing system](https://jonathangabel.com/toki-pona/).
 {% include sitelen-sitelen-renderer.html %}
 
+Fonts used to display [sitelen pona]:
+* [linja suwi](https://linjasuwi.ap5.dev/) by [Anna Kudriavtsev](https://ap5.dev/)
+* [linja pona](https://musilili.net/linja-pona/) by [jan Same](https://musilili.net)
+* [linja lipamanka](https://lipamanka.gay/linjamanka) by [lipamanka](https://lipamanka.gay)
+* [Fairfax Pona HD](https://www.kreativekorp.com/software/fonts/fairfaxponahd/)
+<!-- * [sitelen seli kiwen](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/). -->
 
-This page (en mute pali musi mi) is hosted by GitHub Pages.
+This page is hosted on GitHub Pages.
 
 
 ### Notes
@@ -1132,41 +1127,6 @@ This page (en mute pali musi mi) is hosted by GitHub Pages.
     font: 0.6rem monospace;
     text-decoration: none;
   }
-
-  /* input#fairfax:checked { }
-  input#fairfax:checked + *[lang=tp] {
-    color: red;
-    background: chartreuse;
-    font-family: tp-Fairfax;
-  }
-  input#fairfax:checked ~ *[lang=tp] {
-    color: chartreuse;
-    background: red;
-    font-family: tp-Fairfax;
-  }
-  input#ssk:checked { }
-  input#ssk:checked + *[lang=tp] {
-    color: blue;
-    background: pink;
-    font-family: tp-SitelenSeliKiwen;
-  }
-  input#ssk:checked ~ *[lang=tp] {
-    color: pink;
-    background: blue;
-    font-family: tp-SitelenSeliKiwen;
-  }
-  input#ll:checked ~ *[lang=tp] {
-    font-family: tp-LinjaLipamanaka;
-  }
-  input#ll:checked + *[lang=tp] {
-    font-family: tp-LinjaLipamanaka;
-  }
-  input#lp:checked ~ *[lang=tp] {
-    font-family: tp-LinjaPona;
-  }
-  input#lp:checked + *[lang=tp] {
-    font-family: tp-LinjaPona;
-  } */
 
   .page__content {
     display: flex;
