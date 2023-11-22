@@ -1,5 +1,5 @@
 ---
-title: vim-syntax-tokipona: a Vim syntax file for Toki Pona
+title: a Vim syntax file for Toki Pona
 tags: [vim, toki pona]
 ---
 
