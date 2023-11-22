@@ -1,20 +1,18 @@
 ---
-title: a basic Vim syntax file for Toki Pona
+title: vim-syntax-tokipona: a Vim syntax file for Toki Pona
 tags: [vim, toki pona]
 ---
 
-ilo Vim la mi pali e [lipu-kule][vim-syntax-tokipona] a
-{:tp}
+a a ilo Vim la mi pali e [lipu kute pi nimi kule][vim-syntax-tokipona]
+{:lang="tp" style="font:1.4em/1em tp-LinjaSuwi;margin-bottom:1rem"}
 
 I made [a Vim syntax file for Toki Pona text][vim-syntax-tokipona]!
 
-If you `:set filetype=tokipona` then it will highlight certain terms (particles, pronouns, etc) and attempt to indicate headnoun + name as well as "la" phrases:
+Load it up and `:set filetype=tokipona`, then it will highlight headnouns-with-capitalized-names, "la"-phrases, "X ala X", as well as preverbs and particles and pronouns:
 
-[![image](https://i.imgur.com/TfkF8ztm.png)](https://i.imgur.com/TfkF8zt.png)
+[![screenshot](https://i.imgur.com/TfkF8ztm.png)](https://i.imgur.com/TfkF8zt.png)
 
 (I recommend also using [/dev/urandom's Toki Pona vim spellcheck](https://gitlab.com/dev_urandom/toki-pona-vim-spellcheck).)
 
 
 [vim-syntax-tokipona]: https://github.com/alxndr/vim-syntax-tokipona
-
-{:tp: lang="tp" style="font:1.2em tp-LinjaPona"}
