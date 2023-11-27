@@ -1215,7 +1215,7 @@ This page is hosted on GitHub Pages.
     max-width: 50%;
     min-width: 3rem;
     max-height: 7rem;
-    min-height: 3rem;
+    min-height: 5rem;
   }
   .nimiPiLinjaMute * {
     stroke: rgba(250 250 250 / 0.68);
