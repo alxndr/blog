@@ -3,6 +3,7 @@ title: lipu Ante Kulupu So
 excerpt: mi ante toki e lipu Ante Kulupu So
 layout: single
 classes: wide
+tags: [toki pona, I Ching]
 sidebar:
   - title: quick nav
     text: |
@@ -73,19 +74,6 @@ sidebar:
       0. [Acknowledgements](#acknowledgements)
       0. [Notes](#notes)
 ---
-
-<!-- - title: "toki pona font"
-  text: |
-    * <label for="latin">Latin letters</label>
-    * <label for="fairfax">SP: Fairfax</label>
-    * <label for="ssk">SP: sitelen seli kiwen</label>
-    * <label for="ll">SP: linja lipamanka</label>
-        * <label for="lp">SP: linja pona</label>
-<input markdown="span" type="radio" name="font" id="latin" />
-<input markdown="span" type="radio" name="font" id="fairfax" />
-<input markdown="span" type="radio" name="font" id="ssk" />
-<input markdown="span" type="radio" name="font" id="ll" />
-<input markdown="span" type="radio" name="font" id="lp" /> -->
 
 周易 "The Changes of Zhou": each hexagram's 卦辭 initial commentary, from the Chinese classic 易經 (Yi Jing / I Ching)
 
@@ -1012,6 +1000,8 @@ I studied contemporary and classical Chinese at [Oberlin College](https://oberli
 Much of my understanding of the source is based on Part II of [John Minford]'s English interpretation[^Minford], including the inspiration for the "names" of the hexagrams rendered here in [sitelen sitelen].
 
 I turn to [Master Alfred Huang]'s English interpretation[^Huang] for lots of guidance as well.
+
+I have used [ctext.org](https://ctext.org/book-of-changes) as a modern source for the text of 周易.
 
 My understanding of [toki pona] is based largely on usage and correction from the Discord communities of [kama sona](https://discord.gg/Sw42hJ6Qc9) and [ma pona pi toki pona](https://discord.gg/mapona). I frequently refer to the online dictionaries [nimi.li](https://nimi.li) and [linku.la](https://linku.la).
 
