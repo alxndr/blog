@@ -3,17 +3,49 @@ layout: single
 classes: wide
 ---
 
-<div class="kipisi">{{ content }}</div>
+<div class="lpns">{{ content }}</div>
 
 <h2>Acknowledgements</h2>
 
 <ul>
-  <li>ancient Chinese original by (traditionally) <a href="https://en.wikipedia.org/wiki/Laozi" title="Lao Zi page on Wikipedia" target="_blank">LaoZi</a>, circa 400 <small><abbr title="before common era">BCE</abbr></small></li>
-  <li><a href="http://www.acmuller.net/con-dao/daodejing.html" target="_blank">English interpretation by A. Charles Muller</a>, July 1991 [<a href="https://web.archive.org/web/20230722070128/http://www.acmuller.net/con-dao/daodejing.html" target="_blank">archived</a>]</li>
-  <li>partially inspired by <a href="http://www.beatrice.com/TAO.txt" target="_blank">another English interpretation by Ron Hogan</a>, 2002–2004 [<a href="https://web.archive.org/web/20230327014826/http://www.beatrice.com/TAO.txt" target="_blank">archived</a>]</li>
-  <li>jan ilo Siko li pona tawa mi: <a href="https://discord.com/invite/mapona" target="_blank">ma pona pi toki pona</a> en <a href="https://discord.gg/KCfMszsf54" target="_blank">kama sona</a></li>
+  <li>ancient Chinese original by (traditionally) <a href="https://en.wikipedia.org/wiki/Laozi" title="Lao Zi page on Wikipedia" target="_blank" rel="noopener">LaoZi</a>, circa 400 <small><abbr title="before common era">BCE</abbr></small></li>
+  <li><a href="http://www.acmuller.net/con-dao/daodejing.html" target="_blank rel="noopener"">English interpretation by A. Charles Muller</a>, July 1991 [<a href="https://web.archive.org/web/20230722070128/http://www.acmuller.net/con-dao/daodejing.html" target="_blank rel="noopener"">archived</a>]</li>
+  <li>partially inspired by <a href="http://www.beatrice.com/TAO.txt" target="_blank rel="noopener"">another English interpretation by Ron Hogan</a>, 2002–2004 [<a href="https://web.archive.org/web/20230327014826/http://www.beatrice.com/TAO.txt" target="_blank rel="noopener"">archived</a>]</li>
+  <li><a href="https://discord.com/invite/mapona" target="_blank rel="noopener"">ma pona pi toki pona</a> en <a href="https://discord.gg/KCfMszsf54" target="_blank" rel="noopener">kama sona</a> la, kulupu ni pi ilo Siko li pona tawa mi a!</li>
+  <li><a href="https://tokipona.org" target="_blank" rel="noopener">Toki Pona</a> was invented by Sonja Lang</li>
+  <li>the <a href="https://www.jonathangabel.com/toki-pona" target="_blank" rel="noopener">Sitelen Sitelen or Sitelen Suwi</a> writing system was invented by <a href="https://www.jonathangabel.com">Jonathan Gabel</a></li>
+  <li>Chinese fonts are from <a href="https://chinesefontdesign.com" target="_blank" rel="noopener">chinesefontdesign.com</a></li>
 </ul>
 
 <style>
-{% include lipu-pi-nasin-sewi.css %}
+  .sidebar > .kipisi-nav-sidebar {
+    list-style: none;
+    padding: 0;
+  }
+  .sidebar > .kipisi-nav-sidebar a {
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  .lpns > table {
+    display: table;
+    font-size: 0.9em; /* otherwise set to 0.75 */
+  }
+  .lpns > table td {
+    padding: 0.1rem;
+  }
+  .lpns > table tr:nth-child(2n) {
+    opacity: 0.6;
+  }
+  .lpns > table tr:nth-child(2n+1) {
+    background-color: #2B3441;
+  }
+  .lpns > table td[rowspan="2"] { /* source Chinese */
+    white-space: nowrap;
+    font: 2em zh-FangZhengXiaoZhuanTi, zh-JinWen, cursive, fantasy; /* em not rem... */
+    letter-spacing: -0.3em; /* em not rem... */
+  }
+  h2 {
+    border-bottom: 0;
+  }
 </style>

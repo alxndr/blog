@@ -83,3 +83,9 @@ plugins:
   # - jekyll-paginate
   # - jekyll-sitemap
   # - jekyll-feed
+  - jekyll-spaceship
+
+jekyll-spaceship:
+  # default enabled processors
+  processors:
+    - table-processor

@@ -5,9 +5,7 @@ title: lipu pi nasin Sewi — a Toki Pona interpretation of Dao De Jing
 
 A [Toki Pona] interpretation of [道德經 (Dao De Jing / Tao Te Ching)](https://en.wikipedia.org/wiki/Tao_Te_Ching), started by jan Lesate (aka Alexander), 2023…
 
-Many have started, few[^1] have finished! [Please contribute](https://github.com/alxndr/blog/tree/main/lipu-pi-nasin-sewi) if you're so inclined!
-
-[^1]: maybe none??
+Many have started, few have finished! [Please contribute](https://github.com/alxndr/blog/tree/main/lipu-pi-nasin-sewi) if you're so inclined!
 
 Note that terms in italics are pending further consideration.
 
@@ -17,10 +15,10 @@ Also note that a numbering system is pending further consideration.
 ## lipu nasin
 
 * [kipisi nanpa wan](/lipu-pi-nasin-sewi/1){:.done}
-* [kipisi nanpa tu](/lipu-pi-nasin-sewi/2){:.done}
-* [kipisi nanpa 3](/lipu-pi-nasin-sewi/3){:.done}
-* [kipisi nanpa 4](/lipu-pi-nasin-sewi/4){:.done}
-* [kipisi nanpa 5](/lipu-pi-nasin-sewi/5){:.ready}
+* [kipisi nanpa tu](/lipu-pi-nasin-sewi/2){:.wip}
+* [kipisi nanpa 3](/lipu-pi-nasin-sewi/3){:.wip}
+* [kipisi nanpa 4](/lipu-pi-nasin-sewi/4){:.wip}
+* [kipisi nanpa 5](/lipu-pi-nasin-sewi/5){:.wip}
 * [kipisi nanpa 6](/lipu-pi-nasin-sewi/6){:.notready}
 * [kipisi nanpa 7](/lipu-pi-nasin-sewi/7){:.notready}
 * [kipisi nanpa 8](/lipu-pi-nasin-sewi/8){:.notready}

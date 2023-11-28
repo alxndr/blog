@@ -8,6 +8,17 @@
 @import "minimal-mistakes";
 
 @font-face {
+  font-family: zh-FangZhengXiaoZhuanTi;
+  src: url('/assets/fonts/fang-zheng-xiao-zhuan-ti.ttf');
+  line-height: 1.1em;
+  /* can specify letter-spacing here?? */
+}
+@font-face {
+  font-family: zh-JinWen;
+  src: url('/assets/fonts/jin-wen.ttf');
+  line-height: 1.1em;
+}
+@font-face {
   font-family: tp-FairfaxPonaHD; // not working consistently...
   src: url('https://raw.githubusercontent.com/kreativekorp/open-relay/4d7cfda/FairfaxHD/FairfaxPonaHD.ttf');
   line-height: 1.1em;
