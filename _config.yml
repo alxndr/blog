@@ -25,26 +25,6 @@ lunr:
 author:
   name: Alexander
   bio: a.k.a. `@alxndr` <br/> a.k.a. `@drwxrxrx`
-  # links:
-  #   - label: photos
-  #     icon: "fab fa-instagram"
-  #     url: https://instagram.com/drwxrxrx
-  #   - label: tech/politics
-  #     icon: "fab fa-mastodon"
-  #     url: https://mastodon.xyz/@alxndr
-  #     rel: me
-  #   - label: music
-  #     icon: "fab fa-mastodon"
-  #     url: https://shakedown.social/@ufo_joe
-  #     rel: me
-  #   - label: Lojban
-  #     icon: "fab fa-mastodon"
-  #     url: https://mas.to/@rexsa
-  #     rel: me
-  #   - label: Toki Pona
-  #     icon: "fab fa-mastodon"
-  #     url: https://toki.social/@lesate
-  #     rel: me
 
 main:
   - title: "home"
@@ -80,12 +60,11 @@ defaults:
 plugins:
   - jekyll-archives
   - jekyll-include-cache
-  # - jekyll-paginate
-  # - jekyll-sitemap
-  # - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
   - jekyll-spaceship
 
 jekyll-spaceship:
-  # default enabled processors
   processors:
     - table-processor
