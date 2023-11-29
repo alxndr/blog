@@ -3,23 +3,26 @@
 {% include sitelen-sitelen.js %}
 
 <style>
-  ul[data-sitelen] { background: pink; }
   p[data-sitelen] {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    margin: 0 0 1rem;
+    margin: 0;
+    padding: 0;
   }
 
   [data-sitelen] > svg {
-    max-height: calc(min(75vh, 90%));
-    max-width: calc(min(75vw, 90%));
-  }
-  [data-sitelen-ratio^="0."] > svg,
-  [data-sitelen-ratio ="1" ] > svg,
-  [data-sitelen-ratio^="1."] > svg {
-    /* flex-basis: 50%; */
+    margin: 0;
     padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  [data-sitelen-ratio^="0."] > svg {
+    max-height: 30em;
+  }
+  [data-sitelen-ratio="1" ] > svg {
+    max-width: 20em;
+    max-height: 20em;
+  }
+  [data-sitelen-ratio^="1."] > svg {
+    max-width: 30em;
   }
 </style>
 
