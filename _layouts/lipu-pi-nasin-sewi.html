@@ -1,6 +1,7 @@
 ---
 layout: single
 classes: wide
+title: lipu {{lipu}} la, kipisi nanpa {{nanpa}} • lipu Nasin Sewi
 ---
 
 <div class="lpns">{{ content }}</div>
@@ -28,36 +29,32 @@ classes: wide
     text-align: center;
   }
 
-  .lpns {
-    /* display: flex; */
-    /* flex-flow: row wrap; */
-  }
-  .lpns > * {
-    /* flex-basis: 100%; */
-  }
-  .lpns > table {
-    display: table; /* reset silly defaults */
+  .loseta {
     font-size: 0.9em; /* reset silly defaults */
   }
-  .lpns > table td {
-    padding: 0.1rem;
+  .loseta tr {
+    grid-template-areas: "aside main" "aside foot";
   }
-  .lpns > table tr:nth-child(2n) {
-    opacity: 0.6;
+  .loseta td {
+    padding: 0.2em;
   }
-  .lpns > table tr:nth-child(2n+1) {
-    background-color: #2B3441;
-  }
-  .lpns > table td[rowspan="2"] { /* source Chinese */
+  .loseta td:nth-child(1) { /* source */
+    grid-area: aside;
     white-space: nowrap;
     font: 2em zh-FangZhengXiaoZhuanTi, zh-JinWen, cursive, fantasy; /* em not rem... */
+    text-align: center;
     letter-spacing: -0.3em; /* em not rem... */
+  }
+  .loseta td:nth-child(2) { /* tokipona */
+    grid-area: main;
+  }
+  .loseta td:nth-child(3) { /* english */
+    grid-area: foot;
+    text-align: right;
+    opacity: 0.6;
   }
   #sitelen {
     border: 0;
-  }
-  #sitelen ~ p[data-sitelen] {
-    /* float: left; */
   }
   h2 {
     border-bottom: 0;

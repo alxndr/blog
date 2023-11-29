@@ -1,29 +1,26 @@
 ---
 layout: lipu-pi-nasin-sewi
-title: lipu pi nasin Sewi — a Toki Pona interpretation of Dao De Jing
+title: lipu pi nasin sewi la, jan Lesate li ante toki a
+tags: [toki pona, Tao Te Ching, Chinese]
 ---
 
 A [Toki Pona] interpretation of [道德經 (Dao De Jing / Tao Te Ching)](https://en.wikipedia.org/wiki/Tao_Te_Ching), started by jan Lesate (aka Alexander), 2023…
 
-Many have started, few have finished! [Please contribute](https://github.com/alxndr/blog/tree/main/lipu-pi-nasin-sewi) if you're so inclined!
-
-Note that terms in italics are pending further consideration.
-
-Also note that a numbering system is pending further consideration.
+(Many have started, few have finished! [Please contribute](https://github.com/alxndr/blog/tree/main/lipu-pi-nasin-sewi) if you're so inclined! Note that terms in italics are pending further consideration. Also note that a numbering system is pending further consideration.)
 
 
 ## lipu nasin
 
 * [kipisi nanpa wan](/lipu-pi-nasin-sewi/1){:.done}
 * [kipisi nanpa tu](/lipu-pi-nasin-sewi/2){:.done}
-* [kipisi nanpa 3](/lipu-pi-nasin-sewi/3){:.wip}
-* [kipisi nanpa 4](/lipu-pi-nasin-sewi/4){:.notready}
-* [kipisi nanpa 5](/lipu-pi-nasin-sewi/5){:.notready}
-* [kipisi nanpa 6](/lipu-pi-nasin-sewi/6){:.notready}
-* [kipisi nanpa 7](/lipu-pi-nasin-sewi/7){:.notready}
-* [kipisi nanpa 8](/lipu-pi-nasin-sewi/8){:.notready}
-* [kipisi nanpa 9](/lipu-pi-nasin-sewi/9){:.notready}
-* [kipisi nanpa 10](/lipu-pi-nasin-sewi/10){:.notready}
+* [kipisi nanpa 3](/lipu-pi-nasin-sewi/3){:.done}
+* [kipisi nanpa 4](/lipu-pi-nasin-sewi/4){:.done}
+* [kipisi nanpa 5](/lipu-pi-nasin-sewi/5){:.done}
+* [kipisi nanpa 6](/lipu-pi-nasin-sewi/6){:.ready}
+* [kipisi nanpa 7](/lipu-pi-nasin-sewi/7){:.ready}
+* [kipisi nanpa 8](/lipu-pi-nasin-sewi/8){:.ready}
+* [kipisi nanpa 9](/lipu-pi-nasin-sewi/9){:.ready}
+* [kipisi nanpa 10](/lipu-pi-nasin-sewi/10){:.ready}
 * [kipisi nanpa 11](/lipu-pi-nasin-sewi/11){:.notready}
 * [kipisi nanpa 12](/lipu-pi-nasin-sewi/12){:.notready}
 * [kipisi nanpa 13](/lipu-pi-nasin-sewi/13){:.notready}
@@ -53,7 +50,7 @@ Also note that a numbering system is pending further consideration.
 * [kipisi nanpa 37](/lipu-pi-nasin-sewi/37){:.notready}
 {:.kipisi}
 
-## lipu pona
+## lipu sewi
 
 * [kipisi nanpa 38](/lipu-pi-nasin-sewi/38){:.notready}
 * [kipisi nanpa 39](/lipu-pi-nasin-sewi/39){:.notready}
