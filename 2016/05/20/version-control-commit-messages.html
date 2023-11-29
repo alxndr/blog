@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+--><html lang="en" class="no-js">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>version control commit messages  •  Alexander’s blog</title>
+<meta name="description" content="Here is how I like to structure my Git branches and commit messages.">
+
+
+  <meta name="author" content="Alexander">
+  
+  <meta property="article:author" content="Alexander">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Alexander's blog">
+<meta property="og:title" content="version control commit messages">
+<meta property="og:url" content="https://alxndr.blog/2016/05/20/version-control-commit-messages.html">
+
+
+  <meta property="og:description" content="Here is how I like to structure my Git branches and commit messages.">
+
+
+
+  <meta property="og:image" content="https://alxndr.blog/assets/images/alexander-120x120.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2016-05-20T00:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://alxndr.blog/2016/05/20/version-control-commit-messages.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Alexander",
+      "url": "https://alxndr.blog/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Alexander's blog Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/alexander-120x120.png" alt="://alxndr.blog"></a>
+        
+        <a class="site-title" href="/">
+          ://alxndr.blog
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://alxndr.blog/" itemprop="url">Alexander</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>a.k.a. <code class="language-plaintext highlighter-rouge">@alxndr</code> <br> a.k.a. <code class="language-plaintext highlighter-rouge">@drwxrxrx</code></p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="version control commit messages">
+    <meta itemprop="description" content="Here is how I like to structure my Git branches and commit messages.">
+    <meta itemprop="datePublished" content="2016-05-20T00:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="https://alxndr.blog/2016/05/20/version-control-commit-messages.html" class="u-url" itemprop="url">version control commit messages
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2016-05-20T00:00:00+00:00">2016 May 20</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>Here is how I like to structure my Git branches and commit messages.</p>
+
+<h2 id="tldr">tldr</h2>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">git add --patch</code> to create small and atomic commits</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">git commit --verbose</code> to thoroughly explain your changes (never <code class="language-plaintext highlighter-rouge">-m "commit message"</code>)</li>
+  <li>this makes <code class="language-plaintext highlighter-rouge">git bisect</code> very powerful for code “archaeology”</li>
+  <li>Future You will thank Past You</li>
+</ul>
+
+<h2 id="philosophy">philosophy</h2>
+
+<p>First, some reasons behind my madness…</p>
+
+<p>My primary motivation with caring so much about commit messages is the value I’ve gotten from referencing well-written commits that others have created. Git comes with <a href="https://git-scm.com/docs/git-bisect">a handy way of searching through history for a commit which introduced some behavior</a>, and once you’ve identified which commit added a bug, it’s <em>extremely</em> helpful when the commit is only changing one (logical) thing and has a thorough explanation of <em>why</em> it’s being changed.</p>
+
+<p>Having experienced that several times, I resolved to pay it forward by putting thought into how I create commit messages. Not only will the developers who maintain my code after me be grateful, it benefits myself as well when that person maintaining my two-year-old code happens to be <em>me</em> and I’ve since completely forgotten the context and inspiration for a particular code change.</p>
+
+<h2 id="atomic-commits">atomic commits</h2>
+
+<p>As I hinted in the above section, I like individual commits to stand on their own, with an explanatory commit message.</p>
+
+<p>I like to keep my code tidy, which can mean I’m making a commit just for something “trivial” like modifying whitespace, or changing a variable’s name. A change like that will be its own commit, with a message that can be as simple as “tweaking whitespace” or “renaming variable”. This allows me to verify that I didn’t accidentally modify something unintended while doing what should be a minor refactor.</p>
+
+<p>The most useful tool I’ve found for encouraging me to create small commits is the <code class="language-plaintext highlighter-rouge">--patch</code> flag for <code class="language-plaintext highlighter-rouge">git add</code>. It is related to the <code class="language-plaintext highlighter-rouge">--interactive</code> feature, which lets you “Add modified contents in the working tree interactively to the [https://git-scm.com/docs/git-add<a href="index%22">the manpage</a>]. The <code class="language-plaintext highlighter-rouge">--patch</code> feature pares down the full interactive mode into a series of prompts for the unstaged changes in your repository (or a subset of files, if you specify a path(s)). It asks whether or not to add each chunk of local changes to the commit-in-progress. If a chunk of changes includes two conceptually unrelated modifications, it lets you split the chunk into smaller ones, and then asks what you’d like to do for each smaller chunk. Furthermore, if there are unrelated changes within a single line, it can’t split the concepts apart for you, but the “manually edit the current hunk” feature will let you (though it can be a little tricky).</p>
+
+<h2 id="git-flow-esque-branching">git-flow-esque branching</h2>
+
+<p>It can be difficult to identify the larger goal behind many small commits. Thus, I’m a fan of feature branches to group them together and identify the motivation behind all these commits.</p>
+
+<p>On my personal projects I’ve followed something close to <a href="http://nvie.com/posts/a-successful-git-branching-model/">the “git flow” pattern of branches</a>, in that the <code class="language-plaintext highlighter-rouge">main</code> branch should always be what’s on production, but I haven’t been using a <code class="language-plaintext highlighter-rouge">develop</code> branch. At work, with more collaborators and more development happening simultaneously, we use a <code class="language-plaintext highlighter-rouge">develop</code> branch to collect what’s ready to be released next (which often will only be one branch/ticket anyway).</p>
+
+<p>The GitHub page for an individual commit includes a link to the pull request via which the commit made it into the <code class="language-plaintext highlighter-rouge">main</code> branch. This lets you figure out the reason for a commit when you’ve identified that it’s responsible for a bug.</p>
+
+<h2 id="commit-messages">commit messages</h2>
+
+<p>The Git software and GitHub site display commit messages in certain ways, so I like to structure my commit messages to work with them. When showing many commits, they tend to show just the first line of each commit message, so I use that line to be a summary of the commit as a whole. Some things truncate this summary at 72 characters, so keeping the summary short is ideal; that said, I try not to sacrifice the intelligibility of the summary in order to fit it into that limit.</p>
+
+<p>After the summary line, you’ve got all the space you need to express yourself <a href="(https://github.com/alxndr/lyriki/commit/a01056c21db5619e13d282d6e2b524857411b443)">e.g. with a paragraph!</a>. GitHub will render <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a> in the commit message, so don’t be afraid to add <a href="https://github.com/alxndr/lyrem-ipsum/commit/b72bf9683ed40824e29c4c063100c37172aa5557">a bulleted list of things you’re addressing</a> or any <a href="https://alxndr.github.io/blog/2016/05/06/linking-to-code-always-use-an-href-which-is-tied-to-a-specific-commit.html">links to other code (read this blog post if you ever link directly to code!!)</a>, documentation, StackOverflow, or other references you used in the process of changing the code.</p>
+
+<p>If you’re using a project management tool or bug tracker, include a reference to the ticket/story/bug in each commit. This could be as simple as “#123” where the ticket/bug ID is 123, but GitHub will think that refers to an issue or pull request in the current repository, and will turn it into a link. Therefore:</p>
+
+<ul>
+  <li>
+    <p>If you’re not using GitHub issues as your main issue/bug tracker, it may be more helpful to include the full URL to the ticket/bug.</p>
+  </li>
+  <li>
+    <p>If you are using GitHub issues as your issue tracker, in addition to having “#123” turn into a link to the issue/PR, note that <a href="https://help.github.com/articles/closing-issues-via-commit-messages/">GitHub can close an issue when a commit is merged</a> if the commit message includes a phrase like “resolves #123” <a href="(https://github.com/alxndr/lyriki/commit/cf3dc401ca9b2715474a7ef3ad77cbe85e31fb66)">e.g.</a></p>
+  </li>
+</ul>
+
+<p>A good habit I’ve built is to never use the <code class="language-plaintext highlighter-rouge">--message</code> (aka <code class="language-plaintext highlighter-rouge">-m</code>) flag of <code class="language-plaintext highlighter-rouge">git add</code> (which allows you to specify a commit message on the command line), and instead always use the <code class="language-plaintext highlighter-rouge">--verbose</code> (aka <code class="language-plaintext highlighter-rouge">-v</code>) flag of <code class="language-plaintext highlighter-rouge">git add</code>. The <code class="language-plaintext highlighter-rouge">--message</code> feature seems to encourage you to write a one-line commit message, whereas the <code class="language-plaintext highlighter-rouge">--verbose</code> flag will open up your favorite text editor, encouraging you to expound upon your changes. From <a href="https://git-scm.com/docs/git-add">the manpage</a>, <em>emphasis added</em>:</p>
+
+<blockquote>
+  <p>“Show unified diff between the HEAD commit and what would be committed at the bottom of the commit message template <em>to help the user describe the commit by reminding what changes the commit has</em>. […] This diff will not be a part of the commit message.”</p>
+</blockquote>
+
+<p>You can further encourage yourself to elucidate in commit messages by creating a custom template for messages. The branching strategy I use means that I can use a <a href="https://git-scm.com/docs/githooks">githook</a> to build <a href="https://github.com/alxndr/dotfiles/blob/619554a025950191510794d739b9e21cd19b2b8e/git-hooks/prepare-commit-msg">a git commit template which extracts a meaningful ticket identifier from the branch name</a>.
+You could also <a href="https://robots.thoughtbot.com/better-commit-messages-with-a-gitmessage-template">create a “global” template using the <code class="language-plaintext highlighter-rouge">commit.template</code> option</a> of <a href="https://git-scm.com/docs/git-config"><code class="language-plaintext highlighter-rouge">git config</code></a>.</p>
+
+<p>That’s all, tell Future You to say thanks to Present You!</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2016-05-20T00:00:00+00:00">2016 May 20</time></p>
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/2016/05/06/linking-to-code-always-use-an-href-which-is-tied-to-a-specific-commit.html" class="pagination--pager" title="linking to code? always use an href which is tied to a specific commit
+">Previous</a>
+    
+    
+      <a href="/2016/07/30/notes-for-npm-Camp-2016.html" class="pagination--pager" title="notes for npmCamp 2016
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term...">
+  </form>
+  <div id="results" class="results"></div>
+</div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="http://alxndr.github.io/resume/resume.html" rel="nofollow noopener noreferrer"><i class="fas fa-university" aria-hidden="true"></i> resume</a></li>
+        
+      
+        
+          <li><a href="https://github.com/alxndr" rel="nofollow noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/drwxrxrx" rel="nofollow noopener noreferrer"><i class="fab fa-instagram" aria-hidden="true"></i> photos</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">© 2023 Alexander. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+<script>
+  window.goatcounter = {
+    path: (location.host + '/' + location.pathname),
+  }
+</script>
+<script data-goatcounter="https://alxndr.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+
+
+
+
+  </body>
+</html>

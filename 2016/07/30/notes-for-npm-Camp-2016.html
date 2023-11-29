@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+--><html lang="en" class="no-js">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>notes for npmCamp 2016  •  Alexander’s blog</title>
+<meta name="description" content="Isaac Schlueter">
+
+
+  <meta name="author" content="Alexander">
+  
+  <meta property="article:author" content="Alexander">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Alexander's blog">
+<meta property="og:title" content="notes for npmCamp 2016">
+<meta property="og:url" content="https://alxndr.blog/2016/07/30/notes-for-npm-Camp-2016.html">
+
+
+  <meta property="og:description" content="Isaac Schlueter">
+
+
+
+  <meta property="og:image" content="https://alxndr.blog/assets/images/alexander-120x120.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2016-07-30T00:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://alxndr.blog/2016/07/30/notes-for-npm-Camp-2016.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Alexander",
+      "url": "https://alxndr.blog/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Alexander's blog Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/alexander-120x120.png" alt="://alxndr.blog"></a>
+        
+        <a class="site-title" href="/">
+          ://alxndr.blog
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://alxndr.blog/" itemprop="url">Alexander</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>a.k.a. <code class="language-plaintext highlighter-rouge">@alxndr</code> <br> a.k.a. <code class="language-plaintext highlighter-rouge">@drwxrxrx</code></p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="notes for npmCamp 2016">
+    <meta itemprop="description" content="Isaac Schlueter">
+    <meta itemprop="datePublished" content="2016-07-30T00:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="https://alxndr.blog/2016/07/30/notes-for-npm-Camp-2016.html" class="u-url" itemprop="url">notes for npmCamp 2016
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2016-07-30T00:00:00+00:00">2016 July 30</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h2 id="isaac-schlueter">Isaac Schlueter</h2>
+
+<ul>
+  <li>history of npm
+    <ul>
+      <li>node.js had no sharing story; turned a bash script into a node project &amp; sent package.json PRs to repos</li>
+      <li>it becoming a thing that pros ~2013 used was a dramatic change; SCALING</li>
+    </ul>
+  </li>
+  <li>semver
+    <ul>
+      <li>“not magic, not math… still pretty good. shared vocabulary is useful”</li>
+    </ul>
+  </li>
+  <li>don’t really know what’s next… bad at predicting the future</li>
+</ul>
+
+<h2 id="wolf-rentzsch-demo-of-tonicdevcom">Wolf Rentzsch: demo of tonicdev.com</h2>
+
+<ul>
+  <li>use node packages in browser
+    <ul>
+      <li>can share “notebooks”</li>
+      <li>visualize everything… urls, binaries, regexes, geo…</li>
+      <li>notebooks can be reused, idempotent installation — not like how npm works by default</li>
+      <li>timestamps all packages when they’re downloaded… like running shrinkwrap all the time</li>
+      <li>…they download <em>all versions of all packages in realtime</em>…</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="steve-kinney-ins--outs-of-publishing-to-npm">Steve Kinney: Ins &amp; Outs of Publishing to NPM</h2>
+
+<ul>
+  <li>turing.io, 7-month-long code school in CO</li>
+  <li>walkthrough of npm init</li>
+  <li>can note which node versions a package specifically support</li>
+  <li>write source in whatever lang you want (TS, CS, ES2015…) but publish in Plain JS so everyone can use it (e.g. use babel)
+    <ul>
+      <li>create a build script… set it up on prepublish hook</li>
+    </ul>
+  </li>
+  <li>
+<code class="language-plaintext highlighter-rouge">npm version</code> will make git tags for you</li>
+</ul>
+
+<h2 id="kassandra-perch-npm--nodebots">Kassandra Perch: npm + nodebots</h2>
+
+<ul>
+  <li>why do we code? for work; to learn; for fun.
+    <ul>
+      <li>learning &amp; fun -&gt; side projects. “[devs] need side projects, code or otherwise, to continue to survive”</li>
+    </ul>
+  </li>
+  <li>npm is intentionally diverse</li>
+  <li>“destroy your idols”
+    <ul>
+      <li>“we do not need horrible people that happen to write good code in our communities”</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="sara-itani-node--msft">Sara Itani: Node + MSFT</h2>
+
+<ul>
+  <li>historically node doesn’t work so great on Windows…
+    <ul>
+      <li>they’re improving it</li>
+    </ul>
+  </li>
+  <li>x-platform Visual Studio with smart completion, navigation, debugger w/time travel</li>
+</ul>
+
+<h2 id="andre-arko-steve-klabnik-samuel-giddins-panel-about-package-managers">Andre Arko, Steve Klabnik, Samuel Giddins: panel about package Managers</h2>
+
+<ul>
+  <li>Cargo was built before Rust hit 1.0, meant that lots of features could be in packages not core</li>
+  <li>Cargo always has repeatable builds (unlike npm by default)</li>
+</ul>
+
+<h2 id="marcy-sutton-a11y-testing-waxe">Marcy Sutton: a11y testing w/aXe</h2>
+
+<ul>
+  <li>folks w/ disabilities are 1/5 of the web</li>
+  <li>modernize &amp; automate a11y testing… bring it into the future
+    <ul>
+      <li>tests can document intended a11y functionality</li>
+      <li>can’t automate screenreaders yet</li>
+    </ul>
+  </li>
+  <li><a href="https://www.npmjs.com/package/axe-core">axe-core</a></li>
+  <li>(Q: if Amazon has so many of the basic things wrong, how do folks manage to use it??)</li>
+</ul>
+
+<h2 id="iheanyi-ekechukwu-ember--devops">Iheanyi Ekechukwu: Ember + Devops</h2>
+
+<ul>
+  <li>“DevOps”…
+    <ul>
+      <li>provisioning, versioning</li>
+      <li>automation</li>
+    </ul>
+  </li>
+  <li>ember-cli-deploy is a plugin… lifecycle hooks</li>
+</ul>
+
+<h2 id="kate-hudson-frontend-dev--npm3">Kate Hudson: frontend dev &amp; npm3</h2>
+
+<ul>
+  <li>users have very different ideas of what “reliable”, “intuitive”, etc means</li>
+  <li>in-browser JS doesn’t (yet) have niceties for loading modules like node does
+    <ul>
+      <li>node has built-in <code class="language-plaintext highlighter-rouge">require</code>… but no standard for browsers</li>
+      <li>loading modules is cheap on node; not via network</li>
+    </ul>
+  </li>
+  <li>npm3 optimizes for maximally flat dependency tree</li>
+  <li>npm dedupe can recognize potential version consolidation</li>
+  <li>writing a plugin? specify node version ranges, not a specific verison</li>
+</ul>
+
+<h2 id="andrew-goode-automating-semver">Andrew Goode: automating semver</h2>
+
+<ul>
+  <li>structured commit messages
+    <ul>
+      <li>add structure on squash-and-merge of feature branch</li>
+      <li>structure can be using keywords like <code class="language-plaintext highlighter-rouge">feat:</code>, <code class="language-plaintext highlighter-rouge">fix:</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<a href="https://www.npmjs.com/package/standard-version">https://www.npmjs.com/package/standard-version</a>
+    <ul>
+      <li>replacement of <code class="language-plaintext highlighter-rouge">npm version</code>
+</li>
+      <li>bumps versions, creates changelog</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="steph-snopek--kiera-manion-fischer-npm-support">Steph Snopek &amp; Kiera Manion-Fischer: npm support</h2>
+
+<ul>
+  <li>official npm support exists… support@npmjs.com, <a href="http://twitter.com/npm_support">@npm_support</a>
+</li>
+  <li>enterprise customers can get video call support</li>
+  <li>socks for docs… open a PR to the docs and they’ll send you some npm socks</li>
+</ul>
+
+<h2 id="stephan-bönnemann-managing-deps-w-greenkeeper">Stephan Bönnemann: managing deps w/ Greenkeeper</h2>
+
+<ul>
+  <li>greenkeeper is <code class="language-plaintext highlighter-rouge">npm updated</code> as a service. they do support enterprise npm</li>
+  <li>also wrote npm.im/semantic-release</li>
+  <li>doesn’t have to create PRs to see if it passes tests, even if update is outside of pinned range</li>
+  <li>one-click enabling app.greenkeeper.io</li>
+</ul>
+
+<h2 id="sharon-steed-empathetic-communication">Sharon Steed: empathetic communication</h2>
+
+<ul>
+  <li>communication is supposed to be empathetic</li>
+  <li>“empathy fuels connection” –Brené Brown
+    <ul>
+      <li>∴ empathetic communication drives collaboration</li>
+    </ul>
+  </li>
+  <li>“failures of communication cannot be automated away”</li>
+  <li>“collaboration fails because 1) people are afraid of being wrong 2) people are afraid of being misunderstood”</li>
+</ul>
+
+<h2 id="daijiro-wachi-global-oss-development">Daijiro Wachi: global OSS development</h2>
+
+<ul>
+  <li>time zones… 10 min face to face can be &gt;1 day across the globe</li>
+  <li>reproduce the issue, use same environment (node, npm, platform)</li>
+</ul>
+
+<h2 id="february-keeney-towards-inclusive-community">February Keeney: towards inclusive community</h2>
+
+<ul>
+  <li>diversity alone is not enough… need to be safe as well</li>
+  <li>harassment types: blatant vs microaggression
+    <ul>
+      <li>blatant gets banhammer</li>
+      <li>micro gets coaching. focus on how actions affect others, not on individual instigating</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="kat-marchán-npm-cli-state-of-the-cli">Kat Marchán (npm cli): state of the CLI</h2>
+
+<ul>
+  <li>npm3
+    <ul>
+      <li>been out for a year; default w/node v6</li>
+      <li>fancy new progress bar</li>
+    </ul>
+  </li>
+  <li>stabilizing
+    <ul>
+      <li>windows support; shinkwrap issues; monthly releases</li>
+    </ul>
+  </li>
+  <li>triaging
+    <ul>
+      <li>every day; new contributors; want to help? …don’t email forrest</li>
+    </ul>
+  </li>
+  <li>product
+    <ul>
+      <li>cli is the FOSS arm of npm Inc</li>
+      <li>new login features; opt-in analytics</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="cj-silverio-design-patterns-in-the-npm-registry">CJ Silverio: design patterns in the npm registry</h2>
+
+<ul>
+  <li>“the process of writing software is abstraction &amp; pattern extraction”</li>
+  <li>the registry is “medium data” fits on a single disk but not in memory</li>
+  <li>“modularity” term comes from a 1972 paper
+    <ul>
+      <li>“hide info behind an interface so you can change it”</li>
+      <li><a href="http://dl.acm.org/citation.cfm?id=361623">http://dl.acm.org/citation.cfm?id=361623</a></li>
+    </ul>
+  </li>
+  <li>how do design patterns promote modularity?</li>
+  <li>patterns…
+    <ul>
+      <li>monoliths: everything in 1 process
+        <ul>
+          <li>easy to write &amp; change</li>
+          <li>perf is okay</li>
+          <li>easy to write coupled code</li>
+        </ul>
+      </li>
+      <li>microservices
+        <ul>
+          <li>forces you to design an API</li>
+          <li>easy to mess up API design; unintentional coupling &amp; unruly side effects</li>
+        </ul>
+      </li>
+      <li>transaction log: “what every software engineer should know about realtime data’s unifying abstraction” —LinkedIn
+        <ul>
+          <li>consumers do One Thing Well</li>
+        </ul>
+      </li>
+      <li>messages/workers… (Erlang??)
+        <ul>
+          <li>do things independently</li>
+          <li>can scale</li>
+          <li>can crash</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>none of these patterns are Right; “it’s tradeoffs all the way down”
+    <ul>
+      <li>what problem are you trying to solve? what tools?</li>
+    </ul>
+  </li>
+  <li>you can change systems and patterns!</li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2016-07-30T00:00:00+00:00">2016 July 30</time></p>
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/2016/05/20/version-control-commit-messages.html" class="pagination--pager" title="version control commit messages
+">Previous</a>
+    
+    
+      <a href="/2016/08/04/use-a-Dvorak-keyboard-layout-on-iOS-Simulator.html" class="pagination--pager" title="use a Dvorak keyboard layout on iOS Simulator
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term...">
+  </form>
+  <div id="results" class="results"></div>
+</div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="http://alxndr.github.io/resume/resume.html" rel="nofollow noopener noreferrer"><i class="fas fa-university" aria-hidden="true"></i> resume</a></li>
+        
+      
+        
+          <li><a href="https://github.com/alxndr" rel="nofollow noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/drwxrxrx" rel="nofollow noopener noreferrer"><i class="fab fa-instagram" aria-hidden="true"></i> photos</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">© 2023 Alexander. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+<script>
+  window.goatcounter = {
+    path: (location.host + '/' + location.pathname),
+  }
+</script>
+<script data-goatcounter="https://alxndr.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+
+
+
+
+  </body>
+</html>

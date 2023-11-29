@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://alxndr.blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://alxndr.blog/" rel="alternate" type="text/html" /><updated>2023-11-29T05:32:51+00:00</updated><id>https://alxndr.blog/feed.xml</id><title type="html">Alexander’s blog</title><subtitle>mostly notes to myself</subtitle><author><name>Alexander</name></author><entry><title type="html">a Vim syntax file for Toki Pona</title><link href="https://alxndr.blog/2023/11/16/vim-syntax-tokipona.html" rel="alternate" type="text/html" title="a Vim syntax file for Toki Pona" /><published>2023-11-16T00:00:00+00:00</published><updated>2023-11-16T00:00:00+00:00</updated><id>https://alxndr.blog/2023/11/16/vim-syntax-tokipona</id><content type="html" xml:base="https://alxndr.blog/2023/11/16/vim-syntax-tokipona.html">&lt;p lang=&quot;tp&quot; style=&quot;font:1.4em/1em tp-LinjaSuwi;margin-bottom:1rem&quot;&gt;a a ilo Vim la mi pali e &lt;a href=&quot;https://github.com/alxndr/vim-syntax-tokipona&quot;&gt;lipu kute pi nimi kule&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I made &lt;a href=&quot;https://github.com/alxndr/vim-syntax-tokipona&quot;&gt;a Vim syntax file for Toki Pona text&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Load it up and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;:set filetype=tokipona&lt;/code&gt;, then it will highlight headnouns-with-capitalized-names, “la”-phrases, “X ala X”, as well as preverbs and particles and pronouns:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i.imgur.com/TfkF8zt.png&quot;&gt;&lt;img src=&quot;https://i.imgur.com/TfkF8ztm.png&quot; alt=&quot;screenshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(I recommend also using &lt;a href=&quot;https://gitlab.com/dev_urandom/toki-pona-vim-spellcheck&quot;&gt;/dev/urandom’s Toki Pona vim spellcheck&lt;/a&gt;.)&lt;/p&gt;</content><author><name>Alexander</name></author><category term="vim" /><category term="toki pona" /><summary type="html">a a ilo Vim la mi pali e lipu kute pi nimi kule</summary></entry><entry><title type="html">sourdough pizza dough ratio calculator</title><link href="https://alxndr.blog/2023/07/28/sourdough-pizza-dough-ratio-calculator.html" rel="alternate" type="text/html" title="sourdough pizza dough ratio calculator" /><published>2023-07-28T00:00:00+00:00</published><updated>2023-07-28T00:00:00+00:00</updated><id>https://alxndr.blog/2023/07/28/sourdough-pizza-dough-ratio-calculator</id><content type="html" xml:base="https://alxndr.blog/2023/07/28/sourdough-pizza-dough-ratio-calculator.html">&lt;p&gt;I’ve been tending to some sourdough starter ever since the Great Pandemic of 2020. I’ll often make pizza dough with the “leftover” starter.&lt;/p&gt;
+
+&lt;p&gt;Below I’ve created an interactive tool to let you enter amounts of starter, water, and flour (and optionally yeast and salt too), and then receive a set of numbers describing the ratios you’d entered.&lt;/p&gt;
+
+&lt;p&gt;(Trial and error has landed me around 1 part starter, 4 parts room-temp water, 5 parts high-protein flour, 0.1 part salt… I built this tool in order to help me fine-tune that ratio, and determine ratios for using yeast.)&lt;/p&gt;
+
+&lt;noscript&gt;The interactivity below requires client-side JavaScript. Not common for me, I know, but that's all I've got for readable content in this blog post!&lt;/noscript&gt;
+
+&lt;script type=&quot;module&quot;&gt;
+import { reactive, html } from 'https://esm.sh/@arrow-js/core';
+
+function int(n) {
+  return n.toPrecision(2);
+}
+function pct(n) {
+  return (n*100).toPrecision(3)+'%';
+}
+
+const root$ = document.getElementById('dough-ratio-calculator');
+const d = reactive({ S: 66.6, W: 300, F: 400, Y: 0.5, T: 9, });
+html`
+  &lt;ul&gt;
+    &lt;li&gt;&lt;input value=&quot;${() =&gt; d.S}&quot; @input=&quot;${e =&gt; { d.S = e.target.value }}&quot; /&gt; starter
+    &lt;li&gt;&lt;input value=&quot;${() =&gt; d.W}&quot; @input=&quot;${e =&gt; { d.W = e.target.value }}&quot; /&gt; water
+    &lt;li&gt;&lt;input value=&quot;${() =&gt; d.F}&quot; @input=&quot;${e =&gt; { d.F = e.target.value }}&quot; /&gt; flour
+    &lt;li&gt;&lt;input value=&quot;${() =&gt; d.Y}&quot; @input=&quot;${e =&gt; { d.Y = e.target.value }}&quot; /&gt; yeast
+    &lt;li&gt;&lt;input value=&quot;${() =&gt; d.T}&quot; @input=&quot;${e =&gt; { d.T = e.target.value }}&quot; /&gt; salt
+  &lt;/ul&gt;
+  &lt;table&gt;&lt;caption&gt;Bakers Percentages&lt;/caption&gt;
+    &lt;tr&gt;&lt;td&gt;starter:&lt;/td&gt;&lt;td&gt;${() =&gt; pct(d.S/d.F)}&lt;/td&gt;                &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;water:&lt;/td&gt;&lt;td&gt;${() =&gt; pct(d.W/d.F)}&lt;/td&gt;                &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;flour:&lt;/td&gt;&lt;td&gt;100% always&lt;/td&gt;                          &lt;/tr&gt;
+    &lt;tr&gt;  &lt;td&gt;yeast:&lt;/td&gt;&lt;td&gt;${() =&gt; d.Y &amp;&amp; pct(d.Y/d.F) || 'n/a'}&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;   &lt;td&gt;salt:&lt;/td&gt;&lt;td&gt;${() =&gt; d.T &amp;&amp; pct(d.T/d.F) || 'n/a'}&lt;/td&gt;&lt;/tr&gt;
+  &lt;/table&gt;
+  &lt;p&gt;&lt;caption&gt;ratios by starter&lt;/caption&gt;
+    &lt;br/&gt; &lt;abbr title=&quot;starter&quot;&gt;1&lt;/abbr&gt;
+    : &lt;abbr title=&quot;water&quot;&gt;${() =&gt; int(d.W/d.S)}&lt;/abbr&gt;
+    : &lt;abbr title=&quot;flour&quot;&gt;${() =&gt; int(d.F/d.S)}&lt;/abbr&gt;
+    : &lt;abbr title=&quot;yeast&quot;&gt;${() =&gt; pct(d.Y/d.S)}&lt;/abbr&gt;
+    : &lt;abbr title=&quot;salt&quot; &gt;${() =&gt; pct(d.T/d.S)}&lt;/abbr&gt;
+  &lt;/p&gt;
+`(root$);
+
+&lt;/script&gt;
+
+&lt;div id=&quot;dough-ratio-calculator&quot;&gt;&lt;/div&gt;</content><author><name>Alexander</name></author><summary type="html">I’ve been tending to some sourdough starter ever since the Great Pandemic of 2020. I’ll often make pizza dough with the “leftover” starter.</summary></entry><entry><title type="html">Oghamic Lojban</title><link href="https://alxndr.blog/2023/05/25/lo-dzexerno-lerfu-the-oghamic-lojban.html" rel="alternate" type="text/html" title="Oghamic Lojban" /><published>2023-05-25T00:00:00+00:00</published><updated>2023-05-25T00:00:00+00:00</updated><id>https://alxndr.blog/2023/05/25/lo-dzexerno-lerfu-the-oghamic-lojban</id><content type="html" xml:base="https://alxndr.blog/2023/05/25/lo-dzexerno-lerfu-the-oghamic-lojban.html">&lt;p&gt;Haven’t you always wanted to write &lt;a href=&quot;https://en.wikipedia.org/wiki/Lojban&quot;&gt;Lojban&lt;/a&gt; using &lt;a href=&quot;https://en.wikipedia.org/wiki/Ogham&quot;&gt;Ogham&lt;/a&gt; letters? .i’isai — Me too!&lt;/p&gt;
+
+&lt;p&gt;(I’d come up with this a few months ago and only posted it &lt;a href=&quot;https://mas.to/@rexsa/109956933715872457&quot;&gt;on Mastodon&lt;/a&gt;, but also it had some errors, so here it is with a more permanent place and with corrections…)&lt;/p&gt;
+
+&lt;h1 id=&quot;lo-dzexerno-lerfu&quot;&gt;lo dzexerno lerfu&lt;/h1&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://mw.lojban.org/papri/.o'i_mu_xagji_sofybakni_cu_zvati_le_purdi&quot;&gt;classic pangram&lt;/a&gt;:&lt;/p&gt;
+
+&lt;div style=&quot;font-size:1.2em&quot;&gt;
+᚛ᚖᚑᚕᚔ ᚋᚒ ᚙᚐᚌᚗᚔ ᚄᚑᚃᚆᚁᚐᚉᚅᚔ ᚊᚒ ᚎᚍᚐᚈᚔ ᚂᚓ ᚘᚒᚏᚇᚔ᚜
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;.o’i mu xagji sofybakni cu zvati le purdi&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div style=&quot;font-size:1.2em&quot;&gt;
+᚛ᚖᚔ ᚏᚑ ᚏᚓᚋᚅᚐ ᚊᚒ ᚄᚓ ᚗᚔᚅᚎᚔ ᚊᚑ ᚎᚔᚃᚏᚓ ᚗᚓ ᚄᚔᚋᚇᚒᚕᚔ ᚁᚓ ᚂᚓ ᚏᚆᚖ ᚅᚔᚂᚄᚓᚂᚄᚔᚕᚐ ᚖᚓᚂᚓᚔ ᚏᚆᚖ ᚄᚓᚂᚊᚏᚒ᚜  
+᚛ᚖᚔ ᚏᚆᚖ ᚄᚓ ᚋᚓᚅᚂᚔ ᚌᚔᚕᚓ ᚄᚓ ᚄᚓᚎᚋᚐᚏᚇᚓ᚜  
+᚛ᚖᚔ ᚖᚓᚔ ᚗᚓᚄᚓᚉᚔᚕᚒᚁᚑ ᚏᚆᚖ ᚄᚔᚋᚆᚎᚒᚕᚓ ᚈᚐᚕᚔ ᚂᚓ ᚈᚒᚅᚁᚐ᚜  
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;.i ro remna cu se jinzi co zifre je simdu’i be le ry. nilselsi’a .elei ry. selcru  .i ry. se menli gi’e se sezmarde  .i .ei jeseki’ubo ry. simyzu’e ta’i le tunba&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;mapping&quot;&gt;mapping&lt;/h2&gt;
+
+&lt;div style=&quot;display:flex;flex-flow:row wrap&quot;&gt;
+  &lt;table style=&quot;flex-basis:14rem;width:auto;margin:0 auto;white-space:nowrap;font-size:1rem&quot;&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th style=&quot;text-align: center&quot;&gt;&lt;small&gt;Latin&lt;/small&gt;&lt;/th&gt;
+        &lt;th style=&quot;text-align: center&quot;&gt;&lt;small&gt;Ogham&lt;/small&gt;&lt;/th&gt;
+        &lt;th style=&quot;text-align: center&quot;&gt;&lt;small&gt;IPA&lt;/small&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;delimiters&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;᚛  ᚜&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;(pause)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;.&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚖ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[ʔ]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;’&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚕ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[h] / [θ]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;a&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚐ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[a] / [ɑ]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;b&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚁ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[b]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;c&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚊ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[ʃ] / [ʂ]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;d&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚇ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[d]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;e&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚓ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[ɛ] / [e]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;f&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚃ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[f] / [ɸ]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;g&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚌ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[ɡ]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;i&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚔ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[i]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;j&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚗ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[ʒ] / [ʐ]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;k&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚉ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[k]&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+
+  &lt;table style=&quot;flex-basis:12rem;width:auto;margin:0 auto;white-space:nowrap;font-size:1rem&quot;&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th style=&quot;text-align: center&quot;&gt;&lt;small&gt;Latin&lt;/small&gt;&lt;/th&gt;
+        &lt;th style=&quot;text-align: center&quot;&gt;&lt;small&gt;Ogham&lt;/small&gt;&lt;/th&gt;
+        &lt;th style=&quot;text-align: center&quot;&gt;&lt;small&gt;IPA&lt;/small&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;l&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚂ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[l]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;m&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚋ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[m]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;n&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚅ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[n]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;o&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚑ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[o] / [ɔ]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;p&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚘ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[p]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;r&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚏ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[r]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;s&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚄ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[s]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;t&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚈ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[t]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;u&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚒ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[u]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;v&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚍ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[v] / [β]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;x&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚙ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[x]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;y&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚆ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[ə]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;z&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;ᚎ&lt;/td&gt;
+        &lt;td style=&quot;text-align: center&quot;&gt;[z]&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/div&gt;</content><author><name>Alexander</name></author><category term="orthography" /><category term="lojban" /><category term="Ogham" /><summary type="html">Haven’t you always wanted to write Lojban using Ogham letters? .i’isai — Me too!</summary></entry><entry><title type="html">nasin pi lipu nimi</title><link href="https://alxndr.blog/2023/05/23/nasin-pi-lipu-nimi.html" rel="alternate" type="text/html" title="nasin pi lipu nimi" /><published>2023-05-23T00:00:00+00:00</published><updated>2023-05-23T00:00:00+00:00</updated><id>https://alxndr.blog/2023/05/23/nasin-pi-lipu-nimi</id><content type="html" xml:base="https://alxndr.blog/2023/05/23/nasin-pi-lipu-nimi.html">&lt;p&gt;A thought experiment: how might one use a &lt;em&gt;&lt;a href=&quot;https://tokipona.org&quot;&gt;toki pona&lt;/a&gt;&lt;/em&gt; reference document which only uses &lt;em&gt;&lt;a href=&quot;https://jonathangabel.com/toki-pona/&quot;&gt;sitelen sitelen&lt;/a&gt;&lt;/em&gt;?&lt;/p&gt;
+
+&lt;p&gt;Here’s an explaration: &lt;a href=&quot;https://alxndr.github.io/nasin-pi-lipu-nimi/?src=alxndr.blog&amp;amp;campaign=blogpost-nasin&quot;&gt;sin la, nasin sitelen pi lipu nimi&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;sona-background-info&quot;&gt;sona (background info)&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://jonathangabel.com/toki-pona/&quot;&gt;sitelen sitelen&lt;/a&gt;&lt;/em&gt; is one of the many &lt;a href=&quot;https://sona.pona.la/wiki/Writing_systems&quot;&gt;orthographies&lt;/a&gt; of &lt;em&gt;&lt;a href=&quot;https://tokipona.org&quot;&gt;toki pona&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is a beautiful and creative writing system!
+But its inherent flexibility can be challenging to navigate.&lt;/p&gt;
+
+&lt;p&gt;As a beginner to &lt;em&gt;toki pona&lt;/em&gt; who was fascinated by &lt;em&gt;sitelen sitelen&lt;/em&gt;, I was looking for many source documents to see how different people drew the glyphs.
+I then found myself wanting a method of defining a glyph based on its visual appearance, not knowing its pronunciation, and with only a rough understanding of the &lt;em&gt;sitelen sitelen&lt;/em&gt; alphabet (or even the language’s vocabulary).&lt;/p&gt;
+
+&lt;p&gt;This reminded me of studying Mandarin, and using Chinese dictionaries organized by &lt;a href=&quot;https://en.wikipedia.org/wiki/Radical_(Chinese_characters)&quot;&gt;radical and stroke count&lt;/a&gt; — and I wondered if something similar (but also &lt;em&gt;pona&lt;/em&gt;!) were possible for &lt;em&gt;sitelen sitelen&lt;/em&gt;…&lt;/p&gt;
+
+&lt;h2 id=&quot;nasin-method&quot;&gt;nasin (method)&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There are 26 “roots” (visual components);&lt;br /&gt;
+The roots are in a particular order;&lt;br /&gt;
+Each glyph has a unique set roots associated with it;&lt;br /&gt;
+Each glyph is sorted according to its root-order.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This allows a dictionary user to quickly locate an unrecognized glyph within an arbitrarily-sized list of otherwise “difficult-to-order” glyphs, with only a rough understanding of the roots and ordering necessary, and &lt;strong&gt;without depending on any knowledge of pronunciation&lt;/strong&gt; (of either the glyph or the &lt;em&gt;sitelen sitelen&lt;/em&gt; “alphabet”).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The most significant aspect of the glyph is designated the &lt;strong&gt;primary root&lt;/strong&gt;. All glyphs have a primary root.
+    &lt;ul&gt;
+      &lt;li&gt;The “most significant” aspect could be the center or the largest portion of the glyph, or a unique symbol compared to the remainder of the glyph.&lt;/li&gt;
+      &lt;li&gt;The primary root will determine the broad location of the glyph.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Remaining aspects of the glyph may be designated &lt;strong&gt;additional roots&lt;/strong&gt;.
+    &lt;ul&gt;
+      &lt;li&gt;Additional roots are not necessary (i.e. some glyphs have a primary root and no additional roots);&lt;/li&gt;
+      &lt;li&gt;These tend to follow a pattern of “next most significant”, with allowances so that glyph sequences are unique.&lt;/li&gt;
+      &lt;li&gt;The sequence of additional roots will determine the fine-grained location of the glyph.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;wan-mute-roots&quot;&gt;wan mute (roots)&lt;/h3&gt;
+
+&lt;p&gt;My goal is to have the “roots” be roughly from simple-to-complex, and to use the established &lt;em&gt;sitelen sitelen&lt;/em&gt; phoneme glyphs as a starting point.&lt;/p&gt;
+
+&lt;p&gt;The five vowel “infixes” are prominent in many of the full glyphs, so I’ve chosen to use them as the very beginning. The order is roughly: mouth; basic eye; complex eye/s; full face.&lt;/p&gt;
+
+&lt;p&gt;The nine consonant “bases” are next, in this rough order: dots; wrinkles; bumps; different structures.&lt;/p&gt;
+
+&lt;p&gt;The above fourteen phoneme glyphs don’t quite cover all the existing full glyphs, so I’ve identified some more shapes (drawing from existing &lt;em&gt;sitelen pona&lt;/em&gt; glyphs) as common roots. These are ordered from simple/geometric to complex/anatomical.&lt;/p&gt;
+
+&lt;p&gt;Last but not least, two “meta” roots, notable for how they’re placed in relation to other self-contained glyphs: the “cartouche” container shape; and the “plinth” supportive-base shape.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The specific roots and order are still subject to change.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table style=&quot;font-size:1rem&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;root&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;visual description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;img src=&quot;https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xu.jpg&quot; class=&quot;sitelen&quot; /&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;tongue — a long/tall bump with a line; a tongue with septum&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;img src=&quot;https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xo.jpg&quot; class=&quot;sitelen&quot; /&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;eye — a circle (perhaps with dot in center); a basic eye&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;img src=&quot;https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xa.jpg&quot; class=&quot;sitelen&quot; /&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;eye &amp;amp; brow — a dotted circle with supporting line; an eye with eyeball and orbital cavity&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;img src=&quot;https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xe.jpg&quot; class=&quot;sitelen&quot; /&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;closed eye — two perpendicular lines intersecting; a plus, X, crossed lines&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;img src=&quot;https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xi.jpg&quot; class=&quot;sitelen&quot; /&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;anterior face — a line with dots on either site; a nose and two eyes facing the reader&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;img src=&quot;https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xj.jpg&quot; class=&quot;sitelen&quot; /&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;crease? — two/three short roughly-parallel lines, adjacent to a larger feature&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;img src=&quot;https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xp.jpg&quot; class=&quot;sitelen&quot; /&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;dots — two or more dots, perhaps with a nearby line/crease&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;img src=&quot;https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xt.jpg&quot; class=&quot;sitelen&quot; /&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;lips? — a line intersecting (not crossing) another line&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;img src=&quot;https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xk.jpg&quot; class=&quot;sitelen&quot; /&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;bucktooth? — multiple bumps with one in front of the rest&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;img src=&quot;https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xm.jpg&quot; class=&quot;sitelen&quot; /&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;downward buds — multiple bumps at the bottom, with a crease&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;img src=&quot;https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xw.jpg&quot; class=&quot;sitelen&quot; /&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;upward buds — multiple bumps at the top, with a crease&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;img src=&quot;https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xn.jpg&quot; class=&quot;sitelen&quot; /&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;tailfan — multiple bumps at the top or side, without a crease&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;img src=&quot;https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xl.jpg&quot; class=&quot;sitelen&quot; /&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;cob — a tall / narrow shape&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;img src=&quot;https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xs.jpg&quot; class=&quot;sitelen&quot; /&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;stack — three stacked circles / shapes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;span class=&quot;sp&quot;&amp;gt;&amp;lt;/span&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;a long line, perhaps slightly curved&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;span class=&quot;juniko&quot;&amp;gt;Ƨ&amp;lt;/span&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;a backwards &quot;S&quot; or curvy &quot;Z&quot;; a swirly reversing (but not closed) line&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;span class=&quot;sp&quot;&amp;gt;&amp;lt;/span&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;two (or more) parallel lines&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;span class=&quot;sp&quot;&amp;gt;&amp;lt;/span&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;three (or more) short _non-parallel_ lines emanating from a shared vanishing point&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;span class=&quot;sp&quot;&amp;gt;&amp;lt;/span&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;a bump / curved protrusion&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;span class=&quot;sp&quot;&amp;gt;&amp;lt;/span&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;a square / right-angled shape&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;span class=&quot;sp&quot;&amp;gt;&amp;lt;/span&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;a sharp point / acute angle&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;span class=&quot;juniko&quot;&amp;gt;◎&amp;lt;/span&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;a hole; depth (along the dimension perpendicular to the reading plane)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;span class=&quot;sp&quot;&amp;gt;&amp;lt;/span&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;a mouth&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;span class=&quot;juniko&quot;&amp;gt;☞&amp;lt;/span&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;a hand with fingers / a foot with toes; an extremity with digits&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;span class=&quot;sp&quot;&amp;gt;&amp;lt;/span&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;(meta) containing structure; shape which contains / surrounds full glyphs; cartouche / quotation /&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&amp;lt;span class=&quot;juniko&quot;&amp;gt;_&amp;lt;/span&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;(meta) supporting structure; wide-and-short shape which often appears under full glyphs; plinth /&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;sina-o-kepeken-e-ilo-ni-a-try-the-dictionary&quot;&gt;sina o kepeken e ilo ni a (try the dictionary!)&lt;/h2&gt;
+
+&lt;p&gt;Try it out at: &lt;a href=&quot;https://alxndr.github.io/nasin-pi-lipu-nimi/?src=alxndr.blog&amp;amp;campaign=blogpost-nasin&quot;&gt;alxndr.github.io/nasin-pi-lipu-nimi&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The first row of glyphs are the roots. Pick one or more of them, and the big list of glyphs below will update to filter and show only the glyphs which include the root(s) you’ve selected.&lt;/p&gt;
+
+&lt;p&gt;Then you can click on a glyph to get more info about it: pronunciation, definition, &lt;em&gt;sitelen Emosi&lt;/em&gt;!&lt;/p&gt;
+
+&lt;h2 id=&quot;jan-pi-pona-tawa-mi-acknowledgements&quot;&gt;jan pi pona tawa mi (acknowledgements)&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;jan mama mi, who showed me Egyptian hieroglyphs&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://oberlin.edu&quot;&gt;jan pi pana sona&lt;/a&gt;, who showed me Chinese hanzi and tolerated me&lt;/li&gt;
+  &lt;li&gt;jan Sonja, who created &lt;a href=&quot;https://tokipona.org&quot;&gt;toki pona&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;jan Josan, who created &lt;a href=&quot;https://jonathangabel.com/toki-pona/&quot;&gt;sitelen sitelen&lt;/a&gt; (please also read &lt;a href=&quot;https://jonathangabel.com/toki-pona/acknowledgements/&quot;&gt;jan Josan’s acknowledgements&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;toki pona communities
+    &lt;ul&gt;
+      &lt;li&gt;ilo Siko ni &lt;a href=&quot;https://discord.gg/XCfMszsf54&quot;&gt;kama sona&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;ilo Siko ni &lt;a href=&quot;https://discord.gg/mapona&quot;&gt;ma pona pi toki pona&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;inspiration
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org//wiki/Xu_Shen&quot;&gt;jan Su Sen&lt;/a&gt;, who tried to bring order to a chaotic system&lt;/li&gt;
+      &lt;li&gt;theotherwebsite’s &lt;a href=&quot;https://theotherwebsite.com/tokipona/&quot;&gt;Toki Pona Dictionary&lt;/a&gt;, where &lt;em&gt;sitelen pona&lt;/em&gt; glyphs are ordered by complexity&lt;/li&gt;
+      &lt;li&gt;jan Tepu’s reference &lt;a href=&quot;https://davidar.github.io/tp/kama-sona&quot; style=&quot;font:1.75em/0.75em 'sitelen pona pona';text-decoration:none!important&quot;&gt;o kama sona e sitelen pona kepeken sitelen&lt;/a&gt;, which only uses &lt;em&gt;sitelen pona&lt;/em&gt;&lt;/li&gt;
+      &lt;li&gt;Olaf Janssen’s &lt;a href=&quot;http://livingtokipona.smoishele.com/examples/liveinput/liveinput.html&quot;&gt;&lt;em&gt;sitelen sitelen&lt;/em&gt; renderer&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;pipi pi walo pimeja’s &lt;a href=&quot;https://greybeetle213.github.io/sitelen_Lasina_tawa_sitelen_pona&quot;&gt;sitelen Lasina tawa sitelen pona&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ilo-pi-pali-mi-colophon&quot;&gt;ilo pi pali mi (colophon)&lt;/h3&gt;
+
+&lt;p&gt;Definitions in the dictionary are from &lt;a href=&quot;https://linku.la&quot;&gt;linku.la&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Unicode characters were identified using &lt;a href=&quot;https://shapecatcher.com&quot;&gt;Shapecatcher&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Fonts / glyphs:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The &lt;em&gt;sitelen pona&lt;/em&gt; glyphs/roots here are Jack Humbert’s &lt;em&gt;&lt;a href=&quot;https://jackhumbert.github.io/sitelen-pona-pona/&quot;&gt;sitelen pona pona&lt;/a&gt;&lt;/em&gt; font. These glyphs are also used in the dictionary.&lt;/li&gt;
+  &lt;li&gt;The SVG &lt;em&gt;sitelen sitelen&lt;/em&gt; glyphs in the dictionary are Sumpygump’s &lt;a href=&quot;https://github.com/sumpygump/sitelen-sitelen&quot;&gt;ported SVGs&lt;/a&gt; of jan Same’s glyph vectors.&lt;/li&gt;
+  &lt;li&gt;The hand-drawn &lt;em&gt;sitelen sitelen&lt;/em&gt; glyphs are from jan Josan’s &lt;a href=&quot;https://jonathangabel.com/toki-pona/dictionaries/glyphs/&quot;&gt;page of &lt;em&gt;sitelen nimi ale&lt;/em&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The dictionary (and this blog) are hosted on GitHub Pages.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;style&gt;
+  @font-face { 
+    font-family: 'sitelen pona pona';
+    src: url('https://jackhumbert.github.io/sitelen-pona-pona/fonts/sitelen-pona-pona.otf');
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: &quot;liga&quot; 1;
+  }
+  @font-face { 
+    font-family: 'linja sike';
+    src: url('https://wyub.github.io/tokipona/linja-sike-5.otf');
+  }
+  .sp {
+    font: 2em 'sitelen pona pona';
+  }
+  .sitelen {
+    max-width: 3em;
+    filter: invert(83%);
+  }
+  .juniko {
+    font-size: 2em;
+  }
+&lt;/style&gt;</content><author><name>Alexander</name></author><category term="toki pona" /><category term="orthography" /><category term="sitelen sitelen" /><summary type="html">A thought experiment: how might one use a toki pona reference document which only uses sitelen sitelen?</summary></entry><entry><title type="html">how to consistently pay back dependency tech-debt in an Agile environment</title><link href="https://alxndr.blog/2023/05/11/recursive-techdebt-upgrade-ticket.html" rel="alternate" type="text/html" title="how to consistently pay back dependency tech-debt in an Agile environment" /><published>2023-05-11T00:00:00+00:00</published><updated>2023-05-11T00:00:00+00:00</updated><id>https://alxndr.blog/2023/05/11/recursive-techdebt-upgrade-ticket</id><content type="html" xml:base="https://alxndr.blog/2023/05/11/recursive-techdebt-upgrade-ticket.html">&lt;p&gt;&lt;em&gt;tldr: make a ‘recursive’ ticket which you continually schedule for future sprints… Product will hate it initially, but will love it eventually&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;given&quot;&gt;Given…&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Software which is in-use needs to be maintained.&lt;/li&gt;
+  &lt;li&gt;Ignoring maintenance often has little short-term pain and frees up some time but compounds over the long-term, resulting in a specific form of tech-debt.&lt;/li&gt;
+  &lt;li&gt;No matter the management style (Agile, etc), the Product owners and/or the business’s immediate needs are regularly prioritized, despite well-meaning attempts to “pay back” the tech-debt.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Here is a way to be able to account for necessary-but-ineffable software maintenance in a management style which demands prioritization, thereby allowing the tech team to gradually and regularly pay down tech debt:&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-sisyphus-ticket&quot;&gt;the &lt;a href=&quot;https://en.wikipedia.org/wiki/Sisyphus&quot;&gt;Sisyphus&lt;/a&gt; Ticket&lt;/h3&gt;
+
+&lt;p&gt;The ticket is titled “Upgrade or refactor some dependencies”, or something &lt;em style=&quot;text-shadow:1px 1px 1px red&quot;&gt;intentionally slightly vague&lt;/em&gt; — This is to allow the developer some leeway in deciding what sorts of dependency work they’ll tackle, each time the ticket rolls around.&lt;/p&gt;
+
+&lt;p&gt;The ticket is scheduled for a regularly-occurring &lt;em style=&quot;text-shadow:1px 1px 1px orange&quot;&gt;specific time period&lt;/em&gt; —  sprint, month, whatever the team is already using — This time period should be regular enough that the ticket doesn’t feel unusual, but not so frequent that it gets in the way of other work.&lt;/p&gt;
+
+&lt;p&gt;This ticket is actually &lt;em style=&quot;text-shadow:1px 1px 1px magenta&quot;&gt;many tickets, which are created recursively&lt;/em&gt; — part of the Acceptance Criteria is to create a new ticket, ready to be scheduled/refined — This ensures that the pattern continues!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;After seeing several dependency-laden codebases (using e.g. NodeJS, or Ruby on Rails) become brittle as their developers are not able to upgrade the scaffolding of the application, and witnessing the same pattern happen with different leaders and team members and management styles and team structures, I was looking for a way to have the Product team(s) recognize the notion of “expected maintenance”. In order for it to be useful in a variety of situations, the form of this expected maintenance has to fit however the Product team wants to manage, so in my case it took the form of a never-ending series of Jira tickets.&lt;/p&gt;
+
+&lt;p&gt;Normally a developer would hate the idea of an infinite sequence of tickets, but this is essentially free time for the developer to tackle whatever tech debt they see fit to tackle. I like to have these tickets rotate between the developers, so that everyone gets a chance to scratch whatever itch was bothering them lately.&lt;/p&gt;
+
+&lt;p&gt;Really, this dripping tap of work is an accurate reflection of &lt;em&gt;maintenance costs&lt;/em&gt; and should scare the Product team more than anyone else! It’s the cost of doing business with any codebase, no matter how many dependencies there are — there should always be periodic maintenance, to clear out the cobwebs and grease the wheels and upgrade the latches.&lt;/p&gt;
+
+&lt;p&gt;This pattern has been successful for two years and counting, on a high-importance internal project which therefore has lots of Product and Leadership attention (and therefore is more likely to have techdebt de-prioritized!), allowing the team to keep all but two (!) dependencies on the major version (in a modern NodeJS project with extensive unit and integration tests).&lt;/p&gt;</content><author><name>Alexander</name></author><category term="agile" /><category term="techdebt" /><category term="dependencies" /><category term="software management" /><summary type="html">tldr: make a ‘recursive’ ticket which you continually schedule for future sprints… Product will hate it initially, but will love it eventually</summary></entry><entry><title type="html">👈 ⏮️ 🧠 🗣 ⏩ 🗣 👍</title><link href="https://alxndr.blog/2023/04/24/mi-kama-sona-toki-e-toki-pona.html" rel="alternate" type="text/html" title="👈 ⏮️ 🧠 🗣 ⏩ 🗣 👍" /><published>2023-04-24T00:00:00+00:00</published><updated>2023-04-24T00:00:00+00:00</updated><id>https://alxndr.blog/2023/04/24/mi%20kama%20sona%20toki%20e%20toki%20pona</id><content type="html" xml:base="https://alxndr.blog/2023/04/24/mi-kama-sona-toki-e-toki-pona.html">&lt;p&gt;👋 👤 ♾️ ➗️ 🗣 ❗️ &lt;br /&gt;
+⏰ 👇 🔼 ➗️ 👈 ⏮️ 🧠 🗣 ⏩ 🗣 👍 ❗️&lt;/p&gt;
+
+&lt;p&gt;👈 ✊ ⏩ 💬 👈 🔼 ➗️ 👤 🔣 ❄️  ⚖️  💧 🔣 ➖️ &lt;br /&gt;
+👆 🔼 ➗️ 👉 💗 👍 🤷 ❓&lt;/p&gt;
+
+&lt;p&gt;🗣 👍 🔼 &lt;a href=&quot;https://toki.social/@lesate&quot;&gt;📄 🌐 👇 ▶️ ✅ 👇&lt;/a&gt; ➖️ &lt;br /&gt;
+⏰ ⏮️  🔼 ➗️ 👋 🗣 ❗️&lt;/p&gt;
+
+&lt;blockquote style=&quot;font:1.2em tp-LinjaPona&quot;&gt;
+  &lt;p&gt;o jan-ale, toki a! &lt;br /&gt;
+tenpo ni la mi kama sona toki e toki-pona a!&lt;/p&gt;
+
+  &lt;p&gt;mi pali e nimi-mi la jan [lete e sama a telo e]. &lt;br /&gt;
+ona la sina pilin-pona anu seme?&lt;/p&gt;
+
+  &lt;p&gt;toki-pona la &lt;a href=&quot;https://toki.social/@lesate&quot;&gt;lipu [ma a tomo o tonsi o ni] mi li lon ni&lt;/a&gt;. &lt;br /&gt;
+tenpo kama la o toki a!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;o jan ale, toki a!
+tenpo ni la, mi kama sona toki e toki pona a!&lt;/p&gt;
+
+&lt;p&gt;mi pali e nimi mi la, jan Lesate.
+ona la, sina pilin pona anu seme?&lt;/p&gt;
+
+&lt;p&gt;toki pona la &lt;a href=&quot;https://toki.social/@lesate&quot; rel=&quot;me&quot;&gt;lipu linluwi Matoton mi li lon ni&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;tenpo kama la o toki a!&lt;/p&gt;</content><author><name>Alexander</name></author><category term="toki pona" /><category term="languages" /><category term="emoji" /><summary type="html">👋 👤 ♾️ ➗️ 🗣 ❗️ ⏰ 👇 🔼 ➗️ 👈 ⏮️ 🧠 🗣 ⏩ 🗣 👍 ❗️</summary></entry><entry><title type="html">framework-less CLI TDD with NPM\* OMG LOL</title><link href="https://alxndr.blog/2023/04/14/nodejs-native-test-scaffolding.html" rel="alternate" type="text/html" title="framework-less CLI TDD with NPM\* OMG LOL" /><published>2023-04-14T00:00:00+00:00</published><updated>2023-04-14T00:00:00+00:00</updated><id>https://alxndr.blog/2023/04/14/nodejs-native-test-scaffolding</id><content type="html" xml:base="https://alxndr.blog/2023/04/14/nodejs-native-test-scaffolding.html">&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt; no this does not involve npm, it just made the title look good 🤷&lt;/p&gt;
+
+&lt;p&gt;NodeJS v16.17 / v18 introduced a new module named &lt;a href=&quot;https://nodejs.org/api/test.html&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node:test&lt;/code&gt;&lt;/a&gt; which includes basic test scaffolding!
+This makes it real easy to whip up a super-basic JS test file and iterate on it, without having to set up a framework like Mocha or Jest.&lt;/p&gt;
+
+&lt;p&gt;Save this to a file named with a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.mjs&lt;/code&gt; extension, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;test.mjs&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import {strictEqual} from 'assert'
+import {test} from 'node:test';
+
+test('runs a thing', () =&amp;gt; {
+  strictEqual('foo', 'bar')
+})
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;…then if you’ve got Node &amp;gt;= 16.17.0 || &amp;gt;= 18.0.0 you’ll be able to:&lt;/p&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;node ./test.mjs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Subtest: runs a thing
+not ok 1 - runs a thing
+  ---
+  duration_ms: 1.016333
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    'foo' !== 'bar'
+    
+  code: 'ERR_ASSERTION'
+  stack: |-
+    TestContext.&amp;lt;anonymous&amp;gt; (file:///test
+.mjs:5:10)
+    Test.runInAsyncScope (node:async_hooks:203:9)
+    Test.run (node:internal/test_runner/test:486:25)
+    Test.start (node:internal/test_runner/test:413:17)
+    test (node:internal/test_runner/harness:129:18)
+    file:///Users/xander/workspace/br/test.mjs:4:1
+    ModuleJob.run (node:internal/modules/esm/module_job:193:25)
+    async Promise.all (index 0)
+    async ESMLoader.import (node:internal/modules/esm/loader:530:24
+)
+    async loadESM (node:internal/process/esm_loader:91:5)
+  ...
+1..1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;(Note that with Node 16.19.1 using this module will also spit out a helpful warning: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;(node:8518) ExperimentalWarning: The test runner is an experimental feature. This feature could change at any time&lt;/code&gt;…)&lt;/p&gt;</content><author><name>Alexander</name></author><category term="javascript" /><category term="NodeJS" /><category term="tests" /><category term="TDD" /><category term="CLI" /><summary type="html">* no this does not involve npm, it just made the title look good 🤷</summary></entry><entry><title type="html">Hot Ones standup</title><link href="https://alxndr.blog/2023/03/30/hot-ones-standup.html" rel="alternate" type="text/html" title="Hot Ones standup" /><published>2023-03-30T00:00:00+00:00</published><updated>2023-03-30T00:00:00+00:00</updated><id>https://alxndr.blog/2023/03/30/hot-ones-standup</id><content type="html" xml:base="https://alxndr.blog/2023/03/30/hot-ones-standup.html">&lt;p&gt;That time we did a &lt;a href=&quot;https://en.wikipedia.org/wiki/Hot_Ones&quot;&gt;Hot Ones&lt;/a&gt;-style challenge at work…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/FBjLV9q.png&quot; alt=&quot;screenshot of a work 'Stand-Up' bot asking for an update the day after our Hot Ones Challenge, with my response: &amp;quot;sweat profusely; deep breathing; visited my happy place a couple times; kinda browned out for a sec there between sauces #4 and #5; questioned my life choices; managed to get the go-ahead to merge NR-566, so rallied some Engineers to review that Pull Request&amp;quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Alexander</name></author><category term="standup" /><category term="from the archives" /><summary type="html">That time we did a Hot Ones-style challenge at work…</summary></entry><entry><title type="html">creating a new Git repo based on the history of an old one</title><link href="https://alxndr.blog/2023/01/30/new-git-repo-with-history-of-old-repo.html" rel="alternate" type="text/html" title="creating a new Git repo based on the history of an old one" /><published>2023-01-30T00:00:00+00:00</published><updated>2023-01-30T00:00:00+00:00</updated><id>https://alxndr.blog/2023/01/30/new-git-repo-with-history-of-old-repo</id><content type="html" xml:base="https://alxndr.blog/2023/01/30/new-git-repo-with-history-of-old-repo.html">&lt;p&gt;Following &lt;a href=&quot;https://itnext.io/git-repository-transfer-keeping-all-history-670fe04cd5e4&quot;&gt;this how-to by Nassos Michas&lt;/a&gt;…&lt;/p&gt;
+
+&lt;p&gt;tldr:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;create a new blank repo, e.g. via GitHub ux&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git clone --mirror old-repo-URL new-repo-name&lt;/code&gt; note URL of old repo, but name of new one&lt;/li&gt;
+  &lt;li&gt;change remote to URL of &lt;em&gt;new&lt;/em&gt; repo: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd new-repo-name &amp;amp;&amp;amp; git remote set-url origin new-repo-URL&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git push&lt;/code&gt; this will take a while, and may show errors…&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cd .. &amp;amp;&amp;amp; rm -rf ./new-repo-name&lt;/code&gt; because we need to clone it fresh (not as a mirror)…&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git clone new-repo-URL &amp;amp;&amp;amp; cd new-repo-name&lt;/code&gt; the clone may take a while&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The new repo on GitHub will need to have its default branch set.&lt;/p&gt;</content><author><name>Alexander</name></author><category term="git" /><summary type="html">Following this how-to by Nassos Michas…</summary></entry><entry><title type="html">npm ci with legacy-peer-deps is a thing</title><link href="https://alxndr.blog/2022/10/27/npm-ci-legacy-peer-deps-footgun.html" rel="alternate" type="text/html" title="npm ci with legacy-peer-deps is a thing" /><published>2022-10-27T00:00:00+00:00</published><updated>2022-10-27T00:00:00+00:00</updated><id>https://alxndr.blog/2022/10/27/npm-ci-legacy-peer-deps-footgun</id><content type="html" xml:base="https://alxndr.blog/2022/10/27/npm-ci-legacy-peer-deps-footgun.html">&lt;p&gt;So you’ve got a JavaScript project in the wild, and real life happens so you’ve been &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm install&lt;/code&gt;ing with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--legacy-peer-deps&lt;/code&gt; for a little while now. No judgement, we’ve all been there.&lt;/p&gt;
+
+&lt;p&gt;Then you upgrade something, and all your tests run fine locally, but in the CI environment the entire test suite is faceplanting immediately… What gives??&lt;/p&gt;
+
+&lt;p&gt;Turns out that the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm ci&lt;/code&gt; command (which iirc exists in order to use the exact versions laid out in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package-lock.json&lt;/code&gt; file 😒 ) will also need to be passed the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--legacy-peer-deps&lt;/code&gt; flag if you’ve used that flag to create the lockfile.&lt;/p&gt;
+
+&lt;p&gt;This is written down (if not explained) in the docs for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ci&lt;/code&gt; command: &lt;a href=&quot;https://docs.npmjs.com/cli/v8/commands/npm-ci&quot;&gt;source&lt;/a&gt;, emphasis in the original…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;NOTE: If you create your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package-lock.json&lt;/code&gt; file by running &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm install&lt;/code&gt; with flags that can affect the shape of your dependency tree, such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--legacy-peer-deps&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--install-links&lt;/code&gt;, you &lt;em&gt;must&lt;/em&gt; provide the same flags to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm ci&lt;/code&gt; or you are likely to encounter errors.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This appears to have been introduced in NPM v8.6 according to &lt;a href=&quot;https://github.com/npm/cli/issues/4998&quot;&gt;this bug report&lt;/a&gt;.&lt;/p&gt;</content><author><name>Alexander</name></author><category term="javascript" /><category term="npm" /><category term="dependencies" /><category term="continuous integration" /><category term="lockfile" /><category term="mystery" /><summary type="html">So you’ve got a JavaScript project in the wild, and real life happens so you’ve been npm installing with the --legacy-peer-deps for a little while now. No judgement, we’ve all been there.</summary></entry></feed>

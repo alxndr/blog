@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+--><html lang="en" class="no-js">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>don’t be scared of merge conflicts  •  Alexander’s blog</title>
+<meta name="description" content="First things first: it can be a lot easier to resolve merge conflicts when you can see what the code looked like before the edits which are now conflicting. Git calls that the “common ancestors” of the conflicting lines of code, and it’s easy to configure Git to show those in the merge conflicts themselves using the merge.conflictstyle config option. Here’s what Git’s help has to say about it:">
+
+
+  <meta name="author" content="Alexander">
+  
+  <meta property="article:author" content="Alexander">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Alexander's blog">
+<meta property="og:title" content="don’t be scared of merge conflicts">
+<meta property="og:url" content="https://alxndr.blog/2016/11/17/dont-be-scared-of-merge-conflicts.html">
+
+
+  <meta property="og:description" content="First things first: it can be a lot easier to resolve merge conflicts when you can see what the code looked like before the edits which are now conflicting. Git calls that the “common ancestors” of the conflicting lines of code, and it’s easy to configure Git to show those in the merge conflicts themselves using the merge.conflictstyle config option. Here’s what Git’s help has to say about it:">
+
+
+
+  <meta property="og:image" content="https://alxndr.blog/assets/images/alexander-120x120.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2016-11-17T00:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://alxndr.blog/2016/11/17/dont-be-scared-of-merge-conflicts.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Alexander",
+      "url": "https://alxndr.blog/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Alexander's blog Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/alexander-120x120.png" alt="://alxndr.blog"></a>
+        
+        <a class="site-title" href="/">
+          ://alxndr.blog
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://alxndr.blog/" itemprop="url">Alexander</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>a.k.a. <code class="language-plaintext highlighter-rouge">@alxndr</code> <br> a.k.a. <code class="language-plaintext highlighter-rouge">@drwxrxrx</code></p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="don’t be scared of merge conflicts">
+    <meta itemprop="description" content="First things first: it can be a lot easier to resolve merge conflicts when you can see what the code looked like before the edits which are now conflicting. Git calls that the “common ancestors” of the conflicting lines of code, and it’s easy to configure Git to show those in the merge conflicts themselves using the merge.conflictstyle config option. Here’s what Git’s help has to say about it:">
+    <meta itemprop="datePublished" content="2016-11-17T00:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="https://alxndr.blog/2016/11/17/dont-be-scared-of-merge-conflicts.html" class="u-url" itemprop="url">don’t be scared of merge conflicts
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2016-11-17T00:00:00+00:00">2016 November 17</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>First things first: it can be a lot easier to resolve merge conflicts when you can see what the code looked like <em>before</em> the edits which are now conflicting. Git calls that the “common ancestors” of the conflicting lines of code, and it’s easy to configure Git to show those in the merge conflicts themselves using the <code class="language-plaintext highlighter-rouge">merge.conflictstyle</code> config option. Here’s what Git’s help has to say about it:</p>
+
+<blockquote>
+  <p>Specify the style in which conflicted hunks are written out to working tree files upon merge. The default is “merge”, which shows a <code class="language-plaintext highlighter-rouge">&lt;&lt;&lt;&lt;&lt;&lt;&lt;</code> conflict marker, changes made by one side, a <code class="language-plaintext highlighter-rouge">=======</code> marker, changes made by the other side, and then a <code class="language-plaintext highlighter-rouge">&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code> marker. An alternate style, “diff3”, adds a <code class="language-plaintext highlighter-rouge">|||||||</code> marker and the original text before the <code class="language-plaintext highlighter-rouge">=======</code> marker.</p>
+</blockquote>
+
+<p>To configure your local Git client to always use this style of merge conflict, run <code class="language-plaintext highlighter-rouge">git config --global merge.conflictstyle diff3</code> in your shell (which will modify your global <code class="language-plaintext highlighter-rouge">.gitconfig</code>).</p>
+
+<hr>
+
+<p>When you do a merge and there’s a crazy conflict, you want to see what changed between the common ancestor and whatever you just pulled down. You can do that for individual files like this:</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git ls-files <span class="nt">-u</span> | <span class="nb">awk</span> <span class="s1">'{print $3" "$4}'</span>
+</code></pre></div></div>
+
+<p>…to show what files are conflicting. It’ll print out something like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1 path/to/file
+2 path/to/file
+3 path/to/file
+</code></pre></div></div>
+
+<p>…the <code class="language-plaintext highlighter-rouge">1</code> there is the common ancestor; <code class="language-plaintext highlighter-rouge">2</code> is your file (your HEAD); <code class="language-plaintext highlighter-rouge">3</code> is what you’ve tried to merge in. To see what changed between the common ancestor and what you just merged in, do this:</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git diff :1:path/to/file :3:path/to/file
+</code></pre></div></div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2016-11-17T00:00:00+00:00">2016 November 17</time></p>
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/2016/08/04/use-a-Dvorak-keyboard-layout-on-iOS-Simulator.html" class="pagination--pager" title="use a Dvorak keyboard layout on iOS Simulator
+">Previous</a>
+    
+    
+      <a href="/2017/01/18/eslint-Cannot-read-property-value-of-undefined.html" class="pagination--pager" title="eslint — Cannot read property ‘value’ of undefined
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term...">
+  </form>
+  <div id="results" class="results"></div>
+</div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="http://alxndr.github.io/resume/resume.html" rel="nofollow noopener noreferrer"><i class="fas fa-university" aria-hidden="true"></i> resume</a></li>
+        
+      
+        
+          <li><a href="https://github.com/alxndr" rel="nofollow noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/drwxrxrx" rel="nofollow noopener noreferrer"><i class="fab fa-instagram" aria-hidden="true"></i> photos</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">© 2023 Alexander. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+<script>
+  window.goatcounter = {
+    path: (location.host + '/' + location.pathname),
+  }
+</script>
+<script data-goatcounter="https://alxndr.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+
+
+
+
+  </body>
+</html>

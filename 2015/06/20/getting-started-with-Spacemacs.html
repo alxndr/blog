@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+--><html lang="en" class="no-js">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>getting started with Spacemacs  •  Alexander’s blog</title>
+<meta name="description" content="Are you a vi/vim user who’s been hearing about how wonderful/useful/fast Spacemacs can be? Here is an evolving list of pointers for folks beginning to use this crazy new blend of editors…">
+
+
+  <meta name="author" content="Alexander">
+  
+  <meta property="article:author" content="Alexander">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Alexander's blog">
+<meta property="og:title" content="getting started with Spacemacs">
+<meta property="og:url" content="https://alxndr.blog/2015/06/20/getting-started-with-Spacemacs.html">
+
+
+  <meta property="og:description" content="Are you a vi/vim user who’s been hearing about how wonderful/useful/fast Spacemacs can be? Here is an evolving list of pointers for folks beginning to use this crazy new blend of editors…">
+
+
+
+  <meta property="og:image" content="https://alxndr.blog/assets/images/alexander-120x120.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2015-06-20T00:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://alxndr.blog/2015/06/20/getting-started-with-Spacemacs.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Alexander",
+      "url": "https://alxndr.blog/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Alexander's blog Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/alexander-120x120.png" alt="://alxndr.blog"></a>
+        
+        <a class="site-title" href="/">
+          ://alxndr.blog
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://alxndr.blog/" itemprop="url">Alexander</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>a.k.a. <code class="language-plaintext highlighter-rouge">@alxndr</code> <br> a.k.a. <code class="language-plaintext highlighter-rouge">@drwxrxrx</code></p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="getting started with Spacemacs">
+    <meta itemprop="description" content="Are you a vi/vim user who’s been hearing about how wonderful/useful/fast Spacemacs can be? Here is an evolving list of pointers for folks beginning to use this crazy new blend of editors…">
+    <meta itemprop="datePublished" content="2015-06-20T00:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="https://alxndr.blog/2015/06/20/getting-started-with-Spacemacs.html" class="u-url" itemprop="url">getting started with Spacemacs
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2015-06-20T00:00:00+00:00">2015 June 20</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>Are you a vi/vim user who’s been hearing about how wonderful/useful/fast Spacemacs can be? Here is an evolving list of pointers for folks beginning to use this crazy new blend of editors…</p>
+
+<p>(First: have you read the <a href="https://github.com/syl20bnr/spacemacs/blob/074f425dc5d233f24195ecc3021eb96ac9d55d4d/doc/VIMUSERS.org#purpose-of-this-document"><code class="language-plaintext highlighter-rouge">VIMUSERS</code> doc</a>? You should. Go do that, then come back and start reading this.)</p>
+
+<p>Heads up: Spacemacs takes over <code class="language-plaintext highlighter-rouge">~/.emacs.d</code>, don’t mess with it. Your editor configuration file is now <code class="language-plaintext highlighter-rouge">~/.spacemacs</code>. <code class="language-plaintext highlighter-rouge">SPC f e d</code> to edit your config, and once it’s saved <code class="language-plaintext highlighter-rouge">SPC f e R</code> to reload it and begin using it.</p>
+
+<p>The space bar is now your leader key. It’s also sorta like the colon <code class="language-plaintext highlighter-rouge">:</code> to start an ex command from Normal mode… it’s where pretty much all the functionality is accessible.</p>
+
+<p>The Spacemacs repository’s <code class="language-plaintext highlighter-rouge">DOCUMENTATION.org</code> file is much more comprehensive than the <code class="language-plaintext highlighter-rouge">README</code>. <a href="https://github.com/syl20bnr/spacemacs/blob/d555002308e7ce86161d3d7998e42cdcc5a9800d/doc/DOCUMENTATION.org">Here it is at the time of writing</a>; look for a more recent one… <a href="http://ian.mccowan.space/2015/04/07/Spacemacs/">Ian McCowan’s post about creating Spacemacs</a> is a valuable intro as well, but beware that some of the key combos may have changed since it was written.</p>
+
+<p>Buffers don’t correspond to files…</p>
+
+<p>The Meta key is still Escape? <a href="https://www.reddit.com/r/emacs/comments/333ywx/did_anyone_else_go_wow_after_trying_spacemacs/cqj97zy"><code class="language-plaintext highlighter-rouge">(setq mac-option-modifier 'meta)</code></a> or use the OSX package which puts it under the Option key.</p>
+
+<p>At the time of writing, <a href="https://github.com/railwaycat/homebrew-emacsmacport">the recommended port for OS X</a> has full mouse support, including scrolling — which is pixel-based, not character-based. Seeing that when I didn’t expect it was shocking enough that I felt the need to warn you.</p>
+
+<h3 id="discovering-things">discovering things</h3>
+
+<p>Learning how to learn is the first step to learning…</p>
+
+<p><code class="language-plaintext highlighter-rouge">SPC h d f</code> (i.e. “help describe function”) will bring up another fuzzy-searchable list of functions, and when you select one it’ll pop open a buffer describing it and any keybindings for it.</p>
+
+<p><code class="language-plaintext highlighter-rouge">SPC h d v</code> (i.e. “help describe variable”) brings up a similar list for variables.</p>
+
+<p>Just type <code class="language-plaintext highlighter-rouge">SPC h d</code> and wait, a buffer appears with suggested completions. <code class="language-plaintext highlighter-rouge">SPC h d k</code> (i.e. “help describe key”) prompts for another command sequence, and will pop up a buffer describing whatever it maps to. Try it on itself: type <code class="language-plaintext highlighter-rouge">SPC h d k</code>, and I see a prompt <code class="language-plaintext highlighter-rouge">Describe key (or click or menu item):</code> (I’m using the OS X GUI version; yours may be different) and then if I type <code class="language-plaintext highlighter-rouge">SPC h d k</code> again, the buffer opens explaining a little about the command <code class="language-plaintext highlighter-rouge">spacemacs/describe-key</code>.</p>
+
+<p><code class="language-plaintext highlighter-rouge">SPC ?</code> brings up a fuzzy-searchable list of functions, which you can run by hitting Enter.</p>
+
+<h3 id="shells">shells</h3>
+
+<p>I do a lot of work in a dedicated shell as well as my editor. To open a shell: <code class="language-plaintext highlighter-rouge">SPC :</code> is like hitting <code class="language-plaintext highlighter-rouge">:</code> to get into vim’s Ex command line, but includes a fuzzy-searcher for the command (<code class="language-plaintext highlighter-rouge">M-x</code> in normal Emacs). Then type “shell” or “ansi-term” or “eshell” <a href="https://www.masteringemacs.org/article/running-shells-in-emacs-overview">depending on what you want</a>. “ansi-term” will ask you what shell you want to run, so that’s how I get into zsh.</p>
+
+<h3 id="finding-files-changing-directories">finding files, changing directories</h3>
+
+<p><code class="language-plaintext highlighter-rouge">SPC f f</code> to bring up a [buffer? window?] which finds directories or files (not fuzzy-searching though; see below for that). It begins in the current working directory, but <code class="language-plaintext highlighter-rouge">BS</code> (that’s the backspace key, aka “regular delete”, the one which goes left) in there will go up a directory. Change the selected entry with the arrow keys.</p>
+
+<p>Create new files with <code class="language-plaintext highlighter-rouge">SPC f f</code> as well: type out a path that doesn’t exist and hit enter, it’ll ask if you want to create an empty file there.</p>
+
+<p><code class="language-plaintext highlighter-rouge">SPC p f</code> to fuzzy-search for files in the current project. In result list, <code class="language-plaintext highlighter-rouge">RET</code> opens the file, <code class="language-plaintext highlighter-rouge">C-c o</code> opens it in a new window (split).</p>
+
+<p><a href="https://github.com/jaypei/emacs-neotree">NeoTree</a> is a NerdTree-like plugin; <code class="language-plaintext highlighter-rouge">SPC f t</code> opens the sidebar in the directory of the file you’re currently editing, and <code class="language-plaintext highlighter-rouge">SPC p t</code> opens into the current project’s root directory. <code class="language-plaintext highlighter-rouge">hjkl</code> to move around, <code class="language-plaintext highlighter-rouge">K</code> to move up directories, <code class="language-plaintext highlighter-rouge">RET</code> opens a file like you’d expect, vertical pipe <code class="language-plaintext highlighter-rouge">|</code> to open a file in a new vertical split, and hyphen <code class="language-plaintext highlighter-rouge">-</code> for a horizontal split.</p>
+
+<h3 id="splits">splits</h3>
+
+<p>Splits are called “windows”. <code class="language-plaintext highlighter-rouge">SPC w /</code> to create a split/window to the right; <code class="language-plaintext highlighter-rouge">SPC w -</code> to create a split/window to the bottom. Navigating between windows can be done with <code class="language-plaintext highlighter-rouge">SPC w &lt;direction&gt;</code> or <code class="language-plaintext highlighter-rouge">C-w &lt;direction&gt;</code>, where direction is one of <code class="language-plaintext highlighter-rouge">hjkl</code> (and that <code class="language-plaintext highlighter-rouge">C-w</code> means to hold down control and then push <code class="language-plaintext highlighter-rouge">w</code>).</p>
+
+<p>Once, something I did ended up removing all my splits, as if I had ran <code class="language-plaintext highlighter-rouge">:only</code>. Turns out restoring my splits is just a <code class="language-plaintext highlighter-rouge">SPC w u</code> away (thanks <a href="http://emacswiki.org/emacs/WinnerMode">winner mode</a>).</p>
+
+<p>I’ve been using <a href="https://github.com/moll/vim-bbye">vim-bbye</a> to be able to kill a buffer (aka close a file) without losing the split that the buffer’s in; in Spacemacs use <code class="language-plaintext highlighter-rouge">SPC b d</code> (“buffer delete”) to <code class="language-plaintext highlighter-rouge">kill-this-buffer</code>. Closing a window can be done with <code class="language-plaintext highlighter-rouge">:q</code> like a good little vim emulation, or <code class="language-plaintext highlighter-rouge">SPC w c</code> (“window close”).</p>
+
+<h3 id="line-wrapping">line wrapping</h3>
+
+<p>…is called line truncation. <code class="language-plaintext highlighter-rouge">SPC t l</code> to toggle line truncation.</p>
+
+<h3 id="visible-whitespace">visible whitespace</h3>
+
+<p>All whitespace in the current window can be made visible or invisible with the <code class="language-plaintext highlighter-rouge">SPC t w</code> combo. Toggle for everything with <code class="language-plaintext highlighter-rouge">SPC t C-w</code> (that’s space, then the letter <code class="language-plaintext highlighter-rouge">t</code>, then hold down control and press the letter <code class="language-plaintext highlighter-rouge">w</code>).</p>
+
+<h3 id="key-mappings">key mappings</h3>
+
+<p>Haven’t really gotten that far yet… turns out everything’s already got a space-based shortcut, which I’ve been able to put up with…</p>
+
+<h4 id="chords">chords</h4>
+
+<p>I’m now very accustomed to having both <code class="language-plaintext highlighter-rouge">jk</code> and <code class="language-plaintext highlighter-rouge">kj</code> in quick succession change to Normal node from Insert mode, but Emacs doesn’t do the “wait and see if this will be a combo” thing that vim does. However Spacemacs includes the <a href="https://github.com/syl20bnr/evil-escape">evil-escape</a> package, so I just needed to add <code class="language-plaintext highlighter-rouge">(setq-default evil-escape-key-sequence "jk")</code> to the <code class="language-plaintext highlighter-rouge">dotspacemacs/layers</code> function.</p>
+
+<p>For more customizable combos than just exiting insert mode, there’s a plugin called “keychord.el” which I haven’t yet looked at.</p>
+
+<h3 id="git-via-magit">git, via Magit</h3>
+
+<p><a href="https://github.com/magit/magit">Magit</a> is an Emacs interface to Git. It sounds like it doesn’t <em>hide</em> any of the complexity of Git, so if you’re not already comfortable with it on the command line, Magit probably isn’t going to be helpful…</p>
+
+<ul>
+  <li>See a diff of the current file with <code class="language-plaintext highlighter-rouge">SPC g d</code>.</li>
+  <li>Look at the overall project status with <code class="language-plaintext highlighter-rouge">SPC g s</code>, then:
+    <ul>
+      <li>open/close diffs of files in there with <code class="language-plaintext highlighter-rouge">TAB</code>
+</li>
+      <li>
+<code class="language-plaintext highlighter-rouge">s</code> will stage a file (or hunk) and <code class="language-plaintext highlighter-rouge">u</code> will unstage</li>
+      <li>
+<code class="language-plaintext highlighter-rouge">c</code> to bring up the commit menu (you can do interactive-type stuff here)</li>
+      <li>
+<code class="language-plaintext highlighter-rouge">?</code> to show you what else you can do (pulling, pushing, tagging, reverting, bisecting, oh my)</li>
+      <li>Once you’ve settled on a commit message, <em>actually</em> commit by hitting <code class="language-plaintext highlighter-rouge">C-c C-c</code> (yes that’s control-and-lowercase-c, twice in a row; is there a smoother way to do that?)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Close these Magit windows with a bare press of <code class="language-plaintext highlighter-rouge">q</code>.</p>
+
+<p>Some potentially helpful links: <a href="https://www.masteringemacs.org/article/introduction-magit-emacs-mode-git">An introduction to Magit, an Emacs mode for Git</a>, <a href="https://github.com/magit/magit/blob/a83f9303be806dd2e793cd7207926f0fc8dd8146/Documentation/magit.org">the Magit user manual</a> (look for a more up-to-date version!).</p>
+
+<h3 id="tabs">“tabs”</h3>
+
+<p><a href="https://github.com/nex3/perspective-el">Perspective</a> “provides tagged workspaces”. <a href="https://github.com/alxndr/dotfiles/commit/ff925be53193f0c820c82f116f3ec4dea55e8a0d">Add it to <code class="language-plaintext highlighter-rouge">dotspacemacs-configuration-layers</code></a>, then <code class="language-plaintext highlighter-rouge">SPC L s</code> to switch between workspaces or create a new one; <a href="https://github.com/syl20bnr/spacemacs/blob/6eab954afecb4af81aa29916deaa5c1cd332bcb9/layers/%2Bwindow-management/perspectives/README.org#key-bindings">rest of the bindings are here</a>.</p>
+
+<h3 id="evil-surround">evil-surround</h3>
+
+<p><a href="https://github.com/timcharper/evil-surround">Evil-surround</a> is like the venerable tpope’s <a href="https://github.com/tpope/vim-surround">vim-surround</a>. The bindings are the same; e.g. inside something in parens, <code class="language-plaintext highlighter-rouge">cs([</code> will change the parens to square brackets with a space for padding, <code class="language-plaintext highlighter-rouge">cs(]</code> will change them to square brackets without the space.</p>
+
+<h3 id="thanks-where-thanks-is-due">thanks where thanks is due</h3>
+
+<p>Some more people who, knowingly or unknowingly, have helped me out learning all this: <a href="https://news.ycombinator.com/item?id=9395785">tuhdo</a>, svarlet (in the elixir-lang Slack)</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2015-06-20T00:00:00+00:00">2015 June 20</time></p>
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/2015/05/30/advanced-filtering-in-Chromes-Network-dev-tools.html" class="pagination--pager" title="advanced filtering in Chrome’s Network dev tools
+">Previous</a>
+    
+    
+      <a href="/2015/08/05/la-trahison-des-mots.html" class="pagination--pager" title="La trahison des mots
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term...">
+  </form>
+  <div id="results" class="results"></div>
+</div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="http://alxndr.github.io/resume/resume.html" rel="nofollow noopener noreferrer"><i class="fas fa-university" aria-hidden="true"></i> resume</a></li>
+        
+      
+        
+          <li><a href="https://github.com/alxndr" rel="nofollow noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/drwxrxrx" rel="nofollow noopener noreferrer"><i class="fab fa-instagram" aria-hidden="true"></i> photos</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">© 2023 Alexander. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+<script>
+  window.goatcounter = {
+    path: (location.host + '/' + location.pathname),
+  }
+</script>
+<script data-goatcounter="https://alxndr.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+
+
+
+
+  </body>
+</html>

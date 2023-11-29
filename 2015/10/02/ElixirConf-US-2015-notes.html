@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+--><html lang="en" class="no-js">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>ElixirConf US 2015 notes  •  Alexander’s blog</title>
+<meta name="description" content="ElixirConf US 2015 was October 2–3 in Austin, Texas.">
+
+
+  <meta name="author" content="Alexander">
+  
+  <meta property="article:author" content="Alexander">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Alexander's blog">
+<meta property="og:title" content="ElixirConf US 2015 notes">
+<meta property="og:url" content="https://alxndr.blog/2015/10/02/ElixirConf-US-2015-notes.html">
+
+
+  <meta property="og:description" content="ElixirConf US 2015 was October 2–3 in Austin, Texas.">
+
+
+
+  <meta property="og:image" content="https://alxndr.blog/assets/images/alexander-120x120.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2015-10-02T00:00:00+00:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://alxndr.blog/2015/10/02/ElixirConf-US-2015-notes.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Alexander",
+      "url": "https://alxndr.blog/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Alexander's blog Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/alexander-120x120.png" alt="://alxndr.blog"></a>
+        
+        <a class="site-title" href="/">
+          ://alxndr.blog
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="https://alxndr.blog/" itemprop="url">Alexander</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>a.k.a. <code class="language-plaintext highlighter-rouge">@alxndr</code> <br> a.k.a. <code class="language-plaintext highlighter-rouge">@drwxrxrx</code></p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="ElixirConf US 2015 notes">
+    <meta itemprop="description" content="ElixirConf US 2015 was October 2–3 in Austin, Texas.">
+    <meta itemprop="datePublished" content="2015-10-02T00:00:00+00:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="https://alxndr.blog/2015/10/02/ElixirConf-US-2015-notes.html" class="u-url" itemprop="url">ElixirConf US 2015 notes
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2015-10-02T00:00:00+00:00">2015 October 2</time>
+      </span>
+    
+
+    
+
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p><a href="http://elixirconf.com">ElixirConf US 2015</a> was October 2–3 in Austin, Texas.</p>
+
+<h2 id="bruce-tate-the-pendulum">Bruce Tate: The Pendulum</h2>
+
+<p>tech swings back and forth between approaches to problems. batch vs interactive…</p>
+
+<ul>
+  <li>request/response not quite enough… appearance of MVC pattern for local software
+    <ul>
+      <li>GUIs…</li>
+    </ul>
+  </li>
+  <li>scaling on the web follows the same pattern
+    <ul>
+      <li>concurrency/isolation are key for future…
+        <ul>
+          <li>elixir!</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="chris-mccord-whats-next-for-phoenix">Chris McCord: What’s Next for Phoenix</h2>
+
+<p><a href="https://pragprog.com/book/phoenix/programming-phoenix">The Book is out</a>!</p>
+
+<ul>
+  <li>Phoenix beyond browser: Channel clients in JS, Swift, ObjC, C#, Java…</li>
+  <li>planned for v1.1: gettext, Channel presence
+    <ul>
+      <li>gettext internationalization was meant for 1.0, but was trickier than expected</li>
+      <li>channel presence is very much non-trivial on distributed nodes</li>
+    </ul>
+  </li>
+  <li>look at <a href="https://facebook.github.io/graphql/">GraphQL</a> for ideas
+    <ul>
+      <li>support in views? so instead of having to e.g. <code class="language-plaintext highlighter-rouge">preload: [user: [:profile]]</code> etc when fetching stuff in your controller</li>
+      <li>can help avoid “controller mayhem” (proliferation of routes for specific data shapes, versioning)</li>
+      <li>specs are defined in the clients, not server…
+        <ul>
+          <li>but the server will still do validations, deprecations?</li>
+        </ul>
+      </li>
+      <li>
+<em>“server side views as just another GraphQL client”</em>
+        <ul>
+          <li>js clients as well as backend template construction could both use it</li>
+          <li>way way down the line, maybe “virtual DOM on the server”</li>
+        </ul>
+      </li>
+      <li>why not extend Ecto to do this sort of thing? not out of the question.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="paul-shoenfelder-release-management-with-exrm-and-conform">Paul Shoenfelder: Release Management with ExRM and Conform</h2>
+
+<ul>
+  <li>OTP apps: well-defined structure, explicit dependencies, useful metadata</li>
+  <li>non-release way: dev deps in prod, can’t manage multiple apps, need to build things, can’t cross-compile…</li>
+  <li>what’s a release? versioned OTP app dependencies; ERTS; release metadata; configuration; scripts to manage; packaged as tarball</li>
+  <li>what’s ExRM? extends Relx (Erlang’s release tool); provides mix tasks (with lots of hooks), appup generation, intelligent defaults</li>
+  <li>configuration is compiled into static info in release (e.g. no dynamic config, can’t use get_env)</li>
+  <li>schema allows for data transformations (and validations?)</li>
+</ul>
+
+<h2 id="alexander-songe-crdts-datatypes-for-the-apocalypse">Alexander Songe: CRDTs: Datatypes for the Apocalypse</h2>
+
+<p>“conflict-free datatype”… how to have distributed complex values</p>
+
+<ul>
+  <li>CRDTs are tricky; not many usable libraries
+    <ul>
+      <li>not a lot of code, but it has to be precise or you’ll corrupt source data</li>
+      <li>need to test a lot, 100% code coverage doesn’t count, need to find edge cases</li>
+    </ul>
+  </li>
+  <li>basis:
+    <ul>
+      <li>log-based: read over logs, replay things</li>
+      <li>state-based: easier to reason about, but get big (&amp; therefore hard to manage)</li>
+    </ul>
+  </li>
+  <li>updates to mutate state
+    <ul>
+      <li>updates are commutative, associative, idempotent</li>
+      <li>…&amp; therefore can be sent over network, will be eventually consistent
+        <ul>
+          <li><strong>as long as everyone eventually communicates</strong></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>types:
+    <ul>
+      <li>flags, counters, sets, registers, maps, graphs, documents (huge…)</li>
+    </ul>
+  </li>
+  <li>examples
+    <ul>
+      <li>G-counter: counts up only. distributes values but takes max, so ensures eventually consistent. (can’t decrement… have another G-counter for decrements.)</li>
+      <li>G-set: adds items to a set. similar problem for subtracting; solved with ORSWOT operation.
+        <ul>
+          <li>(similar but not quite the same as a vector clock)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>wider use of CRDTs… not so much
+    <ul>
+      <li>would be super useful in rich clients</li>
+      <li><a href="https://github.com/asonge/loom">Loom</a></li>
+    </ul>
+  </li>
+  <li>wishlist
+    <ul>
+      <li>Gossip protocol independent of project</li>
+      <li>external representation</li>
+      <li>language &amp; library support</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="alan-gardner-phoenix-and-elm">Alan Gardner: Phoenix and Elm</h2>
+
+<ul>
+  <li>Elm has Model Update View pattern
+    <ul>
+      <li>Update looks somewhat similar to message receiving…</li>
+    </ul>
+  </li>
+  <li>Elm’s Signals: single value that changes over time…
+    <ul>
+      <li>this is how Elm “changes state”</li>
+    </ul>
+  </li>
+  <li>“Elm Architecture”
+    <ul>
+      <li>
+<code class="language-plaintext highlighter-rouge">fold</code> is where non-pure things can happen</li>
+    </ul>
+  </li>
+  <li>interop with outside world (Ports?)
+    <ul>
+      <li>starting up the app, initial state takes <code class="language-plaintext highlighter-rouge">inputs</code>
+</li>
+      <li>
+<code class="language-plaintext highlighter-rouge">init</code> and <code class="language-plaintext highlighter-rouge">update</code> need to account for <code class="language-plaintext highlighter-rouge">Effects</code>
+</li>
+    </ul>
+  </li>
+  <li>hooking Elm up to Phoenix…
+    <ul>
+      <li>could run separately, old standard way of doing it…</li>
+      <li>could compile and add as vendored JS…</li>
+      <li>but you <strong>could embed Elm app into Phoenix</strong> and use brunch to compile
+        <ul>
+          <li>
+<code class="language-plaintext highlighter-rouge">web/elm/</code> (not in <code class="language-plaintext highlighter-rouge">static/</code>)</li>
+          <li>
+<a href="https://github.com/madsflensted/elm-brunch"><code class="language-plaintext highlighter-rouge">elm-brunch</code> plugin</a>
+            <ul>
+              <li>actually start it up with some regular old <code class="language-plaintext highlighter-rouge">app.js</code>
+</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Elm Ports… how outside world can interact with Elm
+    <ul>
+      <li>(not the same as erlang ports)</li>
+      <li>takes a JS data structure &amp; constructs Elm-ish signature for it</li>
+      <li>need to explicitly map incoming data to (curried) <code class="language-plaintext highlighter-rouge">Action</code> s
+        <ul>
+          <li>and that becomes one of the <code class="language-plaintext highlighter-rouge">inputs</code>
+</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="bryan-joseph-elixir-beyond-the-browser">Bryan Joseph: Elixir Beyond the Browser</h2>
+
+<p><a href="https://github.com/bryanjos/elixirscript">ElixirScript</a>!</p>
+
+<ul>
+  <li>goals
+    <ul>
+      <li>full or subset of Elixir into ES2015</li>
+      <li>complement elixir backends*</li>
+      <li>idiomatic Elixir</li>
+    </ul>
+  </li>
+  <li>ESTree
+    <ul>
+      <li>including a thing that builds JS from Elixir code</li>
+    </ul>
+  </li>
+  <li>ElixirScript: made of Compiler (in Elixir) and Runtime (in JS)
+    <ul>
+      <li>Compiler
+        <ul>
+          <li>value translation uses <code class="language-plaintext highlighter-rouge">Symbol</code>, custom things for binaries</li>
+          <li>use <code class="language-plaintext highlighter-rouge">Patterns</code> for “multiple” function defs/guards/destructuring params</li>
+          <li>uses JS modules (but scope isn’t same as in Elixir…)</li>
+          <li>some current limitations: scopes, <code class="language-plaintext highlighter-rouge">quote</code>, <code class="language-plaintext highlighter-rouge">::</code>, pattern-matching <code class="language-plaintext highlighter-rouge">&lt;&lt; &gt;&gt;</code>
+</li>
+        </ul>
+      </li>
+      <li>Runtime
+        <ul>
+          <li>most of the stdlib defined here</li>
+          <li>also some features for compiling (e.g. pattern matching)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>how to “embrace the environment”
+    <ul>
+      <li>interop with JS</li>
+    </ul>
+  </li>
+  <li>demos…
+    <ul>
+      <li>reimplementation of React API!</li>
+      <li>running in an iOS app!</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="jessica-kerr-elixir-should-take-over-the-world">Jessica Kerr: Elixir Should Take Over the World</h2>
+
+<ul>
+  <li>the March of Scientific Progress is presented as viewed through rose-tinted glasses…
+    <ul>
+      <li>
+<em>The Structure of Scientific Revolutions</em> by Thomas S Kuhn, read it… coined “paradigm”</li>
+    </ul>
+  </li>
+  <li>“Ideas are shared. Ideas keep coming. Ideas are shared.”
+    <ul>
+      <li>when the groundwork is laid for a “new idea”, many people will independently have it…</li>
+    </ul>
+  </li>
+  <li>good recent talks at StrangeLoop 2015:
+    <ul>
+      <li><a href="http://www.slideshare.net/CamilleFournier1/hopelessness-and-confidence-in-distributed-systems-design">Camille Fournier’s Hopelessness and Confidence in Distributed Systems Design</a></li>
+      <li><a href="https://www.youtube.com/watch?v=H0i_bXKwujQ">Caitie McCaffrey’s Building Scalable Stateful Services</a></li>
+    </ul>
+  </li>
+  <li>circular dependencies are painful; neither pure functional nor object-oriented approaches are quite right…</li>
+  <li>the way to success is more failures, and learn from them. “failure is the common case”
+    <ul>
+      <li>if you learn from the failures, they become part of the eventual succes</li>
+    </ul>
+  </li>
+  <li>what’s next? (opinions…)
+    <ul>
+      <li>after agile? lean. learn, build, measure, learn, build… (in theory that’s the scientific method, but scientists like proving their own points)</li>
+      <li>after no estimates? time ranges. wider range means more unknowns… at the end, “is it still worth it to do more of this?”</li>
+      <li>after scientific method? Brené Brown looks at human systems, “grounded theory” data, categories, theory, data, categories…</li>
+      <li>after MVC? Elm architecture…</li>
+      <li>after REST? GraphQL… maybe with backend-sourced events, channels…</li>
+      <li>after microservices? better organized microservices.
+        <ul>
+          <li>…microservices can easily end up circularly-dependent.</li>
+          <li>while working on your new thing, it’ll end up being more complex than you think, but if you wrapped everything in a nice API then from the outside world it’ll look sane</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>it takes lots of people (especially skill levels) to make progress
+    <ul>
+      <li>“Science advances one funeral at a time” —Max Planck</li>
+      <li>“we need people who don’t think like us”</li>
+      <li>smooth the stairs into a ramp!</li>
+    </ul>
+  </li>
+  <li>big moustachioed Banana for Jim!</li>
+</ul>
+
+<h2 id="josé-valim-state-of-the-language">José Valim: State of the Language</h2>
+
+<ul>
+  <li>what’s coming: extensibility: web infrastructure; embedded systems; financial/video platforms; GUIs</li>
+  <li>just out: v1.1
+    <ul>
+      <li>handy new functions!</li>
+      <li>ExUnit: can capture calls to <code class="language-plaintext highlighter-rouge">Logger</code>, will print on failures; <code class="language-plaintext highlighter-rouge">@tag :not_implemented</code>; line numbers in doctests fixed</li>
+      <li>Mix: <code class="language-plaintext highlighter-rouge">profile.fprof</code>
+</li>
+      <li>
+<code class="language-plaintext highlighter-rouge">@callback</code> instead of <code class="language-plaintext highlighter-rouge">defcallback</code>; <code class="language-plaintext highlighter-rouge">@typedoc</code>
+</li>
+      <li>deprecations… <code class="language-plaintext highlighter-rouge">Access</code> protocol (implementation became a bottleneck when protocols not compiled)</li>
+    </ul>
+  </li>
+  <li>v1.2
+    <ul>
+      <li>gonna be Erlang &gt;=18 only</li>
+      <li>multi-aliases <code class="language-plaintext highlighter-rouge">alias MyApp.{Foo, Bar, Baz}</code>
+</li>
+    </ul>
+  </li>
+  <li>v1.3? just ideas here…
+    <ul>
+      <li>
+<code class="language-plaintext highlighter-rouge">GenRouter</code>: separate process, multi-in/multi-out
+        <ul>
+          <li>adds supervision to stream-like things</li>
+          <li>source-driven, provides backpressure by default</li>
+          <li>inspired by Akka Streams</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="lennart-fridén-virtually-instructional">Lennart Fridén: Virtually Instructional</h2>
+
+<ul>
+  <li>can compile elixir into Erlantg assembly: <code class="language-plaintext highlighter-rouge">ERL_COMPILER_OPTIONS="'S'" elixirc file.ex</code>
+</li>
+  <li>but Erlang functions get transformed by BEAM… so we’d need to look at a running system
+    <ul>
+      <li>
+<code class="language-plaintext highlighter-rouge">:erts_debug.df MyApp</code> creates a .
+        <ul>
+          <li>the function names end with their params’ type signature…</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>BEAM is register-based, unlike JAM, which was stack-based
+    <ul>
+      <li>bunch of functions will say how many registers are “active” (shouldn’t be GC’d?)</li>
+      <li>different types of registers… general, float, temporary, local vars</li>
+    </ul>
+  </li>
+  <li>BEAM’s “assembly” is weird!</li>
+</ul>
+
+<h2 id="steven-proctor-beaming-with-joy">Steven Proctor: BEAMing with Joy</h2>
+
+<ul>
+  <li>the Scheduler… is awesome. one per CPU. expensive to start up, so they stay up</li>
+  <li>monitoring
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">observer.start()</code></li>
+      <li>erlang’s <code class="language-plaintext highlighter-rouge">c</code> module if you don’t have a GUI…
+        <ul>
+          <li>
+<code class="language-plaintext highlighter-rouge">c.regs/0</code> is all registered processes/ports</li>
+          <li>
+<code class="language-plaintext highlighter-rouge">c.i/0</code>, bunch of other info…</li>
+          <li>
+<code class="language-plaintext highlighter-rouge">c.i/3</code> pass in your process info and get info about just that process</li>
+          <li>
+<code class="language-plaintext highlighter-rouge">:c.bt/1</code> to look at backtrace of a <code class="language-plaintext highlighter-rouge">:c.pid/3</code>
+</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>types… strongly-held small set of types, also dynamic if you want it
+    <ul>
+      <li>elixir: optional typing using <code class="language-plaintext highlighter-rouge">@spec</code>
+</li>
+    </ul>
+  </li>
+  <li>
+<a href="http://user.it.uu.se/~tobiasl/publications/typer.pdf">TypEr (pdf)</a> adds type annotations to source code?</li>
+  <li>testing
+    <ul>
+      <li>Property testing: QuickCheck (not free), also PropEr</li>
+      <li>Concurrency testing: <a href="https://github.com/parapluu/Concuerror">Concuerror</a>
+</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="nick-demonner-otp-has-done-it">Nick DeMonner: OTP Has Done It</h2>
+
+<ul>
+  <li>your technical problems aren’t unique… “we need to get over our reinvention addiction”
+    <ul>
+      <li>don’t keep using abstractions that aren’t useful!</li>
+    </ul>
+  </li>
+  <li>supervisors
+    <ul>
+      <li>children are stopped in reverse of start order</li>
+    </ul>
+  </li>
+  <li>(intro to all the <code class="language-plaintext highlighter-rouge">gen_*</code> things)</li>
+</ul>
+
+<h2 id="ben-wilson-streams-external-services-and-otp">Ben Wilson: Streams, External Services, and OTP</h2>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">StreamRunner</code> by James Fish
+    <ul>
+      <li>makes an enumerable thing out of external service</li>
+    </ul>
+  </li>
+  <li>but what about backpressure? <code class="language-plaintext highlighter-rouge">StreamRouter</code>
+</li>
+  <li><code class="language-plaintext highlighter-rouge">Collectable</code></li>
+</ul>
+
+<h2 id="james-smith-interoperability-in-elixir">James Smith: Interoperability in Elixir</h2>
+
+<ul>
+  <li>can interop using JInterface, NIFs, and…</li>
+  <li>ports
+    <ul>
+      <li>wraps an external thing, passes messages to it, passes messages out to the owning erlang process</li>
+      <li>
+<code class="language-plaintext highlighter-rouge">Port.open/2</code>, tons of options, docs pretty good</li>
+      <li>ETF External Term Format to convert any data into a binary format <code class="language-plaintext highlighter-rouge">data == :erlang_binary_to_term(:erlang.term_to_binary(data))</code>
+</li>
+      <li>can use stdin or also arbitrary file descriptors</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="drew-olson-composable-queries-with-ecto">Drew Olson: Composable Queries with Ecto</h2>
+
+<ul>
+  <li>separate construction of query from execution… <code class="language-plaintext highlighter-rouge">query = from(...); Repo.all(query)</code>
+    <ul>
+      <li>“the query itself is data” “very explicitly decoupled from [the Repo]”</li>
+    </ul>
+  </li>
+  <li>Query Expression syntax… pull the keywords out into functions. <code class="language-plaintext highlighter-rouge">query = where(Post, [p], p.published == true)</code>
+</li>
+  <li>both syntaxes are composable! <code class="language-plaintext highlighter-rouge">query2 = from(c in query, where: c.votes &gt; 5)</code>
+</li>
+  <li>“Query Pipelines”… inventing vocab for wrapping query expressions in nicely-named functions, then piping them together
+    <ul>
+      <li>“query source” the data source, e.g. a whole table</li>
+      <li>transformation modifies an existing query</li>
+      <li>sink executes query, returns result</li>
+    </ul>
+  </li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2015-10-02T00:00:00+00:00">2015 October 2</time></p>
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/2015/09/23/typing-an-ellipsis-in-OS-X.html" class="pagination--pager" title="typing an ellipsis in OS X
+">Previous</a>
+    
+    
+      <a href="/2016/01/13/how-to-mark-an-email-as-not-spam-in-Googles-Inbox.html" class="pagination--pager" title="how to mark an email as “not-spam” in Google’s Inbox
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+<form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term...">
+  </form>
+  <div id="results" class="results"></div>
+</div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="http://alxndr.github.io/resume/resume.html" rel="nofollow noopener noreferrer"><i class="fas fa-university" aria-hidden="true"></i> resume</a></li>
+        
+      
+        
+          <li><a href="https://github.com/alxndr" rel="nofollow noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://instagram.com/drwxrxrx" rel="nofollow noopener noreferrer"><i class="fab fa-instagram" aria-hidden="true"></i> photos</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">© 2023 Alexander. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+<script>
+  window.goatcounter = {
+    path: (location.host + '/' + location.pathname),
+  }
+</script>
+<script data-goatcounter="https://alxndr.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
