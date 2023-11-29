@@ -63,8 +63,3 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-spaceship
-
-jekyll-spaceship:
-  processors:
-    - table-processor
