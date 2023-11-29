@@ -3,7 +3,7 @@ title: lipu Ante Kulupu So
 excerpt: mi ante toki e lipu Ante Kulupu So
 layout: single
 classes: wide
-tags: [toki pona, I Ching]
+tags: [toki pona, I Ching, Chinese]
 sidebar:
   - title: quick nav
     text: |
