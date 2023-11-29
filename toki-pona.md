@@ -15,7 +15,7 @@ toki pona la, lipu ni li linluwi e lipu mi e pali mi
 * 🛠️ [lipu pi nasin Sewi](/lipu-pi-nasin-sewi) — lipu nasin pi ma Sonko majuna
 
 
-## mi pale e ilo pi toki pona
+## mi pali e ilo pi toki pona
 
 * [nasin sitelen pi lipu nimi](https://alxndr.github.io/nasin-pi-lipu-nimi/?src=alxndr.blog&campaign=category-toki-pona) — jan li sona e sitelen sitelen kepeken ilo ni
 
