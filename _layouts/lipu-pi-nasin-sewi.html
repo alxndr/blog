@@ -19,40 +19,59 @@ title: lipu {{lipu}} la, kipisi nanpa {{nanpa}} • lipu Nasin Sewi
 </ul>
 
 <style>
-  .sidebar > .kipisi-nav-sidebar {
+  .sidebar > ul.kipisi-nav-sidebar {
     list-style: none;
     padding: 0;
+    text-align: center;
   }
-  .sidebar > .kipisi-nav-sidebar a {
+  .sidebar > ul.kipisi-nav-sidebar li {
+    display: inline-block;
+    margin: 0 1rem 1rem;
+  }
+  .sidebar > ul.kipisi-nav-sidebar a {
     display: block;
     padding: 0.5rem;
-    text-align: center;
+    text-decoration: none;
   }
 
   .loseta {
-    font-size: 0.9em; /* reset silly defaults */
-  }
-  .loseta tr {
-    grid-template-areas: "aside main" "aside foot";
+    margin: 0 auto;
   }
   .loseta td {
     padding: 0.2em;
   }
-  .loseta td:nth-child(1) { /* source */
-    grid-area: aside;
+  .loseta td:nth-child(1) { /* source text */
     white-space: nowrap;
     font: 2em zh-FangZhengXiaoZhuanTi, zh-JinWen, cursive, fantasy; /* em not rem... */
-    text-align: center;
+    text-align: left;
     letter-spacing: -0.3em; /* em not rem... */
   }
   .loseta td:nth-child(2) { /* tokipona */
-    grid-area: main;
+    text-align: center;
   }
   .loseta td:nth-child(3) { /* english */
-    grid-area: foot;
     text-align: right;
     opacity: 0.6;
+    font-size: 0.9em;
   }
+
+  @media (max-width: 40em) { /* em not rem */
+    .loseta tr {
+      display: flex;
+      flex-flow: row wrap;
+    }
+    .loseta td:first-child { /* source text */
+      flex-basis: 100%;
+      text-align: center;
+    }
+    .loseta td:not(:first-child) {
+      flex-basis: 50%;
+    }
+    .loseta td:nth-child(2) { /* tokipona */
+      text-align: left;
+    }
+  }
+
   #sitelen {
     border: 0;
   }
