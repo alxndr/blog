@@ -1180,6 +1180,8 @@ This interpretation uses (## of) the words in [pu](https://nimi.li) plus ## addi
     text-align: center;
   }
   .page__content h1 + dl dt:not(:first-child) { /* reading */
+    display: flex;
+    justify-content: space-around;
     margin-top: 2rem; /* match what's above interpretation's first line */
     font: 2em zh-FangZhengXiaoZhuanTi, zh-JinWen, cursive, fantasy; /* em not rem... */
     letter-spacing: -0.1em;
