@@ -1119,15 +1119,7 @@ This interpretation uses (## of) the words in [pu](https://nimi.li) plus ## addi
     text-decoration: none;
   }
 
-  .page__content {
-    /* display: flex; */
-    /* flex-flow: row wrap; */
-  }
-  .page__content > * {
-    /*flex-basis: 100%;*/ /* approximate box-model behavior... */
-  }
-  .page__content input { display: inline-block; } /* reset a weird default */
-
+  /* reset weird defaults */
   .page__content > p + ul { margin-top: -1em; }
 
   .terms [lang=tp] {
@@ -1152,7 +1144,6 @@ This interpretation uses (## of) the words in [pu](https://nimi.li) plus ## addi
     font-size: 1.1em;
   }
   .page__content h1 { /* each hexagram */
-    /* flex-basis: 2rem; */
     font-size: 1.9rem;
   }
   .page__content h1 .header-link {
@@ -1160,11 +1151,10 @@ This interpretation uses (## of) the words in [pu](https://nimi.li) plus ## addi
   }
 
   .page__content h1 + dl { /* only the `dl`s in each chapter */
-    /* flex-basis: calc(100% - 3rem); */
     margin: 0 -1rem 25vh 0;
   }
   @media (min-width: 50em) { /* em not rem */
-    .page__content h1 + dl {
+    .page__content h1 + dl { /* the `dl`s in each chapter... */
       font-size: 2em; /* em not rem */
     }
   }
@@ -1190,6 +1180,11 @@ This interpretation uses (## of) the words in [pu](https://nimi.li) plus ## addi
     width: 49%;
     margin-left: 50%;
     font: 2em / 1em tp-LinjaSuwi; /* em not rem */
+  }
+  @media (min-width: 50em) { /* em not rem */
+    .page__content h1 + dl dd { /* "right side": TP interpretations */
+      font-size: 1.68em; /* em not rem */
+    }
   }
   .page__content h1 + dl dd strong, /* any one-off english... */
   .page__content h1 + dl [lang=en] {
