@@ -136,7 +136,7 @@ sidebar:
 : kipisi lawa la nena
 : kipisi noka la telo-tawa
 
-蒙 <br/> 亨 <br/>  匪我求童蒙 <br/> 童蒙求我. 初筮告 <br/> 再三渎 <br/> 渎则不告. 利贞
+蒙 <br/> 亨 <br/>  匪我求童蒙 <br/> 童蒙求我 <br/> 初筮告 <br/> 再三渎 <br/> 渎则不告 <br/> 利贞
 : kasi misikeke la
 : pona
 : jan li alasa ala e kasi
@@ -197,7 +197,7 @@ sidebar:
 : kipisi lawa la telo-tawa
 : kipisi noka la ma
 
-比 <br/> 吉 <br/>  原筮元永贞 <br/> 无咎. 不宁方来 <br/> 后夫凶
+比 <br/> 吉 <br/>  原筮元永贞 <br/> 无咎 <br/> 不宁方来 <br/> 后夫凶
 : sama la
 : usawi li wawa
 : _tenpo ale_ la usawi li pona li pakala ala
@@ -225,7 +225,7 @@ sidebar:
 : kipisi lawa la sewi
 : kipisi noka la telo-pake
 
-履虎尾, 不咥人, 亨.
+履虎尾 <br/> 不咥<!-- not in font -->人 <br/> 亨
 : pali lili la
 : jan li utala e soweli monsuta la jan ni li pakala ala
 : usawi li pona
@@ -252,7 +252,7 @@ sidebar:
 : kipisi lawa la sewi
 : kipisi noka la ma
 
-否之匪人, 不利君子贞, 大往小来.
+否之匪人 <br/> 不利君子贞 <br/> 大往小来
 : meli la
 : jan ike meli la jan pona li tenpo ike
 : suli li tawa
@@ -266,7 +266,7 @@ sidebar:
 : kipisi lawa la sewi
 : kipisi noka la seli
 
-同人于野, 亨. 利涉大川, 利君子贞.
+同人于野 <br/> 亨 <br/> 利涉大川 <br/> 利君子贞
 : kulupu la
 : ma _weka_ la kulupu li pona
 : pali suli li pona
@@ -359,7 +359,7 @@ sidebar:
 : kipisi lawa la kon
 : kipisi noka la ma
 
-观 <br/> 盥而不荐 <br/> 有孚颙若
+观 <br/> 盥而不荐 <br/> 有孚颙<!-- not in font -->若
 : lukin la
 : jan usawi li ken pali la taso pali ala
 : ijo mani li jo e lawa suli
@@ -410,7 +410,7 @@ sidebar:
 : kipisi lawa la ma
 : kipisi noka la kalama
 
-复 <br/> 亨 <br/>  出入无疾 <br/> 朋来无咎. 反复其道 <br/> 七日来复 <br/> 利有攸往
+复 <br/> 亨 <br/>  出入无疾 <br/> 朋来无咎 <br/> 反复其道 <br/> 七日来复 <br/> 利有攸往
 : sike la
 : usawi li pona
 : tawa kama li ike ala
@@ -510,7 +510,7 @@ sidebar:
 : kipisi lawa la telo-pake
 : kipisi noka la nena
 
-咸, 亨, 利贞, 取女吉.
+咸 <br/> 亨 <br/> 利贞 <br/> 取女吉
 : pilin sijelo la
 : usawi li pona
 : tenpo kama li wawa
@@ -612,7 +612,7 @@ sidebar:
 : kipisi lawa la telo-tawa
 : kipisi noka la nena
 
-蹇 <br/> 利西南 <br/> 不利东北; 利见大人 <br/> 贞吉
+蹇 <br/> 利西南 <br/> 不利东北 <br/> 利见大人 <br/> 贞吉
 : noka pakala la
 : pona la ma weka wan
 : pona ala la ma weka ante
@@ -673,7 +673,7 @@ sidebar:
 : kipisi lawa la telo-tawa
 : kipisi noka la sewi
 
-夬 <br/> 扬于王庭 <br/> 孚号 <br/> 有厉 <br/> 告自邑 <br/> 不利即戎 <br/> 利有攸往
+夬<!-- not in font --> <br/> 扬于王庭 <br/> 孚号 <br/> 有厉 <br/> 告自邑 <br/> 不利即戎 <br/> 利有攸往
 : tawa anpa la
 : tomo pi lawa kulupu la ijo mani li _mu_
 : _ike_
@@ -689,7 +689,7 @@ sidebar:
 : kipisi lawa la sewi
 : kipisi noka la kon
 
-姤 <br/> 女壮 <br/> 勿用取女
+姤<!-- not in font --> <br/> 女壮 <br/> 勿用取女
 : unpa la
 : _meli_ wawa
 : _lanpan_ ala e _meli_
@@ -702,7 +702,7 @@ sidebar:
 : kipisi lawa la telo-pake
 : kipisi noka la ma
 
-萃 <br/> 亨 <br/>  王假有庙 <br/> 利见大人 <br/> 亨 <br/> 利贞. 用大牲吉 <br/> 利有攸往
+萃 <br/> 亨 <br/>  王假有庙 <br/> 利见大人 <br/> 亨 <br/> 利贞 <br/> 用大牲吉 <br/> 利有攸往
 : nasa la
 : wawa
 : jan lawa li tawa tomo usawi
@@ -751,7 +751,7 @@ sidebar:
 : kipisi lawa la telo-tawa
 : kipisi noka la kon
 
-井 <br/> 改邑不改井 <br/> 无丧无得 <br/> 往来井井 <br/>  汔至 <br/> 亦未繘井 <br/> 羸其瓶 <br/> 凶
+井 <br/> 改邑不改井 <br/> 无丧无得 <br/> 往来井井 <br/>  汔至 <br/> 亦未绠井 <br/> 羸其瓶 <br/> 凶
 : lupa-telo la
 : tomo mute li ante
 : lupa telo li ante ala
@@ -798,7 +798,7 @@ sidebar:
 : kipisi lawa la kalama
 : kipisi noka la kalama
 
-震 <br/> 亨 <br/>  震来虩虩 <br/> 笑言哑哑. 震惊百里 <br/> 不丧匕鬯
+震 <br/> 亨 <br/>  震来虩<!-- not in font -->虩<!-- not in font --> <br/> 笑言哑哑 <br/> 震惊百里 <br/> 不丧匕鬯
 : pakala ma la
 : wawa
 : ma pakala li mu a
@@ -1120,11 +1120,11 @@ This interpretation uses (## of) the words in [pu](https://nimi.li) plus ## addi
   }
 
   .page__content {
-    display: flex;
-    flex-flow: row wrap;
+    /* display: flex; */
+    /* flex-flow: row wrap; */
   }
   .page__content > * {
-    flex-basis: 100%; /* approximate box-model behavior... */
+    /*flex-basis: 100%;*/ /* approximate box-model behavior... */
   }
   .page__content input { display: inline-block; } /* reset a weird default */
 
@@ -1135,7 +1135,7 @@ This interpretation uses (## of) the words in [pu](https://nimi.li) plus ## addi
   }
 
   .bagua {
-    flex-basis: 18rem !important;
+    width: 18rem;
     font-size: 0.9em;
   }
   .bagua td {
@@ -1152,7 +1152,7 @@ This interpretation uses (## of) the words in [pu](https://nimi.li) plus ## addi
     font-size: 1.1em;
   }
   .page__content h1 { /* each hexagram */
-    flex-basis: 2rem;
+    /* flex-basis: 2rem; */
     font-size: 1.9rem;
   }
   .page__content h1 .header-link {
@@ -1160,17 +1160,22 @@ This interpretation uses (## of) the words in [pu](https://nimi.li) plus ## addi
   }
 
   .page__content h1 + dl { /* only the `dl`s in each chapter */
-    flex-basis: calc(100% - 3rem);
-    margin: 0 0 13rem;
+    /* flex-basis: calc(100% - 3rem); */
+    margin: 0 -1rem 25vh 0;
+  }
+  @media (min-width: 50em) { /* em not rem */
+    .page__content h1 + dl {
+      font-size: 2em; /* em not rem */
+    }
   }
   .page__content h1 + dl dt { /* "left side": trigram and reading */
     float: left;
-    width: 41%;
+    width: 50%;
     margin-top: 0;
   }
   .page__content h1 + dl dt:first-child { /* trigram */
     padding: 2rem 0.5rem;
-    font-size: 5rem;
+    font-size: 5rem; /* rem not em...? */
     line-height: 0;
     text-align: center;
   }
@@ -1180,13 +1185,13 @@ This interpretation uses (## of) the words in [pu](https://nimi.li) plus ## addi
     letter-spacing: -0.1em;
   }
   .page__content h1 + dl dd { /* "right side": TP interpretations */
-    width: 55%;
-    margin-left: 45%;
-    font: 2.5rem / 2rem tp-LinjaSuwi;
+    width: 49%;
+    margin-left: 50%;
+    font: 2em / 1em tp-LinjaSuwi; /* em not rem */
   }
   .page__content h1 + dl dd strong, /* any one-off english... */
   .page__content h1 + dl [lang=en] {
-    font: 0.9rem / 1.5rem sans-serif;
+    font: 0.9em / 1.5em sans-serif; /* em not rem */
   }
   .page__content h1 + dl dd:first-of-type { /* sitelen-sitelen pronunciation */
     padding-left: 7%;
@@ -1194,14 +1199,13 @@ This interpretation uses (## of) the words in [pu](https://nimi.li) plus ## addi
   .page__content h1 + dl dd:nth-of-type(2),  /* kipisi lawa pi linja mute */
   .page__content h1 + dl dd:nth-of-type(3) { /* kipisi noka pi linja mute */
     padding-left: 13%; /* don't center because tp-LinjaPona combining glyphs are counted as double-wide */
-    font: 1.5rem tp-LinjaPona; /* tp-LinjaPona has both "pake" and can combine... */
+    font: 1.5em tp-LinjaPona; /* tp-LinjaPona has both "pake" and can combine... */
   }
   .page__content h1 + dl dt:not(:first-of-type) ~ dd { /* TP interpretation all lines */
     padding-left: 0.5em;
   }
   .page__content h1 + dl dt:not(:first-of-type) + dd { /* first line of interpretation */
-    margin-top: 2rem; /* match what's above source reading */
-    padding-left: 0;
+    margin-top: 2rem; /* match what's above source reading dt */
   }
 
   .nimiPiLinjaMute > svg {
