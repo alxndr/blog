@@ -105,7 +105,11 @@ A [Toki Pona] interpretation of [道德經 (Dao De Jing / Tao Te Ching)](https:/
 * 德 — "Virtue"[^Muller] — sewi
 * 圣人 — "The Sage"[^Muller] — jan sewi
 * 玄 — mysterious, unknowable — nasa
-* 冬渉川 — "crossing an ice-covered river"[^Muller] — 
+* 冬渉川 — "crossing an ice-covered river"[^Muller] — tenpo ike la pali suli
+
+# Acknowledgements
+
+I studied contemporary and classical Chinese at [Oberlin College](https://oberlin.edu); 谢谢老师!
 
 <style>
   ul.kipisi {
