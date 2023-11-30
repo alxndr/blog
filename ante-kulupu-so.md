@@ -1022,7 +1022,7 @@ This page is hosted on GitHub Pages.
 
 ### Notes
 
-This interpretation uses (## of) the words in [pu](https://nimi.li) plus ## additions: .
+This interpretation uses ~73% <!--88/121--> of the words in [pu](https://linku.la/about/jasima/), plus 9 additions: kipisi, usawi, pake, monsuta, meso, kiki, misikeke, majuna, apeja (in order of most-frequent to least-common).
 
 {:.bagua}
 | linja | 名字 | English |  **sitelen**  | nimi
