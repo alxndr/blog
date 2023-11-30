@@ -20,18 +20,21 @@ title: lipu {{lipu}} la, kipisi nanpa {{nanpa}} • lipu Nasin Sewi
 
 <style>
   .sidebar > ul.kipisi-nav-sidebar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
     list-style: none;
     padding: 0;
-    text-align: center;
   }
   .sidebar > ul.kipisi-nav-sidebar li {
-    display: inline-block;
-    margin: 0 1rem 1rem;
+    flex-basis: 9em;
+    margin: 0 0.5em 0.5em;
   }
   .sidebar > ul.kipisi-nav-sidebar a {
     display: block;
     padding: 0.5rem;
     text-decoration: none;
+    text-align: center;
   }
 
   .loseta {
