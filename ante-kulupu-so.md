@@ -1,7 +1,5 @@
 ---
 title: lipu Ante Kulupu So
-redirect_from:
-  - /ante-kulupu-so
 excerpt: mi ante toki e lipu Ante Kulupu So
 layout: single
 classes: wide
@@ -711,7 +709,7 @@ sidebar:
 : wawa la lukin e jan wawa
 : wawa
 : tenpo kama li wawa
-: pali‍usawi suli li pona
+: pali usawi suli li pona
 : pona la _tawa ma ante_
 
 
@@ -1023,6 +1021,8 @@ This page is hosted on GitHub Pages.
 
 
 ### Notes
+
+This interpretation uses (## of) the words in [pu](https://nimi.li) plus ## additions: .
 
 {:.bagua}
 | linja | 名字 | English |  **sitelen**  | nimi
