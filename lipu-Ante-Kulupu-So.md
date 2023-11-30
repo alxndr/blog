@@ -1,5 +1,7 @@
 ---
 title: lipu Ante Kulupu So
+redirect_from:
+  - /ante-kulupu-so
 excerpt: mi ante toki e lipu Ante Kulupu So
 layout: single
 classes: wide
@@ -89,7 +91,7 @@ sidebar:
 : kipisi lawa la sewi
 : kipisi noka la sewi
 
-乾。︁元亨、利贞。
+乾 <br/> 元亨 <br/> 利贞
 : sewi suno la
 : usawi li pona
 : tenpo kama li wawa
@@ -102,7 +104,7 @@ sidebar:
 : kipisi lawa la ma
 : kipisi noka la ma
 
-坤。︁元亨、利牝马之贞。 君子有攸往、先迷后得主、利西南得朋、东北丧朋. 安贞、吉。︁
+坤 <br/> 元亨 <br/> 利牝马之贞 <br/>  君子有攸往 <br/> 先迷后得主 <br/> 利西南得朋 <br/> 东北丧朋 <br/> 安贞 <br/> 吉
 : nasin ma la
 : usawi li pona
 : wawa la _soweli esun_ li mama
@@ -121,7 +123,7 @@ sidebar:
 : kipisi lawa la telo-tawa
 : kipisi noka la kalama
 
-屯。︁元亨、利贞、勿用有攸往、利建侯。
+屯 <br/> 元亨 <br/> 利贞 <br/> 勿用有攸往 <br/> 利建侯
 : suli pi kasi lili la
 : usawi li pona
 : tenpo kama li wawa
@@ -136,7 +138,7 @@ sidebar:
 : kipisi lawa la nena
 : kipisi noka la telo-tawa
 
-蒙。︁亨。 匪我求童蒙、童蒙求我. 初筮告、再三渎、渎则不告. 利贞。︁
+蒙 <br/> 亨 <br/>  匪我求童蒙 <br/> 童蒙求我. 初筮告 <br/> 再三渎 <br/> 渎则不告. 利贞
 : kasi misikeke la
 : pona
 : jan li alasa ala e kasi
@@ -153,7 +155,7 @@ sidebar:
 : kipisi lawa la telo-tawa
 : kipisi noka la sewi
 
-需。︁有孚、光亨、贞吉。 利涉大川。︁
+需 <br/> 有孚 <br/> 光亨 <br/> 贞吉 <br/>  利涉大川
 : telo sewi la
 : jo e ijo mani
 : _usawi_ li suno
@@ -168,7 +170,7 @@ sidebar:
 : kipisi lawa la sewi
 : kipisi noka la telo-tawa
 
-讼。︁有孚、窒。︁惕中吉。︁终凶。︁利见大人、不利涉大川。︁
+讼 <br/> 有孚 <br/> 窒 <br/> 惕中吉 <br/> 终凶 <br/> 利见大人 <br/> 不利涉大川
 : utala la
 : ijo mani la pake
 : olin e meso li pona
@@ -184,7 +186,7 @@ sidebar:
 : kipisi lawa la ma
 : kipisi noka la telo-tawa
 
-师。︁贞、丈人、吉无咎。
+师 <br/> 贞 <br/> 丈人 <br/> 吉无咎
 : kulupu utala la
 : jan _majuna_{:FairfaxPonaHD} li pona
 : usawi li pakala ala
@@ -197,7 +199,7 @@ sidebar:
 : kipisi lawa la telo-tawa
 : kipisi noka la ma
 
-比。︁吉。 原筮元永贞、无咎. 不宁方来、后夫凶。︁
+比 <br/> 吉 <br/>  原筮元永贞 <br/> 无咎. 不宁方来 <br/> 后夫凶
 : sama la
 : usawi li wawa
 : _tenpo ale_ la usawi li pona li pakala ala
@@ -212,7 +214,7 @@ sidebar:
 : kipisi lawa la kon
 : kipisi noka la sewi
 
-小畜。︁亨。密云不雨、自我西郊。︁
+小畜 <br/> 亨 <br/> 密云不雨 <br/> 自我西郊
 : mama lili la
 : usawi li pona
 : ma _ante_ la sewi pimeja li telo ala
@@ -238,7 +240,7 @@ sidebar:
 : kipisi lawa la ma
 : kipisi noka la sewi
 
-泰。︁小往大来、吉亨。
+泰 <br/> 小往大来 <br/> 吉亨
 : suli la
 : lili li tawa
 : suli li kama
@@ -280,7 +282,7 @@ sidebar:
 : kipisi lawa la seli
 : kipisi noka la sewi
 
-大有。︁元亨。
+大有 <br/> 元亨
 : jo suli la
 : usawi li pona
 
@@ -292,7 +294,7 @@ sidebar:
 : kipisi lawa la ma
 : kipisi noka la nena
 
-谦。︁亨、君子有终。
+谦 <br/> 亨 <br/> 君子有终
 : soweli lili wawa la
 : usawi li pona
 : tenpo pini la jan pona
@@ -305,7 +307,7 @@ sidebar:
 : kipisi lawa la kalama
 : kipisi noka la ma
 
-豫。︁利建侯、行师。
+豫 <br/> 利建侯 <br/> 行师
 : soweli suli wawa la
 : wawa la jan sewi li lawa e jan anpa
 : wawa la jan utala li tawa
@@ -318,7 +320,7 @@ sidebar:
 : kipisi lawa la telo-pake
 : kipisi noka la kalama
 
-随。︁元亨利贞、无咎。
+随 <br/> 元亨利贞 <br/> 无咎
 : alasa la
 : usawi li pona
 : tenpo kama li wawa li pakala ala
@@ -331,7 +333,7 @@ sidebar:
 : kipisi lawa la nena
 : kipisi noka la kon
 
-蛊。︁元亨、利涉大川。 先甲三日、后甲三日。︁
+蛊 <br/> 元亨 <br/> 利涉大川 <br/>  先甲三日 <br/> 后甲三日
 : moli la
 : usawi li pona
 : pali suli li pona
@@ -345,7 +347,7 @@ sidebar:
 : kipisi lawa la ma
 : kipisi noka la telo-pake
 
-临。︁元亨、利贞。 至于八月有凶。︁
+临 <br/> 元亨 <br/> 利贞 <br/>  至于八月有凶
 : mu la
 : usawi li pona
 : tenpo kama li wawa
@@ -359,7 +361,7 @@ sidebar:
 : kipisi lawa la kon
 : kipisi noka la ma
 
-观。︁盥而不荐、有孚颙若。
+观 <br/> 盥而不荐 <br/> 有孚颙若
 : lukin la
 : jan usawi li ken pali la taso pali ala
 : ijo mani li jo e lawa suli
@@ -372,7 +374,7 @@ sidebar:
 : kipisi lawa la seli
 : kipisi noka la kalama
 
-噬嗑。︁亨。利用狱。︁
+噬嗑 <br/> 亨 <br/> 利用狱
 : pini uta la
 : usawi li pona
 : apeja tan jan lawa li pona
@@ -385,7 +387,7 @@ sidebar:
 : kipisi lawa la nena
 : kipisi noka la seli
 
-贲。︁亨。 小利有攸往。︁
+贲 <br/> 亨 <br/>  小利有攸往
 : kule olin la
 : usawi li pona
 : _tawa ma ante_<!-- see #23, 24, etc... --> li pona lili
@@ -398,7 +400,7 @@ sidebar:
 : kipisi lawa la nena
 : kipisi noka la ma
 
-剥。︁不利有攸往。
+剥 <br/> 不利有攸往
 : kipisi la
 : _tawa ma ante_<!-- see #22 --> li pona ala
 
@@ -410,7 +412,7 @@ sidebar:
 : kipisi lawa la ma
 : kipisi noka la kalama
 
-复。︁亨。 出入无疾、朋来无咎. 反复其道、七日来复、利有攸往。︁
+复 <br/> 亨 <br/>  出入无疾 <br/> 朋来无咎. 反复其道 <br/> 七日来复 <br/> 利有攸往
 : sike la
 : usawi li pona
 : tawa kama li ike ala
@@ -426,7 +428,7 @@ sidebar:
 : kipisi lawa la sewi
 : kipisi noka la kalama
 
-无妄。︁元亨、利贞。其匪正有眚、不利有攸往。︁
+无妄 <br/> 元亨 <br/> 利贞 <br/> 其匪正有眚 <br/> 不利有攸往
 : jo la
 : usawi li pona
 : tenpo kama li wawa
@@ -441,7 +443,7 @@ sidebar:
 : kipisi lawa la nena
 : kipisi noka la sewi
 
-大畜。︁利贞、不家食吉、利涉大川。
+大畜 <br/> 利贞 <br/> 不家食吉 <br/> 利涉大川
 : mama suli la
 : tenpo kama li wawa
 : lon ala e tomo mama li pona
@@ -455,7 +457,7 @@ sidebar:
 : kipisi lawa la nena
 : kipisi noka la kalama
 
-颐。︁贞吉。 观颐、自求口实。︁
+颐 <br/> 贞吉 <br/>  观颐 <br/> 自求口实
 : sijelo moku la
 : wawa
 : suno e moku mama
@@ -469,7 +471,7 @@ sidebar:
 : kipisi lawa la telo-pake
 : kipisi noka la kon
 
-大过。︁栋桡、利有攸往、亨。
+大过 <br/> 栋桡 <br/> 利有攸往 <br/> 亨
 : mute suli la <!-- see #62 -->
 : insa _tomo_ li wawa
 : _tawa ma ante_ li pona <!-- see #25… -->
@@ -483,7 +485,7 @@ sidebar:
 : kipisi lawa la telo-tawa
 : kipisi noka la telo-tawa
 
-坎。︁习坎、有孚、维心亨、行有尚。
+坎 <br/> 习坎 <br/> 有孚 <br/> 维心亨 <br/> 行有尚
 : pakala la
 : _len e ijo mani_
 : _olin e sewi_ li pona
@@ -497,7 +499,7 @@ sidebar:
 : kipisi lawa la seli
 : kipisi noka la seli
 
-离。︁利贞、亨。 畜牝牛、吉。︁
+离 <br/> 利贞 <br/> 亨 <br/>  畜牝牛 <br/> 吉
 : _lanpan_ e waso la
 : usawi li wawa pona
 : mama e _soweli esun_ li pona
@@ -524,7 +526,7 @@ sidebar:
 : kipisi lawa la kalama
 : kipisi noka la kon
 
-恒。︁亨、无咎、利贞、利有攸往。
+恒 <br/> 亨 <br/> 无咎 <br/> 利贞 <br/> 利有攸往
 : awen la
 : usawi li pona li pakala ala
 : tenpo kama li pona
@@ -538,7 +540,7 @@ sidebar:
 : kipisi lawa la sewi
 : kipisi noka la nena
 
-遁。︁亨、小利贞。
+遁 <br/> 亨 <br/> 小利贞
 : soweli esun lili la
 : usawi li pona
 : tenpo kama li pona lili
@@ -551,7 +553,7 @@ sidebar:
 : kipisi lawa la kalama
 : kipisi noka la sewi
 
-大壮。︁利贞。
+大壮 <br/> 利贞
 : pakala sijelo la
 : tenpo kama li wawa
 
@@ -563,7 +565,7 @@ sidebar:
 : kipisi lawa la seli
 : kipisi noka la ma
 
-晋。︁康侯用锡马蕃庶、昼日三接。
+晋 <br/> 康侯用锡马蕃庶 <br/> 昼日三接
 : sinpin la
 : pana tawa jan lawa e _soweli mani_
 : soweli ni li unpa mute
@@ -576,7 +578,7 @@ sidebar:
 : kipisi lawa la ma
 : kipisi noka la seli
 
-明夷。︁利艰贞。
+明夷 <br/> 利艰贞
 : mu pi waso suli la
 : tenpo ike la usawi wawa
 
@@ -588,7 +590,7 @@ sidebar:
 : kipisi lawa la kon
 : kipisi noka la seli
 
-家人。︁利女贞。
+家人 <br/> 利女贞
 : jan mama en jan lili la
 : meli la tenpo wawa
 
@@ -600,7 +602,7 @@ sidebar:
 : kipisi lawa la seli
 : kipisi noka la telo-pake
 
-睽。︁小事吉。
+睽 <br/> 小事吉
 : lukin e sike la
 : pali lili li pona
 
@@ -612,7 +614,7 @@ sidebar:
 : kipisi lawa la telo-tawa
 : kipisi noka la nena
 
-蹇。︁利西南、不利东北; 利见大人、贞吉。
+蹇 <br/> 利西南 <br/> 不利东北; 利见大人 <br/> 贞吉
 : noka pakala la
 : pona la ma weka wan
 : pona ala la ma weka ante
@@ -626,7 +628,7 @@ sidebar:
 : kipisi lawa la kalama
 : kipisi noka la telo-tawa
 
-解。︁利西南、无所往、其来复吉。 有攸往、夙吉。︁
+解 <br/> 利西南 <br/> 无所往 <br/> 其来复吉 <br/>  有攸往 <br/> 夙吉
 : _pana kipisi_ la
 : pona la ma weka
 : _tawa taso awen ala_
@@ -642,7 +644,7 @@ sidebar:
 : kipisi lawa la nena
 : kipisi noka la telo-tawa
 
-损。︁有孚、元吉、无咎、可贞、利有攸往。 曷之用、二簋可用享。︁
+损 <br/> 有孚 <br/> 元吉 <br/> 无咎 <br/> 可贞 <br/> 利有攸往 <br/>  曷之用 <br/> 二簋可用享
 : _lili_ la
 : jo e ijo mani
 : usawi li pona
@@ -660,7 +662,7 @@ sidebar:
 : kipisi lawa la kon
 : kipisi noka la kalama
 
-益。︁利有攸往、利涉大川。
+益 <br/> 利有攸往 <br/> 利涉大川
 : suli e mute la
 : _tawa ma ante_ li pona
 : pali suli li pona
@@ -673,7 +675,7 @@ sidebar:
 : kipisi lawa la telo-tawa
 : kipisi noka la sewi
 
-夬。︁扬于王庭、孚号、有厉、告自邑、不利即戎、利有攸往。
+夬 <br/> 扬于王庭 <br/> 孚号 <br/> 有厉 <br/> 告自邑 <br/> 不利即戎 <br/> 利有攸往
 : tawa anpa la
 : tomo pi lawa kulupu la ijo mani li _mu_
 : _ike_
@@ -689,7 +691,7 @@ sidebar:
 : kipisi lawa la sewi
 : kipisi noka la kon
 
-姤。︁女壮、勿用取女。
+姤 <br/> 女壮 <br/> 勿用取女
 : unpa la
 : _meli_ wawa
 : _lanpan_ ala e _meli_
@@ -702,7 +704,7 @@ sidebar:
 : kipisi lawa la telo-pake
 : kipisi noka la ma
 
-萃。︁亨。 王假有庙、利见大人、亨、利贞. 用大牲吉、利有攸往。︁
+萃 <br/> 亨 <br/>  王假有庙 <br/> 利见大人 <br/> 亨 <br/> 利贞. 用大牲吉 <br/> 利有攸往
 : nasa la
 : wawa
 : jan lawa li tawa tomo usawi
@@ -720,7 +722,7 @@ sidebar:
 : kipisi lawa la ma
 : kipisi noka la kon
 
-升。︁元亨、用见大人、勿恤、南征吉。
+升 <br/> 元亨 <br/> 用见大人 <br/> 勿恤 <br/> 南征吉
 : tawa sewi la
 : usawi li pona
 : pona la lukin e jan wawa
@@ -735,7 +737,7 @@ sidebar:
 : kipisi lawa la telo-pake
 : kipisi noka la telo-tawa
 
-困。︁亨、贞、大人吉、无咎、有言不信。
+困 <br/> 亨 <br/> 贞 <br/> 大人吉 <br/> 无咎 <br/> 有言不信
 : len la
 : wawa
 : pona
@@ -751,7 +753,7 @@ sidebar:
 : kipisi lawa la telo-tawa
 : kipisi noka la kon
 
-井。︁改邑不改井、无丧无得、往来井井。 汔至、亦未繘井、羸其瓶、凶。︁
+井 <br/> 改邑不改井 <br/> 无丧无得 <br/> 往来井井 <br/>  汔至 <br/> 亦未繘井 <br/> 羸其瓶 <br/> 凶
 : lupa-telo la
 : tomo mute li ante
 : lupa telo li ante ala
@@ -770,7 +772,7 @@ sidebar:
 : kipisi lawa la telo-pake
 : kipisi noka la seli
 
-革。︁巳日乃孚、元亨利贞、悔亡。
+革 <br/> 巳日乃孚 <br/> 元亨利贞 <br/> 悔亡
 : selo soweli la
 : _tenpo_ pi ijo mani
 : usawi li pona
@@ -785,7 +787,7 @@ sidebar:
 : kipisi lawa la seli
 : kipisi noka la kon
 
-鼎。︁元吉、亨。
+鼎 <br/> 元吉 <br/> 亨
 : poki moku la
 : usawi li pona
 : wawa
@@ -798,7 +800,7 @@ sidebar:
 : kipisi lawa la kalama
 : kipisi noka la kalama
 
-震。︁亨。 震来虩虩、笑言哑哑. 震惊百里、不丧匕鬯。︁
+震 <br/> 亨 <br/>  震来虩虩 <br/> 笑言哑哑. 震惊百里 <br/> 不丧匕鬯
 : pakala ma la
 : wawa
 : ma pakala li mu a
@@ -814,7 +816,7 @@ sidebar:
 : kipisi lawa la nena
 : kipisi noka la nena
 
-艮。︁艮其背、不获其身、行其庭、不见其人、无咎。
+艮 <br/> 艮其背 <br/> 不获其身 <br/> 行其庭 <br/> 不见其人 <br/> 无咎
 : mama la
 : mama e monsi la sinpin li awen ala
 : jan li tawa lon ma kulupu
@@ -829,7 +831,7 @@ sidebar:
 : kipisi lawa la kon
 : kipisi noka la nena
 
-渐。︁女归吉、利贞。
+渐 <br/> 女归吉 <br/> 利贞
 : tawa weka la
 : pona la meli en jan ante li wan
 : tenpo kama li wawa
@@ -842,7 +844,7 @@ sidebar:
 : kipisi lawa la kalama
 : kipisi noka la telo-pake
 
-归妹。︁征凶、无攸利。
+归妹 <br/> 征凶 <br/> 无攸利
 : _jan tu li wan_ la
 : tawa li ike
 : pona la tawa ala
@@ -855,7 +857,7 @@ sidebar:
 : kipisi lawa la kalama
 : kipisi noka la seli
 
-丰。︁亨、王假之、勿忧、宜日中。
+丰 <br/> 亨 <br/> 王假之 <br/> 勿忧 <br/> 宜日中
 : tomo wawa la
 : wawa
 : jan lawa li lon
@@ -870,7 +872,7 @@ sidebar:
 : kipisi lawa la seli
 : kipisi noka la nena
 
-旅。︁小亨、旅贞吉。
+旅 <br/> 小亨 <br/> 旅贞吉
 : jan tawa la
 : wawa lili
 : jan tawa li pona
@@ -883,7 +885,7 @@ sidebar:
 : kipisi lawa la kon
 : kipisi noka la kon
 
-巽。︁小亨、利攸往、利见大人。
+巽 <br/> 小亨 <br/> 利攸往 <br/> 利见大人
 : pana usawi la
 : wawa lili
 : pona la _tawa ma ante_
@@ -897,7 +899,7 @@ sidebar:
 : kipisi lawa la telo-pake
 : kipisi noka la telo-pake
 
-兑。︁亨、利贞。
+兑 <br/> 亨 <br/> 利贞
 : pilin pona la
 : wawa
 : tenpo kama li wawa
@@ -910,7 +912,7 @@ sidebar:
 : kipisi lawa la kon
 : kipisi noka la telo-tawa
 
-涣。︁亨。 王假有庙、利涉大川、利贞。︁
+涣 <br/> 亨 <br/>  王假有庙 <br/> 利涉大川 <br/> 利贞
 : telo sijelo la
 : wawa
 : jan lawa li tawa lon tomo usawi
@@ -925,7 +927,7 @@ sidebar:
 : kipisi lawa la telo-tawa
 : kipisi noka la telo-pake
 
-节。︁亨。 苦节、不可贞。︁
+节 <br/> 亨 <br/>  苦节 <br/> 不可贞
 : kiki la
 : wawa
 : kiki ike
@@ -939,7 +941,7 @@ sidebar:
 : kipisi lawa la kon
 : kipisi noka la telo-pake
 
-中孚。︁豚鱼吉、利涉大川、利贞。
+中孚 <br/> 豚鱼吉 <br/> 利涉大川 <br/> 利贞
 : jo e ijo mani la
 : soweli en kala li pona
 : pali suli li pona
@@ -953,7 +955,7 @@ sidebar:
 : kipisi lawa la kalama
 : kipisi noka la nena
 
-小过。︁亨、利贞、可小事、不可大事。飞鸟遗之音、不宜上、宜下、大吉。︁
+小过 <br/> 亨 <br/> 利贞 <br/> 可小事 <br/> 不可大事 <br/> 飞鸟遗之音 <br/> 不宜上 <br/> 宜下 <br/> 大吉
 : mute lili la <!-- see #28 -->
 : wawa
 : tenpo kama li pona
@@ -972,7 +974,7 @@ sidebar:
 : kipisi lawa la telo-tawa
 : kipisi noka la seli
 
-既济。︁亨、小利贞、初吉终乱。
+既济 <br/> 亨 <br/> 小利贞 <br/> 初吉终乱
 : pini la
 : wawa
 : tenpo kama li pona lili
@@ -986,7 +988,7 @@ sidebar:
 : kipisi lawa la seli
 : kipisi noka la telo-tawa
 
-未济。︁亨、小狐汔济、濡其尾、无攸利。
+未济 <br/> 亨 <br/> 小狐汔济 <br/> 濡其尾 <br/> 无攸利
 : pini ala la
 : wawa
 : soweli lili li poka lon telo tawa
@@ -1014,6 +1016,8 @@ Fonts used to display [sitelen pona]:
 * [linja lipamanka](https://lipamanka.gay/linjamanka) by [lipamanka](https://lipamanka.gay)
 * [Fairfax Pona HD](https://www.kreativekorp.com/software/fonts/fairfaxponahd/)
 <!-- * [sitelen seli kiwen](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/). -->
+
+Chinese fonts are from <a href="https://chinesefontdesign.com" target="_blank" rel="noopener">chinesefontdesign.com</a>.
 
 This page is hosted on GitHub Pages.
 
@@ -1074,10 +1078,8 @@ This page is hosted on GitHub Pages.
 孚
 : <span lang="tp">ijo mani</span>
 : <span lang="en">'valuable things': spoils of war, "captives"[^Minford] often involved with ritual sacrifice</span>
-: <!-- jan ilo — captive person(s) -->
-: <!-- ilo usawi — objects-of-ritual -->
 
-西南、东北
+西南 <br/> 东北
 : <span lang="tp">ma weka</span>
 : <span lang="en">'far-away place': literally 'west-south' and 'east-north'; thousands of years ago, these referred to specific neighboring areas (and the people living in those places); I have chosen to leave the specific directions vague</span>
 
@@ -1174,7 +1176,8 @@ This page is hosted on GitHub Pages.
   }
   .page__content h1 + dl dt:not(:first-child) { /* reading */
     margin-top: 2rem; /* match what's above interpretation's first line */
-    font-size: 1.5rem;
+    font: 2em zh-FangZhengXiaoZhuanTi, zh-JinWen, cursive, fantasy; /* em not rem... */
+    letter-spacing: -0.1em;
   }
   .page__content h1 + dl dd { /* "right side": TP interpretations */
     width: 55%;
