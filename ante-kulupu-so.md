@@ -1204,7 +1204,7 @@ This interpretation uses (## of) the words in [pu](https://nimi.li) plus ## addi
     font: 1.5em tp-LinjaPona; /* tp-LinjaPona has both "pake" and can combine... */
   }
   .page__content h1 + dl dt:not(:first-of-type) ~ dd { /* TP interpretation all lines */
-    padding-left: 0.5em;
+    padding-left: 1em; text-indent: -1em; /* indents the wrapped lines... */
   }
   .page__content h1 + dl dt:not(:first-of-type) + dd { /* first line of interpretation */
     margin-top: 2rem; /* match what's above source reading dt */
