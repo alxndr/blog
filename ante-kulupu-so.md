@@ -1151,7 +1151,7 @@ This interpretation uses ~73% <!--88/121--> of the words in [pu](https://linku.l
   }
 
   .page__content h1 + dl { /* only the `dl`s in each chapter */
-    margin: 0 -1rem 25vh 0;
+    margin: 0 -1rem 10em 0;
   }
   @media (min-width: 50em) { /* em not rem */
     .page__content h1 + dl { /* the `dl`s in each chapter... */
