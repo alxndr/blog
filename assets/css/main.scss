@@ -8,6 +8,11 @@
 @import "minimal-mistakes";
 
 @font-face {
+  font-family: zh-EBAS;
+  src: url('/assets/fonts/ebas927.ttf');
+  line-height: 1.1em;
+}
+@font-face {
   font-family: zh-FangZhengXiaoZhuanTi;
   src: url('/assets/fonts/fang-zheng-xiao-zhuan-ti.ttf');
   line-height: 1.1em;

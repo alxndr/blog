@@ -1173,7 +1173,7 @@ This interpretation uses ~73% <!--88/121--> of the words in [pu](https://linku.l
     display: flex;
     justify-content: space-around;
     margin-top: 2rem; /* match what's above interpretation's first line */
-    font: 2em zh-FangZhengXiaoZhuanTi, zh-JinWen, cursive, fantasy; /* em not rem... */
+    font: 2em zh-EBAS, zh-FangZhengXiaoZhuanTi, zh-JinWen, cursive, fantasy; /* em not rem... */
     letter-spacing: -0.1em;
   }
   .page__content h1 + dl dd { /* "right side": TP interpretations */
