@@ -33,7 +33,7 @@ This is a powerful idea to me. Our computers let us refine our tools so that the
 
 Paul McKellar has taken this history analysis step further with the [huffshell](https://github.com/paulmars/huffshell) project, which will look at your shell history and suggest shortcuts — even including the types of commands that take subcommands, like `git`, `rake`, `npm`, what have you.
 
-As you might imagine, I also have a bunch of shortcuts in my shell. I have so many that [I keep my `.alias` file in GitHub](https://github.com/alxndr/dotfiles/blob/master/.alias). I like to read other people's and steal ideas. You should try it! And then put your `.alias` file on GitHub too!
+As you might imagine, I also have a bunch of shortcuts in my shell. I have so many that [I keep my aliases file in GitHub](https://github.com/alxndr/dotfiles/blob/4e770e3005eeaf54d3515f92fb978cebd18c8da4/.zshenv). I like to read other people's and steal ideas. You should try it! And then put your `.alias` file on GitHub too!
 
 Check this out: [I start my Rails servers with `rs`](https://github.com/alxndr/dotfiles/blob/931d9dd08849c9dcd2bd72b31c9071a0cbbe65c0/.alias#L39-47). Doesn't matter what version of Rails, my shortcut will figure it out for me. Same thing with the Rails console: [`rc` and I'm in](https://github.com/alxndr/dotfiles/blob/931d9dd08849c9dcd2bd72b31c9071a0cbbe65c0/.alias#L25-38). Bingo bango. [^1]
 
@@ -73,18 +73,18 @@ Git has built-in support for aliases! Yay git!
 
     $ g config alias.foo status
     $ g foo
-    On branch master
+    On branch main
     Untracked files:
       (use "git add <file>..." to include in what will be committed)
         public/shortcuts.jpg
         public/shortcuts.md
     nothing added to commit but untracked files present (use "git add" to track)
 
-I mostly end up using git aliases to package up somewhat tricky or hard-to-remember things in git. My favorite one at the moment is what I'm calling [`family tree`](https://github.com/alxndr/dotfiles/blob/772a33fdc38598f077c2812a91f647bc6060c8cb/.gitconfig#L22), which shows the branches that have been merged into whatever branch I'm currently on. There's also [`reset-upstream`](https://github.com/alxndr/dotfiles/blob/772a33fdc38598f077c2812a91f647bc6060c8cb/.gitconfig#L27), handy when I want to create a feature branch on my fork of someone else's repo: it hard-resets my origin's master branch to the newly-fetched upstream's master branch.
+I mostly end up using git aliases to package up somewhat tricky or hard-to-remember things in git. My favorite one at the moment is what I'm calling [`family tree`](https://github.com/alxndr/dotfiles/blob/772a33fdc38598f077c2812a91f647bc6060c8cb/.gitconfig#L22), which shows the branches that have been merged into whatever branch I'm currently on. There's also [`reset-upstream`](https://github.com/alxndr/dotfiles/blob/772a33fdc38598f077c2812a91f647bc6060c8cb/.gitconfig#L27), handy when I want to create a feature branch on my fork of someone else's repo: it hard-resets my origin's main branch to the newly-fetched upstream's main branch.
 
 I also have some nice quick keystroke savers that aren't anything fancy: `b` for branch, `ci` for commit, `co` for checkout, `di` for diff, `st` for status.
 
-Put all your git aliases together and stick 'em in your `~/.gitconfig` so they're available everywhere! [Here's mine](https://github.com/alxndr/dotfiles/blob/master/.gitconfig).
+Put all your git aliases together and stick 'em in your `~/.gitconfig` so they're available everywhere! [Here's mine](https://github.com/alxndr/dotfiles/blob/4e770e3005eeaf54d3515f92fb978cebd18c8da4/.gitconfig).
 
 The [doc page on git's aliases](https://git.wiki.kernel.org/index.php/Aliases) includes a range of great examples as well, if you want some inspiration.
 
@@ -92,7 +92,7 @@ The [doc page on git's aliases](https://git.wiki.kernel.org/index.php/Aliases) i
 
 (I use Vim and RubyMine, so this part will be about Vim and RubyMine. If you use a different editor, I bet it has ways to do stuff like this as well. If it doesn't, maybe you should think about finding a new editor?)
 
-Vim is (in?)famously extensible. Google "vim plugins" if you don't believe me. I use [a bunch of them](https://github.com/alxndr/dotfiles/tree/master/.vim/bundle), but I think the ones that save me the most time are:
+Vim is (in?)famously extensible. Google "vim plugins" if you don't believe me. I use [a bunch of them](https://github.com/alxndr/dotfiles/tree/vimscript/.vim/bundle), but I think the ones that save me the most time are:
 
 *   [Syntastic](https://github.com/scrooloose/syntastic): point out your syntax errors, in whatever language(s) you type
 *   [YouCompleteMe](https://github.com/Valloric/YouCompleteMe): powerful word completion, in whatever language(s) you type
@@ -101,6 +101,8 @@ Vim is (in?)famously extensible. Google "vim plugins" if you don't believe me. I
 *   [vim-gitgutter](https://github.com/airblade/vim-gitgutter): visually mark which lines have been added/deleted/changed since last commit, and move between them quickly
 *   [Pathogen](https://github.com/tpope/vim-pathogen): vim plugin management (how meta)
 *   gotta have a syntax highlighter for whatever language(s) you type!
+
+(2023 update: I now use [NeoVim](https://neovim.io) exclusively, and [a similar but mainly-Lua-based set of plugins](https://github.com/alxndr/dotfiles/blob/4e770e3005eeaf54d3515f92fb978cebd18c8da4/nvim/lua/plugins.lua).)
 
 I recommend learning as many of vim's movement and repetition capabilities as possible. Being able to move around quickly and do several things at once is less like a shortcut and more like a raw power upgrade — which you could turn into even more powerful shortcuts.
 
