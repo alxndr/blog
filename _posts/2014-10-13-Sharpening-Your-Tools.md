@@ -189,5 +189,5 @@ And share! What's your favorite shortcut?
 *   [Ruby Rogues #129, Sharpening Tools with Ben Orenstein](http://rubyrogues.com/129-rr-sharpening-tools-with-ben-orenstein/)
 *   [Ben Orenstein's GoGaRuCo 2013 talk "Frequently Asked Questions"](http://www.confreaks.com/videos/2677-gogaruco2013-frequently-asked-questions)
 *   Some dotfiles:
-    *   https://github.com/alxndr/dotfiles[mine]
-    *   https://github.com/thoughtbot/dotfiles[thoughtbot's]
+    *   [mine](https://github.com/alxndr/dotfiles)
+    *   [thoughtbot's](https://github.com/thoughtbot/dotfiles)
