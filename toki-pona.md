@@ -12,12 +12,12 @@ toki pona la, lipu ni li linluwi e lipu mi e pali mi
 ## mi ante toki e lipu
 
 * [lipu Ante Kulupu So](/ante-kulupu-so) — lipu usawi pi ma Sonko majuna
-* 🛠️ [lipu pi nasin Sewi](/lipu-pi-nasin-sewi) — lipu nasin pi ma Sonko majuna
+* 🛠️ [lipu Nasin Pona](/lipu-nasin-pona) — lipu Nasin Pona pi ma Sonko majuna
 
 
 ## mi pali e ilo pi toki pona
 
-* [nasin sitelen pi lipu nimi](https://alxndr.github.io/nasin-pi-lipu-nimi/?src=alxndr.blog&campaign=category-toki-pona) — jan li sona e sitelen sitelen kepeken ilo ni
+* [nasin sitelen pi lipu nimi](https://alxndr.github.io/nasin-pi-lipu-nimi/?src=alxndr.blog&campaign=category-toki-pona) — jan li ken sona e sitelen sitelen kepeken ilo ni kepeken ala sitelen Lasina a!
 
 
 ## mi lipu lon toki pona
