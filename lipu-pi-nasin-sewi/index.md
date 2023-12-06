@@ -57,10 +57,10 @@ A [Toki Pona] interpretation of [道德經 (Dao De Jing / Tao Te Ching)](https:/
 * {:.ready} [kipisi nanpa 40](/lipu-pi-nasin-sewi/40)
 * {:.ready} [kipisi nanpa 41](/lipu-pi-nasin-sewi/41)
 * {:.wip} [kipisi nanpa 42](/lipu-pi-nasin-sewi/42)
-* {:.notready} [kipisi nanpa 43](/lipu-pi-nasin-sewi/43)
-* {:.notready} [kipisi nanpa 44](/lipu-pi-nasin-sewi/44)
-* {:.notready} [kipisi nanpa 45](/lipu-pi-nasin-sewi/45)
-* {:.notready} [kipisi nanpa 46](/lipu-pi-nasin-sewi/46)
+* {:.ready} [kipisi nanpa 43](/lipu-pi-nasin-sewi/43)
+* {:.ready} [kipisi nanpa 44](/lipu-pi-nasin-sewi/44)
+* {:.ready} [kipisi nanpa 45](/lipu-pi-nasin-sewi/45)
+* {:.ready} [kipisi nanpa 46](/lipu-pi-nasin-sewi/46)
 * {:.notready} [kipisi nanpa 47](/lipu-pi-nasin-sewi/47)
 * {:.notready} [kipisi nanpa 48](/lipu-pi-nasin-sewi/48)
 * {:.notready} [kipisi nanpa 49](/lipu-pi-nasin-sewi/49)
@@ -122,13 +122,23 @@ I studied contemporary and classical Chinese at [Oberlin College](https://oberli
   ul.kipisi .done a {
     font-size: 1.1em;
   }
+  ul.kipisi .wip {
+    list-style: '⭐︎ ';
+  }
   ul.kipisi .wip a {
     font-style: italic;
     opacity: 0.8;
   }
+  ul.kipisi .ready {
+    list-style: '❍ ';
+    opacity: 0.5;
+  }
   ul.kipisi .ready a {
     color: gray;
     text-decoration: none;
+  }
+  ul.kipisi .notready {
+    list-style: none;
   }
   ul.kipisi .notready a {
     color: gray;
