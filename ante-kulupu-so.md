@@ -995,7 +995,7 @@ sidebar:
 
 ### Acknowledgements
 
-I studied contemporary and classical Chinese at [Oberlin College](https://oberlin.edu); 谢谢老师！
+I studied contemporary and classical Chinese at [Oberlin College](https://oberlin.edu); 谢谢老师们！
 
 Much of my understanding of the source is based on Part II of [John Minford]'s English interpretation[^Minford], including the inspiration for the "names" of the hexagrams rendered here in [sitelen sitelen].
 
