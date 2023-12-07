@@ -101,16 +101,16 @@ A [Toki Pona] interpretation of [道德經 (Dao De Jing / Tao Te Ching)](https:/
 
 # Notes
 
-* 道 — Tao / Dao; "The Way"[^Muller] — nasin
-* 德 — Dé; goodness, virtuous; "Virtue"[^Muller] — pona
-* 圣人 — "The Sage"[^Muller] — jan sewi
-* sheng — births (i.e. gives-birth-to) — mama
-* 玄 — mysterious, unknowable — nasa
-* 争 — "struggle"[^Muller] — _wile_
-* 处 — "abide"[^Muller] — _awen_ ... _olin_ ?
-* 冬渉川 — "crossing an ice-covered river"[^Muller] — tenpo ike la pali suli
-* 神 — Shen; spirit(s), deity(ies), "power"[^Muller]
-* 大顺
+* 道 — nasin — Tao / Dao; "The Way"[^Muller]
+* 德 — pona — Dé; goodness, virtuous; "Virtue"[^Muller]
+* 圣人 — _ni_ / jan sewi — "The Sage"[^Muller]
+* sheng — mama — births (i.e. gives-birth-to)
+* 玄 — nasa — mysterious, unknowable
+* 争 — _wile_ — "struggle"[^Muller]
+* 处 — _awen_ ... _olin_ ? — "abide"[^Muller]
+* 冬渉川 — tenpo ike la pali suli — "crossing an ice-covered river"[^Muller]
+* 神 — sewi — Shen; spirit(s), deity(ies), "power"[^Muller]
+* 大顺 — ...
 
 The original text makes frequent reference to a social context in which gender prescribed to be strictly binary.
 Rather than preserve this duality, I use "jan" to refer to persons generally, and include "tonsi" when enumerating categorizations of people.
