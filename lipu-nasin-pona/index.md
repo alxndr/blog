@@ -112,8 +112,8 @@ A [Toki Pona] interpretation of [道德經 (Dao De Jing / Tao Te Ching)](https:/
 * 神 — sewi — Shen; spirit(s), deity(ies), "power"[^Muller]
 * 大顺 — ...
 
-The original text makes frequent reference to a social context in which gender prescribed to be strictly binary.
-Rather than preserve this duality, I use "jan" to refer to persons generally, and include "tonsi" when enumerating categorizations of people.
+The original text makes frequent reference to a social context in which gender is prescribed to be strictly binary.
+I have chosen not to retain this duality imposed on a spectrum of people; instead I use "jan" to refer to persons generally, and include "tonsi" when enumerating categorizations of people.
 
 
 ## Acknowledgements
@@ -124,11 +124,12 @@ I have used [ctext.org](https://ctext.org/dao-de-jing/ens) as the source for the
 I have used [mdbg.net](https://mdbg.net) as a reference for individual characters.
 
 I am inspired by and greatly informed by [John Minford](https://johnminford.com/)'s [interpretation of (and research about) the DaoDeJing](https://www.johnminford.com/books).
-I have used [A.C. Muller's interpretation](http://www.acmuller.net/con-dao/daodejing.html) for the English shown here.
+I have used [A.C. Muller's interpretation](http://www.acmuller.net/con-dao/daodejing.html) (with minor corrections or clarifications in brackets) for the English shown here.
 
 The [Toki Pona] language was created by jan Sonja.
 My knowledge of it comes largely from the [kama sona](https://discord.gg/Sw42hJ6Qc9) and [ma pona pi toki pona](https://discord.gg/mapona) Discord communities.
 I have used [nimi.li](https://nimi.li) as a reference for Toki Pona words.
+
 I used [GNU Awk](https://www.gnu.org/software/gawk/manual/gawk.html) to along with [linku.la](https://linku.la)'s dataset to calculate statistics about the words used.
 
 The [seal script](https://en.wikipedia.org/wiki/Seal_script) Chinese font is [方正小篆体 FangZheng XiaoZhuanTi via ChineseFontDesign.com](https://chinesefontdesign.com/fang-zheng-xiao-zhuan-ti-font-traditional-chinese.html).
