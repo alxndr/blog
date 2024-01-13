@@ -21,7 +21,7 @@ A [Toki Pona] interpretation of [道德經 (Dao De Jing / Tao Te Ching)](https:/
 * {:.wip  } [kipisi nanpa 8](/lipu-nasin-pona/8)
 * {:.wip  } [kipisi nanpa 9](/lipu-nasin-pona/9)
 * {:.wip  } [kipisi nanpa 10](/lipu-nasin-pona/10)
-* {:.wip  } [kipisi nanpa 11](/lipu-nasin-pona/11)
+* {:.done } [kipisi nanpa 11](/lipu-nasin-pona/11)
 * {:.ready} [kipisi nanpa 12](/lipu-nasin-pona/12)
 * {:.done } [kipisi nanpa 13](/lipu-nasin-pona/13)
 * {:.ready} [kipisi nanpa 14](/lipu-nasin-pona/14)
