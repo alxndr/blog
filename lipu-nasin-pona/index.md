@@ -18,10 +18,10 @@ A [Toki Pona] interpretation of [道德經 (Dao De Jing / Tao Te Ching)](https:/
 * {:.done } [kipisi nanpa 5](/lipu-nasin-pona/5)
 * {:.done } [kipisi nanpa 6](/lipu-nasin-pona/6)
 * {:.done } [kipisi nanpa 7](/lipu-nasin-pona/7)
-* {:.ready} [kipisi nanpa 8](/lipu-nasin-pona/8)
-* {:.ready} [kipisi nanpa 9](/lipu-nasin-pona/9)
-* {:.ready} [kipisi nanpa 10](/lipu-nasin-pona/10)
-* {:.ready} [kipisi nanpa 11](/lipu-nasin-pona/11)
+* {:.wip  } [kipisi nanpa 8](/lipu-nasin-pona/8)
+* {:.wip  } [kipisi nanpa 9](/lipu-nasin-pona/9)
+* {:.wip  } [kipisi nanpa 10](/lipu-nasin-pona/10)
+* {:.wip  } [kipisi nanpa 11](/lipu-nasin-pona/11)
 * {:.ready} [kipisi nanpa 12](/lipu-nasin-pona/12)
 * {:.done } [kipisi nanpa 13](/lipu-nasin-pona/13)
 * {:.ready} [kipisi nanpa 14](/lipu-nasin-pona/14)
@@ -103,14 +103,16 @@ A [Toki Pona] interpretation of [道德經 (Dao De Jing / Tao Te Ching)](https:/
 
 * 道 — nasin — Tao / Dao; "The Way"[^Muller]
 * 德 — pona — Dé; goodness, virtuous; "Virtue"[^Muller]
-* 圣人 — _ni_ / jan sewi — "The Sage"[^Muller]
+* 圣人 — _o sina_ / jan sewi — "The Sage"[^Muller]
 * sheng — mama — births (i.e. gives-birth-to)
 * 玄 — nasa — mysterious, unknowable
 * 争 — _wile_ — "struggle"[^Muller]
-* 处 — _awen_ ... _olin_ ? — "abide"[^Muller]
-* 冬渉川 — tenpo ike la pali suli — "crossing an ice-covered river"[^Muller]
+* 处 — _awen_ ? — "abide"[^Muller]
+* 冬渉川 — tenpo ike la pali suli — a challenging endeavor, "crossing an ice-covered river"[^Muller]
 * 神 — sewi — Shen; spirit(s), deity(ies), "power"[^Muller]
 * 大顺 — ...
+* 善 — ... _pona_
+* 利 — tenpo kama, pona
 
 The original text makes frequent reference to a social context in which gender is prescribed to be strictly binary.
 I have chosen not to retain this duality imposed on a spectrum of people; instead I use "jan" to refer to persons generally, and include "tonsi" when enumerating categorizations of people.
