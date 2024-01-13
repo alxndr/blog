@@ -9,7 +9,7 @@ A [Toki Pona] interpretation of [道德經 (Dao De Jing / Tao Te Ching)](https:/
 (Many have started, few have finished! [Please contribute](https://github.com/alxndr/blog/tree/main/lipu-nasin-pona) if you're so inclined! Note that terms in italics are pending further consideration. Also note that a numbering system is pending further consideration.)
 
 
-## lipu nasin
+## lipu Nasin
 
 * {:.done } [kasi nanpa wan](/lipu-nasin-pona/1)
 * {:.done } [kasi nanpa tu](/lipu-nasin-pona/2)
@@ -50,7 +50,8 @@ A [Toki Pona] interpretation of [道德經 (Dao De Jing / Tao Te Ching)](https:/
 * {:.ready} [kasi nanpa 37](/lipu-nasin-pona/37)
 {:.kasi}
 
-## lipu pona
+
+## lipu Pona
 
 * {:.wip  } [kasi nanpa 38](/lipu-nasin-pona/38)
 * {:.ready} [kasi nanpa 39](/lipu-nasin-pona/39)
