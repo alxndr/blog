@@ -134,7 +134,7 @@ The [Toki Pona] language was created by jan Sonja.
 My knowledge of it comes largely from the [kama sona](https://discord.gg/Sw42hJ6Qc9) and [ma pona pi toki pona](https://discord.gg/mapona) Discord communities.
 I have used [nimi.li](https://nimi.li) as a reference for Toki Pona words.
 
-I used [GNU Awk](https://www.gnu.org/software/gawk/manual/gawk.html) to along with [linku.la](https://linku.la)'s dataset to calculate statistics about the words used.
+<!-- I used [GNU Awk](https://www.gnu.org/software/gawk/manual/gawk.html) to along with [linku.la](https://linku.la)'s dataset to calculate statistics about the words used. -->
 
 The [seal script](https://en.wikipedia.org/wiki/Seal_script) Chinese font is [方正小篆体 FangZheng XiaoZhuanTi via ChineseFontDesign.com](https://chinesefontdesign.com/fang-zheng-xiao-zhuan-ti-font-traditional-chinese.html).
 
