@@ -20,7 +20,7 @@ A [Toki Pona] interpretation of [道德經 (Dao De Jing / Tao Te Ching)](https:/
 * {:.done } [kasi nanpa 7](/lipu-nasin-pona/7)
 * {:.wip  } [kasi nanpa 8](/lipu-nasin-pona/8)
 * {:.wip  } [kasi nanpa 9](/lipu-nasin-pona/9)
-* {:.ready} [kasi nanpa 10](/lipu-nasin-pona/10)
+* {:.done } [kasi nanpa 10](/lipu-nasin-pona/10)
 * {:.done } [kasi nanpa 11](/lipu-nasin-pona/11)
 * {:.done } [kasi nanpa 12](/lipu-nasin-pona/12)
 * {:.done } [kasi nanpa 13](/lipu-nasin-pona/13)
@@ -126,8 +126,9 @@ I studied contemporary and classical Chinese at [Oberlin College](https://oberli
 I have used [ctext.org](https://ctext.org/dao-de-jing/ens) as the source for the text of the DaoDeJing.
 I have used [mdbg.net](https://mdbg.net) as a reference for individual characters.
 
-I am inspired by and greatly informed by [John Minford](https://johnminford.com/)'s [interpretation of (and research about) the DaoDeJing](https://www.johnminford.com/books).
-I have used [A.C. Muller's interpretation](http://www.acmuller.net/con-dao/daodejing.html) (with minor corrections or clarifications in brackets) for the English shown here.
+I have used [A.C. Muller's interpretation](http://www.acmuller.net/con-dao/daodejing.html) (with minor corrections or clarifications in brackets) for the English shown here. <!-- TODO remove it... -->
+I am inspired by, and greatly informed by, [John Minford](https://johnminford.com/)'s 2018 [interpretation of (and research about) the DaoDeJing](https://www.johnminford.com/books).
+I have also referred to interpretations by Gia-Fu Feng (1972), Victor H. Mair (1990), Derek Lin (1994), J.H. McDonald (1996), and Agnieszka Solska (2005), as seen via [Vít Brunner's Side By Side viewer](https://ttc.tasuki.org/display:Code:gff,vhm,dl,jhmd,as).
 
 The [Toki Pona] language was created by jan Sonja.
 My knowledge of it comes largely from the [kama sona](https://discord.gg/Sw42hJ6Qc9) and [ma pona pi toki pona](https://discord.gg/mapona) Discord communities.
