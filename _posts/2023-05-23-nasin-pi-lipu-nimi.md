@@ -19,7 +19,7 @@ It is a beautiful and creative writing system!
 But its inherent flexibility can be challenging to navigate.
 
 As a beginner to _toki pona_ who was fascinated by _sitelen sitelen_, I was looking for many source documents to see how different people drew the glyphs.
-I then found myself wanting a method of defining a glyph based on its visual appearance, not knowing its pronunciation, and with only a rough understanding of the _sitelen sitelen_ alphabet (or even the language's vocabulary).
+I then found myself wanting a method of defining a glyph based on its visual appearance, not knowing its pronunciation, and with only a rough understanding of _sitelen sitelen_ (or even the language's vocabulary).
 
 This reminded me of studying Mandarin, and using Chinese dictionaries organized by [radical and stroke count](https://en.wikipedia.org/wiki/Radical_(Chinese_characters)) — and I wondered if something similar (but also _pona_!) were possible for _sitelen sitelen_...
 
@@ -31,7 +31,7 @@ This reminded me of studying Mandarin, and using Chinese dictionaries organized 
 > Each glyph has a unique set roots associated with it;  
 > Each glyph is sorted according to its root-order.
 
-This allows a dictionary user to quickly locate an unrecognized glyph within an arbitrarily-sized list of otherwise "difficult-to-order" glyphs, with only a rough understanding of the roots and ordering necessary, and **without depending on any knowledge of pronunciation** (of either the glyph or the _sitelen sitelen_ "alphabet").
+This allows a dictionary user to quickly locate an unrecognized glyph within an arbitrarily-sized list of otherwise "difficult-to-order" glyphs, with only a rough understanding of the roots and ordering necessary, and **without depending on any knowledge of pronunciation** (of either the glyph or the patterns/motifs common to _sitelen sitelen_ glyhs).
 
 * The most significant aspect of the glyph is designated the **primary root**. All glyphs have a primary root.
   * The "most significant" aspect could be the center or the largest portion of the glyph, or a unique symbol compared to the remainder of the glyph.
