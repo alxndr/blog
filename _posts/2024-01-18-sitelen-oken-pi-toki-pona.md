@@ -1,6 +1,6 @@
 ---
 title: Oghamic Toki Pona
-tags: [orthography, tokipona, Ogham]
+tags: [orthography, toki pona, Ogham]
 ---
 
 It [worked for Lojban](/2023/05/25/lo-dzexerno-lerfu-the-oghamic-lojban.html) so of course it'll work for [Toki Pona](https://tokipona.org), right?!?
