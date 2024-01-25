@@ -39,8 +39,9 @@ classes: wide
     text-align: center;
   }
 
-  .loseta {
-    margin: 0 auto;
+  .loseta tbody {
+    display: table; /* why is this necessary */
+    width: 100%;
   }
   .loseta td {
     padding: 0.2em;
@@ -52,29 +53,13 @@ classes: wide
     letter-spacing: -0.3em; /* em not rem... */
   }
   .loseta td:nth-child(2) { /* tokipona */
-    text-align: center;
+    text-align: right;
   }
   .loseta td:nth-child(3) { /* english */
+    display: none;
     text-align: right;
     opacity: 0.6;
     font-size: 0.9em;
-  }
-
-  @media (max-width: 40em) { /* em not rem */
-    .loseta tr {
-      display: flex;
-      flex-flow: row wrap;
-    }
-    .loseta td:first-child { /* source text */
-      flex-basis: 100%;
-      text-align: center;
-    }
-    .loseta td:not(:first-child) {
-      flex-basis: 50%;
-    }
-    .loseta td:nth-child(2) { /* tokipona */
-      text-align: left;
-    }
   }
 
   #sitelen {
