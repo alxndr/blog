@@ -3,27 +3,36 @@ layout: single
 classes: wide
 ---
 
+<p class="subheading">lipu {% if page.chapter < 38 %}Nasin{% else %}Pona{% endif %} la: kasi nanpa {{page.chapter}} pi lipu Nasin Pona</p>
+
+<nav class="kasi-nav-sidebar">
+  {% unless page.chapter == 1 %}
+    <a href="{% if page.chapter < 11 %}0{% endif %}{{ page.chapter | minus: 1 }}"><span>monsi la:</span> kasi nanpa {{ page.chapter | minus: 1 }}</a>
+  {% endunless %}
+
+  <a href="../lipu-nasin-pona">kasi ale</a>
+
+  {% unless page.chapter == 81 %}
+    <a href="{% if page.chapter < 9 %}0{% endif %}{{ page.chapter | plus: 1 }}"><span>sinpin la:</span> kasi nanpa {{ page.chapter | plus: 1 }}</a>
+  {% endunless %}
+</nav>
+
 <div class="lpns">{{ content }}</div>
 
 <h5><a href="/lipu-nasin-pona/#acknowledgements" title="acknowledgements">Acknowledgements</a> / <a href="/lipu-nasin-pona/#notes" title="notes">Notes</a></h5>
 
 <style>
-  .sidebar > h3 {
-    display: none;
-  }
-  .sidebar > ul.kasi-nav-sidebar {
+  .kasi-nav-sidebar {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     list-style: none;
     padding: 0;
   }
-  .sidebar > ul.kasi-nav-sidebar li {
+  .kasi-nav-sidebar a {
     flex-basis: 9em;
-    margin: 0 0.5em 0.5em;
-  }
-  .sidebar > ul.kasi-nav-sidebar a {
     display: block;
+    margin: 0 0.5em 0.5em;
     padding: 0.5rem;
     text-decoration: none;
     text-align: center;
