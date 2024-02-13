@@ -1,6 +1,5 @@
 ---
 title: lipu Ante Kulupu So
-excerpt: mi ante toki e lipu Ante Kulupu So
 layout: single
 classes: wide
 tags: [toki pona, I Ching, Chinese]
@@ -74,6 +73,8 @@ sidebar:
       0. [Acknowledgements](#acknowledgements)
       0. [Notes](#notes)
 ---
+
+mi ante toki e lipu Ante Kulupu So a!
 
 周易 "The Changes of Zhou": each hexagram's 卦辭 initial commentary, from the Chinese classic 易經 (Yi Jing / I Ching)
 
