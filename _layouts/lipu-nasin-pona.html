@@ -7,13 +7,13 @@ classes: wide
 
 <nav class="kasi-nav-sidebar">
   {% unless page.chapter == 1 %}
-    <a href="{% if page.chapter < 11 %}0{% endif %}{{ page.chapter | minus: 1 }}"><span>monsi la:</span> kasi nanpa {{ page.chapter | minus: 1 }}</a>
+    <a href="{% if page.chapter < 11 %}0{% endif %}{{ page.chapter | minus: 1 }}"><span>tawa monsi la:</span> kasi nanpa {{ page.chapter | minus: 1 }}</a>
   {% endunless %}
 
   <a href="../lipu-nasin-pona">kasi ale</a>
 
   {% unless page.chapter == 81 %}
-    <a href="{% if page.chapter < 9 %}0{% endif %}{{ page.chapter | plus: 1 }}"><span>sinpin la:</span> kasi nanpa {{ page.chapter | plus: 1 }}</a>
+    <a href="{% if page.chapter < 9 %}0{% endif %}{{ page.chapter | plus: 1 }}"><span>tawa sinpin la:</span> kasi nanpa {{ page.chapter | plus: 1 }}</a>
   {% endunless %}
 </nav>
 
@@ -68,3 +68,5 @@ classes: wide
     border-bottom: 0;
   }
 </style>
+
+<!--end lipu-nasin-pona.html-->

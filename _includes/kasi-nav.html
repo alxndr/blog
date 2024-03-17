@@ -1,18 +1,20 @@
+<!--start kasi-nav.html-->
+
 {% capture prev_text %}
-{% if include.num == 2 %} wan {% elsif include.num == 3 %} tu {% else %}{{ include.num | minus: 1 }}{% endif %}
+{% if include.num <= 10 %}0{{ include.num | minus: 1 }}{% else %}{{ include.num | minus: 1 }}{% endif %}
 {% endcapture %}
 
 {% capture next_text %}
-{% if include.num == 1 %} tu {% else %}{{ include.num | plus: 1 }}{% endif %}
+{% if include.num <= 8 %}0{{ include.num | plus: 1 }}{% else %}{{ include.num | plus: 1 }}{% endif %}
 {% endcapture %}
 
 <nav class="kipisi-nav">
   {% if include.num != 1 %}
-    <a href="{{ include.num | minus: 1 }}" title=" monsi la: kasi nanpa {{ prev_text }}">kasi nanpa {{ prev_text }}</a>
+    <a href="{{ prev_text }}" title="kasi nanpa {{ include.num | minus: 1 }}">kasi nanpa {{ include.num | minus: 1 }}</a>
   {% endif %}
   <a href="index" title="kasi ale">kasi ale</a>
   {% if include.num != 81 %}
-    <a href="{{ include.num | plus: 1 }}" title="kasi sinpin la: kasi nanpa {{ next_text }}">kasi nanpa {{ next_text }}</a>
+    <a href="{{ next_text }}" title="kasi nanpa {{ include.num | plus: 1 }}">kasi nanpa {{ include.num | plus: 1 }}</a>
   {% endif %}
 </nav>
 
@@ -33,3 +35,5 @@
     justify-content: space-around;
   }
 </style>
+
+<!--end kasi-nav.html-->

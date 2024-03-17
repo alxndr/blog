@@ -1,3 +1,5 @@
+<!--start sitelen-sitelen-renderer.html-->
+
 [Sitelen Sitelen Renderer](http://livingtokipona.smoishele.com/examples/liveinput/liveinput.html) by [Olaf Janssen](https://github.com/olafjanssen).
 
 {% include sitelen-sitelen.js %}
@@ -6,24 +8,27 @@
   p[data-sitelen] {
     margin: 0;
     padding: 0;
+    text-align: center;
   }
 
   [data-sitelen] > svg {
     margin: 0;
     padding: 0;
     max-width: 100%;
-    max-height: 100%;
+    max-height: 100vh;
   }
   [data-sitelen-ratio^="0."] > svg {
-    max-height: 30em;
+    /* max-height: 30em; */
   }
   [data-sitelen-ratio="1" ] > svg {
-    max-width: 20em;
-    max-height: 20em;
+    /* max-width: 20em; */
+    /* max-height: 20em; */
   }
   [data-sitelen-ratio^="1."] > svg {
-    max-width: 30em;
+    /* max-width: 30em; */
   }
 </style>
 
 {:sitelen: data-sitelen="true"}
+
+<!--end sitelen-sitelen-renderer.html-->
