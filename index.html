@@ -11,34 +11,39 @@ layout: home
   <li><a class="hashtag" href="/tags/#orthography" title="Blog posts about 'orthography'">orthography</a></li>
 </ul>
 
-<p>Find me on Mastodon...</p>
-<ul class="inline">
-  <li><a href="https://mastodon.xyz/@alxndr" rel="me"><i class="fab fa-mastodon" aria-hidden="true"></i> tech/politics</a></li>
-  <li><a href="https://shakedown.social/@ufo_joe" rel="me"><i class="fab fa-mastodon" aria-hidden="true"></i> music</a></li>
-  <li><a href="https://mas.to/@rexsa" rel="me"><i class="fab fa-mastodon" aria-hidden="true"></i> Lojban</a></li>
-  <li><a href="https://toki.social/@lesate" rel="me"><i class="fab fa-mastodon" aria-hidden="true"></i> Toki Pona</a></li>
-</ul>
+<div id="pinned">
+  <h3>Pinned Posts</h3>
+  <ul>
+    {% for post in site.posts %}
+      {% if post.pin == true %}
+        <li>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
 
 <style>
-  p {
-    margin-bottom: 0;
-  }
-  ul.inline {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    list-style: none;
-    margin: 0 0 1rem;
-    padding: 0;
-    text-decoration: none !important;
-  }
-  ul.inline a {
-    white-space: nowrap;
-  }
   a.hashtag {
     font: 0.8em monospace;
   }
   a.hashtag:before {
     content: '#';
   }
+
+  #pinned {
+    margin-bottom: 3rem;
+  }
+  #pinned h2 {
+  }
+  #pinned li {
+    list-style: '📍';
+    padding: 0 0 0.33em 0.66em;
+  }
+  #pinned a {
+    color: #92d792;
+    font-weight: bold;
+  }
+
 </style>

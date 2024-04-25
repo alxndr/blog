@@ -129,7 +129,15 @@ html dd { font-size: inherit; }
   }
 }
 
-.layout--single {
-  .sidebar {
-  }
+ul.inline {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+  text-decoration: none !important;
+}
+ul.inline a {
+  white-space: nowrap;
 }

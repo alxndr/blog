@@ -1,6 +1,7 @@
 ---
 title: creating a new Git repo based on the history of an old one
 tags: [git]
+pin: true
 ---
 
 Following [this how-to by Nassos Michas](https://itnext.io/git-repository-transfer-keeping-all-history-670fe04cd5e4)...
