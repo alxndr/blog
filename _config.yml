@@ -17,10 +17,10 @@ og_image: /assets/images/alexander-120x120.png
 paginate: 5
 paginate_path: /page:num/
 
-# search with Lunr in the browser...
-search: true
-lunr:
-  search_within_pages: true
+# # search with Lunr in the browser...
+# search: true
+# lunr:
+#   search_within_pages: true
 
 author:
   name: Alexander
