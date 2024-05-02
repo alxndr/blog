@@ -29,18 +29,23 @@
   line-height: 1.1em;
 }
 @font-face {
-  font-family: tp-LinjaLipamanka; // missing: pake
+  font-family: tp-LinjaLipamanka; // missing: linluwi,pake...
   src: url('https://lipamanka.gay/linjalipamanka-normal.otf') format('opentype');
   line-height: 1.1em;
 }
 @font-face {
-  font-family: tp-LinjaPona; // missing: pake powe usawi ... not monospaced
+  font-family: tp-LinjaPona; // missing: linluwi,pake,powe,usawi... not monospaced
   src: url('https://raw.githubusercontent.com/janSame/linja-pona/master/linja-pona-4.9.otf') format('opentype');
   font-size: 1.1em / 1.1em; // no monospacing of nbsp...
 }
 @font-face {
-  font-family: tp-LinjaSuwi; // missing pake ... not monospaced
+  font-family: tp-LinjaSuwi; // missing pake... not monospaced
   src: url('https://raw.githubusercontent.com/anna328p/linjasuwi/main/linjasuwi.otf');
+  line-height: 1.1em;
+}
+@font-face {
+  font-family: tp-NasinNanpa; // missing: linluwi...
+  src: url('/assets/fonts/nasin-nanpa-3.1.0.otf') format('opentype');
   line-height: 1.1em;
 }
 @font-face {
@@ -49,6 +54,17 @@
   font-weight: 400;
   text-rendering: optimizeLegibility;
   font-feature-settings: "liga" 1;
+}
+@font-face { /* TODO remove this definition */
+  font-family: 'sitelen pona pona';
+  src: url('https://jackhumbert.github.io/sitelen-pona-pona/fonts/sitelen-pona-pona.otf');
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga" 1;
+}
+@font-face {
+  font-family: 'linja sike';
+  src: url('https://wyub.github.io/tokipona/linja-sike-5.otf');
 }
 
 [lang=tp] > a {
@@ -64,7 +80,7 @@ html table { font-size: inherit; }
 html dd { font-size: inherit; }
 
 
-#dough-ratio-calculator {
+#dough-ratio-calculator { /* TODO move this */
   display: flex;
   flex-flow: column wrap;
   max-height: 50vh;

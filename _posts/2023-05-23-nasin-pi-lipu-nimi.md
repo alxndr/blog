@@ -138,19 +138,8 @@ The dictionary (and this blog) are hosted on GitHub Pages.
 [toki pona]: https://tokipona.org
 
 <style>
-  @font-face { 
-    font-family: 'sitelen pona pona';
-    src: url('https://jackhumbert.github.io/sitelen-pona-pona/fonts/sitelen-pona-pona.otf');
-    font-weight: 400;
-    text-rendering: optimizeLegibility;
-    font-feature-settings: "liga" 1;
-  }
-  @font-face { 
-    font-family: 'linja sike';
-    src: url('https://wyub.github.io/tokipona/linja-sike-5.otf');
-  }
   .sp {
-    font: 2em 'sitelen pona pona';
+    font: 2em tp-SitelenPonaPona;
   }
   .sitelen {
     max-width: 3em;

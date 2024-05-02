@@ -16,7 +16,7 @@ redirect_from:
 ⏰ ⏮️  🔼 ➗️ 👋 🗣 ❗️
 
 
-{:style="font:1.2em tp-LinjaPona"}
+{:style="font:1.2em tp-NasinNanpa,tp-LinjaPona"}
 > o jan-ale, toki a! \
 > tenpo ni la mi kama sona toki e toki-pona a!
 >
