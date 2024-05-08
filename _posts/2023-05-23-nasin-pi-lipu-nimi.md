@@ -72,18 +72,18 @@ Last but not least, two "meta" roots, notable for how they're placed in relation
 | <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xn.jpg" class="sitelen" /> | tailfan — multiple bumps at the top or side, without a crease
 | <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xl.jpg" class="sitelen" /> | cob — a tall / narrow shape
 | <img src="https://jonathangabel.com/images/t47_tokipona/kalalili/t47_kalalili_xs.jpg" class="sitelen" /> | stack — three stacked circles / shapes
-|     <span class="sp"></span> | a long line, perhaps slightly curved
-| <span class="juniko">Ƨ</span> | a backwards "S" or curvy "Z"; a swirly reversing (but not closed) line
-|     <span class="sp"></span> | two (or more) parallel lines
-|     <span class="sp"></span> | three (or more) short _non-parallel_ lines emanating from a shared vanishing point
-|     <span class="sp"></span> | a bump / curved protrusion
-|     <span class="sp"></span> | a square / right-angled shape
-|     <span class="sp"></span> | a sharp point / acute angle
-| <span class="juniko">◎</span> | a hole; depth (along the dimension perpendicular to the reading plane)
-|     <span class="sp"></span> | a mouth
-| <span class="juniko">☞</span> | a hand with fingers / a foot with toes; an extremity with digits
-|     <span class="sp"></span> | (meta) containing structure; shape which contains / surrounds full glyphs; cartouche / quotation /
-| <span class="juniko">\_</span>| (meta) supporting structure; wide-and-short shape which often appears under full glyphs; plinth /
+| <span class="sp">linja</span>   | a long line, perhaps slightly curved
+| <span class="juniko">Ƨ</span>   | a backwards "S" or curvy "Z"; a swirly reversing (but not closed) line
+| <span class="sp">sama</span>    | two (or more) parallel lines
+| <span class="sp">weka</span>    | three (or more) short _non-parallel_ lines emanating from a shared vanishing point
+| <span class="sp">nena</span>    | a bump / curved protrusion
+| <span class="sp">leko</span>    | a square / right-angled shape
+| <span class="sp">monsuta</span> | a sharp point / acute angle
+| <span class="juniko">◎</span>   | a hole; depth (along the dimension perpendicular to the reading plane)
+| <span class="sp">uta</span>     | a mouth
+| <span class="juniko">☞</span>   | a hand with fingers / a foot with toes; an extremity with digits
+| <span class="sp">poki</span>    | (meta) containing structure; shape which contains / surrounds full glyphs; cartouche / quotation /
+| <span class="juniko">\_</span>  | (meta) supporting structure; wide-and-short shape which often appears under full glyphs; plinth /
 {:style="font-size:1rem"}
 
 
@@ -108,7 +108,7 @@ Then you can click on a glyph to get more info about it: pronunciation, definiti
 * inspiration
   * [jan Su Sen](https://en.wikipedia.org//wiki/Xu_Shen), who tried to bring order to a chaotic system
   * theotherwebsite's [Toki Pona Dictionary](https://theotherwebsite.com/tokipona/), where _sitelen pona_ glyphs are ordered by complexity
-  * jan Tepu's reference [o kama sona e sitelen pona kepeken sitelen](https://davidar.github.io/tp/kama-sona){:style="font:1.75em/0.75em 'sitelen pona pona';text-decoration:none!important"}, which only uses _sitelen pona_
+  * jan Tepu's reference [o kama sona e sitelen pona kepeken sitelen](https://davidar.github.io/tp/kama-sona){:style="font:1.75em/0.75em sp-LinjaLipamanka;text-decoration:none!important"}, which only uses _sitelen pona_
   * Olaf Janssen's [_sitelen sitelen_ renderer](http://livingtokipona.smoishele.com/examples/liveinput/liveinput.html)
   * pipi pi walo pimeja's [sitelen Lasina tawa sitelen pona](https://greybeetle213.github.io/sitelen_Lasina_tawa_sitelen_pona)
 
@@ -119,7 +119,7 @@ Definitions in the dictionary are from [linku.la](https://linku.la).
 Unicode characters were identified using [Shapecatcher](https://shapecatcher.com).
 
 Fonts / glyphs:
-* The _sitelen pona_ glyphs/roots here are Jack Humbert's _[sitelen pona pona]_ font. These glyphs are also used in the dictionary.
+* The _sitelen pona_ glyphs/roots here are [Lipamanka]'s _[linja lipamanka]_ font. These glyphs are also used in the dictionary.
 * The SVG _sitelen sitelen_ glyphs in the dictionary are Sumpygump's [ported SVGs](https://github.com/sumpygump/sitelen-sitelen) of jan Same's glyph vectors.
 * The hand-drawn _sitelen sitelen_ glyphs are from jan Josan's [page of _sitelen nimi ale_](https://jonathangabel.com/toki-pona/dictionaries/glyphs/).
 
@@ -130,7 +130,8 @@ The dictionary (and this blog) are hosted on GitHub Pages.
 
 -------
 
-[sitelen pona pona]: https://jackhumbert.github.io/sitelen-pona-pona/
+[Lipamanka]: https://lipamanka.gay
+[linja lipamanka]: https://lipamanka.gay/linjamanka
 [sitelen pona]: http://tokipona.net/tp/janpije/hieroglyphs.php
 [sitelen sitelen kule]: https://jonathangabel.com/toki-pona/colors/
 [sitelen sitelen]: https://jonathangabel.com/toki-pona/
@@ -138,8 +139,13 @@ The dictionary (and this blog) are hosted on GitHub Pages.
 [toki pona]: https://tokipona.org
 
 <style>
+  @font-face {
+    font-family: sp-LinjaLipamanka;
+    src: url('https://lipamanka.gay/linjalipamanka-normal.otf');
+    font-weight: 400;
+  }
   .sp {
-    font: 2em tp-SitelenPonaPona;
+    font: 2em tp-LinjaLipamanka;
   }
   .sitelen {
     max-width: 3em;
