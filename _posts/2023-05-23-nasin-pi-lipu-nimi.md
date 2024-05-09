@@ -7,7 +7,7 @@ redirect_from:
 
 A thought experiment: how might one use a _[toki pona]_ reference document which only uses _[sitelen sitelen]_?
 
-Here's an explaration: [sin la, nasin sitelen pi lipu nimi](https://alxndr.github.io/nasin-pi-lipu-nimi/?src=alxndr.blog&campaign=blogpost-nasin)
+Here's an exploration: [sin la, nasin sitelen pi lipu nimi](https://alxndr.github.io/nasin-pi-lipu-nimi/?src=alxndr.blog&campaign=blogpost-nasin)
 
 
 
