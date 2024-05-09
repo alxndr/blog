@@ -106,7 +106,7 @@ Then you can click on a glyph to get more info about it: pronunciation, definiti
   * ilo Siko ni [kama sona](https://discord.gg/XCfMszsf54)
   * ilo Siko ni [ma pona pi toki pona](https://discord.gg/mapona)
 * inspiration
-  * [jan Su Sen](https://en.wikipedia.org//wiki/Xu_Shen), who tried to bring order to a chaotic system
+  * [許慎](https://en.wikipedia.org//wiki/Xu_Shen), who tried to bring order to a chaotic system
   * theotherwebsite's [Toki Pona Dictionary](https://theotherwebsite.com/tokipona/), where _sitelen pona_ glyphs are ordered by complexity
   * jan Tepu's reference [o kama sona e sitelen pona kepeken sitelen](https://davidar.github.io/tp/kama-sona){:style="font:1.75em/0.75em sp-LinjaLipamanka;text-decoration:none!important"}, which only uses _sitelen pona_
   * Olaf Janssen's [_sitelen sitelen_ renderer](http://livingtokipona.smoishele.com/examples/liveinput/liveinput.html)
