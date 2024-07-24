@@ -101,6 +101,61 @@ Now [the `+page.svelte`](https://gitlab.com/alxndr/almost-dead-dot-net/-/blob/9f
 **Ta-daa! It works! 🙌 🥂**
 
 
+## Debugging a deploy...
+
+At one point I was happily hacking away and running the site locally with `npm run dev`, but when I pushed up to GitLab the Pipeline failed with this:
+
+```text
+$ npm ci
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm error Exit handler never called!
+npm error This is an error with npm itself. Please report this error at:
+npm error   <https://github.com/npm/cli/issues>
+npm error A complete log of this run can be found in: /root/.npm/_logs/2024-07-18T22_10_54_897Z-debug-0.log
+$ npm run build
+> almost-dead-dot-net@0.0.1 build
+> vite build
+sh: 1: vite: not found
+```
+
+Ruh roh. First I [enabled debug logging with the `CI_DEBUG_TRACE` variable](https://docs.gitlab.com/ee/ci/variables/#enable-debug-logging), but that seems to be like the shell `setopt -o VERBOSE` and was not helpful with the actual error...
+
+Instead, change up [the CI script](https://gitlab.com/alxndr/almost-dead-dot-net/-/commit/177565417a893d86f47158adb0051a8c3a774e0a#587d266bb27a4dc3022bbed44dfa19849df3044c) to `npm install --cache=.npm` so that error logs will be saved in the current working directory, and then have GitLab capture them as artifacts:
+
+```yml
+pages:
+  stage: deploy
+  script:
+    - npm install --cache=.npm && npm run build
+  artifacts:
+    paths:
+    - public
+    - .npm/_logs/*
+    when: always
+  publish: public
+  only:
+  - main
+```
+
+Then even if the job fails, any `npm` logs will be made available as artifacts and can be downloaded and inspected.
+
+In my case, there was no new info about _why_ the Exit handler is never called...
+
+Noticing that I specified the `node:latest` image to build, I tried setting it to use the version of Node I'm using locally: `node:20.9.0`. This changed the error message shown in the Pipeline, giving me a proper stack trace! 🎉
+
+```text
+npm ERR! code 1
+npm ERR! path /builds/alxndr/almost-dead-dot-net/node_modules/@sveltejs/kit
+npm ERR! command failed
+npm ERR! command sh -c node postinstall.js
+npm ERR! Error: Cannot find module @rollup/rollup-linux-x64-gnu. npm has a bug related to optional dependencies (https://github.com/npm/cli/issues/4828). Please try `npm i` again after removing both package-lock.json and node_modules directory.
+```
+
+Dutifully I locally removed the `package-lock.json` and `node_modules/` and reinstalled and committed, and happily GitLab CI was able to build the app!
+
+
 ## Acknowledgements
 
 [`npm init vite`](https://github.com/vitejs/vite/tree/main/packages/create-vite) does a lot of the backend-for-frontend setup, without which I'd be totally unable to do any of this. Chapeau, [Vite](https://vitejs.dev)!
