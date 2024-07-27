@@ -101,6 +101,26 @@ Now [the `+page.svelte`](https://gitlab.com/alxndr/almost-dead-dot-net/-/blob/9f
 **Ta-daa! It works! 🙌 🥂**
 
 
+## Svelte gotchas
+
+Once I got more of my site built, I found that linking from a `+page.svelte` template with slug A to the same template with slug B would result in the URL being changed, but the content on the page not changing... I initially assumed this was due to me breaking Svelte's reactivity in some way, but it turns out to be a common SvelteKit footgun:
+
+* [bug #1075: Navigating between same slug does not change page content](https://github.com/sveltejs/kit/issues/1075)
+* [bug #1497: Component variables aren't re-initiated when navigating to a different slug](https://github.com/sveltejs/kit/issues/1497)
+* [discussion: Resetting components on navigation](https://github.com/sveltejs/kit/discussions/5007)
+
+...so it's both "a feature not a bug" and also due to me not declaring things as "this needs to be reactive"; this is how I modified my `+page.svelte`'s `<script>` tag to specify the parts of the incoming `data` which needs to be reactive when the URL/slug changes:
+
+```typescript
+  export let data: PageLoad
+  $: showData = data.showData
+  $: guestsData = data.guestsData
+  $: tracksData = data.tracksData
+  $: priorShowData = data.priorShowData
+  $: nextShowData = data.nextShowData
+```
+
+
 ## Debugging a deploy...
 
 At one point I was happily hacking away and running the site locally with `npm run dev`, but when I pushed up to GitLab the Pipeline failed with this:
