@@ -3,7 +3,7 @@ title: Setting up SvelteKit to use SQLite and prerender a static site to be host
 tags: [howto, javascript, code]
 ---
 
-I started with `npm init vite` and picked a SvelteKit project (using TypeScript).
+I started with `npm init vite` and picked a [SvelteKit] project (using [TypeScript]).
 
 First change-up you've gotta make is to use [the `@sveltejs/adapter-static` adapter](https://kit.svelte.dev/docs/adapter-static). For Svelte(Kit?) reasons it needs to be one of the `devDependencies`:
 
@@ -101,15 +101,70 @@ Now [the `+page.svelte`](https://gitlab.com/alxndr/almost-dead-dot-net/-/blob/9f
 **Ta-daa! It works! 🙌 🥂**
 
 
+## Testing with [Playwright]
+
+I have lots of experience with [Cypress](https://cypress.io), so to try something new I decided to check out [Playwright].
+
+To add Playwright to my existing app, I used the [`https://www.npmjs.com/package/create-playwright`](https://www.npmjs.com/package/create-playwright) CLI tool: `pnpm dlx create-playwright`
+
+It scaffolds a test subdirectory, a (GitHub) CI actions `yaml` file, and installs browsers to test with (chromium, firefox, webkit). Once it's done, it recommends running `pnpm exec playwright test` to set up some starter tests, and then `pnpm exec playwright show-report` to start a local webserver showing the results of the test.
+
+[The Playwright site has suggestions on setup for GitLab CI](https://playwright.dev/docs/ci#gitlab-ci), namely to use their `mcr.microsoft.com/playwright:v1.45.1-jammy` Docker image:
+
+```yml
+tests:
+  stage: test
+  image: mcr.microsoft.com/playwright:v1.45.1-jammy
+  script:
+      # ...
+```
+
+I [added that to my existing `gitlab-ci.yml` file](https://gitlab.com/alxndr/almost-dead-dot-net/-/blob/c42658d22d0cf642eae148712005f7899955c1c4/.gitlab-ci.yml) and the default example tests are passing on GitLab CI! (Note that I used the `stages` section to specify that the `test` stage runs first, and if it succeeds then the `deploy` stage runs. I'll work on a `build` stage after I write some tests...)
+
+To start testing my app, I've gotta tell Playwright what URL to visit to find the app. In [Playwright >=1.13.x](https://stackoverflow.com/a/68212980/303896), the `playwright.config.ts` file has a `use` section wherein we can specify the `baseURL` to use what `npm run dev` defaults to:
+
+```javascript
+export default defineConfig({
+  // ...
+  use: {
+    /* Base URL to use in actions like `await page.goto('/')`. */
+    baseURL: 'http://localhost:5173',
+  },
+  // ...
+})
+```
+
+To get this working on GitLab, traditionally I'd look for a way to override the `baseURL` in the CI environment... However the bottom of `playwright.config.ts` has a `webServer` section which lets us specify a command for starting the server plus the URL to look for it — and we can use the `$CI` environment variable to modify this behavior for running on CI vs local/dev:
+
+```javascript
+export default defineConfig({
+  // ...
+  webServer: {
+    command: process.env.CI
+      ? 'npm run build && npm run preview -- --port 5173 --strictPort'
+      : 'npm run dev -- --port 5173 --strictPort',
+    url: 'http://localhost:5173',
+    reuseExistingServer: !process.env.CI,
+  },
+  // ...
+})
+```
+
+...and with that, on GitLab it will `build` and then `preview` the built files, wait for the `url` to be responsive, but on local/dev it will hit the `url` and only run the `command` if there is not something running there!
+
+
+
 ## Svelte gotchas
 
-Once I got more of my site built, I found that linking from a `+page.svelte` template with slug A to the same template with slug B would result in the URL being changed, but the content on the page not changing... I initially assumed this was due to me breaking Svelte's reactivity in some way, but it turns out to be a common SvelteKit footgun:
+Once I got more of my site built, I found that linking from a `+page.svelte` template with slug A to the same template with slug B would result in the URL being changed, but some of the content on the page is not changing... I initially assumed this was due to me breaking Svelte's reactivity in some way, but it turns out to be a common SvelteKit footgun:
 
 * [bug #1075: Navigating between same slug does not change page content](https://github.com/sveltejs/kit/issues/1075)
 * [bug #1497: Component variables aren't re-initiated when navigating to a different slug](https://github.com/sveltejs/kit/issues/1497)
 * [discussion: Resetting components on navigation](https://github.com/sveltejs/kit/discussions/5007)
 
-...so it's both "a feature not a bug" and also due to me not declaring things as "this needs to be reactive"; this is how I modified my `+page.svelte`'s `<script>` tag to specify the parts of the incoming `data` which needs to be reactive when the URL/slug changes:
+...so it's _both_ "a feature not a bug" and _also_ due to me not declaring the template's input as "this needs to be reactive". Great.
+
+The Svelte 4 solution might be something like this:
 
 ```typescript
   export let data: PageLoad
@@ -119,6 +174,10 @@ Once I got more of my site built, I found that linking from a `+page.svelte` tem
   $: priorShowData = data.priorShowData
   $: nextShowData = data.nextShowData
 ```
+
+..._except_ if one of those is an array, the reactive system won't notice if its contents are swapped out. Uh oh.
+
+But I'm using Svelte 5 anyway, which means figuring out how to use `$state()` and `$derived()`.
 
 
 ## Debugging a deploy...
@@ -183,3 +242,13 @@ Dutifully I locally removed the `package-lock.json` and `node_modules/` and rein
 [The SvelteKit docs](https://kit.svelte.dev/docs/load) are quite nice, helpful for a brand-new-beginner like me. Thanks Svelters!
 
 [Kisaragi Hiu's blog](https://kisaragi-hiu.com/kemdict-sveltekit-sqlite) shepherded me gently through all of the SQLite stuff! Thank you!
+
+https://www.okupter.com/blog/e2e-testing-with-sveltekit-and-playwright
+
+
+-------
+
+[Playwright]: https://playwright.dev
+[Svelte]: https://svelte.dev
+[SvelteKit]: https://kit.svelte.dev
+[TypeScript]: https://www.typescriptlang.org
