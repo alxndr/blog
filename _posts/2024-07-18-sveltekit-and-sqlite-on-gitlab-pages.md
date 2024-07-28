@@ -103,9 +103,9 @@ Now [the `+page.svelte`](https://gitlab.com/alxndr/almost-dead-dot-net/-/blob/9f
 
 ## Testing with [Playwright]
 
-I have lots of experience with [Cypress](https://cypress.io), so to try something new I decided to check out [Playwright].
+I have lots of experience with [Cypress](https://cypress.io), so to try something (else) new I decided to check out [Playwright].
 
-To add Playwright to my existing app, I used the [`https://www.npmjs.com/package/create-playwright`](https://www.npmjs.com/package/create-playwright) CLI tool: `pnpm dlx create-playwright`
+To add Playwright to my existing app, I used the [`create-playwright`](https://www.npmjs.com/package/create-playwright) CLI tool: `pnpm dlx create-playwright`
 
 It scaffolds a test subdirectory, a (GitHub) CI actions `yaml` file, and installs browsers to test with (chromium, firefox, webkit). Once it's done, it recommends running `pnpm exec playwright test` to set up some starter tests, and then `pnpm exec playwright show-report` to start a local webserver showing the results of the test.
 
@@ -164,20 +164,51 @@ Once I got more of my site built, I found that linking from a `+page.svelte` tem
 
 ...so it's _both_ "a feature not a bug" and _also_ due to me not declaring the template's input as "this needs to be reactive". Great.
 
-The Svelte 4 solution might be something like this:
+The Svelte 4 solution is something like this:
 
 ```typescript
   export let data: PageLoad
-  $: showData = data.showData
-  $: guestsData = data.guestsData
   $: tracksData = data.tracksData
-  $: priorShowData = data.priorShowData
-  $: nextShowData = data.nextShowData
+  $: setlistData = tracksData.reduce(/*...*/)
 ```
 
-..._except_ if one of those is an array, the reactive system won't notice if its contents are swapped out. Uh oh.
+...but I'm trying to stick with Svelte 5, which means doing the same thing with `$props()` and `$derived()` instead:
 
-But I'm using Svelte 5 anyway, which means figuring out how to use `$state()` and `$derived()`.
+```typescript
+  let {data} = $props<PageLoad>()
+  let setlistData = $derived(data.tracksData.reduce(/* ... */)
+```
+
+Note that because this data is coming from the `+page.server.ts` file's `load` function, it ends up at `$props().data` and not within the top-level props.
+
+
+## Redirects with SvelteKit static adapter
+
+I'm slightly tweaking the URLs for things in this rebuild, so I want to add some redirects from the old formats to the new ones. I've followed [this guide](https://supun.io/sveltekit-static-redirects) to support redirects with the SvelteKit static adapter, but had to tweak it slightly (perhaps for Svelte v5??)...
+
+1. set up a mapping of old-URLs-to-new-URLs in a JS object, and save as `src/redirects.js` (can't use TypeScript for this apparently?)
+
+2. modify `src/routes/+layout.js` to import that new `redirects.js` object along with the `redirect` function from SvelteKit, and export a function which checks whether the incoming URL matches one of the keys in the redirect object:
+
+        import {redirect} from '@sveltejs/kit'
+        import {REDIRECTS} from '../redirects'
+        export async function load({url}) {
+          const pathname = url.pathname
+          if (REDIRECTS.hasOwnProperty(pathname))
+            return redirect(301, REDIRECTS[pathname])
+        }
+
+3. Tie the two together by modifying `svelte.config.js` to import the `redirects.js` object and add its keys to the list of routes to prerender:
+
+        export default {
+          // ...
+          kit: {
+            // ...
+            prerender: {
+              entries: ['*', ...Object.keys(REDIRECTS)],
+            },
+          },
+        }
 
 
 ## Debugging a deploy...
