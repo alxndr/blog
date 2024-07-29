@@ -184,11 +184,11 @@ Note that because this data is coming from the `+page.server.ts` file's `load` f
 
 ## Redirects with SvelteKit static adapter
 
-I'm slightly tweaking the URLs for things in this rebuild, so I want to add some redirects from the old formats to the new ones. I've followed [this guide](https://supun.io/sveltekit-static-redirects) to support redirects with the SvelteKit static adapter, but had to tweak it slightly (perhaps for Svelte v5??)...
+I'm slightly tweaking the URLs for things in this rebuild, so I want to add some redirects from the old formats to the new ones. I've followed [this guide](https://supun.io/sveltekit-static-redirects) to support redirects with the SvelteKit static adapter, but had to tweak it slightly (perhaps for Svelte v5??)... but it's still worth reading because it explains more fully what is going on here:
 
 1. set up a mapping of old-URLs-to-new-URLs in a JS object, and save as `src/redirects.js` (can't use TypeScript for this apparently?)
 
-2. modify `src/routes/+layout.js` to import that new `redirects.js` object along with the `redirect` function from SvelteKit, and export a function which checks whether the incoming URL matches one of the keys in the redirect object:
+2. modify/create `src/routes/+layout.server.ts` (note: this belongs in `+layout.server.ts` and not `+layout.ts` as the above blog post says! otherwise you'll break <abbr title="hot module reloading">HMR</abbr> in dev) to import that new `redirects.js` object along with the `redirect` function from SvelteKit, and export a function which checks whether the incoming URL matches one of the keys in the redirect object:
 
         import {redirect} from '@sveltejs/kit'
         import {REDIRECTS} from '../redirects'
