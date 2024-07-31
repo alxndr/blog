@@ -266,6 +266,27 @@ npm ERR! Error: Cannot find module @rollup/rollup-linux-x64-gnu. npm has a bug r
 Dutifully I locally removed the `package-lock.json` and `node_modules/` and reinstalled and committed, and happily GitLab CI was able to build the app!
 
 
+## TypeScript checking in Vim/NeoVim
+
+Yep I'm one of those weirdos who doesn't use VSCode.
+
+Instead I am a big fan of [NeoVim](https://neovim.io), and lately I've been using [Mason](https://github.com/williamboman/mason.nvim) to manage language linters/checkers/etc. Helpfully there is a [`svelte-language-server`](https://github.com/sveltejs/language-tools)! (make sure you're using the one from the official SvelteJS project and not the now-deprecated initial project by James Birtles)
+
+I'd noticed that TypeScript checking was working as expected in `.ts` files, however it's not working in `.svelte` files even with `<script type="ts">`...
+
+Luckily there is [a Discord community for Svelte](https://discord.com/invite/svelte) where folks are pretty quick to respond to questions, and [@TGlide](https://github.com/TGlide) pointed me in the right direction. I needed to configure the TypeScript LSP client to look for `.svelte` files (of course 🤦) and also [tweak the Svelte LSP client with something about watched files](https://github.com/alxndr/dotfiles/commit/26b2cc837bd761784#diff-333f3b6c66b09fce0cfdf9d83baa5a9ba2b5725a69a1db1c24d132aaf52b7bf7R340-R345):
+
+```lua
+local lsp_capabilities = vim.lsp.protocol.make_client_capabilities()
+lsp_capabilities.workspace.didChangeWatchedFiles = false
+lspc.svelte.setup {
+  capabilities = lsp_capabilities
+}
+```
+
+Now NeoVim shows me TypeScript errors/warnings within `.svelte` files, and updates when I edit (not just on save)!
+
+
 ## Acknowledgements
 
 [`npm init vite`](https://github.com/vitejs/vite/tree/main/packages/create-vite) does a lot of the backend-for-frontend setup, without which I'd be totally unable to do any of this. Chapeau, [Vite](https://vitejs.dev)!
