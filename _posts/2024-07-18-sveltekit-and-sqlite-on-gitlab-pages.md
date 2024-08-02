@@ -1,6 +1,7 @@
 ---
 title: Setting up SvelteKit to use SQLite and prerender a static site to be hosted on GitLab Pages
 tags: [howto, javascript, code]
+updated: 2024-07-30
 ---
 
 I started with `npm init vite` and picked a [SvelteKit] project (using [TypeScript]).
@@ -172,7 +173,7 @@ The Svelte 4 solution is something like this:
   $: setlistData = tracksData.reduce(/*...*/)
 ```
 
-...but I'm trying to stick with Svelte 5, which means doing the same thing with `$props()` and `$derived()` instead:
+...but I'm trying to stick with [Svelte 5](https://frontendmasters.com/blog/introducing-svelte-5/), which means doing the same thing with `$props()` and `$derived()` instead:
 
 ```typescript
   let {data} = $props<PageLoad>()
@@ -209,6 +210,24 @@ I'm slightly tweaking the URLs for things in this rebuild, so I want to add some
             },
           },
         }
+
+
+## Client-side search using Flexsearch
+
+[Flexsearch](https://github.com/nextapps-de/flexsearch) makes a lot of [claims about how fast it is on the client-side](https://github.com/nextapps-de/flexsearch/blob/961c3ae84a87fb/README.md#performance-benchmark-ranking). That sounds pretty nice, so let's integrate it!
+
+I used [this guide on integrating Flexsearch with SvelteKit](https://joyofcode.xyz/blazing-fast-sveltekit-search) which (despite being aimed at Svelte v4) was quite helpful in pointing the way. The guide mentions adding search match markers to the search response, but I skipped that to start with. Here's what I ended up doing...
+
+* create files:
+  * [`src/lib/search.ts`](https://gitlab.com/alxndr/almost-dead-dot-net/-/blob/558709644/src/lib/search.ts) — contains logic for building and searching the index
+  * [`src/routes/search.json/+server.ts`](https://gitlab.com/alxndr/almost-dead-dot-net/-/blob/558709644/src/routes/search.json/+server.ts) — server-side (in dev; what about when building for static site?) endpoint to "serve prerendered content as JSON"
+* pick/create a [`+page.svelte`](https://gitlab.com/alxndr/almost-dead-dot-net/-/blob/558709644/src/routes/+page.svelte) where the UX for the search will be (I'm using my home page, i.e. `src/routes/+page.svelte`)
+  * use `$state( /*...*/ )` to wrap [the initial values of `searchTerm`, `results`, and the ready flag](https://gitlab.com/alxndr/almost-dead-dot-net/-/blob/558709644/src/routes/+page.svelte#L25-27)
+  * use `onMount(() => { /*...*/ })` to [retrieve `search.json` and set up the index](https://gitlab.com/alxndr/almost-dead-dot-net/-/blob/558709644/src/routes/+page.svelte#L35-39)
+  * use `$effect(() => { /*...*/ })` to [wrap the call to `searchSongsIndex(searchTerm)`](https://gitlab.com/alxndr/almost-dead-dot-net/-/blob/558709644/src/routes/+page.svelte#L41-45)
+  * then your component can [check the ready flag and render the search UX](https://gitlab.com/alxndr/almost-dead-dot-net/-/blob/558709644/src/routes/+page.svelte#L62-85)
+
+...and it works!
 
 
 ## Debugging a deploy...
