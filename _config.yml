@@ -6,7 +6,7 @@ locale: en-US
 date_format: "%Y %B %-d"
 title_separator: " • "
 title: Alexander's blog
-masthead_title: ://alxndr.blog
+masthead_title: ://alxndr.blog — Alexander's blog
 description: mostly notes to myself
 url: https://alxndr.blog
 baseurl: /
@@ -16,11 +16,6 @@ og_image: /assets/images/alexander-120x120.png
 
 paginate: 5
 paginate_path: /page:num/
-
-# # search with Lunr in the browser...
-# search: true
-# lunr:
-#   search_within_pages: true
 
 author:
   name: Alexander
@@ -43,6 +38,7 @@ footer:
     - label: photos
       icon: "fab fa-instagram"
       url: https://instagram.com/drwxrxrx
+    # 'feed' is added automatically
 
 analytics:
   google:
