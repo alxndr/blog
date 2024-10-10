@@ -6,7 +6,6 @@ date: 2024-10-09
 
 Version 5 of [Svelte] makes some dramatic changes in its API.
 [Cypress] component testing [already doesn't play nicely with SvelteKit](https://github.com/cypress-io/cypress/issues/23618), and Svelte v5 doesn't make things better.
-These changes don't play nicely with [Cypress]'s component testing framework (the end-to-end tests seem to work fine), so here's what I did about it...
 
 ```
 We detected that you have versions of dependencies that are not officially supported:
