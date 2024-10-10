@@ -136,7 +136,7 @@ Cypress.Commands.add('mount', mountV5)
 
 And with that, my Cypress component test is passing! 🙌
 
-Here's [a link to my full `cypress/support/component.ts` file](https://gitlab.com/alxndr/almost-dead-dot-net/-/blob/d1af2a3d567e68a3a93289b3848ad5023a4a48d7/cypress/support/component.ts), and here's [the commit with the other changes to get a bare-bones component test working](https://gitlab.com/alxndr/almost-dead-dot-net/-/commit/d1af2a3d567e68a3a93289b3848ad5023a4a48d7).
+Here's [a link to my full `cypress/support/component.ts` file](https://gitlab.com/alxndr/almost-dead-dot-net/-/blob/d1af2a3d567e68a3a93289b3848ad5023a4a48d7/cypress/support/component.ts), and here's [the first commit with the other changes to get a bare-bones component test working](https://gitlab.com/alxndr/almost-dead-dot-net/-/commit/f91dada0c82d04c3e73b6620cd0fd0931c297f56).
 
 
 [Cypress]: https://cypress.io
