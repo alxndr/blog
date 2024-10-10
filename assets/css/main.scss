@@ -78,6 +78,8 @@
 html * { transition: none; -webkit-transition: none; }
 html table { font-size: inherit; }
 html dd { font-size: inherit; }
+a > code::before { content: '' !important; }
+a > code::after { content: '' !important; }
 
 
 #dough-ratio-calculator { /* TODO move this */
