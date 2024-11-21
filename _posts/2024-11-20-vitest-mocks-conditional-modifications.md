@@ -57,6 +57,7 @@ With this ability to conditionally mock the extracted login function, I can have
 import {describe, test, vi} from 'vitest'
 import {login} from './login-helper'
 import {handlePayload} from './index'
+vi.mock('./login-helper')
 describe('handlePayload', () => {
   // ...
   describe('with invalid login', () => {
@@ -76,6 +77,7 @@ describe('handlePayload', () => {
 import {describe, test, vi} from 'vitest'
 import {login} from './login-helper'
 import {handlePayload} from './index'
+vi.mock('./login-helper')
 describe('handlePayload', () => {
   // ...
   describe('with valid login', () => {
