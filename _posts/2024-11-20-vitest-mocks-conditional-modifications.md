@@ -29,13 +29,13 @@ vi.mock('./deps')
 
 describe('when it returns true', () => {
     beforeEach(() => {
-        vi.mocked(aFunction).mockResolvedValue(true)
+        vi.mocked(dependency).mockResolvedValue(true)
     })
     test('...', () => {/* ... */})
 })
 describe('when it returns false', () => {
     beforeEach(() => {
-        vi.mocked(aFunction).mockResolvedValue(true)
+        vi.mocked(dependency).mockResolvedValue(true)
     })
     test('...', () => {/* ... */})
 })
