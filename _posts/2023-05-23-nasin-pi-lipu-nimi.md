@@ -26,9 +26,9 @@ This reminded me of studying Mandarin, and using Chinese dictionaries organized 
 ## nasin (method)
 
 > There are 26 "roots" (visual components);  
-> The roots are in a particular order;  
-> Each glyph has a unique set roots associated with it;  
-> Each glyph is sorted according to its root-order.
+> The roots are in a particular order.  
+> Each glyph has a unique set of roots associated with it;  
+> The dictionary lists each glyph in order according to the order of the roots.
 
 This allows a dictionary user to quickly locate an unrecognized glyph within an arbitrarily-sized list of otherwise "difficult-to-order" glyphs, with only a rough understanding of the roots and ordering necessary, and **without depending on any knowledge of pronunciation** (of either the glyph or the patterns/motifs common to _sitelen sitelen_ glyhs).
 
