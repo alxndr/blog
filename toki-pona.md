@@ -8,6 +8,8 @@ jan ale o toki a! mi jan Lesate
 
 toki pona la, lipu ni li linluwi e lipu mi e pali mi
 
+<abbr title="o moku e soko nasa — eat a silly mushroom!">omekosa</abbr>!
+
 
 ## mi ante toki e lipu
 
