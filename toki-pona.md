@@ -15,7 +15,7 @@ toki pona la, lipu ni li linluwi e lipu mi e pali mi
 
 * [nasin sitelen pi lipu nimi](https://alxndr.github.io/nasin-pi-lipu-nimi/?src=alxndr.blog&campaign=category-toki-pona) — jan li ken sona e sitelen sitelen kepeken ilo ni kepeken ala sitelen Lasina a!
   * [ni li seme??](/2023/05/23/nasin-pi-lipu-nimi.html) — mi toki tan nasin ni
-
+* ilo Vim la mi pali e [lipu kute pi nimi kule](https://github.com/alxndr/vim-syntax-tokipona)
 
 ## mi ante toki e lipu
 

@@ -12,7 +12,7 @@ Load it up and `:set filetype=tokipona`, then it will highlight headnouns-with-c
 
 [![screenshot](https://i.imgur.com/TfkF8ztm.png)](https://i.imgur.com/TfkF8zt.png)
 
-(I recommend also using [/dev/urandom's Toki Pona vim spellcheck](https://gitlab.com/dev_urandom/toki-pona-vim-spellcheck).)
+(~~I recommend also using [/dev/urandom's Toki Pona vim spellcheck](https://gitlab.com/dev_urandom/toki-pona-vim-spellcheck).~~ **Edit: this project seems to have disappeared. Try [kemacalls's toki-pona-spellcheck](https://github.com/kemacalls/toki-pona-spellcheck) instead?**)
 
 
 [vim-syntax-tokipona]: https://github.com/alxndr/vim-syntax-tokipona
