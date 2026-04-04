@@ -35,6 +35,9 @@ footer:
     - label: GitHub
       icon: "fab fa-github"
       url: https://github.com/alxndr
+    - label: GitLab
+      icon: "fab fa-gitlab"
+      url: https://gitlab.com/alxndr
     - label: photos
       icon: "fab fa-instagram"
       url: https://instagram.com/drwxrxrx
