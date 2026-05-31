@@ -1,8 +1,26 @@
 ---
-layout: ../layouts/PageLayout.astro
+layout: ../../layouts/PageLayout.astro
 title: Colophon
 slug: colophon
 ---
+import { Image } from 'astro:assets'
+import designV2 from './screenshot-design-v2_0.png'
+import designV21 from './screenshot-design-v2_1.png'
+import designV23 from './screenshot-design-v2_3.png'
+
+<style>{`
+  figure.colophon-screenshot {
+    margin: 1em 2em;
+    border: 2px solid var(--text-secondary);
+    border-radius: 4px;
+    padding: 0.5em;
+  }
+  figure.colophon-screenshot img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+`}</style>
 
 This blog's webpages are generated using [Astro](https://astro.build), built and hosted by [GitHub](https://github.com) via GitHub Pages.
 
@@ -11,47 +29,47 @@ The domain name is managed by [Namecheap](https://namecheap.com).
 The font with Toki Pona glyphs is [Linja Suwi](https://ap5.dev/), by [ap5](https://ap5.dev). [Toki Pona](https://tokipona.org/) is a language designed by Sonja Lang.
 
 
-### design/framework/style history
+## design/framework/style history
 
 🎵 O Wayback Machine, [we honor thee](https://archive.org/donate/) 🫡
 
 
-## v1: HubPress
+### v1: HubPress
 
 Back in 2015 when "Jamstack" was the hot new thing, [the first version of `alxndr.blog` used HubPress](https://web.archive.org/web/20150315042850/http://hubpress.io)…
 
-<!-- (no screenshot 🙈) -->
+(no screenshot 🙈)
 
 
-## v2: Jekyll
+### v2: Jekyll
 
 Then COVID knocked everyone sideways for a while, and eventually I redid things and [by Feb 2021 I relaunched `alxndr.blog` using Jekyll](https://web.archive.org/web/20210228145316/http://alxndr.blog/)…
 
-<!-- (TODO insert `alxndr-blog design v2-0.png`) -->
+<figure class="colophon-screenshot"><Image src={designV2} alt="Screenshot of alxndr.blog v2, Jekyll-based design, February 2021" /></figure>
 
 
-### v2.1
+#### v2.1
 
 Early 2022… Jekyll + Minimal Mistakes + [So Simple](https://web.archive.org/web/20230317231256/https://github.com/mmistakes/so-simple-theme)…
 
-<!-- (TODO insert `alxndr-blog design v2-1.png`) -->
+<figure class="colophon-screenshot"><Image src={designV21} alt="Screenshot of alxndr.blog v2.1, Jekyll with So Simple theme, early 2022" /></figure>
 
 
-### v2.2
+#### v2.2
 
 Early 2023… Jekyll + Minimal Mistakes + bespoke theme specifics…
 
-<!-- (no screenshot 🙈) -->
+(no screenshot 🙈)
 
 
-### v2.3
+#### v2.3
 
 Mid 2023… better bespoke theme specifics…
 
-<!-- (TODO insert `alxndr-blog design v2-3.png`) -->
+<figure class="colophon-screenshot"><Image src={designV23} alt="Screenshot of alxndr.blog v2.3, Jekyll with bespoke theme, mid 2023" /></figure>
 
 
-## v3: Astro/Svelte
+### v3: Astro/Svelte
 
 Mid 2026! Now using [Astro](https://astro.build) with @charca's [`astro-blog-template`](https://github.com/Charca/astro-blog-template)…
 
