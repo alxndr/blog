@@ -1,13 +1,151 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content'
+import BaseLayout from '../layouts/BaseLayout.astro'
+import { tagToSlug } from '../utils/tagSlug.js'
 
-const title = `Alexander's blog`;
-const description = 'notes to myself, mostly';
-const permalink = Astro.site.href;
+const PINNED_SLUGS = [
+  '2022/03/09/removing-webpage-components',
+  '2023/01/30/new-git-repo-with-history-of-old-repo',
+  '2023/05/11/recursive-techdebt-upgrade-ticket',
+]
+
+const title = `Alexander's blog`
+const description = 'notes to myself, mostly'
+const permalink = Astro.site.href
+
+const allPosts = await getCollection('posts')
+const publishedPosts = allPosts
+  .filter(p => !p.data.draft)
+  .sort((a, b) => new Date(b.data.publishDate) - new Date(a.data.publishDate))
+
+const pinnedSet = new Set(PINNED_SLUGS)
+const pinnedPosts = PINNED_SLUGS
+  .map(slug => publishedPosts.find(p => p.data.slug === slug))
+  .filter(Boolean)
+const chronoPosts = publishedPosts.filter(p => !pinnedSet.has(p.data.slug))
 ---
 
 <BaseLayout title={title} description={description} permalink={permalink}>
   <div class="container">
-    <p>TODO: post listing (Phase 4.5)</p>
+
+    <nav class="pages-nav" aria-label="Standalone pages">
+      <a href="/tags/">tags</a>
+      <a href="/toki-pona/">toki pona</a>
+      <a href="/tapes/">tapes</a>
+      <a href="/colophon/">colophon</a>
+    </nav>
+
+    <section class="pinned" aria-label="Pinned posts">
+      <h2 class="section-heading">pinned</h2>
+      <ul class="post-list">
+        {pinnedPosts.map(post => (
+          <li>
+            <span class="date">{post.data.publishDate}</span>
+            <a href={`/${post.data.slug}/`}>{post.data.title}</a>
+            {post.data.tags && post.data.tags.length > 0 && (
+              <span class="tags" aria-label="tags">
+                {post.data.tags.map(tag => (
+                  <a href={`/tags/${tagToSlug(tag)}/`} class="tag" title={`Posts tagged "${tag}"`}>#{tag}</a>
+                ))}
+              </span>
+            )}
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section aria-label="All posts">
+      <h2 class="section-heading">all posts</h2>
+      <ul class="post-list">
+        {chronoPosts.map(post => (
+          <li>
+            <span class="date">{post.data.publishDate}</span>
+            <a href={`/${post.data.slug}/`}>{post.data.title}</a>
+            {post.data.tags && post.data.tags.length > 0 && (
+              <span class="tags" aria-label="tags">
+                {post.data.tags.map(tag => (
+                  <a href={`/tags/${tagToSlug(tag)}/`} class="tag" title={`Posts tagged "${tag}"`}>#{tag}</a>
+                ))}
+              </span>
+            )}
+          </li>
+        ))}
+      </ul>
+    </section>
+
   </div>
 </BaseLayout>
+
+<style>
+  .pages-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em 1.2em;
+    margin-bottom: 2.5em;
+    font-family: var(--font-family-sans);
+    font-size: 0.9em;
+  }
+
+  .pages-nav a {
+    color: var(--text-secondary);
+    text-decoration: none;
+  }
+
+  .pages-nav a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+
+  .section-heading {
+    font-family: var(--font-family-sans);
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin: 0 0 0.75em;
+  }
+
+  .pinned {
+    margin-bottom: 2.5em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid var(--text-secondary);
+    opacity: 0.6;
+  }
+
+  .post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .post-list li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.3em 0.75em;
+    margin: 0.55em 0;
+  }
+
+  .date {
+    color: var(--text-secondary);
+    font-family: var(--font-family-sans);
+    font-size: 0.85em;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .post-list a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .post-list a:hover {
+    text-decoration: underline;
+  }
+
+  .tags {
+    display: none;
+  }
+
+</style>
