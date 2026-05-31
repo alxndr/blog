@@ -25,4 +25,24 @@ describe('individual post page', () => {
   it('has a page title matching the post title', () => {
     cy.title().should('contain', KNOWN_POST.title)
   })
+
+  it('has a post navigation landmark', () => {
+    cy.get('nav[aria-label="Post navigation"]').should('exist')
+  })
+
+  it('has both prev and next links pointing to dated post URLs', () => {
+    cy.get('a[rel="prev"]').should('have.attr', 'href').and('match', /^\/\d{4}\/\d{2}\/\d{2}\//)
+    cy.get('a[rel="next"]').should('have.attr', 'href').and('match', /^\/\d{4}\/\d{2}\/\d{2}\//)
+  })
+})
+
+const NEWEST_POST_SLUG = '2026/05/28/entr-watch-files-and-trigger-commands'
+
+describe('newest post page', () => {
+  beforeEach(() => cy.visit(`/${NEWEST_POST_SLUG}/`))
+
+  it('has a prev link but no next link', () => {
+    cy.get('a[rel="prev"]').should('exist')
+    cy.get('a[rel="next"]').should('not.exist')
+  })
 })
