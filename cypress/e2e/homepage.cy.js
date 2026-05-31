@@ -36,11 +36,4 @@ describe('homepage', () => {
         .should('contain.text', firstFeedTitle)
     })
   })
-
-  it('has links to standalone pages', () => {
-    cy.get('.pages-nav a[href="/tags/"]').should('exist')
-    cy.get('.pages-nav a[href="/colophon/"]').should('exist')
-    cy.get('.pages-nav a[href="/tapes/"]').should('exist')
-    cy.get('.pages-nav a[href="/toki-pona/"]').should('exist')
-  })
 })

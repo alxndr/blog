@@ -4,9 +4,9 @@ import BaseLayout from '../layouts/BaseLayout.astro'
 import { tagToSlug } from '../utils/tagSlug.js'
 
 const PINNED_SLUGS = [
+  '2023/05/11/recursive-techdebt-upgrade-ticket',
   '2022/03/09/removing-webpage-components',
   '2023/01/30/new-git-repo-with-history-of-old-repo',
-  '2023/05/11/recursive-techdebt-upgrade-ticket',
 ]
 
 const title = `Alexander's blog`
@@ -27,13 +27,6 @@ const chronoPosts = publishedPosts.filter(p => !pinnedSet.has(p.data.slug))
 
 <BaseLayout title={title} description={description} permalink={permalink}>
   <div class="container">
-
-    <nav class="pages-nav" aria-label="Standalone pages">
-      <a href="/tags/">tags</a>
-      <a href="/toki-pona/">toki pona</a>
-      <a href="/tapes/">tapes</a>
-      <a href="/colophon/">colophon</a>
-    </nav>
 
     <section class="pinned" aria-label="Pinned posts">
       <h2 class="section-heading">pinned</h2>

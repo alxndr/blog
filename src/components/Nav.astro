@@ -65,6 +65,7 @@ const pathname = Astro.url.pathname;
 <nav aria-label="Main navigation">
   <a class={pathname === "/" ? "selected" : ""} href='/'>home</a>
   <a class={pathname.startsWith("/tags/") ? "selected" : ""} href='/tags/'>tags</a>
+  <a class={pathname.startsWith("/colophon")} href="/colophon">about</a>
   <div class="theme-toggle-container">
     <ThemeToggleButton client:load />
   </div>
