@@ -1,5 +1,5 @@
 ---
-import ThemeToggleButton from './ThemeToggleButton.svelte';
+import ThemeToggleButton from './ThemeToggleButton.astro';
 const pathname = Astro.url.pathname;
 ---
 
@@ -67,6 +67,6 @@ const pathname = Astro.url.pathname;
   <a class={pathname.startsWith("/tags/") ? "selected" : ""} href='/tags/'>tags</a>
   <a class={pathname.startsWith("/colophon")} href="/colophon">about</a>
   <div class="theme-toggle-container">
-    <ThemeToggleButton client:load />
+    <ThemeToggleButton />
   </div>
 </nav>

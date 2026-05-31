@@ -27,7 +27,6 @@
 
 * testing...
     * [   ] investigate writing a custom lint rule (or Cypress plugin rule) to warn against `cy.reload()` in tests — `cy.reload()` is unreliable for asserting on state that depends on client-side JS hydration (e.g. Svelte `client:load`); the correct pattern is seeding `localStorage` via `onBeforeLoad` in `cy.visit()`
-    * [   ] fix skipped theme toggle interaction tests in `cypress/e2e/theme.cy.js` — Svelte 5's hydration cycle (via `client:load`) briefly removes and re-adds inputs around interactions, causing `cy.get()` to time out regardless of whether the label or input is targeted, or whether `.click()`, `.check()`, or `dispatchEvent` is used
-        * ...or is this misplaced flakiness? check after fixing the Theme Toggle Disappearing issue...
+    * [ x ] fix skipped theme toggle interaction tests in `cypress/e2e/theme.cy.js` — resolved by rewriting ThemeToggleButton as a plain Astro component (no Svelte hydration)
 
 * [   ] research TypeScript-in-Astro options

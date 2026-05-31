@@ -253,22 +253,24 @@ td {
 .theme-toggle {
   display: inline-flex;
   align-items: center;
-  height: 100%;
   padding: 0.33em 0.67em;
-  padding-top: 8px;
   margin-left: 10px;
   gap: 0.6em;
   border-radius: 99em;
-  background-color: var(--theme-code-inline-bg);
+  background-color: rgba(0, 0, 0, 0.07);
+}
+
+.theme-dark .theme-toggle {
+  background-color: rgba(255, 255, 255, 0.08);
 }
 
 .theme-toggle > label:focus-within {
   outline: 2px solid transparent;
-  box-shadow: 0 0 0 0.08em var(--theme-accent), 0 0 0 0.12em white;
+  box-shadow: 0 0 0 0.08em var(--primary-color), 0 0 0 0.12em white;
 }
 
 .theme-toggle > label {
-  color: var(--theme-code-inline-text);
+  color: var(--text-main);
   position: relative;
   display: flex;
   align-items: center;
@@ -278,7 +280,7 @@ td {
 }
 
 .theme-toggle .checked {
-  color: var(--theme-accent);
+  color: var(--primary-color);
   opacity: 1;
 }
 
