@@ -1,8 +1,9 @@
-# alxndr.blog
+# [alxndr.blog]
 
-Source for [alxndr.blog](https://alxndr.blog) — Alexander's blog.
+Source for [alxndr.blog] — Alexander's blog.
 
 Powered by [Astro](https://astro.build) and deployed to [GitHub Pages](https://pages.github.com/).
+
 
 ## Development
 
@@ -13,3 +14,5 @@ npm test         # build + Cypress e2e tests
 npm run build    # production build to dist/
 npm run preview  # serve dist/ locally
 ```
+
+[alxndr.blog]: https://alxndr.blog
