@@ -3,7 +3,8 @@ title: jiggling the handle of OS X 10.8.5's dock
 publishDate: '2015-03-06'
 slug: 2015/03/06/jiggling-the-handle-of-OS-X-1085s-dock
 tags:
-  - MacOS
+  - Macs
+  - UI
   - dock
   - workaround
   - bug

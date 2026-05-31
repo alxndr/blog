@@ -3,10 +3,9 @@ title: upgrading Cypress to v10 within a Gatsby project
 publishDate: '2022-06-07'
 slug: 2022/06/07/Cypress-v10-and-Gatsby
 tags:
-  - cypress.io
-  - gatsby
+  - Cypress
+  - Gatsby
   - testing
-  - web
 ---
 
 [Cypress] v10 is out, and it makes some big changes. It comes with a real handy migration guide built into the `cypress open` command, which is nice! But the [component testing framework](https://docs.cypress.io/guides/component-testing/testing-react#Selecting-the-Stepper-Component) they've added expects you to be using [Webpack] in a normal way, and if you're using [Gatsby], that is <em>not</em> the case...

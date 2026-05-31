@@ -5,8 +5,7 @@ slug: 2023/04/14/nodejs-native-test-scaffolding
 tags:
   - javascript
   - NodeJS
-  - tests
-  - TDD
+  - testing
   - CLI
 ---
 

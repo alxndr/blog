@@ -5,8 +5,6 @@ slug: 2023/05/11/recursive-techdebt-upgrade-ticket
 tags:
   - agile
   - techdebt
-  - dependencies
-  - software management
 ---
 
 _tldr: make a 'recursive' ticket which you continually schedule for future sprints… Product will hate it initially, but will love it eventually_

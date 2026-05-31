@@ -5,7 +5,6 @@ slug: 2016/07/30/notes-for-npm-Camp-2016
 tags:
   - NPM
   - conference
-  - npmCamp
 ---
 
 ## Isaac Schlueter

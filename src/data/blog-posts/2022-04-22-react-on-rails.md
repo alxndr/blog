@@ -6,6 +6,7 @@ tags:
   - javascript
   - howto
   - dontdo
+  - Ruby on Rails
 ---
 
 ... **don't do it!**

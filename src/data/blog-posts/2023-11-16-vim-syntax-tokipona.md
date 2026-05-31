@@ -5,6 +5,7 @@ slug: 2023/11/16/vim-syntax-tokipona
 tags:
   - vim
   - toki pona
+  - languages
 ---
 
 <p lang="tp" style="font:1.4em/1em tp-LinjaSuwi;margin-bottom:1rem">a a ilo Vim la mi pali e <a href="https://github.com/alxndr/vim-syntax-tokipona">lipu kute pi nimi kule</a></p>

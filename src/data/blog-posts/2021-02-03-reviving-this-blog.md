@@ -4,7 +4,6 @@ publishDate: '2021-02-03'
 slug: 2021/02/03/reviving-this-blog
 tags:
   - meta
-  - almost-dead-net
 ---
 
 This blog is still alive!

@@ -4,14 +4,15 @@ publishDate: '2015-05-30'
 slug: 2015/05/30/advanced-filtering-in-Chromes-Network-dev-tools
 tags:
   - Google Chrome
-  - developer tools
-  - network
-  - filters
+  - tooling
+  - browsers
 ---
 
 Google Chrome has some nice developer tools. The Network tab in there lets you see requests and their headers, responses, initiators, and much more. Being able to filter the list of requests in the Network tab can be very useful.
 
-In Chrome 43 (on OS X 10.10), show the filter toolbar by clicking on the gray “filter” / “funnel” icon; it’ll turn blue and a text box appears below it. Next to the text box is a row of "buttons” which let you quickly filter by request type; “All” is the selected default. footnote:[The next time you’re filtering something in the Network panel but you’re not seeing what you think you should be seeing, make sure this request type quick selector is on “All”!]
+In Chrome 43 (on OS X 10.10), show the filter toolbar by clicking on the gray “filter” / “funnel” icon; it’ll turn blue and a text box appears below it. Next to the text box is a row of "buttons” which let you quickly filter by request type; “All” is the selected default. [^1]
+
+[^1]: The next time you’re filtering something in the Network panel but you’re not seeing what you think you should be seeing, make sure this request type quick selector is on “All”!
 
 The text box is the more powerful tool, with what the [Dev Tools docs call](https://developer.chrome.com/devtools/docs/network) “filter types”.
 

@@ -4,7 +4,6 @@ publishDate: '2017-01-18'
 slug: 2017/01/18/eslint-Cannot-read-property-value-of-undefined
 tags:
   - eslint
-  - ecmascript
   - javascript
   - linting
   - notes to self

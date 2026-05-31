@@ -4,8 +4,7 @@ publishDate: '2015-03-01'
 slug: 2015/03/01/wanted-replacement-for-actionitems-us
 tags:
   - agile
-  - retrospective
-  - tooling
+  - help wanted
 ---
 
 In 2011 the dev team I was on went to [Pivotal Labs](http://pivotallabs.com/) for a few months to bootstrap a rebuild of our company's site, and learn their style of "extreme programming". We used a tool to organize our weekly retrospective meetings which I felt was remarkably useful and easy, but it's since disappeared and I haven't found a web-based replacement.

@@ -4,9 +4,9 @@ publishDate: '2022-03-09'
 slug: 2022/03/09/removing-webpage-components
 tags:
   - howto
-  - developer tools
-  - advertising
+  - tooling
   - browsers
+  - browser hack
 ---
 
 If you are using a desktop (not mobile/tablet) [Mozilla Firefox] or [Brave Browser] (or [Google Chrome] or another browser based on [Chromium]), here's a quick way to remove a specific part of a web page — e.g. a distracting ad within the content, or a persistent subscription popup, or a "subscribe now" overlay which covers half the screen...

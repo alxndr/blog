@@ -4,6 +4,7 @@ publishDate: '2017-08-07'
 slug: 2017/08/07/hapi-unset-a-cookie
 tags:
   - notes to self
+  - documentation
   - javascript
   - HapiJS
 ---

@@ -4,6 +4,7 @@ publishDate: '2014-10-14'
 slug: 2014/10/14/sometimes-iTunes-doesnt-show-the-currently-playing-songs-name-and-position
 tags:
   - iTunes
+  - MacS
   - UI
   - bug
   - workaround

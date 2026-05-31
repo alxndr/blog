@@ -4,6 +4,7 @@ publishDate: '2023-05-23'
 slug: 2023/05/23/nasin-pi-lipu-nimi
 tags:
   - toki pona
+  - languages
   - orthography
   - sitelen sitelen
 ---

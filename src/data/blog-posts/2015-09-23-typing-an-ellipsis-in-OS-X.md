@@ -4,7 +4,7 @@ publishDate: '2015-09-23'
 slug: 2015/09/23/typing-an-ellipsis-in-OS-X
 tags:
   - keyboards
-  - MacOS
+  - Macs
   - punctuation
 ---
 

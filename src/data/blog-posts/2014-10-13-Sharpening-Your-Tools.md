@@ -3,9 +3,10 @@ title: Sharpening Your Tools
 publishDate: '2014-10-13'
 slug: 2014/10/13/Sharpening-Your-Tools
 tags:
-  - tooling
-  - shortcuts
   - efficiency
+  - tooling
+  - CLI
+  - Macs
 ---
 
 …is an episode of [the Ruby Rogues podcast](http://rubyrogues.com/), [#129 with Ben Orenstein](http://rubyrogues.com/129-rr-sharpening-tools-with-ben-orenstein/) (who has spent some of his time being the host of [Thoughtbot](http://thoughtbot.com/)’s [Giant Robots podcast](http://podcasts.thoughtbot.com/giantrobots)). In the episode, Ben talks about periodically evaluating his tools and making them work better for you.
@@ -113,7 +114,9 @@ I recommend learning as many of vim's movement and repetition capabilities as po
 
 (Don't be intimidated by the variety of options for movement or text manipulation: pick whatever seems the simplest and try to start using it whenever you can. Then after a little while, pick the next simplest one and do it again. If it all just seems needlessly complex, see if either [Ben McCormick's "Vim as a Language"](http://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/) or the classic SO answer ["Your problem with Vim is that you don't grok vi"](http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118) helps at all.)
 
-However you get your navigation or manipulation done in vim, you can package up entire sequences of keypresses into shorter commands. Vim's [key mapping](http://vim.wikia.com/wiki/Mapping%5Fkeys%5Fin%5FVim%5F-%5FTutorial%5F%28Part%5F1%29) feature lets you alias entire sequences of keypresses into quick commands. To access those shortcut mappings, you preface it by pressing a "leader" key. footnote:[In vim it's common to preface one's custom key mappings with a "leader" key, which starts a short-lived secret mode where your next keypresses are interpreted as a mapping, instead of normal vim commands. I think the backslash `\` is the most common one.]
+However you get your navigation or manipulation done in vim, you can package up entire sequences of keypresses into shorter commands. Vim's [key mapping](http://vim.wikia.com/wiki/Mapping%5Fkeys%5Fin%5FVim%5F-%5FTutorial%5F%28Part%5F1%29) feature lets you alias entire sequences of keypresses into quick commands. To access those shortcut mappings, you preface it by pressing a "leader" key. [^1]
+
+[^1]: In vim it's common to preface one's custom key mappings with a "leader" key, which starts a short-lived secret mode where your next keypresses are interpreted as a mapping, instead of normal vim commands. I think the backslash `\` is the most common one.
 
 I set up vim to respond to two leader keys, one for each hand[^2]. I'll use whichever one is on the opposite side from the first letter of the mapping I want to use, so I can always come up with an easy-to-remember shortcut that isn't uncomfortable or inconvenient to type.
 
@@ -149,7 +152,9 @@ Well *NO MORE*! Open up Chrome's preferences, find the Search section on the mai
 
 Now hit "Done", and close the Settings. Go into the URL bar, and type a `w` and then a space — you'll see a thing in the URL bar appear to the left when you hit the space, saying "Search Wikipedia short cut:", and then there's your cursor. Now if you type "bleacher report" and hit enter, you're taken directly to the Wikipedia article for BR!
 
-Take another look at the URL you stuck in: there's a `%s` hiding towards the end. That bit gets replaced with whatever you type after the "w-space", so the expansion ends up turning into a Google URL that restricts the search results to Wikipedia's domain name. The `btnI` query parameter at the end is Google's "I'm Feeling Lucky" button, which takes you directly to the first result.footnote:[Actually, Google seems to be playing with how `btnI` works these days... Unless the first result is a dead match for what you searched, it appears they'll keep you on the search results page. Some of my image search parameters have been hit-and-miss as well. What's up, Google?] 99% of the time, this'll take you right to the article you want!
+Take another look at the URL you stuck in: there's a `%s` hiding towards the end. That bit gets replaced with whatever you type after the "w-space", so the expansion ends up turning into a Google URL that restricts the search results to Wikipedia's domain name. The `btnI` query parameter at the end is Google's "I'm Feeling Lucky" button, which takes you directly to the first result.[^2] 99% of the time, this'll take you right to the article you want!
+
+[^2]: Actually, Google seems to be playing with how `btnI` works these days... Unless the first result is a dead match for what you searched, it appears they'll keep you on the search results page. Some of my image search parameters have been hit-and-miss as well. What's up, Google?
 
 (If you ever wanted to know how I find gifs of stuff quickly, it's a shortcut like this. There I just shared my secret gif recipe.)
 

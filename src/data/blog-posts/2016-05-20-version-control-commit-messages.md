@@ -4,7 +4,6 @@ publishDate: '2016-05-20'
 slug: 2016/05/20/version-control-commit-messages
 tags:
   - git
-  - standards
   - communication
   - CLI
 ---

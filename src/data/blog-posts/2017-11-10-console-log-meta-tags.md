@@ -4,7 +4,6 @@ publishDate: '2017-11-10'
 slug: 2017/11/10/console-log-meta-tags
 tags:
   - javascript
-  - SEO
 ---
 
 Sure can be annoying looking through HTML source trying to find all the `<meta name="whatever" content="something that search engines love" />` tags that the super-expensive SEO consultant said you absolutely must add...

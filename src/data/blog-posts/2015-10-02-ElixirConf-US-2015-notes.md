@@ -3,7 +3,6 @@ title: ElixirConf US 2015 notes
 publishDate: '2015-10-02'
 slug: 2015/10/02/ElixirConf-US-2015-notes
 tags:
-  - ElixirConf
   - elixir
   - conference
 ---

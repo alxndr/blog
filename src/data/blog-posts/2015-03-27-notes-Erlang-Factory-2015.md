@@ -3,7 +3,6 @@ title: notes — Erlang Factory 2015
 publishDate: '2015-03-27'
 slug: 2015/03/27/notes-Erlang-Factory-2015
 tags:
-  - Erlang Factory
   - conference
   - elixir
 ---
