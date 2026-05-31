@@ -14,12 +14,12 @@
 </div>
 
 <script>
-  function applyTheme(theme) {
+  function applyTheme(theme: string) {
     const root = document.documentElement;
     const lightLabel = document.querySelector('input[aria-label="Use light theme"]')?.parentElement;
     const darkLabel = document.querySelector('input[aria-label="Use dark theme"]')?.parentElement;
-    const lightInput = document.querySelector('input[aria-label="Use light theme"]');
-    const darkInput = document.querySelector('input[aria-label="Use dark theme"]');
+    const lightInput = document.querySelector<HTMLInputElement>('input[aria-label="Use light theme"]');
+    const darkInput = document.querySelector<HTMLInputElement>('input[aria-label="Use dark theme"]');
 
     if (theme === 'dark') {
       root.classList.add('theme-dark');

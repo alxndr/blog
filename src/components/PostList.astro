@@ -1,6 +1,10 @@
 ---
+import type { CollectionEntry } from 'astro:content'
 import { tagToSlug } from '../utils/tagSlug.js'
 
+type Props = {
+  posts: CollectionEntry<'posts'>[]
+}
 const { posts } = Astro.props
 ---
 

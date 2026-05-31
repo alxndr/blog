@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content'
+import type { CollectionEntry } from 'astro:content'
 import BaseLayout from '../layouts/BaseLayout.astro'
 import PostList from '../components/PostList.astro'
 
@@ -12,16 +13,16 @@ const PINNED_SLUGS = [
 
 const title = `Alexander's blog`
 const description = 'notes to myself, mostly'
-const permalink = Astro.site.href
+const permalink = Astro.site!.href
 
 const allPosts = await getCollection('posts')
 const publishedPosts = allPosts
   .filter(p => !p.data.draft)
-  .sort((a, b) => new Date(b.data.publishDate) - new Date(a.data.publishDate))
+  .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime())
 
 const pinnedPosts = PINNED_SLUGS
   .map(slug => publishedPosts.find(p => p.data.slug === slug))
-  .filter(Boolean)
+  .filter((post): post is CollectionEntry<'posts'> => post !== undefined)
 ---
 
 <BaseLayout title={title} description={description} permalink={permalink}>

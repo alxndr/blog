@@ -1,8 +1,18 @@
 ---
 import { getImage } from 'astro:assets'
+import type { ImageMetadata } from 'astro'
 import BaseLayout from './BaseLayout.astro';
 
-const pageImages = import.meta.glob('/src/pages/**/*.{png,jpg,jpeg,webp,gif,avif}', { eager: true, import: 'default' })
+type Props = {
+  frontmatter?: {
+    title?: string
+    description?: string
+    slug?: string
+    thumbnail?: string
+  }
+}
+
+const pageImages = import.meta.glob<ImageMetadata>('/src/pages/**/*.{png,jpg,jpeg,webp,gif,avif}', { eager: true, import: 'default' })
 
 const { frontmatter } = Astro.props;
 const title = frontmatter?.title ?? '';

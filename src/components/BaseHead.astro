@@ -11,7 +11,7 @@ export interface Props {
 }
 
 const { title, description, permalink, image } = Astro.props
-const socialUrl = image ?? (Astro.site.href + 'assets/images/alexander-120x120.png')
+const socialUrl = image ?? (Astro.site!.href + 'assets/images/alexander-120x120.png')
 ---
 
 <!-- Global Metadata -->
@@ -42,7 +42,7 @@ const socialUrl = image ?? (Astro.site.href + 'assets/images/alexander-120x120.p
 <meta property="twitter:image" content={socialUrl} />
 
 <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RS6J6JRB3C"></script>
+<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-RS6J6JRB3C"></script>
 <script is:inline>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
