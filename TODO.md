@@ -1,6 +1,6 @@
 # TODOs
 
-* [   ] favicon — make a tiny version of my avatar image `alexander-120x120.png`
+* [ x ] favicon — make a tiny version of my avatar image `alexander-120x120.png`
 
 * [ x ] `/tags/toki-pona` individual-tag page, fold the Toki Pona page into this
 
