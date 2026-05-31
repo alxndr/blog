@@ -1,0 +1,64 @@
+---
+import { getCollection } from 'astro:content'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { tagToSlug } from '../../utils/tagSlug.js'
+
+const title = 'Tags'
+const permalink = `${Astro.site}tags/`
+
+const allPosts = await getCollection('posts')
+const publishedPosts = allPosts.filter(p => !p.data.draft)
+
+const tagCounts = new Map() // slug → { displayName, count }
+for (const post of publishedPosts) {
+  for (const tag of post.data.tags ?? []) {
+    const slug = tagToSlug(tag)
+    if (tagCounts.has(slug)) {
+      tagCounts.get(slug).count++
+    } else {
+      tagCounts.set(slug, { displayName: tag, count: 1 })
+    }
+  }
+}
+
+const tags = Array.from(tagCounts.entries())
+  .map(([slug, { displayName, count }]) => ({ slug, displayName, count }))
+  .sort((a, b) => b.count - a.count || a.displayName.localeCompare(b.displayName))
+---
+
+<BaseLayout title={title} permalink={permalink}>
+  <div class="container">
+    <h1>{title}</h1>
+    <ul class="tag-list">
+      {tags.map(({ slug, displayName, count }) => (
+        <li>
+          <a href={`/tags/${slug}/`}>#{displayName}</a>
+          <span class="count">{count}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+</BaseLayout>
+
+<style>
+  .tag-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em 1.5em;
+  }
+
+  .tag-list li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.3em;
+    margin: 0;
+  }
+
+  .count {
+    color: var(--text-secondary);
+    font-family: var(--font-family-sans);
+    font-size: 0.8em;
+  }
+</style>

@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content'
 import readingTime from 'reading-time'
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Bio from '../components/Bio.astro';
+import { tagToSlug } from '../utils/tagSlug.js';
 
 export async function getStaticPaths() {
 	const allPosts = await getCollection('posts')
@@ -14,7 +15,7 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props
-const { title, slug, description, publishDate } = post.data;
+const { title, slug, description, publishDate, tags } = post.data;
 const readingTimeEstimate = readingTime(post.body ?? '').text
 const permalink = `${Astro.site}${slug}/`;
 const { Content } = await render(post)
@@ -24,6 +25,13 @@ const { Content } = await render(post)
   <header>
     <p>{publishDate} ~ {readingTimeEstimate}</p>
     <h1>{title}</h1>
+    {tags && tags.length > 0 && (
+      <p class="tags">
+        {tags.map(tag => (
+          <a href={`/tags/${tagToSlug(tag)}/`}>#{tag}</a>
+        ))}
+      </p>
+    )}
     <hr />
   </header>
   <div class="container">
@@ -49,6 +57,24 @@ const { Content } = await render(post)
     text-transform: uppercase;
     font-family: var(--font-family-sans);
     font-weight: 600;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em 0.75em;
+    justify-content: center;
+    text-transform: none;
+  }
+
+  .tags a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.85em;
+  }
+
+  .tags a:hover {
+    text-decoration: underline;
   }
 
   header hr {
