@@ -237,7 +237,7 @@ implies — these need to be added manually.
 
 ### Homepage (`src/pages/index.astro`)
 
-Currently: Charca placeholder ("Welcome to your new Astro Blog") with stock illustrations.
+Currently: bare TODO placeholder (Charca copy and stock illustrations removed in cleanup commit).
 
 Replace with a real post listing — the PLAN has always said `/` is where posts live (no `/blog/`
 prefix, since the domain ends in `.blog`). Rough shape:
@@ -245,40 +245,38 @@ prefix, since the domain ends in `.blog`). Rough shape:
 - [ ] Show all published posts, newest first (title + date + tags, no excerpts unless added later)
 - [ ] Optional "pinned" / evergreen section at top (hand-curated list of slugs in the page itself)
 - [ ] Link to `/tags/` index and standalone pages (`/colophon`, `/tapes`, `/toki-pona`)
-- [ ] Remove template hero illustration and placeholder copy
 
 ### About page (`src/pages/about.astro`)
 
-Currently: Lorem Ipsum placeholder text + stock notebook illustration.
+Currently: bare TODO placeholder (Lorem Ipsum, illustration, and Icons8 credits removed in cleanup commit).
 
 - [ ] Replace with real bio content (Alexander to supply)
-- [ ] Remove `about-illustration.webp` once replaced
+
+### `ante-kulupu-so.md` — Kramdown IAL conversion
+
+The root-level `ante-kulupu-so.md` uses Kramdown Inline Attribute List syntax (`_name_{:attr-ref}`)
+70 times. Astro's remark pipeline does not support this.
+
+- [ ] Option A: install a remark plugin that handles IAL syntax (e.g. `remark-attributes`)
+- [ ] Option B: run a script to rewrite all 70 occurrences as inline HTML `<span>` elements
+- [ ] Once converted, move to `src/pages/ante-kulupu-so.md` (or `.astro`)
 
 ### Boilerplate / template content cleanup
 
-These Charca template artifacts should be removed:
-
-- [ ] Delete `src/data/blog-posts/hello-world.md` and `markdown-test.md` (sample posts)
-- [ ] Delete unused template images from `public/assets/`:
-  - `logo.webp` (replaced by text in Logo.astro)
-  - `profile-pic.webp` (replaced by `alexander-120x120.png` in Bio.astro)
-  - `social.png` (replaced by `alexander-120x120.png` in BaseHead.astro)
-  - `home-illustration.webp` and `home-illustration-small.webp` (removed with homepage redo)
-  - `about-illustration.webp` (removed with About redo)
-  - `blog/casual-life-3d-*.webp` (only referenced in the sample posts being deleted)
+- [x] Delete `src/data/blog-posts/hello-world.md` and `markdown-test.md` (sample posts)
+- [x] Delete unused template images from `public/assets/`:
+  - `logo.webp`, `profile-pic.webp`, `social.png`
+  - `home-illustration.webp` and `home-illustration-small.webp`
+  - `about-illustration.webp`
+  - `blog/casual-life-3d-*.webp`
+- [x] Remove all Jekyll root files (`_posts/`, `_drafts/`, `_config.yml`, `Gemfile*`, `.ruby-gemset`, `.tool-versions`, `index.html`, `colophon.md`, `tapes.md`, `toki-pona.md`, `tags.md`, `static/`, root `assets/`)
+- [x] Move `static/CNAME` → `public/CNAME` (Phase 5 prereq, done early)
 
 ### Full content audit
 
-- [ ] Crawl all on-disk files for leftover default values and placeholder content from either
-  the Charca `astro-blog-template` or the Astro starter scaffolding. Things to grep for:
-  - Package name: `zapping-zero` (the auto-generated project name from `npm create astro`)
-  - Template author references: `Maxi`, `Charca`, `Maxi Ferreira`, `maxiferreira.com`
-  - Placeholder URLs: `astro-blog-template.netlify.app`, `netlify.app`
-  - Placeholder copy: `Your Blog`, `perfect blog`, `perfect starter`, `Jeffsum`
-  - Icons8 illustration credits (appear in `about.astro` and `index.astro`)
-  - Any `TODO` comments inherited from the template (distinct from our own TODOs)
-  - `sandbox.config.json` if still present (CodeSandbox config, not needed)
-  - `screenshot.png` if still present (template repo screenshot)
+- [x] Crawl all on-disk files for leftover default values and placeholder content — no remaining
+  instances of `zapping-zero`, `netlify.app`, `Jeffsum`, Icons8 credits, or CodeSandbox config
+  outside of `PLAN.md` (which references them as documentation) and `HISTORY.md`
 
 ---
 
@@ -287,7 +285,7 @@ These Charca template artifacts should be removed:
 - [ ] Add GitHub Actions workflow for Astro build + GitHub Pages deploy.
   Astro provides a standard workflow using `withastro/action` — see
   https://docs.astro.build/en/guides/deploy/github/
-- [ ] Ensure `public/CNAME` contains `alxndr.blog` so GitHub Pages preserves the custom domain
+- [x] Ensure `public/CNAME` contains `alxndr.blog` so GitHub Pages preserves the custom domain
 - [ ] Test locally: `npm run dev` then `npm run build && npm run preview`
 - [ ] Smoke-test a sample of old post URLs to confirm they resolve correctly
 - [ ] Open PR: `spike/rebuild-quartz` → `main`
