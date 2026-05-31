@@ -23,7 +23,7 @@ export async function getStaticPaths() {
 
 const { tag } = Astro.params
 const { displayName } = Astro.props
-const title = `#${displayName}`
+const title = `posts tagged: ${displayName}`
 const permalink = `${Astro.site}tags/${tag}/`
 
 const allPosts = await getCollection('posts')
