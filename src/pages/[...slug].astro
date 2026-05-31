@@ -22,19 +22,19 @@ const { Content } = await render(post)
 ---
 
 <BaseLayout title={title} description={description} permalink={permalink}>
-  <header>
-    <p>{publishDate} ~ {readingTimeEstimate}</p>
-    <h1>{title}</h1>
-    {tags && tags.length > 0 && (
-      <p class="tags">
-        {tags.map(tag => (
-          <a href={`/tags/${tagToSlug(tag)}/`} class="tag-link" title={`Posts tagged "${tag}"`}>#{tag}</a>
-        ))}
-      </p>
-    )}
-    <hr />
-  </header>
   <div class="container">
+    <header>
+      <p>{publishDate} ~ {readingTimeEstimate}</p>
+      <h1>{title}</h1>
+      {tags && tags.length > 0 && (
+        <p class="tags">
+          {tags.map(tag => (
+            <a href={`/tags/${tagToSlug(tag)}/`} class="tag-link" title={`Posts tagged "${tag}"`}>#{tag}</a>
+          ))}
+        </p>
+      )}
+      <hr />
+    </header>
     <article class="content">
       <Content />
     </article>
