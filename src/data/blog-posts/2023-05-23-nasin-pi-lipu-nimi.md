@@ -152,6 +152,8 @@ The dictionary (and this blog) are hosted on GitHub Pages.
   }
   .sitelen {
     max-width: 3em;
+  }
+  .theme-dark .sitelen {
     filter: invert(83%);
   }
   .juniko {
