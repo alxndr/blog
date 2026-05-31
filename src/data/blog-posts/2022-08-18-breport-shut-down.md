@@ -27,7 +27,7 @@ BReport was the legacy website which had been the entirety of [Bleacher Report]'
 * November 29 2022: the last connections to BReport's database are severed.
 * December 5 2022: Ops decommissioned BReport's database and put it into cold storage.
 
-![the hardware-smashing scene from 'Office Space'](https://i.imgur.com/yxdIPmU.gif){:style="width:50%;margin-left:25%"}
+<img src="https://i.imgur.com/yxdIPmU.gif" alt="the hardware-smashing scene from 'Office Space'" style="width:50%;margin-left:25%">
 
 
 #### _The beast is slain_

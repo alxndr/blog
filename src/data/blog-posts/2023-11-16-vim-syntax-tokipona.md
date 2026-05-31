@@ -7,8 +7,7 @@ tags:
   - toki pona
 ---
 
-a a ilo Vim la mi pali e [lipu kute pi nimi kule][vim-syntax-tokipona]
-{:lang="tp" style="font:1.4em/1em tp-LinjaSuwi;margin-bottom:1rem"}
+<p lang="tp" style="font:1.4em/1em tp-LinjaSuwi;margin-bottom:1rem">a a ilo Vim la mi pali e <a href="https://github.com/alxndr/vim-syntax-tokipona">lipu kute pi nimi kule</a></p>
 
 I made [a Vim syntax file for Toki Pona text][vim-syntax-tokipona]!
 

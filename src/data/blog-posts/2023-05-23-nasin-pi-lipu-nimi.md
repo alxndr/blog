@@ -86,7 +86,6 @@ Last but not least, two "meta" roots, notable for how they're placed in relation
 | <span class="juniko">☞</span>   | a hand with fingers / a foot with toes; an extremity with digits
 | <span class="sp">poki</span>    | (meta) containing structure; shape which contains / surrounds full glyphs; cartouche / quotation
 | <span class="juniko">\_</span>  | (meta) supporting structure; wide-and-short shape which often appears under full glyphs; plinth
-{:style="font-size:1rem"}
 
 
 ## o kepeken e ilo ni a (try the dictionary!)

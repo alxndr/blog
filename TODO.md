@@ -1,5 +1,7 @@
 # TODOs
 
+* [   ] restore the CSS-based color filter on the "root" images in http://localhost:4321/2023/05/23/nasin-pi-lipu-nimi/ so they matched the light/dark theme setting (right now they only match in the dark mode)
+
 * [   ] investigate astro v6 upgrade...
 
 * testing...
