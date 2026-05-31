@@ -234,6 +234,42 @@ implies — these need to be added manually.
 
 ---
 
+## Phase 4.5 — Homepage, About page, and template cleanup
+
+### Homepage (`src/pages/index.astro`)
+
+Currently: Charca placeholder ("Welcome to your new Astro Blog") with stock illustrations.
+
+Replace with a real post listing — the PLAN has always said `/` is where posts live (no `/blog/`
+prefix, since the domain ends in `.blog`). Rough shape:
+
+- [ ] Show all published posts, newest first (title + date + tags, no excerpts unless added later)
+- [ ] Optional "pinned" / evergreen section at top (hand-curated list of slugs in the page itself)
+- [ ] Link to `/tags/` index and standalone pages (`/colophon`, `/tapes`, `/toki-pona`)
+- [ ] Remove template hero illustration and placeholder copy
+
+### About page (`src/pages/about.astro`)
+
+Currently: Lorem Ipsum placeholder text + stock notebook illustration.
+
+- [ ] Replace with real bio content (Alexander to supply)
+- [ ] Remove `about-illustration.webp` once replaced
+
+### Boilerplate / template content cleanup
+
+These Charca template artifacts should be removed:
+
+- [ ] Delete `src/data/blog-posts/hello-world.md` and `markdown-test.md` (sample posts)
+- [ ] Delete unused template images from `public/assets/`:
+  - `logo.webp` (replaced by text in Logo.astro)
+  - `profile-pic.webp` (replaced by `alexander-120x120.png` in Bio.astro)
+  - `social.png` (replaced by `alexander-120x120.png` in BaseHead.astro)
+  - `home-illustration.webp` and `home-illustration-small.webp` (removed with homepage redo)
+  - `about-illustration.webp` (removed with About redo)
+  - `blog/casual-life-3d-*.webp` (only referenced in the sample posts being deleted)
+
+---
+
 ## Phase 5 — Deployment
 
 - [ ] Add GitHub Actions workflow for Astro build + GitHub Pages deploy.
