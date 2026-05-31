@@ -1,14 +1,16 @@
 import { defineConfig } from 'astro/config'
 import svelte from '@astrojs/svelte'
 import mdx from '@astrojs/mdx'
+import rss from '@astrojs/rss'
+import sitemap from '@astrojs/sitemap'
 import remarkGfm from 'remark-gfm'
 import remarkSmartypants from 'remark-smartypants'
 import rehypeExternalLinks from 'rehype-external-links'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://astro-blog-template.netlify.app',
-  integrations: [mdx(), svelte()],
+  site: 'https://alxndr.blog',
+  integrations: [mdx(), svelte(), sitemap()],
   markdown: {
     shikiConfig: {
       theme: 'nord',
@@ -22,5 +24,11 @@ export default defineConfig({
         },
       ],
     ],
+  },
+  redirects: {
+    '/2023/04/24/toki-pona-li-pona-a.html': '/2023/04/24/mi-kama-sona-toki-e-toki-pona/',
+    '/2023/03/30/hot-wings-challenge-standup.html': '/2023/03/30/hot-ones-standup/',
+    '/2015/04/15/watch-some-files-and-run-something-whenever-they-change.html': '/2026/05/28/entr-watch-files-and-trigger-commands/',
+    '/2023/05/23/nasin-ku.html': '/2023/05/23/nasin-pi-lipu-nimi/',
   },
 })

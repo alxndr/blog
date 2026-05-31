@@ -1,8 +1,13 @@
 <footer>
+  <nav>
+    <a href="http://alxndr.github.io/resume/resume.html" target="_blank" rel="noopener">resume</a>
+    <a href="https://github.com/alxndr" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://gitlab.com/alxndr" target="_blank" rel="noopener">GitLab</a>
+    <a href="https://instagram.com/drwxrxrx" target="_blank" rel="noopener">photos</a>
+  </nav>
   <span>
-    &copy; {new Date().getFullYear()} Your Blog.
+    &copy; {new Date().getFullYear()} Alexander.
     Powered by <a href="https://astro.build" target="_blank" rel="noopener">Astro</a>.
-    Template by <a href="https://www.twitter.com/Charca" target="_blank" rel="noopener">Maxi Ferreira</a>.
   </span>
 </footer>
 
@@ -15,5 +20,19 @@
     padding: 1em 2em;
     text-align: center;
     width: 100%;
+  }
+
+  nav {
+    margin-bottom: 0.5em;
+  }
+
+  nav a {
+    color: inherit;
+    margin: 0 0.75em;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
   }
 </style>
