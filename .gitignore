@@ -7,3 +7,7 @@ _site/
 dist/
 node_modules/
 .astro/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
