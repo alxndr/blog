@@ -12,14 +12,15 @@
         * [   ] the `header` is full-width (?); the content in `div.container` is limited to 42em width. That kinda looks odd even on my laptop when font-size is 16px and my screen is 3100px+ wide... even wider screens it probably looks awful. Should we constrain the header as well? is 42em based on a readability guideline? (dare we automatically create columns for the content??)
     * restyle custom stuff...
         * [   ] [dough calculator](http://localhost:4321/2023/07/28/sourdough-pizza-dough-ratio-calculator)
+        * [   ] mapping table on [the Oghamic Toki Pona post](http://localhost:4321/2024/01/18/sitelen-oken-pi-toki-pona/)
 
 * [   ] add support for: metadata on a post can include a thumbnail image ... url?
 
-* [   ] evaluate how to add assets (images; one-off CSS; client-side JS) to content (blog posts, pages)
+* [ x ] evaluate how to add assets (images; one-off CSS; client-side JS) to content (blog posts, pages)
 
 * [   ] investigate astro v6 upgrade...
 
-* [   ] fold the `HISTORY.md` contents into the Colophon page
+* [ x ] fold the `HISTORY.md` contents into the Colophon page
 
 * [   ] add tag support for pages
 
