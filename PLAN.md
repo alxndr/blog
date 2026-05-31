@@ -242,9 +242,10 @@ Currently: bare TODO placeholder (Charca copy and stock illustrations removed in
 Replace with a real post listing — the PLAN has always said `/` is where posts live (no `/blog/`
 prefix, since the domain ends in `.blog`). Rough shape:
 
-- [ ] Show all published posts, newest first (title + date + tags, no excerpts unless added later)
-- [ ] Optional "pinned" / evergreen section at top (hand-curated list of slugs in the page itself)
-- [ ] Link to `/tags/` index and standalone pages (`/colophon`, `/tapes`, `/toki-pona`)
+- [x] Show all published posts, newest first (title + date, tags hidden for scannability)
+- [x] Pinned section at top with 3 evergreen posts (matching Jekyll `pin: true`)
+- [x] Link to `/tags/` index and standalone pages (`/colophon`, `/tapes`, `/toki-pona`)
+- [x] Added `/tags/` to main nav
 
 ### About page (`src/pages/about.astro`)
 
