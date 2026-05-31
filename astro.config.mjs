@@ -8,6 +8,7 @@ import rehypeExternalLinks from 'rehype-external-links'
 
 // https://astro.build/config
 export default defineConfig({
+  devToolbar: {enabled: false},
   site: 'https://alxndr.blog',
   integrations: [mdx(), svelte(), sitemap()],
   markdown: {
