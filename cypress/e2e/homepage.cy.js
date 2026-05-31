@@ -23,7 +23,7 @@ describe('homepage', () => {
   })
 
   it('each post item links to a dated URL', () => {
-    cy.get('section[aria-label="All posts"] .post-list li a').first()
+    cy.get('section[aria-label="All posts"] .post-list li .post-content > a').first()
       .should('have.attr', 'href')
       .and('match', /^\/\d{4}\/\d{2}\/\d{2}\//)
   })

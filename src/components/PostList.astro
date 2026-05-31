@@ -1,0 +1,69 @@
+---
+import { tagToSlug } from '../utils/tagSlug.js'
+
+const { posts } = Astro.props
+---
+
+<ul class="post-list">
+  {posts.map(post => (
+    <li>
+      <span class="date">{post.data.publishDate}</span>
+      <div class="post-content">
+        <a href={`/${post.data.slug}/`}>{post.data.title}</a>
+        {post.data.tags && post.data.tags.length > 0 && (
+          <span class="tags" aria-label="tags">
+            {post.data.tags.map(tag => (
+              <a href={`/tags/${tagToSlug(tag)}/`} class="tag-link" title={`Posts tagged "${tag}"`}>#{tag}</a>
+            ))}
+          </span>
+        )}
+      </div>
+    </li>
+  ))}
+</ul>
+
+<style>
+  .post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .post-list li {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    column-gap: 1em;
+    align-items: baseline;
+    margin: 0.75em 0;
+  }
+
+  .date {
+    color: var(--text-secondary);
+    font-family: var(--font-family-sans);
+    font-size: 0.8em;
+    white-space: nowrap;
+  }
+
+  .post-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.2em 0.75em;
+  }
+
+  .post-content > a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .post-content > a:hover {
+    text-decoration: underline;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2em 0.5em;
+    font-size: 0.8em;
+  }
+</style>

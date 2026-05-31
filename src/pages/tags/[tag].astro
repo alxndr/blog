@@ -1,6 +1,7 @@
 ---
 import { getCollection, getEntry, render } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
+import PostList from '../../components/PostList.astro'
 import { tagToSlug } from '../../utils/tagSlug.js'
 
 export async function getStaticPaths() {
@@ -47,38 +48,12 @@ const taggedPosts = allPosts
       {TagContent && <TagContent />}
     </article>
     {!TagContent && <p>{taggedPosts.length} post{taggedPosts.length === 1 ? '' : 's'}</p>}
-    <ul class="post-list">
-      {taggedPosts.map(post => (
-        <li>
-          <span class="date">{post.data.publishDate}</span>
-          <a href={`/${post.data.slug}/`}>{post.data.title}</a>
-        </li>
-      ))}
-    </ul>
+    <PostList posts={taggedPosts} />
   </div>
 </BaseLayout>
 
 <style>
   h1 {
     margin-bottom: 0.25em;
-  }
-
-  .post-list {
-    list-style: none;
-    padding: 0;
-  }
-
-  .post-list li {
-    display: flex;
-    gap: 1em;
-    margin: 0.6em 0;
-    align-items: baseline;
-  }
-
-  .date {
-    color: var(--text-secondary);
-    font-family: var(--font-family-sans);
-    font-size: 0.85em;
-    white-space: nowrap;
   }
 </style>

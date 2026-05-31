@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content'
 import BaseLayout from '../layouts/BaseLayout.astro'
-import { tagToSlug } from '../utils/tagSlug.js'
+import PostList from '../components/PostList.astro'
 
 const PINNED_SLUGS = [
   '2016/11/17/dont-be-scared-of-merge-conflicts',
@@ -19,11 +19,9 @@ const publishedPosts = allPosts
   .filter(p => !p.data.draft)
   .sort((a, b) => new Date(b.data.publishDate) - new Date(a.data.publishDate))
 
-const pinnedSet = new Set(PINNED_SLUGS)
 const pinnedPosts = PINNED_SLUGS
   .map(slug => publishedPosts.find(p => p.data.slug === slug))
   .filter(Boolean)
-const chronoPosts = publishedPosts.filter(p => !pinnedSet.has(p.data.slug))
 ---
 
 <BaseLayout title={title} description={description} permalink={permalink}>
@@ -31,44 +29,12 @@ const chronoPosts = publishedPosts.filter(p => !pinnedSet.has(p.data.slug))
 
     <section class="pinned" aria-label="Pinned posts">
       <h2 class="section-heading">pinned</h2>
-      <ul class="post-list">
-        {pinnedPosts.map(post => (
-          <li>
-            <span class="date">{post.data.publishDate}</span>
-            <div class="post-content">
-              <a href={`/${post.data.slug}/`}>{post.data.title}</a>
-              {post.data.tags && post.data.tags.length > 0 && (
-                <span class="tags" aria-label="tags">
-                  {post.data.tags.map(tag => (
-                    <a href={`/tags/${tagToSlug(tag)}/`} class="tag-link" title={`Posts tagged "${tag}"`}>#{tag}</a>
-                  ))}
-                </span>
-              )}
-            </div>
-          </li>
-        ))}
-      </ul>
+      <PostList posts={pinnedPosts} />
     </section>
 
     <section aria-label="All posts">
       <h2 class="section-heading">all posts</h2>
-      <ul class="post-list">
-        {chronoPosts.map(post => (
-          <li>
-            <span class="date">{post.data.publishDate}</span>
-            <div class="post-content">
-              <a href={`/${post.data.slug}/`}>{post.data.title}</a>
-              {post.data.tags && post.data.tags.length > 0 && (
-                <span class="tags" aria-label="tags">
-                  {post.data.tags.map(tag => (
-                    <a href={`/tags/${tagToSlug(tag)}/`} class="tag-link" title={`Posts tagged "${tag}"`}>#{tag}</a>
-                  ))}
-                </span>
-              )}
-            </div>
-          </li>
-        ))}
-      </ul>
+      <PostList posts={publishedPosts} />
     </section>
 
   </div>
@@ -112,62 +78,17 @@ const chronoPosts = publishedPosts.filter(p => !pinnedSet.has(p.data.slug))
     background-color: rgba(84, 142, 155, 0.06);
   }
 
-  .pinned .post-list li {
+  .pinned :global(.post-list li) {
     grid-template-columns: 1em 1fr;
   }
 
-  .pinned .post-list .date {
+  .pinned :global(.post-list .date) {
     display: none;
   }
 
-  .pinned .post-list li::before {
+  .pinned :global(.post-list li::before) {
     content: "📌";
     font-size: 0.8em;
     align-self: baseline;
   }
-
-  .post-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .post-list li {
-    display: grid;
-    grid-template-columns: min-content 1fr;
-    column-gap: 1em;
-    align-items: baseline;
-    margin: 0.75em 0;
-  }
-
-  .date {
-    color: var(--text-secondary);
-    font-family: var(--font-family-sans);
-    font-size: 0.8em;
-    white-space: nowrap;
-  }
-
-  .post-content {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.2em 0.75em;
-  }
-
-  .post-content > a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .post-content > a:hover {
-    text-decoration: underline;
-  }
-
-  .tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.2em 0.5em;
-    font-size: 0.8em;
-  }
-
 </style>

@@ -26,7 +26,7 @@ describe('tag listing page', () => {
   })
 
   it('each post item links to a post URL', () => {
-    cy.get('.post-list li a').each($link => {
+    cy.get('.post-list li .post-content > a').each($link => {
       cy.wrap($link)
         .should('have.attr', 'href')
         .and('match', /^\/\d{4}\/\d{2}\/\d{2}\//)
