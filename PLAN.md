@@ -129,7 +129,10 @@ as an example of a non-post page:
 - `colophon.md`
 - `tapes.md`
 - `toki-pona.md`
-- `ante-kulupu-so.md`
+- `ante-kulupu-so.md` ⚠️ **deferred** — uses Kramdown IAL (Inline Attribute Lists) syntax
+  70 times (`_name_{:attr-ref}`), which Astro's remark pipeline does not support.
+  Options: install a remark-attributes plugin, or run a script to rewrite the 70
+  occurrences as inline HTML. The page is still served from the Jekyll source for now.
 - `tags.md` — evaluate once tags are wired up; may be superseded by a generated listing
 
 ### Assets
