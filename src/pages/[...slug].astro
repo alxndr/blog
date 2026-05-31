@@ -28,7 +28,7 @@ const { Content } = await render(post)
     {tags && tags.length > 0 && (
       <p class="tags">
         {tags.map(tag => (
-          <a href={`/tags/${tagToSlug(tag)}/`}>#{tag}</a>
+          <a href={`/tags/${tagToSlug(tag)}/`} title={`Posts tagged "${tag}"`}>#{tag}</a>
         ))}
       </p>
     )}
