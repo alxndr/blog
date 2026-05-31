@@ -1,6 +1,6 @@
 ---
 import ThemeToggleButton from './ThemeToggleButton.svelte';
-const { current = '' } = Astro.props;
+const pathname = Astro.url.pathname;
 ---
 
 <style>
@@ -63,8 +63,8 @@ const { current = '' } = Astro.props;
 </style>
 
 <nav aria-label="Main navigation">
-  <a class={current === "" ? "selected" : ""} href='/'>home</a>
-  <a class={current === "tags" ? "selected" : ""} href='/tags/'>tags</a>
+  <a class={pathname === "/" ? "selected" : ""} href='/'>home</a>
+  <a class={pathname.startsWith("/tags/") ? "selected" : ""} href='/tags/'>tags</a>
   <div class="theme-toggle-container">
     <ThemeToggleButton client:load />
   </div>
