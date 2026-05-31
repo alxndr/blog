@@ -26,6 +26,7 @@ export default defineConfig({
     ],
   },
   redirects: {
+    '/toki-pona/': '/tags/toki-pona/',
     '/2015/04/15/watch-some-files-and-run-something-whenever-they-change.html': '/2026/05/28/entr-watch-files-and-trigger-commands/',
     '/2023/03/30/hot-wings-challenge-standup.html': '/2023/03/30/hot-ones-standup/',
     '/2023/04/24/toki-pona-li-pona-a.html': '/2023/04/24/mi-kama-sona-toki-e-toki-pona/',

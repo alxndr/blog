@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content'
+import { getCollection, getEntry, render } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import { tagToSlug } from '../../utils/tagSlug.js'
 
@@ -23,8 +23,16 @@ export async function getStaticPaths() {
 
 const { tag } = Astro.params
 const { displayName } = Astro.props
-const title = `posts tagged: ${displayName}`
 const permalink = `${Astro.site}tags/${tag}/`
+
+const tagPage = await getEntry('tagPages', tag)
+const pageTitle = tagPage?.data.title ?? `posts tagged: ${displayName}`
+
+let TagContent = null
+if (tagPage) {
+  const { Content } = await render(tagPage)
+  TagContent = Content
+}
 
 const allPosts = await getCollection('posts')
 const taggedPosts = allPosts
@@ -32,10 +40,13 @@ const taggedPosts = allPosts
   .sort((a, b) => new Date(b.data.publishDate) - new Date(a.data.publishDate))
 ---
 
-<BaseLayout title={title} permalink={permalink}>
+<BaseLayout title={pageTitle} permalink={permalink}>
   <div class="container">
-    <h1 aria-label={`Posts tagged "${displayName}"`}>{title}</h1>
-    <p>{taggedPosts.length} post{taggedPosts.length === 1 ? '' : 's'}</p>
+    <article class="content">
+      <h1 aria-label={tagPage ? undefined : `Posts tagged "${displayName}"`}>{pageTitle}</h1>
+      {TagContent && <TagContent />}
+    </article>
+    {!TagContent && <p>{taggedPosts.length} post{taggedPosts.length === 1 ? '' : 's'}</p>}
     <ul class="post-list">
       {taggedPosts.map(post => (
         <li>

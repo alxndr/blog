@@ -1,5 +1,9 @@
-// Spot-checks the 4 redirect_from entries defined in astro.config.mjs
+// Spot-checks the redirect entries defined in astro.config.mjs
 const REDIRECTS = [
+  {
+    from: '/toki-pona/',
+    to: '/tags/toki-pona/',
+  },
   {
     from: '/2023/04/24/toki-pona-li-pona-a.html',
     to: '/2023/04/24/mi-kama-sona-toki-e-toki-pona/',
