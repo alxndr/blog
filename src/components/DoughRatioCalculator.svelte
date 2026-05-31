@@ -19,8 +19,6 @@
   let ratioYeast = $derived(yeast ? pct(yeast / starter) : 'n/a')
 </script>
 
-<noscript>The interactivity below requires client-side JavaScript. Not common for me, I know, but that's all I've got for readable content in this blog post!</noscript>
-
 <div id="dough-ratio-calculator">
   <ul>
     <li><label><input type="number" bind:value={starter} /> starter</label></li>
