@@ -140,11 +140,17 @@ hr {
 code {
   font-family: 'SF Mono', menlo, inconsolata, monospace;
   font-size: calc(1em - 2px);
-  color: #555;
+  color: #444;
+  background-color: #f0f2f4;
   padding: 0.2em 0.4em;
   border-radius: 2px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.theme-dark code {
+  color: #d8dee9;
+  background-color: #2e3440;
 }
 
 pre {
@@ -153,8 +159,14 @@ pre {
   padding: 1.2em;
 }
 
+.theme-dark pre {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
 pre code {
   padding: 0;
+  background-color: transparent;
+  color: inherit;
 }
 
 blockquote {

@@ -2,12 +2,12 @@
 
 * [   ] favicon — make a tiny version of my avatar image `alexander-120x120.png`
 
-* [   ] `/tags/toki-pona` individual-tag page, fold the Toki Pona page into this
+* [ x ] `/tags/toki-pona` individual-tag page, fold the Toki Pona page into this
 
 * style check...
     * general
         * [ x ] why is the default font bumped up to 1.3rem? that's wacky. let's put it at 1.1rem at the most. line-height could be bumped to 1.85rem tho
-        * [   ] `pre` / `code` elements — in dark mode they are dark gray on a darker gray bg, the text should be a little lighter gray... in light mode they are the same, it should be a lighter color scheme
+        * [ x ] `pre` / `code` elements — in dark mode they are dark gray on a darker gray bg, the text should be a little lighter gray... in light mode they are the same, it should be a lighter color scheme
     * homepage
         * [   ] styling the post list layout: maybe turn it into a grid-like, with the date on the left a little bit smaller, and the title line-wrapped and text-align left? add tags back but underneath and aligned with the title?
         * [   ] pinned posts: add a 📌 emoji or whatev
