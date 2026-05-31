@@ -1,4 +1,5 @@
 ---
+import { clsx } from 'clsx';
 import ThemeToggleButton from './ThemeToggleButton.astro';
 const pathname = Astro.url.pathname;
 ---
@@ -63,9 +64,9 @@ const pathname = Astro.url.pathname;
 </style>
 
 <nav aria-label="Main navigation">
-  <a class={pathname === "/" ? "selected" : ""} href='/'>home</a>
-  <a class={pathname.startsWith("/tags/") ? "selected" : ""} href='/tags/'>tags</a>
-  <a class={pathname.startsWith("/colophon")} href="/colophon">about</a>
+  <a class={clsx({ selected: pathname === "/" })} href='/'>home</a>
+  <a class={clsx({ selected: pathname.startsWith("/tags/") })} href='/tags/'>tags</a>
+  <a class={clsx({ selected: pathname.startsWith("/colophon") })} href="/colophon">about</a>
   <div class="theme-toggle-container">
     <ThemeToggleButton />
   </div>
