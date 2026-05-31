@@ -1,6 +1,6 @@
 {
-  "name": "zapping-zero",
-  "version": "0.0.1",
+  "name": "alxndr-blog",
+  "version": "3.0.0-alpha",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
