@@ -4,8 +4,7 @@ publishDate: '2016-11-17'
 slug: 2016/11/17/dont-be-scared-of-merge-conflicts
 tags:
   - git
-  - versioning
-  - merge conflicts
+  - CLI
 ---
 
 First things first: it can be a lot easier to resolve merge conflicts when you can see what the code looked like *before* the edits which are now conflicting. Git calls that the "common ancestors" of the conflicting lines of code, and it's easy to configure Git to show those in the merge conflicts themselves using the `merge.conflictstyle` config option. Here's what Git's help has to say about it:

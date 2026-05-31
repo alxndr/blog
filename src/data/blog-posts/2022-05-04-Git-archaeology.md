@@ -4,8 +4,8 @@ publishDate: '2022-05-04'
 slug: 2022/05/04/Git-archaeology
 tags:
   - git
-  - version control
   - code archaeology
+  - CLI
 ---
 
 TLDR:

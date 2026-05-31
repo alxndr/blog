@@ -4,8 +4,8 @@ publishDate: '2016-04-11'
 slug: 2016/04/11/search-Git-history-ignoring-certain-directory
 tags:
   - git
-  - version control
   - code archaeology
+  - CLI
 ---
 
 Ever wanted to look through a Git repository's history for a commits involving a specific string, but ignoring a certain directory (e.g. for packaged/built code)?

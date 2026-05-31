@@ -3,9 +3,8 @@ title: linking to code? always use an href which is tied to a specific commit
 publishDate: '2016-05-06'
 slug: 2016/05/06/linking-to-code-always-use-an-href-which-is-tied-to-a-specific-commit
 tags:
-  - version control
-  - future-proofing
   - documentation
+  - git
 ---
 
 *tl;dr* _Don't_ use links like `github.com/owner/repo/blob/master/file.ext#L13` because that branch _will_ change! Use `github.com/owner/repo/blob/COMMIT_SHA/file.ext#L13` and be _future-proof_.
