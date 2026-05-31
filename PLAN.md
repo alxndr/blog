@@ -203,6 +203,23 @@ These go in the `redirects` object in `astro.config.mjs` (permanent 301 by defau
 
 ---
 
+## Phase 3.5 — Tags
+
+Tags are stored in post frontmatter and validated by the content collection schema, but
+there is no browsing UI yet.
+
+- [ ] **Per-tag listing page** — `src/pages/tags/[tag].astro`:
+  - `getStaticPaths()` collects all unique tags across published posts
+  - Each tag page lists posts with that tag, sorted by date (newest first)
+  - URL scheme: `/tags/toki-pona/`, `/tags/git/`, etc. (slugify the tag)
+- [ ] **Tag display on individual posts** — update `src/pages/[...slug].astro`:
+  - Show the post's tags below the title/date line
+  - Each tag links to its `/tags/[tag]/` listing page
+- [ ] **Tag index** — `src/pages/tags/index.astro` (optional, evaluate after above):
+  - Lists all tags with post counts; the old `tags.md` is superseded by this
+
+---
+
 ## Phase 4 — RSS, sitemap, analytics
 
 The Charca template does **not** include RSS or sitemap support despite what the README
