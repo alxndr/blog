@@ -50,3 +50,78 @@
     : <abbr title="yeast">{ratioYeast}</abbr>
   </p>
 </div>
+
+<style>
+  #dough-ratio-calculator {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 1em 3em;
+    padding: 1.25em 1.75em;
+    border: 1px solid rgba(128, 128, 128, 0.35);
+    border-radius: 0.75em;
+    background-color: rgba(128, 128, 128, 0.07);
+    font-family: var(--font-family-sans, sans-serif);
+    margin: 1.5em 0;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+  }
+
+  input[type="number"] {
+    width: 4.5em;
+    text-align: right;
+    padding: 0.2em 0.4em;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 0.3em;
+    background: transparent;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+  }
+
+  table {
+    border-collapse: collapse;
+    font-family: inherit;
+    font-size: inherit;
+    margin: 0;
+  }
+
+  caption {
+    font-weight: 600;
+    padding-bottom: 0.4em;
+    text-align: center;
+  }
+
+  td {
+    padding: 0.3em 0.6em;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+    word-break: normal;
+  }
+
+  td:first-child {
+    text-align: right;
+  }
+
+  p {
+    margin: 0;
+    text-align: center;
+  }
+
+  strong {
+    display: block;
+    margin-bottom: 0.3em;
+  }
+</style>
