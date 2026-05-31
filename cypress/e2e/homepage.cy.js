@@ -14,12 +14,12 @@ describe('homepage', () => {
     cy.get('a[href="#main-content"]').should('exist')
   })
 
-  it('shows a pinned posts section with 3 entries', () => {
-    cy.get('section[aria-label="Pinned posts"] .post-list li').should('have.length', 3)
+  it('shows a pinned posts section with 4 entries', () => {
+    cy.get('section[aria-label="Pinned posts"] .post-list li').should('have.length', 4)
   })
 
-  it('shows at least 50 posts in the all-posts section', () => {
-    cy.get('section[aria-label="All posts"] .post-list li').should('have.length.gte', 50)
+  it('shows at least 49 posts in the all-posts section', () => {
+    cy.get('section[aria-label="All posts"] .post-list li').should('have.length.gte', 49)
   })
 
   it('each post item links to a dated URL', () => {

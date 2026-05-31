@@ -1,7 +1,7 @@
 const KNOWN_POST = {
   slug: '2017/02/01/how-to-find-the-merge-where-your-code-disappeared',
   title: 'how to find the merge where your code disappeared',
-  tags: ['git', 'versioning'],
+  tags: ['git', 'code-archaeology', 'cli'],
 }
 
 describe('individual post page', () => {

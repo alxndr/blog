@@ -4,6 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro'
 import { tagToSlug } from '../utils/tagSlug.js'
 
 const PINNED_SLUGS = [
+  '2016/11/17/dont-be-scared-of-merge-conflicts',
   '2023/05/11/recursive-techdebt-upgrade-ticket',
   '2022/03/09/removing-webpage-components',
   '2023/01/30/new-git-repo-with-history-of-old-repo',
@@ -149,7 +150,7 @@ const chronoPosts = publishedPosts.filter(p => !pinnedSet.has(p.data.slug))
   .post-content {
     display: flex;
     flex-wrap: wrap;
-    align-items: baseline;
+    align-items: center;
     gap: 0.2em 0.75em;
   }
 
