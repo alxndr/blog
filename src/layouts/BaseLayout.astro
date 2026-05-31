@@ -16,10 +16,11 @@ const { title, description, permalink, current } = Astro.props;
   <BaseHead title={title} description={description} permalink={permalink} />
 </head>
 <body>
+  <a href="#main-content" class="skip-nav">Skip to content</a>
   <div class="layout">
     <Header current={current} />
 
-    <main>
+    <main id="main-content">
       <slot />
     </main>
 
@@ -29,6 +30,23 @@ const { title, description, permalink, current } = Astro.props;
 </html>
 
 <style>
+  .skip-nav {
+    position: absolute;
+    top: -100%;
+    left: 1em;
+    padding: 0.5em 1em;
+    background: var(--background-body);
+    border: 2px solid var(--primary-color);
+    border-radius: 4px;
+    font-family: var(--font-family-sans);
+    font-weight: 700;
+    z-index: 100;
+  }
+
+  .skip-nav:focus {
+    top: 1em;
+  }
+
   .layout {
     display: flex;
     flex-direction: column;

@@ -1,33 +1,33 @@
 <script>
-  let S = $state(66.6)
-  let W = $state(300)
-  let F = $state(400)
-  let T = $state(9)
-  let Y = $state(0.5)
+  let starter = $state(66.6)
+  let water   = $state(300)
+  let flour   = $state(400)
+  let salt    = $state(9)
+  let yeast   = $state(0.5)
 
   function sig2(n) { return n.toPrecision(2) }
   function pct(n)  { return (n * 100).toPrecision(3) + '%' }
 
-  let pctStarter = $derived(pct(S / F))
-  let pctWater   = $derived(pct(W / F))
-  let pctSalt    = $derived(T ? pct(T / F) : 'n/a')
-  let pctYeast   = $derived(Y ? pct(Y / F) : 'n/a')
+  let pctStarter = $derived(pct(starter / flour))
+  let pctWater   = $derived(pct(water / flour))
+  let pctSalt    = $derived(salt  ? pct( salt / flour) : 'n/a')
+  let pctYeast   = $derived(yeast ? pct(yeast / flour) : 'n/a')
 
-  let ratioWater = $derived(sig2(W / S))
-  let ratioFlour = $derived(sig2(F / S))
-  let ratioSalt  = $derived(T ? pct(T / S) : 'n/a')
-  let ratioYeast = $derived(Y ? pct(Y / S) : 'n/a')
+  let ratioWater = $derived(sig2(water / starter))
+  let ratioFlour = $derived(sig2(flour / starter))
+  let ratioSalt  = $derived(salt ? pct(salt / starter) : 'n/a')
+  let ratioYeast = $derived(yeast ? pct(yeast / starter) : 'n/a')
 </script>
 
 <noscript>The interactivity below requires client-side JavaScript. Not common for me, I know, but that's all I've got for readable content in this blog post!</noscript>
 
 <div id="dough-ratio-calculator">
   <ul>
-    <li><input type="number" bind:value={S} /> starter</li>
-    <li><input type="number" bind:value={W} /> water</li>
-    <li><input type="number" bind:value={F} /> flour</li>
-    <li><input type="number" bind:value={T} /> salt</li>
-    <li><input type="number" bind:value={Y} /> yeast</li>
+    <li><label><input type="number" bind:value={starter} /> starter</label></li>
+    <li><label><input type="number" bind:value={water} /> water</label></li>
+    <li><label><input type="number" bind:value={flour} /> flour</label></li>
+    <li><label><input type="number" bind:value={salt} /> salt</label></li>
+    <li><label><input type="number" bind:value={yeast} /> yeast</label></li>
   </ul>
 
   <table>

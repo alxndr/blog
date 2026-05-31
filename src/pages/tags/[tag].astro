@@ -34,7 +34,7 @@ const taggedPosts = allPosts
 
 <BaseLayout title={title} permalink={permalink}>
   <div class="container">
-    <h1>{title}</h1>
+    <h1 aria-label={`Posts tagged "${displayName}"`}>{title}</h1>
     <p>{taggedPosts.length} post{taggedPosts.length === 1 ? '' : 's'}</p>
     <ul class="post-list">
       {taggedPosts.map(post => (

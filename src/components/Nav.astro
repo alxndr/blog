@@ -62,7 +62,7 @@ const { current = '' } = Astro.props;
 
 </style>
 
-<nav>
+<nav aria-label="Main navigation">
   <a class={current === "" ? "selected" : ""} href='/'>home</a>
   <a class={current === "about" ? "selected" : ""} href='/about'>about</a>
   <div class="theme-toggle-container">

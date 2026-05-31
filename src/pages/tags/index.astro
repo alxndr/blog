@@ -28,7 +28,7 @@ const tags = Array.from(tagCounts.entries())
 
 <BaseLayout title={title} permalink={permalink}>
   <div class="container">
-    <h1>{title}</h1>
+    <h1 aria-label="All tags">{title}</h1>
     <ul class="tag-list">
       {tags.map(({ slug, displayName, count }) => (
         <li>
