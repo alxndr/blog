@@ -20,3 +20,17 @@ describe('standalone pages', () => {
     })
   }
 })
+
+describe('colophon page', () => {
+  beforeEach(() => cy.visit('/colophon/'))
+
+  it('renders all three design-history screenshots', () => {
+    cy.get('figure.colophon-screenshot').should('have.length', 3)
+  })
+
+  it('each screenshot has an image with a src', () => {
+    cy.get('figure.colophon-screenshot img').each($img => {
+      cy.wrap($img).should('have.attr', 'src').and('not.be.empty')
+    })
+  })
+})
