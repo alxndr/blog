@@ -74,24 +74,24 @@ publishDate  string | date
 
 ### Setup steps
 
-- [ ] Scaffold from the Charca template:
+- [x] Scaffold from the Charca template:
   ```sh
   npm create astro@latest -- --template Charca/astro-blog-template
   ```
-- [ ] Commit the baseline scaffold before any customization
-- [ ] **Routing change**: delete `src/pages/blog/[slug].astro`, create
+- [x] Commit the baseline scaffold before any customization
+- [x] **Routing change**: delete `src/pages/blog/[slug].astro`, create
   `src/pages/[...slug].astro` at the repo root level (see Phase 3 for why)
-- [ ] **No `/blog/` index page** — the site's TLD is `.blog`, making `/blog/` redundant.
+- [x] **No `/blog/` index page** — the site's TLD is `.blog`, making `/blog/` redundant.
   Post listing will live at `/` (the homepage).
-- [ ] Extend `astro.config.mjs`:
+- [x] Extend `astro.config.mjs`:
   - `site`: `https://alxndr.blog`
   - Add integrations: `@astrojs/rss`, `@astrojs/sitemap`
   - Add `redirects` map (see Phase 3)
-- [ ] Extend content collection schema in `src/content.config.js`:
+- [x] Extend content collection schema in `src/content.config.js`:
   - Keep: `title`, `slug`, `publishDate`
   - Make `description` optional (Jekyll posts don't have it)
   - Add: `tags` (optional `z.array(z.string())`), `draft` (optional boolean)
-- [ ] Update site metadata throughout components:
+- [x] Update site metadata throughout components:
   - Title: `Alexander's blog`
   - Masthead: `://alxndr.blog — Alexander's blog`
   - Description: `mostly notes to myself`
