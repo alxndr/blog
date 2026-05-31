@@ -1,5 +1,6 @@
 ---
 import { getCollection, render } from 'astro:content'
+import { getImage } from 'astro:assets'
 import readingTime from 'reading-time'
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Bio from '../components/Bio.astro';
@@ -22,13 +23,16 @@ export async function getStaticPaths() {
 }
 
 const { post, prevPost, nextPost } = Astro.props
-const { title, slug, description, publishDate, tags } = post.data;
+const { title, slug, description, publishDate, tags, thumbnail } = post.data;
 const readingTimeEstimate = readingTime(post.body ?? '').text
 const permalink = `${Astro.site}${slug}/`;
 const { Content } = await render(post)
+
+const thumbnailImage = thumbnail ? await getImage({ src: thumbnail, format: 'jpeg' }) : null
+const socialImage = thumbnailImage ? new URL(thumbnailImage.src, Astro.site).href : undefined
 ---
 
-<BaseLayout title={title} description={description} permalink={permalink}>
+<BaseLayout title={title} description={description} permalink={permalink} image={socialImage}>
   <div class="container">
     <header>
       <p>{publishDate} ~ {readingTimeEstimate}</p>

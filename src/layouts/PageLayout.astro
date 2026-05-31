@@ -1,14 +1,24 @@
 ---
+import { getImage } from 'astro:assets'
 import BaseLayout from './BaseLayout.astro';
+
+const pageImages = import.meta.glob('/src/pages/**/*.{png,jpg,jpeg,webp,gif,avif}', { eager: true, import: 'default' })
 
 const { frontmatter } = Astro.props;
 const title = frontmatter?.title ?? '';
 const description = frontmatter?.description;
 const slug = frontmatter?.slug ?? Astro.url.pathname.replace(/^\/|\/$/g, '');
 const permalink = `${Astro.site}${slug}`;
+
+const thumbnailRelPath = frontmatter?.thumbnail
+const pageDirPath = '/src/pages' + Astro.url.pathname.replace(/\/$/, '')
+const thumbnailKey = thumbnailRelPath ? `${pageDirPath}/${thumbnailRelPath.replace(/^\.\//, '')}` : null
+const thumbnailSrc = thumbnailKey ? pageImages[thumbnailKey] : null
+const thumbnailImage = thumbnailSrc ? await getImage({ src: thumbnailSrc, format: 'jpeg' }) : null
+const socialImage = thumbnailImage ? new URL(thumbnailImage.src, Astro.site).href : undefined
 ---
 
-<BaseLayout title={title} description={description} permalink={permalink}>
+<BaseLayout title={title} description={description} permalink={permalink} image={socialImage}>
   <div class="container">
     <article class="content">
       {title && <h1>{title}</h1>}

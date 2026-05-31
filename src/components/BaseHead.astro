@@ -7,10 +7,11 @@ export interface Props {
   title: string
   description?: string
   permalink: string
+  image?: string
 }
 
-const { title, description, permalink } = Astro.props
-const socialUrl = Astro.site.href + 'assets/images/alexander-120x120.png'
+const { title, description, permalink, image } = Astro.props
+const socialUrl = image ?? (Astro.site.href + 'assets/images/alexander-120x120.png')
 ---
 
 <!-- Global Metadata -->
