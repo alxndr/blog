@@ -34,3 +34,32 @@
     U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
     U+FEFF, U+FFFD;
 }
+
+/* Chinese fonts — used in toki-pona and ante-kulupu-so pages */
+@font-face { font-family: zh-EBAS;               src: url('/assets/fonts/ebas927.ttf'); line-height: 1.1em; }
+@font-face { font-family: zh-FangZhengXiaoZhuanTi; src: url('/assets/fonts/fang-zheng-xiao-zhuan-ti.ttf'); line-height: 1.1em; }
+@font-face { font-family: zh-JinWen;             src: url('/assets/fonts/jin-wen.ttf'); line-height: 1.1em; }
+
+/* Toki Pona fonts */
+@font-face { font-family: tp-FairfaxPonaHD;  src: url('https://raw.githubusercontent.com/kreativekorp/open-relay/4d7cfda/FairfaxHD/FairfaxPonaHD.ttf'); line-height: 1.1em; }
+@font-face { font-family: tp-LinjaLipamanka; src: url('https://lipamanka.gay/linjalipamanka-normal.otf') format('opentype'); line-height: 1.1em; }
+@font-face { font-family: tp-LinjaPona;      src: url('https://raw.githubusercontent.com/janSame/linja-pona/master/linja-pona-4.9.otf') format('opentype'); }
+@font-face { font-family: tp-LinjaSuwi;      src: url('https://raw.githubusercontent.com/anna328p/linjasuwi/main/linjasuwi.otf'); line-height: 1.1em; }
+@font-face { font-family: tp-NasinNanpa;     src: url('/assets/fonts/nasin-nanpa-3.1.0.otf') format('opentype'); line-height: 1.1em; }
+@font-face {
+  font-family: tp-SitelenPonaPona;
+  src: url('https://jackhumbert.github.io/sitelen-pona-pona/fonts/sitelen-pona-pona.otf');
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga" 1;
+}
+@font-face {
+  font-family: 'sitelen pona pona';
+  src: url('https://jackhumbert.github.io/sitelen-pona-pona/fonts/sitelen-pona-pona.otf');
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga" 1;
+}
+@font-face { font-family: 'linja sike'; src: url('https://wyub.github.io/tokipona/linja-sike-5.otf'); }
+
+[lang=tp] > a { text-decoration: none; }

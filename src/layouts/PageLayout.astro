@@ -1,0 +1,17 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+const { frontmatter } = Astro.props;
+const title = frontmatter?.title ?? '';
+const description = frontmatter?.description;
+const slug = frontmatter?.slug ?? Astro.url.pathname.replace(/^\/|\/$/g, '');
+const permalink = `${Astro.site}${slug}`;
+---
+
+<BaseLayout title={title} description={description} permalink={permalink}>
+  <div class="container">
+    <article class="content">
+      <slot />
+    </article>
+  </div>
+</BaseLayout>

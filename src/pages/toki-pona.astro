@@ -1,0 +1,48 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const title = 'mi lipu e toki pona';
+const permalink = `${Astro.site}toki-pona`;
+
+const allPosts = await getCollection('posts');
+const tokiPonaPosts = allPosts
+  .filter(p => !p.data.draft && p.data.tags?.includes('toki pona'))
+  .sort((a, b) => new Date(b.data.publishDate) - new Date(a.data.publishDate));
+---
+
+<BaseLayout title={title} permalink={permalink}>
+  <div class="container">
+    <article class="content">
+      <h1>{title}</h1>
+
+      <p>jan ale o toki a! mi jan Lesate</p>
+      <p>toki pona la, lipu ni li linluwi e lipu mi e pali mi</p>
+      <p><abbr title="o moku e soko nasa — eat a silly mushroom!">omekosa</abbr>!</p>
+
+      <h2>mi pali e ilo</h2>
+      <ul>
+        <li>
+          <a href="https://alxndr.github.io/nasin-pi-lipu-nimi/?src=alxndr.blog&campaign=category-toki-pona" target="_blank" rel="noopener">nasin sitelen pi lipu nimi</a>
+          — jan li ken sona e sitelen sitelen kepeken ilo ni kepeken ala sitelen Lasina a!
+          <ul><li><a href="/2023/05/23/nasin-pi-lipu-nimi/">ni li seme??</a> — mi toki tan nasin ni</li></ul>
+        </li>
+        <li>ilo Vim la mi pali e <a href="https://github.com/alxndr/vim-syntax-tokipona" target="_blank" rel="noopener">lipu kute pi nimi kule</a></li>
+      </ul>
+
+      <h2>mi ante toki e lipu</h2>
+      <ul>
+        <li><a href="/ante-kulupu-so">lipu Ante Kulupu So</a> — lipu usawi pi ma Sonko majuna</li>
+        <li>🛠️ <a href="/lipu-nasin-pona">lipu Nasin Pona</a> — lipu Nasin Pona pi ma Sonko majuna</li>
+      </ul>
+
+      <h2>toki pona la, mi lipu</h2>
+      <ul>
+        {tokiPonaPosts.map(post => {
+          const date = new Date(post.data.publishDate).toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+          return <li><a href={`/${post.data.slug}/`}>{post.data.title}</a> ({date})</li>;
+        })}
+      </ul>
+    </article>
+  </div>
+</BaseLayout>
