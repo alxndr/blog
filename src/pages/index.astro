@@ -45,7 +45,7 @@ const chronoPosts = publishedPosts.filter(p => !pinnedSet.has(p.data.slug))
             {post.data.tags && post.data.tags.length > 0 && (
               <span class="tags" aria-label="tags">
                 {post.data.tags.map(tag => (
-                  <a href={`/tags/${tagToSlug(tag)}/`} class="tag" title={`Posts tagged "${tag}"`}>#{tag}</a>
+                  <a href={`/tags/${tagToSlug(tag)}/`} class="tag-link" title={`Posts tagged "${tag}"`}>#{tag}</a>
                 ))}
               </span>
             )}
@@ -64,7 +64,7 @@ const chronoPosts = publishedPosts.filter(p => !pinnedSet.has(p.data.slug))
             {post.data.tags && post.data.tags.length > 0 && (
               <span class="tags" aria-label="tags">
                 {post.data.tags.map(tag => (
-                  <a href={`/tags/${tagToSlug(tag)}/`} class="tag" title={`Posts tagged "${tag}"`}>#{tag}</a>
+                  <a href={`/tags/${tagToSlug(tag)}/`} class="tag-link" title={`Posts tagged "${tag}"`}>#{tag}</a>
                 ))}
               </span>
             )}

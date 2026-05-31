@@ -28,7 +28,7 @@ const { Content } = await render(post)
     {tags && tags.length > 0 && (
       <p class="tags">
         {tags.map(tag => (
-          <a href={`/tags/${tagToSlug(tag)}/`} title={`Posts tagged "${tag}"`}>#{tag}</a>
+          <a href={`/tags/${tagToSlug(tag)}/`} class="tag-link" title={`Posts tagged "${tag}"`}>#{tag}</a>
         ))}
       </p>
     )}
@@ -65,16 +65,6 @@ const { Content } = await render(post)
     gap: 0.4em 0.75em;
     justify-content: center;
     text-transform: none;
-  }
-
-  .tags a {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-size: 0.85em;
-  }
-
-  .tags a:hover {
-    text-decoration: underline;
   }
 
   header hr {

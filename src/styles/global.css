@@ -210,6 +210,29 @@ td {
   width: 100%;
 }
 
+.tag-link {
+  display: inline-block;
+  font-family: var(--font-family-sans);
+  font-size: 0.8em;
+  font-weight: 600;
+  color: var(--primary-color);
+  text-decoration: none;
+  border: 1px solid currentColor;
+  border-radius: 0.3em;
+  padding: 0.1em 0.45em;
+  line-height: 1.5;
+  /* Reset box-shadow set by the global `p a` rule when tags appear inside a <p> */
+  box-shadow: none;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.tag-link:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  box-shadow: none;
+}
+
 .content h1 {
   font-size: 3em;
   margin: 1em 0;

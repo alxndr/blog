@@ -32,7 +32,7 @@ const tags = Array.from(tagCounts.entries())
     <ul class="tag-list">
       {tags.map(({ slug, displayName, count }) => (
         <li>
-          <a href={`/tags/${slug}/`} title={`${count} post${count === 1 ? '' : 's'} tagged "${displayName}"`}>#{displayName}</a>
+          <a href={`/tags/${slug}/`} class="tag-link" title={`${count} post${count === 1 ? '' : 's'} tagged "${displayName}"`}>#{displayName}</a>
           <span class="count" aria-hidden="true">{count}</span>
         </li>
       ))}
