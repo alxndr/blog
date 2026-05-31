@@ -225,12 +225,11 @@ there is no browsing UI yet.
 The Charca template does **not** include RSS or sitemap support despite what the README
 implies — these need to be added manually.
 
-- [ ] Add `@astrojs/rss` — create `src/pages/rss.xml.js` endpoint.
-  Verify the feed URL matches what Jekyll published (Jekyll feed plugin defaults to `/feed.xml`).
-- [ ] Add `@astrojs/sitemap` integration to `astro.config.mjs` — generates `sitemap-index.xml`
-  automatically at build time.
-- [ ] Add Google Analytics (`G-RS6J6JRB3C`) in `src/components/BaseHead.astro` or equivalent
-  layout component. The Charca template uses `BaseHead.astro` for `<head>` content.
+- [x] Add `@astrojs/rss` — create `src/pages/feed.xml.js` endpoint.
+  Feed lives at `/feed.xml`, matching Jekyll's default. 53 posts, sorted newest first.
+- [x] Add `@astrojs/sitemap` integration to `astro.config.mjs` — generates `sitemap-index.xml`
+  automatically at build time. (Done in Phase 1.)
+- [x] Add Google Analytics (`G-RS6J6JRB3C`) in `src/components/BaseHead.astro`. (Done in Phase 1.)
 
 ---
 

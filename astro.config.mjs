@@ -1,7 +1,6 @@
 import { defineConfig } from 'astro/config'
 import svelte from '@astrojs/svelte'
 import mdx from '@astrojs/mdx'
-import rss from '@astrojs/rss'
 import sitemap from '@astrojs/sitemap'
 import remarkGfm from 'remark-gfm'
 import remarkSmartypants from 'remark-smartypants'
