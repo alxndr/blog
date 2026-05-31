@@ -30,19 +30,22 @@ separate repo. For now just the markdown files; generator/site is TBD.
   ```
   Result: 82 files (01.md–81.md + index.md) at repo root, 17 commits preserved.
   Extracted clone is at `/tmp/lipu-nasin-pona-extract` and ready to push.
-- [ ] Create new GitHub repo (e.g. `alxndr/lipu-nasin-pona`)
-- [ ] Point remote and push:
+- [x] Create new GitHub repo (`alxndr/lipu-nasin-pona`) — repo exists at `../lipu-nasin-pona`
+- [ ] Push extracted history to GitHub remote:
   ```sh
-  cd /tmp/lipu-nasin-pona-extract
+  cd /Users/alxndr/workspace/lipu-nasin-pona
   git remote add origin git@github.com:alxndr/lipu-nasin-pona.git
   git push -u origin main
   ```
-- [ ] Remove `lipu-nasin-pona/` from the blog repo (on `spike/rebuild-quartz` branch):
-  - Delete the `lipu-nasin-pona/` directory
-  - Remove `_layouts/lipu-nasin-pona.html`
-  - Remove lipu-nasin-pona-related files from `_includes/`:
-    `lipu-nasin-pona.html`, `kasi-nav.html`, `sitelen-sitelen-renderer.html`, `sitelen-sitelen.js`
-  - Commit
+- [x] Remove `lipu-nasin-pona/` and Jekyll-only files from the blog repo:
+  - Deleted `lipu-nasin-pona/` (81 chapters + index)
+  - Deleted `_layouts/lipu-nasin-pona.html`
+  - Deleted `_includes/kasi-nav.html`, `sitelen-sitelen-renderer.html`, `sitelen-sitelen.js`
+  - Deleted `_includes/dough-ratio-calculator.js`, `analytics.html`, `footer/custom.html`
+  - Kept `assets/sitelen-sitelen-renderer.min.js` — still needed by `ante-kulupu-so.md`
+  - Committed as b62b801
+- Note: copied layout, includes, renderer JS, and extracted font CSS to
+  `/Users/alxndr/workspace/lipu-nasin-pona/assets/` for future site generator use
 
 ---
 
