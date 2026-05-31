@@ -2,6 +2,7 @@ const PAGES = [
   { path: '/colophon/', heading: /colophon/i },
   { path: '/tapes/', heading: /tapes/i },
   { path: '/toki-pona/', heading: /toki.?pona/i },
+  { path: '/ante-kulupu-so/', heading: /ante kulupu so/i },
 ]
 
 describe('standalone pages', () => {
