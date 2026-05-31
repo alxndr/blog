@@ -313,16 +313,14 @@ Now NeoVim shows me TypeScript errors/warnings within `.svelte` files, and updat
 
 ## Acknowledgements
 
-[`npm init vite`](https://github.com/vitejs/vite/tree/main/packages/create-vite) does a lot of the backend-for-frontend setup, without which I'd be totally unable to do any of this. Chapeau, [Vite](https://vitejs.dev)!
+* [`npm init vite`](https://github.com/vitejs/vite/tree/main/packages/create-vite) does a lot of the backend-for-frontend setup, without which I'd be totally unable to do any of this. Chapeau, [Vite](https://vitejs.dev)!
 
-[The SvelteKit docs](https://kit.svelte.dev/docs/load) are quite nice, helpful for a brand-new-beginner like me. Thanks Svelters!
+* [The SvelteKit docs](https://kit.svelte.dev/docs/load) are quite nice, helpful for a brand-new-beginner like me. Thanks Svelters!
 
-[Kisaragi Hiu's blog](https://kisaragi-hiu.com/kemdict-sveltekit-sqlite) shepherded me gently through all of the SQLite stuff! Thank you!
+* [Kisaragi Hiu's blog](https://kisaragi-hiu.com/kemdict-sveltekit-sqlite) shepherded me gently through all of the SQLite stuff! Thank you!
 
-https://www.okupter.com/blog/e2e-testing-with-sveltekit-and-playwright
+* ["E2E testing with SvelteKit and Playwright" by Justin Ahinon](https://www.okupter.com/blog/e2e-testing-with-sveltekit-and-playwright)
 
-
--------
 
 [Playwright]: https://playwright.dev
 [Svelte]: https://svelte.dev
