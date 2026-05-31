@@ -6,8 +6,8 @@
 
 * style check...
     * homepage
-        * [   ] styling the post list layout: maybe turn it into a grid-like, with the date on the left a little bit smaller, and the title line-wrapped and text-align left? add tags back but underneath and aligned with the title?
-        * [   ] pinned posts: add a 📌 emoji as list-item bulletpoint
+        * [ x ] styling the post list layout: maybe turn it into a grid-like, with the date on the left a little bit smaller, and the title line-wrapped and text-align left? add tags back but underneath and aligned with the title?
+        * [ x ] pinned posts: add a 📌 emoji as list-item bulletpoint
     * blog post
         * [   ] the `header` is full-width (?); the content in `div.container` is limited to 42em width. That kinda looks odd even on my laptop when font-size is 16px and my screen is 3100px+ wide... even wider screens it probably looks awful. Should we constrain the header as well? is 42em based on a readability guideline? (dare we automatically create columns for the content??)
     * restyle custom stuff...
