@@ -1,6 +1,9 @@
 # TODOs
 
-* [   ] style check...
+* [   ] favicon — make a tiny version of my avatar image `alexander-120x120.png`
+
+* style check...
+    * [   ] the `header` is full-width (?); the content in `div.container` is limited to 42em width. That kinda looks odd even on my laptop when font-size is 16px and my screen is 3100px+ wide... even wider screens it probably looks awful. Should we constrain the header as well? is 42em based on a readability guideline? (dare we automatically create columns for the content??)
     * [   ] why is the default font bumped up to 1.3rem? that's wacky. let's put it at 1.1rem at the most. line-height could be bumped to 1.85rem tho
     * [   ] `pre` / `code` elements — in dark mode they are dark gray on a darker gray bg, the text should be a little lighter gray... in light mode they are the same, it should be a lighter color scheme
     * [   ] on post pages, the tag hover state is unreadable (blue text on blue background)
