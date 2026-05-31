@@ -268,6 +268,19 @@ These Charca template artifacts should be removed:
   - `about-illustration.webp` (removed with About redo)
   - `blog/casual-life-3d-*.webp` (only referenced in the sample posts being deleted)
 
+### Full content audit
+
+- [ ] Crawl all on-disk files for leftover default values and placeholder content from either
+  the Charca `astro-blog-template` or the Astro starter scaffolding. Things to grep for:
+  - Package name: `zapping-zero` (the auto-generated project name from `npm create astro`)
+  - Template author references: `Maxi`, `Charca`, `Maxi Ferreira`, `maxiferreira.com`
+  - Placeholder URLs: `astro-blog-template.netlify.app`, `netlify.app`
+  - Placeholder copy: `Your Blog`, `perfect blog`, `perfect starter`, `Jeffsum`
+  - Icons8 illustration credits (appear in `about.astro` and `index.astro`)
+  - Any `TODO` comments inherited from the template (distinct from our own TODOs)
+  - `sandbox.config.json` if still present (CodeSandbox config, not needed)
+  - `screenshot.png` if still present (template repo screenshot)
+
 ---
 
 ## Phase 5 — Deployment
