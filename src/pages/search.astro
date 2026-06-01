@@ -14,7 +14,15 @@ const permalink = `${Astro.site}search/`
      The .catch() silently swallows the 404 in dev so the page still renders. -->
 <link rel="stylesheet" href="/pagefind/pagefind-ui.css">
 <script is:inline>
-  document.addEventListener('DOMContentLoaded', function () {
+  // astro:page-load fires on initial load AND after each client-side navigation
+  // (ClientRouter doesn't re-fire DOMContentLoaded, so this is the correct hook)
+  document.addEventListener('astro:page-load', function () {
+    var searchEl = document.getElementById('search')
+    if (!searchEl) return
+    if (window.PagefindUI) {
+      new window.PagefindUI({ element: '#search', showSubResults: true })
+      return
+    }
     var script = document.createElement('script')
     script.src = '/pagefind/pagefind-ui.js'
     script.onload = function () {
