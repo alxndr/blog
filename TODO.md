@@ -3,7 +3,8 @@
 * [x] rebuild Lipu Nasin Pona into separate site
     * [x] then redirect all `/lipu-nasin-pona*` URLs to it
 
-* […] search feature??? Pagefind
+* [x] search feature??? Pagefind
+    * Pagefind recommends the Component UI (1.5.0+) over Default UI for new integrations — main benefit would be a search modal usable from any page. Default UI is still supported; tabling the migration for now.
 
 * [ ] investigate astro v6 upgrade... https://docs.astro.build/en/guides/upgrade-to/v6/
 
