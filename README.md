@@ -15,4 +15,13 @@ npm run build    # production build to dist/
 npm run preview  # serve dist/ locally
 ```
 
+### Search
+
+The `/search/` page uses [Pagefind](https://pagefind.app/), which indexes the site as a post-build step (`pagefind --site dist`). The `/pagefind/` assets only exist after a build, so:
+
+- **`npm run dev`**: search is non-functional (404s for pagefind assets, silently suppressed)
+- **`npm test`** or **`npm run build && npm run preview`**: search works as expected
+
+Cypress search tests must be run via `npm test` — they will fail against the dev server.
+
 [alxndr.blog]: https://alxndr.blog
