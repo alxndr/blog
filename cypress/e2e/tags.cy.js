@@ -32,4 +32,23 @@ describe('tag listing page', () => {
         .and('match', /^\/\d{4}\/\d{2}\/\d{2}\//)
     })
   })
+
+  it('uses the default site image for og:image when no thumbnail is set', () => {
+    cy.get('meta[property="og:image"]')
+      .should('have.attr', 'content', 'https://alxndr.blog/assets/images/alexander-120x120.png')
+  })
+})
+
+describe('tag page with thumbnail in frontmatter', () => {
+  beforeEach(() => cy.visit('/tags/toki-pona/'))
+
+  it('uses the thumbnail URL as og:image', () => {
+    cy.get('meta[property="og:image"]')
+      .should('have.attr', 'content', 'https://static.wikitide.net/sonaponawiki/d/d9/Toki_Pona_logo_%28official_colors%29.svg')
+  })
+
+  it('uses the thumbnail URL as twitter:image', () => {
+    cy.get('meta[property="twitter:image"]')
+      .should('have.attr', 'content', 'https://static.wikitide.net/sonaponawiki/d/d9/Toki_Pona_logo_%28official_colors%29.svg')
+  })
 })
