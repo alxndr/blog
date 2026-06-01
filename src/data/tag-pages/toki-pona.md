@@ -1,5 +1,6 @@
 ---
 title: mi lipu e toki pona
+thumbnail: https://static.wikitide.net/sonaponawiki/d/d9/Toki_Pona_logo_%28official_colors%29.svg
 ---
 
 jan ale o toki a! mi jan Lesate

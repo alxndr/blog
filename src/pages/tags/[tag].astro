@@ -47,7 +47,7 @@ const taggedPosts = allPosts
   .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime())
 ---
 
-<BaseLayout title={pageTitle} permalink={permalink}>
+<BaseLayout title={pageTitle} permalink={permalink} image={tagPage?.data.thumbnail}>
   <div class="container">
     <article class="content">
       <h1 aria-label={tagPage ? undefined : `Posts tagged "${displayName}"`}>{pageTitle}</h1>
