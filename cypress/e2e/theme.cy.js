@@ -1,7 +1,8 @@
 describe('theme toggle', () => {
   beforeEach(() => {
-    cy.clearLocalStorage()
-    cy.visit('/')
+    cy.visit('/', {
+      onBeforeLoad: win => win.localStorage.setItem('theme', 'light'),
+    })
   })
 
   it('renders light and dark toggle inputs in the nav', () => {
