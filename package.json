@@ -6,7 +6,9 @@
     "build": "astro build && pagefind --site dist",
     "check": "astro check",
     "cy:open": "cypress open",
+    "cy:open:dev": "cypress open --expose grepTags=-@requires-build",
     "cy:run": "cypress run",
+    "cy:run:dev": "cypress run --expose grepTags=-@requires-build",
     "dev": "astro dev",
     "lint": "eslint src",
     "preview": "astro preview",
@@ -28,6 +30,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.9",
+    "@cypress/grep": "^6.0.1",
     "@typescript-eslint/parser": "^8.60.0",
     "cypress": "^15.16.0",
     "cypress-test-order-randomizer": "^1.0.0",

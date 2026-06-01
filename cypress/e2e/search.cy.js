@@ -1,4 +1,4 @@
-describe('search page', () => {
+describe('search page', { tags: '@requires-build' }, () => {
   beforeEach(() => cy.visit('/search/'))
 
   it('loads with a Search heading', () => {
