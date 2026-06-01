@@ -1,0 +1,39 @@
+---
+import { getCollection } from 'astro:content'
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import PostList from '../../components/PostList.astro'
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('posts')
+  const publishedPosts = allPosts.filter(p => !p.data.draft)
+
+  const yearMap = new Map<string, typeof publishedPosts>()
+  for (const post of publishedPosts) {
+    const year = String(new Date(post.data.publishDate).getFullYear())
+    if (!yearMap.has(year)) yearMap.set(year, [])
+    yearMap.get(year)!.push(post)
+  }
+
+  return Array.from(yearMap.entries()).map(([year, posts]) => ({
+    params: { year },
+    props: {
+      posts: posts.sort(
+        (a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime()
+      ),
+    },
+  }))
+}
+
+const { year } = Astro.params
+const { posts } = Astro.props
+const permalink = `${Astro.site}${year}/`
+const pageTitle = `posts from ${year}`
+---
+
+<BaseLayout title={pageTitle} permalink={permalink}>
+  <div class="container">
+    <h1>{pageTitle}</h1>
+    <p>{posts.length} post{posts.length === 1 ? '' : 's'}</p>
+    <PostList posts={posts} />
+  </div>
+</BaseLayout>
