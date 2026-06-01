@@ -1,0 +1,68 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+export interface Props {
+  title: string;
+  description?: string;
+  permalink: string;
+  image?: string;
+}
+const { title, description, permalink, image } = Astro.props;
+---
+<html lang="en">
+<head>
+  <BaseHead title={title} description={description} permalink={permalink} image={image} />
+</head>
+<body>
+  <a href="#main-content" class="skip-nav">Skip to content</a>
+  <div class="layout">
+    <Header />
+
+    <main id="main-content" data-pagefind-body>
+      <slot />
+    </main>
+
+    <Footer />
+  </div>
+</body>
+</html>
+
+<style>
+  .skip-nav {
+    position: absolute;
+    top: -100%;
+    left: 1em;
+    padding: 0.5em 1em;
+    background: var(--background-body);
+    border: 2px solid var(--primary-color);
+    border-radius: 4px;
+    font-family: var(--font-family-sans);
+    font-weight: 700;
+    z-index: 100;
+  }
+
+  .skip-nav:focus {
+    top: 1em;
+  }
+
+  .layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    min-height: 100vh;
+  }
+
+  main {
+    flex: 1;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 1em 2em;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+</style>

@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+const permalink = `${Astro.site}search/`
+---
+
+<BaseLayout title="Search — Alexander's blog" permalink={permalink}>
+  <div class="container">
+    <h1>Search</h1>
+    <div id="search"></div>
+  </div>
+</BaseLayout>
+
+<!-- /pagefind/ assets only exist after `astro build && pagefind --site dist`.
+     The .catch() silently swallows the 404 in dev so the page still renders. -->
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', function () {
+    var script = document.createElement('script')
+    script.src = '/pagefind/pagefind-ui.js'
+    script.onload = function () {
+      new window.PagefindUI({ element: '#search', showSubResults: true })
+    }
+    document.head.appendChild(script)
+  })
+</script>

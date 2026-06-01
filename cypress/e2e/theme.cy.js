@@ -1,0 +1,38 @@
+describe('theme toggle', () => {
+  beforeEach(() => {
+    cy.visit('/', {
+      onBeforeLoad: win => win.localStorage.setItem('theme', 'light'),
+    })
+  })
+
+  it('renders light and dark toggle inputs in the nav', () => {
+    cy.get('input[aria-label="Use light theme"]').should('exist')
+    cy.get('input[aria-label="Use dark theme"]').should('exist')
+  })
+
+  it('switching to dark adds theme-dark class to html element', () => {
+    cy.get('input[aria-label="Use dark theme"]').parent().click()
+    cy.get('html').should('have.class', 'theme-dark')
+  })
+
+  it('switching back to light removes theme-dark class from html element', () => {
+    cy.get('input[aria-label="Use dark theme"]').parent().click()
+    cy.get('html').should('have.class', 'theme-dark')
+    cy.get('input[aria-label="Use light theme"]').parent().click()
+    cy.get('html').should('not.have.class', 'theme-dark')
+  })
+
+  it('selected theme persists in localStorage', () => {
+    cy.get('input[aria-label="Use dark theme"]').parent().click()
+    cy.window().then(win => {
+      expect(win.localStorage.getItem('theme')).to.equal('dark')
+    })
+  })
+
+  it('persisted dark preference is applied on page load', () => {
+    cy.visit('/', {
+      onBeforeLoad: win => win.localStorage.setItem('theme', 'dark'),
+    })
+    cy.get('html').should('have.class', 'theme-dark')
+  })
+})

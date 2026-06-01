@@ -1,0 +1,95 @@
+---
+import { getCollection } from 'astro:content'
+import type { CollectionEntry } from 'astro:content'
+import BaseLayout from '../layouts/BaseLayout.astro'
+import PostList from '../components/PostList.astro'
+
+const PINNED_SLUGS = [
+  '2024/07/18/sveltekit-and-sqlite-on-gitlab-pages',
+  '2016/11/17/dont-be-scared-of-merge-conflicts',
+  '2023/05/11/recursive-techdebt-upgrade-ticket',
+  '2023/01/30/new-git-repo-with-history-of-old-repo',
+]
+
+const title = `Alexander's blog`
+const description = 'notes to myself, mostly'
+const permalink = Astro.site!.href
+
+const allPosts = await getCollection('posts')
+const publishedPosts = allPosts
+  .filter(p => !p.data.draft)
+  .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime())
+
+const pinnedPosts = PINNED_SLUGS
+  .map(slug => publishedPosts.find(p => p.data.slug === slug))
+  .filter((post): post is CollectionEntry<'posts'> => post !== undefined)
+---
+
+<BaseLayout title={title} description={description} permalink={permalink}>
+  <div class="container">
+
+    <section class="pinned" aria-label="Pinned posts">
+      <h2 class="section-heading">pinned</h2>
+      <PostList posts={pinnedPosts} />
+    </section>
+
+    <section aria-label="All posts">
+      <h2 class="section-heading">all posts</h2>
+      <PostList posts={publishedPosts} />
+    </section>
+
+  </div>
+</BaseLayout>
+
+<style>
+  .pages-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em 1.2em;
+    margin-bottom: 2.5em;
+    font-family: var(--font-family-sans);
+    font-size: 0.9em;
+  }
+
+  .pages-nav a {
+    color: var(--text-secondary);
+    text-decoration: none;
+  }
+
+  .pages-nav a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+
+  .section-heading {
+    font-family: var(--font-family-sans);
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin: 0 0 0.75em;
+  }
+
+  .pinned {
+    margin-bottom: 2.5em;
+    padding: 0.75em 1.25em 1.25em;
+    border: 1px solid rgba(84, 142, 155, 0.35);
+    border-radius: 6px;
+    background-color: rgba(84, 142, 155, 0.06);
+  }
+
+  .pinned :global(.post-list li) {
+    grid-template-columns: 1em 1fr;
+  }
+
+  .pinned :global(.post-list .date) {
+    display: none;
+  }
+
+  .pinned :global(.post-list li::before) {
+    content: "📌";
+    font-size: 0.8em;
+    align-self: baseline;
+  }
+</style>

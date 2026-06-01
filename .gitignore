@@ -1,4 +1,11 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# Astro
+dist/
+node_modules/
+.astro/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# macOS
+.DS_Store

@@ -1,0 +1,67 @@
+---
+import { ClientRouter } from 'astro:transitions'
+import '../styles/fonts.css'
+import '../styles/global.css'
+
+export interface Props {
+  title: string
+  description?: string
+  permalink: string
+  image?: string
+}
+
+const { title, description, permalink, image } = Astro.props
+const socialUrl = image ?? (Astro.site!.href + 'assets/images/alexander-120x120.png')
+---
+
+<!-- Global Metadata -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+<!-- Primary Meta Tags -->
+<title>{title}</title>
+<meta name="title" content={title} />
+{description && <meta name="description" content={description} />}
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content={permalink} />
+<meta property="og:title" content={title} />
+{description && <meta property="og:description" content={description} />}
+<meta property="og:image" content={socialUrl} />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content={permalink} />
+<meta property="twitter:title" content={title} />
+{description && <meta property="twitter:description" content={description} />}
+<meta property="twitter:image" content={socialUrl} />
+
+<!-- Google Analytics -->
+<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-RS6J6JRB3C"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RS6J6JRB3C');
+</script>
+
+<ClientRouter />
+
+<!-- This is intentionally l̶e̶f̶t̶ ̶b̶l̶a̶n̶k̶ inlined to avoid FOUC -->
+<script is:inline>
+  const root = document.documentElement
+  const theme = localStorage.getItem('theme')
+  if (
+    theme === 'dark' ||
+    (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)
+  ) {
+    root.classList.add('theme-dark')
+  } else {
+    root.classList.remove('theme-dark')
+  }
+</script>

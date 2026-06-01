@@ -1,0 +1,15 @@
+---
+title: use a Dvorak keyboard layout on iOS Simulator
+publishDate: '2016-08-04'
+slug: 2016/08/04/use-a-Dvorak-keyboard-layout-on-iOS-Simulator
+tags:
+  - keyboards
+  - iOS
+  - Macs
+---
+
+...why would anyone want to have Dvorak on a mobile device?!? Actually, I only care about it in the iOS _Simulator_, when I'm using it on a computer with a real-live hardware keyboard.
+
+In OS X's Simulator (v9.3), launch the *Settings* app from the home screenfootnote:[which you can get to quickly by pressing `Command`+`Shift`+`h`], then navigate through all these menus: *General* > *Keyboard* > *Hardware Keyboard* > *English* > *Dvorak*.
+
+Ta-daa!
