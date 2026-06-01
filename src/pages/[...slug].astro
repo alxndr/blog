@@ -42,7 +42,7 @@ const socialImage = thumbnailImage ? new URL(thumbnailImage.src, Astro.site).hre
 <BaseLayout title={title} description={description} permalink={permalink} image={socialImage}>
   <div class="container">
     <header>
-      <p>{publishDate} ~ {readingTimeEstimate}</p>
+      <p data-pagefind-meta="date">{publishDate} ~ {readingTimeEstimate}</p>
       <h1>{title}</h1>
       {tags && tags.length > 0 && (
         <p class="tags">
@@ -57,7 +57,7 @@ const socialImage = thumbnailImage ? new URL(thumbnailImage.src, Astro.site).hre
       <Content />
     </article>
     {(prevPost || nextPost) && (
-      <nav aria-label="Post navigation" class="post-nav">
+      <nav aria-label="Post navigation" class="post-nav" data-pagefind-ignore>
         {prevPost
           ? <a href={`/${prevPost.data.slug}/`} rel="prev" class="post-nav-link prev" aria-label={`Previous post: ${prevPost.data.title}`}>
               ← prev

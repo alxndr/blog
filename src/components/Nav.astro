@@ -67,6 +67,7 @@ const pathname = Astro.url.pathname;
   <a class={clsx({ selected: pathname === "/" })} href='/'>home</a>
   <a class={clsx({ selected: pathname.startsWith("/tags/") })} href='/tags/'>tags</a>
   <a class={clsx({ selected: pathname.startsWith("/about") })} href="/about">about</a>
+  <a class={clsx({ selected: pathname.startsWith("/search") })} href="/search/">search</a>
   <div class="theme-toggle-container">
     <ThemeToggleButton />
   </div>

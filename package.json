@@ -3,7 +3,7 @@
   "version": "3.0.0-alpha",
   "scripts": {
     "astro": "astro",
-    "build": "astro build",
+    "build": "astro build && pagefind --site dist",
     "check": "astro check",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
@@ -11,7 +11,7 @@
     "lint": "eslint src",
     "preview": "astro preview",
     "start": "astro dev",
-    "test": "astro build && start-server-and-test preview http://localhost:4321 cy:run"
+    "test": "npm run build && start-server-and-test preview http://localhost:4321 cy:run"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.2.0",
@@ -20,6 +20,7 @@
     "@astrojs/svelte": "^7.0.6",
     "astro": "^5.5.2",
     "clsx": "^2.1.1",
+    "pagefind": "^1.5.2",
     "reading-time": "^1.5.0",
     "rehype-external-links": "^3.0.0",
     "remark-gfm": "^4.0.0",
@@ -32,6 +33,7 @@
     "cypress-test-order-randomizer": "^1.0.0",
     "eslint": "^10.4.1",
     "eslint-plugin-astro": "^1.7.0",
+    "serve": "^14.2.6",
     "start-server-and-test": "^3.0.5",
     "typescript": "^5.9.3"
   }
