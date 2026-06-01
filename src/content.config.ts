@@ -1,4 +1,5 @@
-import { defineCollection, z } from "astro:content";
+import { defineCollection } from "astro:content";
+import { z } from "zod";
 import { glob } from "astro/loaders";
 
 const posts = defineCollection({
@@ -18,7 +19,7 @@ const tagPages = defineCollection({
 	loader: glob({ pattern: "*.md", base: "./src/data/tag-pages" }),
 	schema: z.object({
 		title: z.string().optional(),
-		thumbnail: z.string().url().optional(),
+		thumbnail: z.url().optional(),
 	}),
 });
 
