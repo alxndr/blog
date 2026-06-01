@@ -5,7 +5,7 @@
 - Current site: Jekyll with `mmistakes/minimal-mistakes` theme, deployed to `alxndr.blog`
 - Target: [Astro](https://astro.build) using [astro-blog-template](https://github.com/Charca/astro-blog-template) as a starting point (Astro 5.5.2, MDX + Svelte integrations, dark mode)
 - Same repo (`alxndr/blog`), same URL (`alxndr.blog`), same hosting (GitHub Actions → GitHub Pages)
-- Work branch: `spike/rebuild-quartz` → eventually PR to `main`
+- Work branch: `spike/rebuild-astrojs-take2` → eventually PR to `main`
 - 53 posts, 18 drafts, several standalone pages
 
 ---
@@ -31,12 +31,7 @@ separate repo. For now just the markdown files; generator/site is TBD.
   Result: 82 files (01.md–81.md + index.md) at repo root, 17 commits preserved.
   Extracted clone is at `/tmp/lipu-nasin-pona-extract` and ready to push.
 - [x] Create new GitHub repo (`alxndr/lipu-nasin-pona`) — repo exists at `../lipu-nasin-pona`
-- [ ] Push extracted history to GitHub remote:
-  ```sh
-  cd /Users/alxndr/workspace/lipu-nasin-pona
-  git remote add origin git@github.com:alxndr/lipu-nasin-pona.git
-  git push -u origin main
-  ```
+- [x] Push extracted history to GitHub remote — up to date with `origin/main`
 - [x] Remove `lipu-nasin-pona/` and Jekyll-only files from the blog repo:
   - Deleted `lipu-nasin-pona/` (81 chapters + index)
   - Deleted `_layouts/lipu-nasin-pona.html`
@@ -44,12 +39,14 @@ separate repo. For now just the markdown files; generator/site is TBD.
   - Deleted `_includes/dough-ratio-calculator.js`, `analytics.html`, `footer/custom.html`
   - Kept `assets/sitelen-sitelen-renderer.min.js` — still needed by `ante-kulupu-so.md`
   - Committed as b62b801
+- [x] Redirect all 82 old `/lipu-nasin-pona/*` URLs to `https://alxndr.github.io/lipu-nasin-pona/`
+  (added to `astro.config.mjs` redirects, Astro generates meta-refresh pages in static mode)
 - Note: copied layout, includes, renderer JS, and extracted font CSS to
   `/Users/alxndr/workspace/lipu-nasin-pona/assets/` for future site generator use
 
 ---
 
-## Phase 1 — Astro initialization (in this repo, on `spike/rebuild-quartz`)
+## Phase 1 — Astro initialization (in this repo, on `spike/rebuild-astrojs-take2`)
 
 ### Charca template notes (researched 2026-05-30)
 
@@ -126,14 +123,12 @@ from production builds when the content collection schema defines the field.
 
 Move to `src/pages/` as `.astro` or `.md` files. The Charca template has an `about.astro`
 as an example of a non-post page:
-- `colophon.md`
-- `tapes.md`
-- `toki-pona.md`
-- `ante-kulupu-so.md` ⚠️ **deferred** — uses Kramdown IAL (Inline Attribute Lists) syntax
-  70 times (`_name_{:attr-ref}`), which Astro's remark pipeline does not support.
-  Options: install a remark-attributes plugin, or run a script to rewrite the 70
-  occurrences as inline HTML. The page is still served from the Jekyll source for now.
-- `tags.md` — evaluate once tags are wired up; may be superseded by a generated listing
+- [x] `colophon.md`
+- [x] `tapes.md`
+- [x] `toki-pona.md` — superseded by the generated `/tags/toki-pona/` page with a redirect
+- [x] `ante-kulupu-so.md` — Kramdown IAL syntax (`_name_{:attr-ref}`) rewritten to inline
+  HTML; file moved to `src/pages/ante-kulupu-so.md`
+- `tags.md` — superseded by generated tag listing pages (Phase 3.5)
 
 ### Assets
 
@@ -217,6 +212,7 @@ there is no browsing UI yet.
   - Each tag links to its `/tags/[tag]/` listing page
 - [x] **Tag index** — `src/pages/tags/index.astro` (optional, evaluate after above):
   - Lists all tags with post counts; the old `tags.md` is superseded by this
+- [x] **Tag page thumbnail** — `thumbnail: <url>` in tag page markdown sets og:image / twitter:image
 
 ---
 
@@ -249,18 +245,12 @@ prefix, since the domain ends in `.blog`). Rough shape:
 
 ### About page (`src/pages/about.astro`)
 
-Currently: bare TODO placeholder (Lorem Ipsum, illustration, and Icons8 credits removed in cleanup commit).
-
-- [ ] Replace with real bio content (Alexander to supply)
+- [x] Replace with real bio content
 
 ### `ante-kulupu-so.md` — Kramdown IAL conversion
 
-The root-level `ante-kulupu-so.md` uses Kramdown Inline Attribute List syntax (`_name_{:attr-ref}`)
-70 times. Astro's remark pipeline does not support this.
-
-- [ ] Option A: install a remark plugin that handles IAL syntax (e.g. `remark-attributes`)
-- [ ] Option B: run a script to rewrite all 70 occurrences as inline HTML `<span>` elements
-- [ ] Once converted, move to `src/pages/ante-kulupu-so.md` (or `.astro`)
+- [x] Rewrote all IAL occurrences as inline HTML `<span>` elements
+- [x] Moved to `src/pages/ante-kulupu-so.md`
 
 ### Boilerplate / template content cleanup
 
@@ -283,10 +273,26 @@ The root-level `ante-kulupu-so.md` uses Kramdown Inline Attribute List syntax (`
 
 ## Phase 5 — Deployment
 
-- [ ] Add GitHub Actions workflow for Astro build + GitHub Pages deploy.
-  Astro provides a standard workflow using `withastro/action` — see
-  https://docs.astro.build/en/guides/deploy/github/
+- [x] Add GitHub Actions workflow — `.github/workflows/deploy.yml` runs lint → type-check →
+  Cypress e2e tests on every PR; builds and deploys to GitHub Pages on merge to `main`
 - [x] Ensure `public/CNAME` contains `alxndr.blog` so GitHub Pages preserves the custom domain
-- [ ] Test locally: `npm run dev` then `npm run build && npm run preview`
-- [ ] Smoke-test a sample of old post URLs to confirm they resolve correctly
-- [ ] Open PR: `spike/rebuild-quartz` → `main`
+- [x] Test locally: `npm run dev`, `npm run build && npm run preview`, full Cypress suite (60 tests)
+- [x] Smoke-test old post URLs — covered by Cypress redirect tests in `cypress/e2e/redirects.cy.js`
+- [x] Open PR: `spike/rebuild-astrojs-take2` → `main` — [PR #29](https://github.com/alxndr/blog/pull/29)
+
+---
+
+## Phase 6 — Additions (post-plan)
+
+Work completed beyond the original plan scope:
+
+- [x] **Client-side search** — Pagefind 1.5; dedicated `/search/` page (lazy-loads ~70 KB only
+  when visited); `data-pagefind-body` scopes indexing to `<main>`; 5 Cypress tests tagged
+  `@requires-build` (need `npm test`, not `npm run dev`)
+- [x] **Date-based listing pages** — `/2024/` and `/2024/07/` show posts from that year/month;
+  `src/pages/[year]/index.astro` and `src/pages/[year]/[month]/index.astro`; 8 Cypress tests
+- [x] **Cypress test filtering** — `@cypress/grep` (v6, uses `--expose` not `--env`); tests
+  needing a full build tagged `@requires-build`; `npm run cy:run:dev` / `npm run cy:open:dev`
+  skip those tests for dev-server runs
+- [x] **Content authoring docs** — `src/README.md` documents all frontmatter fields (required
+  vs optional, what each does) for posts and tag pages
