@@ -17,6 +17,6 @@ toki pona la, lipu ni li linluwi e lipu mi e pali mi
 ## mi ante toki e lipu
 
 - [lipu Ante Kulupu So](/ante-kulupu-so) — lipu usawi pi ma Sonko majuna
-- 🛠️ [lipu Nasin Pona](/lipu-nasin-pona) — lipu Nasin Pona pi ma Sonko majuna
+- 🛠️ [lipu Nasin Pona](https://alxndr.github.io/lipu-nasin-pona) — lipu Nasin Pona pi ma Sonko majuna
 
 ## toki pona la, mi lipu
