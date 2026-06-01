@@ -7,7 +7,9 @@ tags:
   - help wanted
 ---
 
-In 2011 the dev team I was on went to [Pivotal Labs](http://pivotallabs.com/) for a few months to bootstrap a rebuild of our company's site, and learn their style of "extreme programming". We used a tool to organize our weekly retrospective meetings which I felt was remarkably useful and easy, but it's since disappeared and I haven't found a web-based replacement.
+In 2011 the dev team I was on went to [Pivotal Labs](http://pivotallabs.com/) for a few months to bootstrap a rebuild of our company's site, and learn their style of [extreme programming](https://en.wikipedia.org/wiki/Extreme_programming).
+
+We used a tool to organize our weekly retrospective meetings which I felt was remarkably useful and easy, but it's since disappeared and I haven't found a web-based replacement.
 
 The site was *actionitems.us*, it was bare-bones and did just one thing and felt easy to use and understand. In a nutshell:
 
