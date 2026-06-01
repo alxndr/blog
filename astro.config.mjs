@@ -6,6 +6,15 @@ import remarkGfm from 'remark-gfm'
 import remarkSmartypants from 'remark-smartypants'
 import rehypeExternalLinks from 'rehype-external-links'
 
+const lipuNasinPonaNewBase = 'https://alxndr.github.io/lipu-nasin-pona'
+const lipuNasinPonaRedirects = Object.fromEntries([
+  ['/lipu-nasin-pona/', `${lipuNasinPonaNewBase}/`],
+  ...Array.from({length: 81}, (_, i) => {
+    const n = String(i + 1).padStart(2, '0')
+    return [`/lipu-nasin-pona/${n}/`, `${lipuNasinPonaNewBase}/${n}/`]
+  }),
+])
+
 // https://astro.build/config
 export default defineConfig({
   devToolbar: {enabled: false},
@@ -26,6 +35,7 @@ export default defineConfig({
     ],
   },
   redirects: {
+    ...lipuNasinPonaRedirects,
     '/toki-pona/': '/tags/toki-pona/',
     '/2015/04/15/watch-some-files-and-run-something-whenever-they-change.html': '/2026/05/28/entr-watch-files-and-trigger-commands/',
     '/2023/03/30/hot-wings-challenge-standup.html': '/2023/03/30/hot-ones-standup/',

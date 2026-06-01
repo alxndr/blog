@@ -1,7 +1,9 @@
 # TODOs
 
 * [x] rebuild Lipu Nasin Pona into separate site
-    * […]then redirect all `/lipu-nasin-pona*` URLs to it
+    * [x] then redirect all `/lipu-nasin-pona*` URLs to it
+
+* [ ] search feature???
 
 * [ ] investigate astro v6 upgrade...
 
