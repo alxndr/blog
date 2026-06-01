@@ -13,6 +13,14 @@ const permalink = `${Astro.site}search/`
 <!-- /pagefind/ assets only exist after `astro build && pagefind --site dist`.
      The .catch() silently swallows the 404 in dev so the page still renders. -->
 <link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+<style is:global>
+  /* Primary color and font — #search specificity beats pagefind-ui.css's :root
+     regardless of stylesheet load order */
+  #search {
+    --pagefind-ui-primary: var(--primary-color);
+    --pagefind-ui-font: var(--font-family-sans);
+  }
+</style>
 <script is:inline>
   // astro:page-load fires on initial load AND after each client-side navigation
   // (ClientRouter doesn't re-fire DOMContentLoaded, so this is the correct hook)

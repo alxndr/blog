@@ -316,3 +316,20 @@ input[name='theme-toggle'] {
     margin: 1em 0;
   }
 }
+
+/* Pagefind UI dark mode — :root.theme-dark specificity (0,0,1,1) beats
+   pagefind-ui.css's :root (0,0,1,0), so this wins regardless of load order */
+:root.theme-dark {
+  --pagefind-ui-text: #fff;
+  --pagefind-ui-background: #202122;
+  --pagefind-ui-border: #444;
+  --pagefind-ui-tag: #333;
+}
+
+/* Belt-and-suspenders: explicit background on the input itself.
+   Selector includes #search (ID) to beat pagefind-ui.css's scoped class selectors. */
+.theme-dark #search .pagefind-ui__search-input,
+.theme-dark #search .pagefind-ui__search-clear {
+  background-color: #202122;
+  color: #fff;
+}
