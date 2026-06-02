@@ -5,6 +5,29 @@ import sitemap from '@astrojs/sitemap'
 import remarkGfm from 'remark-gfm'
 import remarkSmartypants from 'remark-smartypants'
 import rehypeExternalLinks from 'rehype-external-links'
+import { readdirSync, readFileSync } from 'fs'
+import { fileURLToPath } from 'url'
+import { dirname, join } from 'path'
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
+
+// For every published post, redirect /slug.html → /slug/ so that
+// old links with .html suffixes (e.g. from feed readers or old bookmarks)
+// continue to work. Specific redirects defined later override these.
+function buildBlogPostHtmlRedirects() {
+  const postsDir = join(__dirname, 'src/data/blog-posts')
+  const redirects = {}
+  for (const file of readdirSync(postsDir)) {
+    if (!/\.(md|mdx)$/.test(file)) continue
+    const content = readFileSync(join(postsDir, file), 'utf-8')
+    if (/^draft:\s*true/m.test(content)) continue
+    const slugMatch = content.match(/^slug:\s+(.+)$/m)
+    if (!slugMatch) continue
+    const slug = slugMatch[1].trim()
+    redirects[`/${slug}.html`] = `/${slug}/`
+  }
+  return redirects
+}
 
 const lipuNasinPonaNewBase = 'https://alxndr.github.io/lipu-nasin-pona'
 const lipuNasinPonaRedirects = Object.fromEntries([
@@ -35,6 +58,7 @@ export default defineConfig({
     ],
   },
   redirects: {
+    ...buildBlogPostHtmlRedirects(),
     ...lipuNasinPonaRedirects,
     '/toki-pona/': '/tags/toki-pona/',
     '/2015/04/15/watch-some-files-and-run-something-whenever-they-change.html': '/2026/05/28/entr-watch-files-and-trigger-commands/',
