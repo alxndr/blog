@@ -14,11 +14,12 @@ Lately GenAI feels like digital styrofoam:
 
 * infinitely shapeable
 * when used tastefully, it can make the impossible come to life
-* but it is not sustainable over a long period of time
-* it is not load-bearing
+* but it needs reinforcement to be sustainable
 * and it is not appropriate when authenticity is key
 
-Generative AI is a way to get a computer to do _pretty much_ what you want it to do, using your own natural language instead of having to learn a computer programming language first. This is a giant leap for someone who is incidentally interacting with a computer in order to achieve some other goal, but "pretty much" is actually a big step _backwards_ for folks in the software industry. The humans who have learned to wield programming languages are accustomed to it being relatively easy to get a computer to do _exactly_ what you want.
+Coding with Generative AI is a way to get a computer to do _pretty much_ what you want it to do, using your own natural language instead of having to learn a computer programming language first. This is a giant leap for someone who is incidentally interacting with a computer in order to achieve some other goal, but "pretty much" is actually a big step _backwards_ for folks in the software industry. The humans who have learned to wield programming languages are accustomed to it being relatively easy to get a computer to do _exactly_ what you want.
+
+{/*
 
 -------
 
@@ -40,54 +41,48 @@ We could task more AI with trying to verify the work created, but the process of
 
 I also worry about any given company's reliance on a SaaS where the subscription is based on usage, but **usage is not correlated with results**. That should smell like [a time bomb to any CFO](https://www.thestateofbrand.com/news/ai-subscription-time-bomb), right?!?
 
+*/}
+
 -------
 
-
 ### Links to other folks' thoughts
+
+[Using AI to write better code more slowly](https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/)  
+by Nolan Lawson (2026 May 25)  
+…[hacker news comments](https://news.ycombinator.com/item?id=48272984)
+
+[I’m tired of talking to AI](https://orchidfiles.com/im-tired-of-ai-generated-answers/)  
+by Orchid (2026 May 22)  
+…[hacker news comments](https://news.ycombinator.com/item?id=48292224)
+
+[AI-assisted engineers are burning out, is this fine?](https://evilmartians.com/chronicles/ai-assisted-engineers-are-burning-out-is-this-fine)  
+by Ivan Chepurin & Travis Turner (2026 May 19)
 
 [Every AI Subscription Is a Ticking Time Bomb for Enterprise](https://www.thestateofbrand.com/news/ai-subscription-time-bomb)  
 …apparently authored by AI which seems darkly funny (2026 May 11)
 
-<div class="link-entry">
-
 ["The Future of Everything Is Lies, I Guess (part 8): Work"](https://aphyr.com/posts/418-the-future-of-everything-is-lies-i-guess-work)  
 by Kyle aphyr Kingsbury (2026 April 14)
-
 * "Software development may become (at least in some aspects) more like witchcraft than engineering. The present enthusiasm for 'AI coworkers' is preposterous."
 * "One of [[Lisanne Bainbridge](https://en.wikipedia.org/wiki/Ironies_of_Automation)'s] key lessons is that automation tends to de-skill operators. When humans do not practice a skill—either physical or mental—their ability to execute that skill degrades. […] My peers in software engineering report feeling less able to write code themselves after having worked with code-generation models, and one designer friend says he feels less able to do creative work after offloading some to ML."
 
-</div>
-
-<div class="link-entry">
-
 ["The machines are fine. I'm worried about us"](https://ergosphere.blog/posts/the-machines-are-fine/)  
 by Minas Karamanis (2026 March 30)
-
 * "Making the models smarter doesn't solve the problem. It makes the problem harder to see."
 * "The real threat is a slow, comfortable drift toward not understanding what you're doing."
 * "Frank Herbert (yeah, I know I'm a nerd), in God Emperor of Dune, has a character observe: 'What do such machines really do? They increase the number of things we can do without thinking. Things we do without thinking; there's the real danger.' Herbert was writing science fiction. I'm writing about my office. The distance between those two things has gotten uncomfortably small."
 * on 'grunt work': "The failures are the curriculum. The error messages are the syllabus. Every hour you spend confused is an hour you spend building the infrastructure inside your own head that will eventually let you do original work. There is no shortcut through that process that doesn't leave you diminished on the other side."
 * "The problem isn't that we'll decide to stop thinking. The problem is that we'll barely notice when we do."
 
-</div>
-
 ["AI layoffs are BS"](https://overcast.fm/+AAInx12oA98)  
 Giant Robots Smashing Into Other Giant Robots [podcast](https://podcast.thoughtbot.com/), episode 606 (2026 March 26)
 
-<div class="link-entry">
-
 ["Thoughts on slowing the fuck down"](https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/)  
 by Mario Zechner (2026 March 25)
-
 * "The point is: let the agent do the boring stuff, the stuff that won't teach you anything new, or try out different things you'd otherwise not have time for. Then you evaluate what it came up with, take the ideas that are actually reasonable and correct, and finalize the implementation. Yes, sure, you can also use an agent for that final step. And I would like to suggest that slowing the fuck down is the way to go. Give yourself time to think about what you're actually building and why. Give yourself an opportunity to say, fuck no, we don't need this."
-
-</div>
 
 [petition to disallow AI-assisted PRs in NodeJS](https://www.reddit.com/r/node/comments/1rx8jsq/a_petition_to_disallow_acceptance_of_llm_assisted/)  
 …fallout from Matteo Collina opening a huge PR in NodeJS (2026 March 18)
-
-"Oftentimes, the biggest constraint is not the speed at which programmers can implement well-defined features; it's the ability for the entire team to align on the problem they are solving and the specific approach they want to take."  
-—Vance Faulkner, [March 15 2026](https://www.flywheelwinstonsalem.com/member-spotlight-vance-faulkner/)
 
 ["Comprehension Debt"](https://addyosmani.com/blog/comprehension-debt/)  
 by Addy Osmani (2026 March 14)
@@ -95,20 +90,20 @@ by Addy Osmani (2026 March 14)
 [HN guideline reiteration "Don't post generated/AI-edited comments"](https://news.ycombinator.com/item?id=47340079)  
 (2026 March 11)
 
-<div class="link-entry">
-
 ["The Human in the Loop"](https://adventures.nodeland.dev/archive/the-human-in-the-loop)  
 by Matteo Collina (2026 January 18)
-
 * junior dev / rote work is now automatable
 * higher-order review & direction is still key
 * "My worry isn't that software development is dying. It's that we'll build a culture where _'I didn't review it, the AI wrote it'_ becomes an acceptable excuse."
 
-</div>
-
----
-
 <style>{`
-  .link-entry p { margin-bottom: 0.5em; }
-  .link-entry ul { line-height: 1.1em; margin: 0 0 3em; }
-`}</style>
+  p {
+    margin-bottom: 0;
+  }
+  p + ul {
+    margin-top: 0;
+    li {
+      margin: 0;
+    }
+  }
+  `}</style>
