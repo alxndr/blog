@@ -13,10 +13,14 @@ I want to provide AI assistants with useful context, including the history of a 
 
 I feel that capturing the decisions will be a helpful resource both for me in the future and for AI assistants which do not come with the historical context as part of their memory the same way my human memory works.
 
+#### Links
+
+* ["Architecture Decision Records: Templates and Operational Patterns for Teams That Actually Maintain Them"](https://hidekazu-konishi.com/entry/architecture_decision_records_templates_and_operations.html)
+
 
 ### Decision
 
-Keep track of important decisions and the context around them. They will be in easily-readable Markdown files, in an obviously-named part of the repo: `./docs/architecture-decisions/`
+Keep track of important decisions and the context around them, in easily-readable Markdown files, collected in an obviously-named part of the repo: `./docs/architecture-decisions/`
 
 The format will be very basic to start with, so I don't get bogged down in process. The important parts so far are:
 
