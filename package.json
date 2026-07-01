@@ -5,15 +5,17 @@
     "astro": "astro",
     "build": "astro build && pagefind --site dist",
     "check": "astro check",
-    "cy:open": "cypress open",
+    "cy:open": "cypress open --expose grepTags=-@requires-dev",
     "cy:open:dev": "cypress open --expose grepTags=-@requires-build",
-    "cy:run": "cypress run",
+    "cy:run": "cypress run --expose grepTags=-@requires-dev",
     "cy:run:dev": "cypress run --expose grepTags=-@requires-build",
     "dev": "astro dev",
     "lint": "eslint src",
     "preview": "astro preview",
     "start": "astro dev",
-    "test": "npm run build && start-server-and-test preview http://localhost:4321 cy:run"
+    "test:build": "npm run build && start-server-and-test preview http://localhost:4321 cy:run",
+    "test:dev": "start-server-and-test dev http://localhost:4321 cy:run:dev",
+    "test": "npm run test:dev && npm run test:build"
   },
   "dependencies": {
     "@astrojs/mdx": "^6.0.1",
