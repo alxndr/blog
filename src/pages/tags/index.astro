@@ -2,12 +2,13 @@
 import { getCollection } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import { tagToSlug } from '../../utils/tagSlug.js'
+import { isVisible } from '../../utils/postVisibility.js'
 
 const title = 'Tags'
 const permalink = `${Astro.site}tags/`
 
 const allPosts = await getCollection('posts')
-const publishedPosts = allPosts.filter(p => !p.data.draft)
+const publishedPosts = allPosts.filter(isVisible)
 
 const tagCounts = new Map() // slug → { displayName, count }
 for (const post of publishedPosts) {

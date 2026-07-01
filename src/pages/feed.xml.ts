@@ -1,11 +1,12 @@
 import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 import type { APIContext } from 'astro';
+import { isVisible } from '../utils/postVisibility.js';
 
 export async function GET(context: APIContext) {
   const allPosts = await getCollection('posts');
   const publishedPosts = allPosts
-    .filter(p => !p.data.draft)
+    .filter(isVisible)
     .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime());
 
   return rss({

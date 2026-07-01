@@ -6,6 +6,7 @@ import readingTime from 'reading-time'
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Bio from '../components/Bio.astro';
 import { tagToSlug } from '../utils/tagSlug.js';
+import { isVisible } from '../utils/postVisibility.js';
 
 type Props = {
   post: CollectionEntry<'posts'>
@@ -16,7 +17,7 @@ type Props = {
 export async function getStaticPaths() {
 	const allPosts = await getCollection('posts')
 	const publishedPosts = allPosts
-		.filter(p => !p.data.draft)
+		.filter(isVisible)
 		.sort((a, b) => new Date(a.data.publishDate).getTime() - new Date(b.data.publishDate).getTime())
 
 	return publishedPosts.map((post, index: number) => ({

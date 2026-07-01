@@ -2,10 +2,11 @@
 import { getCollection } from 'astro:content'
 import BaseLayout from '../../../layouts/BaseLayout.astro'
 import PostList from '../../../components/PostList.astro'
+import { isVisible } from '../../../utils/postVisibility.js'
 
 export async function getStaticPaths() {
   const allPosts = await getCollection('posts')
-  const publishedPosts = allPosts.filter(p => !p.data.draft)
+  const publishedPosts = allPosts.filter(isVisible)
 
   const yearMonthMap = new Map<string, typeof publishedPosts>()
   for (const post of publishedPosts) {
