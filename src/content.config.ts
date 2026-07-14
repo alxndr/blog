@@ -2,6 +2,8 @@ import { defineCollection } from "astro:content";
 import { z } from "zod";
 import { glob } from "astro/loaders";
 
+// define schemas for the frontmatter of blog posts, pages, and tag pages
+
 const posts = defineCollection({
 	loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/data/blog-posts" }),
 	schema: ({ image }) => z.object({
