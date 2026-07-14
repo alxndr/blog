@@ -3,7 +3,7 @@
   "version": "3.0.0-alpha",
   "scripts": {
     "astro": "astro",
-    "build": "astro build && pagefind --site dist",
+    "build": "astro build && pagefind --site dist --glob '**/index.html'",
     "check": "astro check",
     "cy:open": "cypress open --expose grepTags=-@requires-dev",
     "cy:open:dev": "cypress open --expose grepTags=-@requires-build",
