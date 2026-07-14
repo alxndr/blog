@@ -1,6 +1,5 @@
 ---
 title: Testing Library's `data-testid` considered harmful
-publishDate: '1970-01-01'
 slug: drafts/data-testid-considered-harmful
 tags:
   - JavaScript

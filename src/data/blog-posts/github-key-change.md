@@ -1,9 +1,9 @@
 ---
 title: github key change
-publishDate: '1970-01-01'
 slug: drafts/github-key-change
 draft: true
 ---
+
 On [2023 March 24, GitHub.com changed their RSA SSH host key](https://github.blog/2023-03-23-we-updated-our-rsa-ssh-host-key/), in response to their privkey being possibly exposed.
 This is an entirely appropriate response, however it's rare enough that I had to look up some stuff to determine how to adjust my workflows..
 
