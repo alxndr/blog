@@ -1,7 +1,7 @@
 # TODOs
 
 # DX
-    * [ ] suppress Astro server output when running Cypress tests
+    * [x] suppress Astro server output when running Cypress tests — added `dev:quiet` / `preview:quiet` scripts using `astro dev --silent` / `astro preview --silent`; third-party plugin output (vite-plugin-svelte etc.) bypasses Astro's logger and still appears
     * [x] suppress `Failed to read [path] after retries: Is a directory (os error 21)` Pagefind warnings — fixed by passing `--glob '**/index.html'` to pagefind in the `build` script
 
 * search page

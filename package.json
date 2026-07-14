@@ -10,11 +10,13 @@
     "cy:run": "cypress run --expose grepTags=-@requires-dev",
     "cy:run:dev": "cypress run --expose grepTags=-@requires-build",
     "dev": "astro dev",
+    "dev:quiet": "astro dev --silent",
     "lint": "eslint src",
     "preview": "astro preview",
+    "preview:quiet": "astro preview --silent",
     "start": "astro dev",
-    "test:build": "npm run build && start-server-and-test preview http://localhost:4321 cy:run",
-    "test:dev": "start-server-and-test dev http://localhost:4321 cy:run:dev",
+    "test:build": "npm run build && start-server-and-test preview:quiet http://localhost:4321 cy:run",
+    "test:dev": "start-server-and-test dev:quiet http://localhost:4321 cy:run:dev",
     "test": "npm run test:dev && npm run test:build"
   },
   "dependencies": {
