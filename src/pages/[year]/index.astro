@@ -2,15 +2,17 @@
 import { getCollection } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import PostList from '../../components/PostList.astro'
-import { isVisible } from '../../utils/postVisibility.js'
+import { isVisible, sortableDate } from '../../utils/postVisibility.js'
 
 export async function getStaticPaths() {
   const allPosts = await getCollection('posts')
-  const publishedPosts = allPosts.filter(isVisible)
+  const publishedPosts = allPosts
+    .filter(isVisible)
+    .filter(p => p.data.publishDate !== undefined)
 
   const yearMap = new Map<string, typeof publishedPosts>()
   for (const post of publishedPosts) {
-    const year = String(new Date(post.data.publishDate).getFullYear())
+    const year = String(sortableDate(post).getFullYear())
     if (!yearMap.has(year)) yearMap.set(year, [])
     yearMap.get(year)!.push(post)
   }
@@ -19,7 +21,7 @@ export async function getStaticPaths() {
     params: { year },
     props: {
       posts: posts.sort(
-        (a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime()
+        (a, b) => sortableDate(b).getTime() - sortableDate(a).getTime()
       ),
     },
   }))

@@ -6,7 +6,7 @@ import readingTime from 'reading-time'
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Bio from '../components/Bio.astro';
 import { tagToSlug } from '../utils/tagSlug.js';
-import { isVisible } from '../utils/postVisibility.js';
+import { isVisible, sortableDate } from '../utils/postVisibility.js';
 
 type Props = {
   post: CollectionEntry<'posts'>
@@ -16,18 +16,24 @@ type Props = {
 
 export async function getStaticPaths() {
 	const allPosts = await getCollection('posts')
-	const publishedPosts = allPosts
-		.filter(isVisible)
-		.sort((a, b) => new Date(a.data.publishDate).getTime() - new Date(b.data.publishDate).getTime())
+	const visiblePosts = allPosts.filter(isVisible)
 
-	return publishedPosts.map((post, index: number) => ({
-		params: { slug: post.data.slug },
-		props: {
-			post,
-			prevPost: index > 0 ? publishedPosts[index - 1] : null,
-			nextPost: index < publishedPosts.length - 1 ? publishedPosts[index + 1] : null,
-		},
-	}));
+	// Only dated posts participate in prev/next navigation; undated drafts get no nav links.
+	const datedPosts = visiblePosts
+		.filter(p => p.data.publishDate !== undefined)
+		.sort((a, b) => sortableDate(a).getTime() - sortableDate(b).getTime())
+
+	return visiblePosts.map(post => {
+		const datedIndex = datedPosts.findIndex(p => p.data.slug === post.data.slug)
+		return {
+			params: { slug: post.data.slug },
+			props: {
+				post,
+				prevPost: datedIndex > 0 ? datedPosts[datedIndex - 1] : null,
+				nextPost: datedIndex >= 0 && datedIndex < datedPosts.length - 1 ? datedPosts[datedIndex + 1] : null,
+			},
+		}
+	})
 }
 
 const { post, prevPost, nextPost } = Astro.props
@@ -43,7 +49,7 @@ const socialImage = thumbnailImage ? new URL(thumbnailImage.src, Astro.site).hre
 <BaseLayout title={title} description={description} permalink={permalink} image={socialImage}>
   <div class="container">
     <header>
-      <p data-pagefind-meta="date">{publishDate} ~ {readingTimeEstimate}</p>
+      <p data-pagefind-meta="date">{publishDate ? `${publishDate} ~ ` : ''}{readingTimeEstimate}</p>
       <h1>{title}</h1>
       {tags && tags.length > 0 && (
         <p class="tags">

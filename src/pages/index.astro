@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content'
 import type { CollectionEntry } from 'astro:content'
 import BaseLayout from '../layouts/BaseLayout.astro'
 import PostList from '../components/PostList.astro'
-import { isVisible } from '../utils/postVisibility.js'
+import { isVisible, sortableDate } from '../utils/postVisibility.js'
 
 const PINNED_SLUGS = [
   '2024/07/18/sveltekit-and-sqlite-on-gitlab-pages',
@@ -18,7 +18,7 @@ const permalink = Astro.site!.href
 const allPosts = await getCollection('posts')
 const publishedPosts = allPosts
   .filter(isVisible)
-  .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime())
+  .sort((a, b) => sortableDate(b).getTime() - sortableDate(a).getTime())
 
 const pinnedPosts = PINNED_SLUGS
   .map(slug => publishedPosts.find(p => p.data.slug === slug))

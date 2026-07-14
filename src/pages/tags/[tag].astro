@@ -4,7 +4,7 @@ import type { CollectionEntry } from 'astro:content'
 import BaseLayout from '../../layouts/BaseLayout.astro'
 import PostList from '../../components/PostList.astro'
 import { tagToSlug } from '../../utils/tagSlug.js'
-import { isVisible } from '../../utils/postVisibility.js'
+import { isVisible, sortableDate } from '../../utils/postVisibility.js'
 
 type Props = {
   displayName: string
@@ -45,7 +45,7 @@ if (tagPage) {
 const allPosts = await getCollection('posts')
 const taggedPosts = allPosts
   .filter(p => isVisible(p) && p.data.tags?.some(t => tagToSlug(t) === tag))
-  .sort((a, b) => new Date(b.data.publishDate).getTime() - new Date(a.data.publishDate).getTime())
+  .sort((a, b) => sortableDate(b).getTime() - sortableDate(a).getTime())
 ---
 
 <BaseLayout title={pageTitle} permalink={permalink} image={tagPage?.data.thumbnail}>

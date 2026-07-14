@@ -7,11 +7,19 @@ const posts = defineCollection({
 	schema: ({ image }) => z.object({
 		title: z.string(),
 		slug: z.string(),
-		publishDate: z.union([z.string(), z.date()]),
+		publishDate: z.union([z.string(), z.date()]).optional(),
 		description: z.string().optional(),
 		tags: z.array(z.string()).optional(),
 		draft: z.boolean().optional(),
 		thumbnail: image().optional(),
+	}).superRefine((data, ctx) => {
+		if (!data.draft && data.publishDate === undefined) {
+			ctx.addIssue({
+				code: 'custom',
+				message: 'publishDate is required for non-draft posts',
+				path: ['publishDate'],
+			})
+		}
 	}),
 });
 
