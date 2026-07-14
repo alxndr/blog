@@ -18,7 +18,7 @@
     "test": "npm run test:dev && npm run test:build"
   },
   "dependencies": {
-    "@astrojs/mdx": "^6.0.1",
+    "@astrojs/mdx": "^7.0.0",
     "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.3",
     "@astrojs/svelte": "^8.1.2",
