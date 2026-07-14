@@ -36,12 +36,13 @@ describe('individual post page', () => {
   })
 })
 
-const NEWEST_POST_SLUG = '2026/05/28/entr-watch-files-and-trigger-commands'
-
 describe('newest post page', () => {
-  beforeEach(() => cy.visit(`/${NEWEST_POST_SLUG}/`))
-
   it('has a prev link but no next link', () => {
+    cy.visit('/')
+    cy.get('section[aria-label="All posts"] .post-list li .post-content > a')
+      .first()
+      .invoke('attr', 'href')
+      .then(href => cy.visit(href))
     cy.get('a[rel="prev"]').should('exist')
     cy.get('a[rel="next"]').should('not.exist')
   })
