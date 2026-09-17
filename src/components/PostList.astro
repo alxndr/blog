@@ -38,7 +38,11 @@ const { posts } = Astro.props
     grid-template-columns: min-content 1fr;
     column-gap: 1em;
     align-items: baseline;
-    margin: 0.75em 0;
+    margin: 0.75em 0 1.5em;
+
+    &:last-child {
+      margin-bottom: 0.5em;
+    }
   }
 
   .date {
@@ -46,6 +50,7 @@ const { posts } = Astro.props
     font-family: var(--font-family-sans);
     font-size: 0.8em;
     white-space: nowrap;
+    min-width: 4em;
   }
 
   .post-content {
