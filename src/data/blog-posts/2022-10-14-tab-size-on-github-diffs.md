@@ -6,6 +6,7 @@ tags:
   - diff
   - github
   - browser hack
+  - UI
 ---
 
 Do you think 8-wide tabs are too wide, especially when reviewing code side-by-side?

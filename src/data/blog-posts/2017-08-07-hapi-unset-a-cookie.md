@@ -7,6 +7,7 @@ tags:
   - documentation
   - javascript
   - HapiJS
+  - howto
 ---
 
 ...because the documentation for Hapi is awful:

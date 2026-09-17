@@ -5,6 +5,7 @@ slug: 2023/03/30/hot-ones-standup
 tags:
   - standup
   - from the archives
+  - joke
 ---
 
 That time we did a [Hot Ones](https://en.wikipedia.org/wiki/Hot_Ones)-style challenge at work...

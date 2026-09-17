@@ -4,6 +4,7 @@ publishDate: '2017-02-01'
 slug: 2017/02/01/how-to-find-the-merge-where-your-code-disappeared
 tags:
   - git
+  - howto
   - code archaeology
   - CLI
 ---

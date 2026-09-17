@@ -4,6 +4,8 @@ publishDate: '2026-05-28'
 slug: 2026/05/28/entr-watch-files-and-trigger-commands
 tags:
   - CLI
+  - tooling
+  - howto
 ---
 
 For the next time I forget what this tool is called…

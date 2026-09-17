@@ -5,6 +5,8 @@ slug: 2022/05/25/macos-open-application-from-command-line
 tags:
   - MacOS
   - CLI
+  - howto
+  - tooling
 ---
 
 Today I Learned about the `-a` flag in MacOS's `open` command-line application. It lets you specify the name of an app in `/Applications` (without the `.app` ending), and then opens it!

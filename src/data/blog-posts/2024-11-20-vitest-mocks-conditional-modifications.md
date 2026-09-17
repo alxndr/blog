@@ -5,7 +5,6 @@ slug: 2024/11/20/vitest-mocks-conditional-modifications
 tags:
   - howto
   - javascript
-  - code
   - testing
   - vitest
 ---

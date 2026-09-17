@@ -6,6 +6,7 @@ tags:
   - git
   - code archaeology
   - CLI
+  - howto
 ---
 
 TLDR:

@@ -7,6 +7,7 @@ tags:
   - javascript
   - linting
   - notes to self
+  - NodeJS
 ---
 
 Are you seeing ESLint throwing an error like

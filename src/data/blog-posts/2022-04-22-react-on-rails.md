@@ -7,6 +7,8 @@ tags:
   - howto
   - dontdo
   - Ruby on Rails
+  - techdebt
+  - notes to self
 ---
 
 ... **don't do it!**

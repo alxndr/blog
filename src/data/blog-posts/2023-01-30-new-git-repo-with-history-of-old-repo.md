@@ -5,7 +5,10 @@ slug: 2023/01/30/new-git-repo-with-history-of-old-repo
 tags:
   - git
   - CLI
+  - howto
 ---
+
+<!-- TODO update this... there's a New Way ... -->
 
 Following [this how-to by Nassos Michas](https://itnext.io/git-repository-transfer-keeping-all-history-670fe04cd5e4)...
 

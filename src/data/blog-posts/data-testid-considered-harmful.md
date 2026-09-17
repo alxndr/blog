@@ -3,7 +3,7 @@ title: Testing Library's `data-testid` considered harmful
 slug: drafts/data-testid-considered-harmful
 tags:
   - JavaScript
-  - tests
+  - testing
   - TDD
   - DOM
 draft: true

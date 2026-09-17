@@ -6,6 +6,8 @@ tags:
   - javascript
   - npm
   - continuous integration
+  - tooling
+  - CLI
 ---
 
 So you've got a JavaScript project in the wild, and real life happens so you've been `npm install`ing with the `--legacy-peer-deps` for a little while now. No judgement, we've all been there.

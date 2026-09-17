@@ -7,6 +7,8 @@ tags:
   - NodeJS
   - testing
   - CLI
+  - tooling
+  - howto
 ---
 
 > `*` no this does not involve npm, it's NodeJS itself, but the more abbreviations the better

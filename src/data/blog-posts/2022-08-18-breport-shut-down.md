@@ -8,6 +8,7 @@ tags:
   - monolith
   - microservices
   - Ruby on Rails
+  - techdebt
 ---
 
 **We did it — we finally retired BReport!!**

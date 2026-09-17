@@ -2,6 +2,7 @@
 title: github key change
 slug: drafts/github-key-change
 draft: true
+tags: [github, howto, CLI, notes to self]
 ---
 
 On [2023 March 24, GitHub.com changed their RSA SSH host key](https://github.blog/2023-03-23-we-updated-our-rsa-ssh-host-key/), in response to their privkey being possibly exposed.

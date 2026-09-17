@@ -5,7 +5,6 @@ slug: 2024/10/09/svelte-v5-cypress-component-testing
 tags:
   - howto
   - javascript
-  - code
   - testing
   - cypress
   - svelte

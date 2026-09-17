@@ -3,9 +3,9 @@ title: Setting up SvelteKit to use SQLite and prerender a static site to be host
 publishDate: '2024-07-18'
 slug: 2024/07/18/sveltekit-and-sqlite-on-gitlab-pages
 tags:
+  - svelte
   - howto
   - javascript
-  - code
 updated: 2024-07-30T00:00:00.000Z
 ---
 

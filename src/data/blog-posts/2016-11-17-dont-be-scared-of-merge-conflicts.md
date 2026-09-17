@@ -4,6 +4,7 @@ publishDate: '2016-11-17'
 slug: 2016/11/17/dont-be-scared-of-merge-conflicts
 tags:
   - git
+  - howto
   - CLI
 ---
 
