@@ -5,6 +5,7 @@ slug: 2015/03/27/notes-Erlang-Factory-2015
 tags:
   - conference
   - elixir
+  - notes to self
 ---
 
 ## José: What Elixir Is About

@@ -6,6 +6,7 @@ tags:
   - Google Chrome
   - tooling
   - browsers
+  - howto
 ---
 
 Google Chrome has some nice developer tools. The Network tab in there lets you see requests and their headers, responses, initiators, and much more. Being able to filter the list of requests in the Network tab can be very useful.

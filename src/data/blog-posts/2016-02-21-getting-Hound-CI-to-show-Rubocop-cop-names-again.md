@@ -3,8 +3,11 @@ title: getting Hound-CI to show Rubocop "cop names" again
 publishDate: '2016-02-21'
 slug: 2016/02/21/getting-Hound-CI-to-show-Rubocop-cop-names-again
 tags:
+  - linting
+  - howto
   - static analysis
   - continuous integration
+  - SDLC
 ---
 
 Thoughtbot's Hound-CI service runs Rubocop on Ruby projects. It had a setting to show the name of the "cop" (style rule) that failed, which made it easier to look up the options for that specific rule.

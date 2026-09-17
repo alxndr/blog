@@ -6,6 +6,7 @@ tags:
   - git
   - code archaeology
   - CLI
+  - howto
 ---
 
 Ever wanted to look through a Git repository's history for a commits involving a specific string, but ignoring a certain directory (e.g. for packaged/built code)?

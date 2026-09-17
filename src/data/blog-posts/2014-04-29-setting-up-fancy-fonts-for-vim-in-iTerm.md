@@ -2,11 +2,7 @@
 title: setting up fancy fonts for vim in iTerm
 publishDate: '2014-04-29'
 slug: 2014/04/29/setting-up-fancy-fonts-for-vim-in-iTerm
-tags:
-  - vim
-  - CLI
-  - fonts
-  - eyecandy
+tags: [howto, fonts, MacOS, tooling, eyecandy]
 ---
 
 Might need a patched font to get the fancy glyphs, e.g. [Inconsolata for Powerline](https://github.com/Lokaltog/powerline-fonts/tree/master/Inconsolata)

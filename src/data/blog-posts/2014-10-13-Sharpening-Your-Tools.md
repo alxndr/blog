@@ -6,7 +6,11 @@ tags:
   - efficiency
   - tooling
   - CLI
-  - Macs
+  - MacOS
+  - vim
+  - browsers
+  - Google Chrome
+  - git
 ---
 
 …is an episode of [the Ruby Rogues podcast](http://rubyrogues.com/), [#129 with Ben Orenstein](http://rubyrogues.com/129-rr-sharpening-tools-with-ben-orenstein/) (who has spent some of his time being the host of [Thoughtbot](http://thoughtbot.com/)’s [Giant Robots podcast](http://podcasts.thoughtbot.com/giantrobots)). In the episode, Ben talks about periodically evaluating his tools and making them work better for you.

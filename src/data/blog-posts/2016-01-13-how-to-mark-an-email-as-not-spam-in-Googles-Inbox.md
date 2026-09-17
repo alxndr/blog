@@ -6,6 +6,7 @@ tags:
   - UI
   - google
   - GMail
+  - workaround
 ---
 
 I'm using Google's Inbox mail client for work email. Recently I noticed that an email in a thread was marked as being spam, and couldn't find a way to tell Inbox that this automated email wasn't actually spam.

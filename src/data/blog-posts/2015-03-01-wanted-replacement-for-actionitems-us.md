@@ -4,7 +4,9 @@ publishDate: '2015-03-01'
 slug: 2015/03/01/wanted-replacement-for-actionitems-us
 tags:
   - agile
+  - tooling
   - help wanted
+  - SDLC
 ---
 
 In 2011 the dev team I was on went to [Pivotal Labs](http://pivotallabs.com/) for a few months to bootstrap a rebuild of our company's site, and learn their style of [extreme programming](https://en.wikipedia.org/wiki/Extreme_programming).

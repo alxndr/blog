@@ -6,6 +6,7 @@ tags:
   - spacemacs
   - emacs
   - vim
+  - howto
 ---
 
 Are you a vi/vim user who's been hearing about how wonderful/useful/fast Spacemacs can be? Here is an evolving list of pointers for folks beginning to use this crazy new blend of editors...

@@ -5,6 +5,8 @@ slug: 2015/04/25/only-show-master-branch-status-in-CI-status-feeds-for-eg-CC-Men
 tags:
   - continuous integration
   - tooling
+  - howto
+  - SDLC
 ---
 
 [CCMenu](http://ccmenu.org/) is a neat little menu icon which shows the build status of your projects [on Travis CI](http://docs.travis-ci.com/user/cc-menu/), [CircleCI](https://circleci.com/docs/polling-project-status), or many other automated build services.
