@@ -1,7 +1,7 @@
 ---
 title: running a local LLM on MacOS
 slug: running-a-local-LLM-on-MacOS
-date: 2026-09.29
+publishDate: 2026-09-29
 tags: [AI, MacOS, howto, tooling]
 ---
 

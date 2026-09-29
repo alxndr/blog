@@ -8,7 +8,6 @@ tags:
   - testing
   - cypress
   - svelte
-date: 2024-10-09T00:00:00.000Z
 ---
 
 Version 5 of [Svelte] makes some dramatic changes in its API.
