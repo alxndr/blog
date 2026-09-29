@@ -1,5 +1,16 @@
 # TODOs
 
+## features
+
+* [ ] [`abbr` elements need touch behavior on mobile](https://github.com/alxndr/blog/issues/48)
+
+* [ ] [use new version of sitelen-sitelen-renderer](https://github.com/alxndr/blog/issues/28)
+
+
+## frontmatter format
+
+* [ ] how is `date:` different from `publishDate:` ?
+
 
 ## search page
 
