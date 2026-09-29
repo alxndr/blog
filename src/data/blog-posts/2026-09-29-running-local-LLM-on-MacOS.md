@@ -84,3 +84,10 @@ output forward into subsequent steps rather than discarding it, which is the
 behavior this model depends on for good agentic performance.
 
 ...then I `cd`'d into a codebase, started up the harness with `opencode`, and gave it a coding task which it performed admirably and in a reasonable amount of time!
+
+
+## using the Mac Mini for inference from another device on the network
+
+In order to use this from my laptop, I installed OpenCode the aforementioned MacBook Pro the same way, but configured it with the `baseURL` using the `.local` Bonjour/mDNS hostname for the Mac Mini.
+
+Now I can `cd` into a codebase on my laptop, then run `opencode` and give it a task in the local codebase!
