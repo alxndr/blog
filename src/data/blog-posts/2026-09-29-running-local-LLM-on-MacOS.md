@@ -7,7 +7,7 @@ tags: [AI, MacOS, howto, tooling]
 
 With reports that [Zhipu AI](https://z.ai)'s open-weight model GLM-5.2 is beating Anthropic's Claude Opus 4.8 [on (some) benchmarks](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/), I wanted to see if I could run it on my beefy MacBook Pro (Apple M5 chip, 16GB of RAM, 800+GB disk space).
 
-...but even the 1-quantization model (the smallest file size) fails to launch in [`unsloth`](https://unsloth.ai)'s web UX':
+...but even the 1-quantization model (the smallest file size) fails to launch in [`unsloth`](https://unsloth.ai)'s web UX:
 
 > Failed to load model: llama-server was stopped by the operating system (signal 9), most likely out of memory. Try a smaller or more quantized GGUF, lower the context length, or free memory (on WSL, raise the memory limit in .wslconfig).
 
