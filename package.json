@@ -15,8 +15,12 @@
     "preview": "astro preview",
     "preview:quiet": "astro preview --silent",
     "start": "astro dev",
-    "test:build": "npm run build && start-server-and-test preview:quiet http://localhost:4321 cy:run",
-    "test:dev": "start-server-and-test dev:quiet http://localhost:4321 cy:run:dev",
+    "test:build": "node scripts/with-draft-fixture.mjs npm run test:build:run",
+    "test:build:run": "npm run build && npm run test:serve:build",
+    "test:dev": "node scripts/with-draft-fixture.mjs npm run test:dev:run",
+    "test:dev:run": "npm run test:serve:dev",
+    "test:serve:build": "node scripts/assert-port-free.mjs 4343 && CYPRESS_baseUrl=http://localhost:4343 start-server-and-test \"astro preview --silent --port 4343\" http://localhost:4343 cy:run",
+    "test:serve:dev": "node scripts/assert-port-free.mjs 4344 && CYPRESS_baseUrl=http://localhost:4344 start-server-and-test \"astro dev --silent --port 4344\" http://localhost:4344 cy:run:dev",
     "test": "npm run test:dev && npm run test:build"
   },
   "dependencies": {

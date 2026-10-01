@@ -1,7 +1,11 @@
-// Uses the real draft post `github-key-change` which has slug `drafts/github-key-change`.
+// The draft post under test is generated at test time by
+// scripts/with-draft-fixture.mjs rather than being committed to the repo, so
+// these specs never depend on a real draft post continuing to exist.
+import { DRAFT_FIXTURE } from '../support/draft-fixture.mjs'
+
 const DRAFT_POST = {
-  slug: 'drafts/github-key-change',
-  title: 'github key change',
+  slug: DRAFT_FIXTURE.slug,
+  title: DRAFT_FIXTURE.title,
 }
 
 describe('draft posts in production', { tags: '@requires-build' }, () => {
